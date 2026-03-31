@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politică de Confidențialitate — Aponia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;900&family=Newsreader:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream: #f7f5f0;
+      --green: #5b8c6a;
+      --ink: #1a1a1a;
+      --muted: #555;
+      --border: #ddd;
+    }
+
+    body {
+      font-family: 'Inter Tight', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: rgba(247,245,240,0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 100;
+    }
+
+    nav a.logo {
+      font-family: 'Newsreader', serif;
+      font-style: italic;
+      font-size: 1.3rem;
+      color: var(--green);
+      text-decoration: none;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    nav a.back {
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    nav a.back:hover { color: var(--green); }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 4rem 2rem 6rem;
+    }
+
+    .doc-header {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid var(--green);
+    }
+
+    .doc-header .label {
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+
+    .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin: 2.5rem 0 0.75rem;
+      color: var(--ink);
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 1.5rem 0 0.5rem;
+      color: var(--ink);
+    }
+
+    p { margin-bottom: 1rem; color: var(--muted); }
+
+    ul, ol {
+      margin: 0.5rem 0 1rem 1.5rem;
+      color: var(--muted);
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    strong { color: var(--ink); }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: #ece9e0;
+      font-weight: 700;
+      text-align: left;
+      padding: 0.6rem 0.8rem;
+      border: 1px solid var(--border);
+    }
+
+    td {
+      padding: 0.6rem 0.8rem;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      vertical-align: top;
+    }
+
+    tr:nth-child(even) td { background: #f2efe8; }
+
+    .highlight {
+      background: rgba(91,140,106,0.08);
+      border-left: 3px solid var(--green);
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 0 4px 4px 0;
+      font-style: italic;
+      font-family: 'Newsreader', serif;
+      font-size: 1.05rem;
+      color: var(--ink);
+    }
+
+    .contact-block {
+      background: white;
+      border: 1.5px solid var(--border);
+      border-radius: 6px;
+      padding: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .contact-block p { margin-bottom: 0.25rem; }
+
+    a { color: var(--green); }
+    a:hover { text-decoration: underline; }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.75rem;
+      color: #999;
+      border-top: 1px solid var(--border);
+    }
+
+    footer a { color: #999; }
+
+    @media (max-width: 640px) {
+      .container { padding: 2rem 1.25rem 4rem; }
+      h1 { font-size: 1.6rem; }
+      table { font-size: 0.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="logo">
+    <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect width="40" height="40" rx="9" fill="#5b8c6a"/>
+      <rect x="3" y="22" width="34" height="6" rx="3" fill="white"/>
+      <rect x="29" y="11" width="8" height="17" rx="4" fill="white"/>
+      <rect x="3" y="17" width="8" height="7" rx="2.5" fill="white"/>
+      <rect x="5.5" y="28" width="3" height="5" rx="1.5" fill="white"/>
+      <rect x="31.5" y="28" width="3" height="5" rx="1.5" fill="white"/>
+    </svg>
+    Aponia
+  </a>
+  <a href="/" class="back">← Înapoi la site</a>
+</nav>
+
+<div class="container">
+
+  <div class="doc-header">
+    <div class="label">Document legal · Versiunea 1.0</div>
+    <h1>Politică de Confidențialitate</h1>
+    <p class="meta">Ultima actualizare: martie 2026</p>
+  </div>
+
+  <p>Bine ai venit pe <strong>aponia.ro</strong>. Această platformă este operată de <strong>Adrian M. Peticila</strong>, persoană fizică, cu domiciliul în București. Ne pasă de intimitatea ta, nu doar de bifat o căsuță legală. Citește cu atenție, e scris pentru oameni, nu pentru avocați.</p>
+
+  <h2>1. Cine suntem și ce facem</h2>
+  <p>Aponia este o platformă de programări online care conectează psihoterapeuți cu pacienții lor. Procesăm date cu caracter personal în calitate de <strong>operator de date</strong>, în conformitate cu <strong>Regulamentul (UE) 2016/679 (GDPR)</strong>.</p>
+  <p>Dacă ai întrebări despre cum tratăm datele tale, ne poți contacta oricând la adresa de mai jos.</p>
+
+  <h2>2. Ce date colectăm</h2>
+
+  <h3>2.1 Date pe care ni le oferi direct</h3>
+  <table>
+    <tr><th>Categorie</th><th>Detalii</th></tr>
+    <tr><td><strong>Date de identificare</strong></td><td>Nume și prenume</td></tr>
+    <tr><td><strong>Date de contact</strong></td><td>Adresă de email, număr de telefon</td></tr>
+    <tr><td><strong>Rolul în platformă</strong></td><td>Terapeut sau pacient</td></tr>
+    <tr><td><strong>Date de programare</strong></td><td>Data, ora și detaliile sesiunilor</td></tr>
+    <tr><td><strong>Notițe de sesiune</strong></td><td>Observații introduse de terapeut în cadrul platformei</td></tr>
+    <tr><td><strong>Date de facturare</strong></td><td>Relevante exclusiv pentru terapeuți (abonament)</td></tr>
+  </table>
+
+  <h3>2.2 Date colectate automat</h3>
+  <p>La utilizarea platformei, sistemele noastre înregistrează date tehnice standard (adresă IP, tipul browserului, activitate în aplicație) exclusiv în scopuri de securitate și funcționare.</p>
+
+  <h3>2.3 O notă importantă despre datele de sănătate</h3>
+  <p>Notițele de sesiune și informațiile legate de consultații intră sub incidența <strong>Art. 9 GDPR</strong> ca <strong>date sensibile privind sănătatea</strong>. Le tratăm cu un nivel suplimentar de protecție și le procesăm <strong>exclusiv</strong> pentru a furniza serviciul solicitat, cu consimțământul tău explicit.</p>
+
+  <div class="highlight">Nu există cookies de tracking. Nu există reclame. Nu vindem date.</div>
+
+  <h2>3. De ce folosim datele tale</h2>
+  <p>Fiecare scop de procesare are o bază legală clară:</p>
+
+  <h3>Executarea contractului (Art. 6(1)(b) GDPR)</h3>
+  <ul>
+    <li>Crearea și gestionarea contului tău</li>
+    <li>Programarea și gestionarea sesiunilor</li>
+    <li>Comunicări legate de programări (confirmări, remindere)</li>
+    <li>Facturarea abonamentului (pentru terapeuți)</li>
+  </ul>
+
+  <h3>Obligații legale (Art. 6(1)(c) GDPR)</h3>
+  <ul>
+    <li>Respectarea legislației fiscale și contabile aplicabile</li>
+    <li>Răspuns la solicitări ale autorităților competente, când legea o impune</li>
+  </ul>
+
+  <h3>Interes legitim (Art. 6(1)(f) GDPR)</h3>
+  <ul>
+    <li>Securitatea platformei și prevenirea accesului neautorizat</li>
+    <li>Rezolvarea problemelor tehnice</li>
+  </ul>
+
+  <h3>Consimțământ explicit (Art. 9(2)(a) GDPR)</h3>
+  <ul>
+    <li>Procesarea datelor sensibile de sănătate (notițe de sesiune)</li>
+  </ul>
+
+  <h2>4. Cât timp păstrăm datele</h2>
+  <p>Nu păstrăm date mai mult decât este necesar.</p>
+  <table>
+    <tr><th>Tip de date</th><th>Perioadă de retenție</th></tr>
+    <tr><td>Cont activ</td><td>Pe durata utilizării platformei</td></tr>
+    <tr><td>Date de programare și notițe de sesiune</td><td>3 ani de la ultima activitate, sau mai puțin dacă soliciți ștergerea</td></tr>
+    <tr><td>Date de facturare</td><td>5 ani (obligație legală fiscală)</td></tr>
+    <tr><td>Date tehnice (log-uri)</td><td>90 de zile</td></tr>
+  </table>
+  <p>La expirarea perioadei de retenție, datele sunt șterse sau anonimizate ireversibil.</p>
+
+  <h2>5. Unde sunt stocate datele tale</h2>
+  <p>Datele sunt stocate pe infrastructura <strong>Firebase / Google Cloud Platform</strong>, în centrul de date <strong>europe-west3 (Frankfurt, Germania)</strong>, pe teritoriul Uniunii Europene. Nu transferăm date în afara spațiului economic european.</p>
+  <p>Google acționează ca <strong>persoană împuternicită</strong> de noi, în baza unui acord de procesare a datelor conform GDPR.</p>
+
+  <h2>6. Cu cine putem împărtăși datele tale</h2>
+  <p>Datele tale <strong>nu sunt vândute, închiriate sau transmise în scop comercial</strong> niciunei terțe părți.</p>
+  <p>Le putem partaja exclusiv în următoarele situații:</p>
+  <ul>
+    <li><strong>Furnizori de servicii tehnice</strong> (ex. Firebase/Google) care ne ajută să operăm platforma, în baza unor contracte de procesare conforme GDPR.</li>
+    <li><strong>Autorități publice</strong>, strict când legea ne obligă (ex. organe fiscale, judiciare).</li>
+    <li><strong>Terapeut, respectiv pacient</strong>, în măsura în care datele sunt generate în cadrul relației terapeutice dintre ei și cu scopul exclusiv al acelei relații.</li>
+  </ul>
+
+  <h2>7. Drepturile tale</h2>
+  <p>Ești în control. Iată ce poți face oricând:</p>
+  <ul>
+    <li><strong>Dreptul de acces.</strong> Poți solicita o copie a datelor pe care le deținem despre tine.</li>
+    <li><strong>Dreptul la rectificare.</strong> Dacă ceva e incorect, îl corectăm.</li>
+    <li><strong>Dreptul la ștergere.</strong> Poți cere ștergerea datelor tale, cu excepția celor pe care suntem obligați legal să le păstrăm.</li>
+    <li><strong>Dreptul la restricționarea procesării.</strong> Poți cere suspendarea procesării în anumite circumstanțe.</li>
+    <li><strong>Dreptul la portabilitate.</strong> Poți primi datele tale într-un format structurat, uzual, citibil automat.</li>
+    <li><strong>Dreptul de a te opune.</strong> Poți obiecta față de procesarea bazată pe interes legitim.</li>
+    <li><strong>Dreptul de a retrage consimțământul.</strong> Dacă procesarea se bazează pe consimțământ, îl poți retrage oricând, fără efecte retroactive.</li>
+  </ul>
+  <p>Pentru a exercita oricare dintre aceste drepturi, scrie-ne la adresa de contact de mai jos. Răspundem în cel mult <strong>30 de zile</strong>.</p>
+  <p>Dacă consideri că drepturile tale nu au fost respectate, poți depune o plângere la <strong>Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP)</strong> — <a href="https://www.dataprotection.ro" target="_blank" rel="noopener">www.dataprotection.ro</a>.</p>
+
+  <h2>8. Securitatea datelor</h2>
+  <p>Aplicăm măsuri tehnice și organizatorice adecvate pentru a proteja datele tale: criptare în tranzit (HTTPS/TLS), autentificare securizată, acces restricționat pe baza rolului. Nicio platformă nu poate garanta securitate absolută, dar facem tot ce ține de noi.</p>
+
+  <h2>9. Modificări ale acestei politici</h2>
+  <p>Putem actualiza această politică periodic. Orice modificare semnificativă va fi comunicată prin email sau printr-un mesaj vizibil în platformă, cu cel puțin 14 zile înainte de intrarea în vigoare. Data ultimei actualizări este afișată în antetul documentului.</p>
+
+  <h2>10. Contact</h2>
+  <div class="contact-block">
+    <p><strong>Adrian M. Peticila</strong></p>
+    <p>Persoană fizică · București</p>
+    <p>Email: <a href="mailto:privacy@aponia.ro">privacy@aponia.ro</a></p>
+    <p>Platformă: <a href="https://aponia.ro">aponia.ro</a></p>
+  </div>
+
+  <hr>
+  <p style="font-size:0.8rem;color:#999;font-style:italic;">Această politică de confidențialitate se aplică exclusiv platformei aponia.ro și serviciilor operate de Adrian M. Peticila.</p>
+
+</div>
+
+<footer>
+  <a href="/">aponia.ro</a> &nbsp;·&nbsp;
+  <a href="/legal/politica-confidentialitate.html">Politică de confidențialitate</a> &nbsp;·&nbsp;
+  <a href="/legal/termeni-conditii.html">Termeni și condiții</a> &nbsp;·&nbsp;
+  <a href="mailto:hello@aponia.ro">hello@aponia.ro</a>
+</footer>
+
+</body>
+</html>
