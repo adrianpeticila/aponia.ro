@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politică de Cookies — Aponia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;700;900&family=Newsreader:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --cream: #f7f5f0;
+            --green: #5b8c6a;
+            --ink: #1a1a1a;
+            --muted: #555;
+            --border: #ddd;
+        }
+
+        body {
+            font-family: 'Inter Tight', sans-serif;
+            background: var(--cream);
+            color: var(--ink);
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(247, 245, 240, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 100;
+        }
+
+        nav a.logo {
+            font-family: 'Newsreader', serif;
+            font-size: 1.3rem;
+            color: var(--green);
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        nav a.back {
+            font-size: 0.85rem;
+            color: var(--muted);
+            text-decoration: none;
+        }
+
+        nav a.back:hover {
+            color: var(--green);
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 4rem 2rem 6rem;
+        }
+
+        .doc-header {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--green);
+        }
+
+        .doc-header .label {
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--green);
+            margin-bottom: 0.75rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        .meta {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin: 2.5rem 0 0.75rem;
+            color: var(--ink);
+        }
+
+        h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.5rem;
+            color: var(--ink);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--muted);
+        }
+
+        ul, ol {
+            margin: 0.5rem 0 1rem 1.5rem;
+            color: var(--muted);
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        strong {
+            color: var(--ink);
+        }
+
+        .highlight {
+            background: rgba(91, 140, 106, 0.08);
+            border-left: 3px solid var(--green);
+            padding: 1rem 1.25rem;
+            margin: 1.5rem 0;
+            border-radius: 0 4px 4px 0;
+            font-style: italic;
+            font-family: 'Newsreader', serif;
+            font-size: 1.05rem;
+            color: var(--ink);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background: rgba(91, 140, 106, 0.1);
+            padding: 0.75rem 1rem;
+            text-align: left;
+            font-weight: 700;
+            color: var(--ink);
+            border-bottom: 2px solid var(--green);
+        }
+
+        td {
+            padding: 0.65rem 1rem;
+            border-bottom: 1px solid var(--border);
+            color: var(--muted);
+            vertical-align: top;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .contact-block {
+            background: white;
+            border: 1.5px solid var(--border);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .contact-block p {
+            margin-bottom: 0.25rem;
+        }
+
+        a {
+            color: var(--green);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 2rem 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.75rem;
+            color: #999;
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: #999;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 2rem 1.25rem 4rem;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            table {
+                font-size: 0.8rem;
+            }
+            th, td {
+                padding: 0.5rem 0.65rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">APONIA</a>
+        <a href="/" class="back">← Înapoi la site</a>
+    </nav>
+
+    <div class="container">
+        <div class="doc-header">
+            <span class="label">Document legal · Versiunea 1.0</span>
+            <h1>Politică de Cookies</h1>
+            <p class="meta">Ultima actualizare: aprilie 2026</p>
+        </div>
+
+        <p><strong>aponia.ro</strong> folosește un număr mic de cookies. Această pagină îți explică exact care sunt, de ce există și ce poți face cu ele.</p>
+
+        <div class="highlight">Nu folosim cookies de tracking, nu urmărim comportamentul tău pe alte site-uri și nu vindem date către terți. Niciodată.</div>
+
+        <h2>1. Ce sunt cookies</h2>
+        <p>Cookies sunt fișiere text mici stocate în browserul tău atunci când vizitezi un site. Pot reține preferințe, sesiuni de autentificare sau setări locale. Nu sunt programe, nu pot accesa fișierele tale și nu pot executa cod.</p>
+
+        <h2>2. Ce cookies folosim</h2>
+        <p>aponia.ro folosește exclusiv cookies <strong>strict necesare</strong> pentru funcționarea platformei. Nu folosim cookies de marketing sau de urmărire.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Cookie</th>
+                    <th>Tip</th>
+                    <th>Durată</th>
+                    <th>Scop</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>firebase:authUser</strong></td>
+                    <td>Strict necesar</td>
+                    <td>Sesiune / persistent</td>
+                    <td>Menține sesiunea de autentificare în aplicație (Firebase Auth). Fără acesta, ești delogat la fiecare refresh.</td>
+                </tr>
+                <tr>
+                    <td><strong>firebase:session</strong></td>
+                    <td>Strict necesar</td>
+                    <td>Sesiune</td>
+                    <td>Token temporar de sesiune Firebase. Se șterge la închiderea browserului.</td>
+                </tr>
+                <tr>
+                    <td><strong>_ga / _gid</strong></td>
+                    <td>Nu folosim</td>
+                    <td>—</td>
+                    <td>Nu folosim Google Analytics sau cookies de analiză pe acest site.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>3. Cookies terți</h2>
+        <p>Platforma aponia folosește <strong>Firebase (Google Cloud)</strong> pentru autentificare și stocare date. Firebase poate seta cookies proprii pentru gestionarea sesiunii. Datele sunt stocate pe servere în <strong>Frankfurt, Germania</strong> (europe-west3), în conformitate cu GDPR.</p>
+        <p>Nu integrăm Facebook Pixel, Google Ads, Hotjar, Intercom sau alte instrumente de tracking terț.</p>
+
+        <h2>4. Cum poți controla cookies</h2>
+        <p>Poți gestiona sau șterge cookies din setările browserului tău:</p>
+        <ul>
+            <li><strong>Chrome:</strong> Setări → Confidențialitate și securitate → Cookie-uri și alte date ale site-urilor</li>
+            <li><strong>Firefox:</strong> Setări → Confidențialitate și securitate → Cookie-uri și date despre site</li>
+            <li><strong>Safari:</strong> Preferințe → Confidențialitate → Gestionează datele site-ului</li>
+            <li><strong>Edge:</strong> Setări → Cookie-uri și permisiuni ale site-ului</li>
+        </ul>
+        <p>Atenție: dacă blochezi cookies strict necesare, nu te vei putea autentifica în platformă.</p>
+
+        <h2>5. Consimțământ</h2>
+        <p>Cookies strict necesare nu necesită consimțământul tău — sunt indispensabile pentru funcționarea serviciului pe care l-ai solicitat explicit. Conform <strong>Directivei ePrivacy</strong> și <strong>GDPR</strong>, acestea sunt exceptate de la cerința de consimțământ.</p>
+        <p>Nu folosim cookies care necesită consimțământ (marketing, profilare, urmărire cross-site).</p>
+
+        <h2>6. Modificări ale acestei politici</h2>
+        <p>Dacă introducem cookies noi în viitor (de exemplu, pentru analiză anonimă), vom actualiza această pagină și vom adăuga un banner de consimțământ corespunzător. Data actualizării este întotdeauna vizibilă în antetul documentului.</p>
+
+        <h2>7. Contact</h2>
+        <p>Întrebări despre cookies sau despre modul în care gestionăm datele tale:</p>
+        <div class="contact-block">
+            <p><strong>aponia.ro</strong></p>
+            <p>Email: <a href="mailto:privacy@aponia.ro">privacy@aponia.ro</a></p>
+            <p>Platformă: <a href="https://aponia.ro">aponia.ro</a></p>
+        </div>
+
+        <hr>
+
+        <p>Această politică face parte din setul de documente legale ale aponia.ro, alături de <a href="/legal/politica-confidentialitate.html">Politica de Confidențialitate</a> și <a href="/legal/termene-conditii.html">Termenii și Condițiile</a>.</p>
+    </div>
+
+    <footer>
+        <p><a href="/">aponia.ro</a> · <a href="/legal/politica-confidentialitate.html">Confidențialitate</a> · <a href="/legal/termene-conditii.html">Termeni și condiții</a> · <a href="/legal/politica-cookies.html">Cookies</a> · <a href="mailto:hello@aponia.ro">hello@aponia.ro</a></p>
+    </footer>
+</body>
+</html>
