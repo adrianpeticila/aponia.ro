@@ -157,6 +157,13 @@
       #hero h1 em { font-size: 1.95rem; }
       .stitle { font-size: 1.55rem; }
     }
+    /* VIDEO DEMO */
+    #demo { padding: 4rem 1.5rem 3rem; text-align: center; }
+    .video-container { max-width: 780px; margin: 0 auto; }
+    .video-wrap { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; background: var(--dark); border: 1px solid var(--border); box-shadow: 0 12px 48px rgba(0,0,0,0.13); }
+    .video-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 8px; }
+    .video-placeholder { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; color: rgba(247,245,240,0.5); font-family: 'Inter Tight', monospace; font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase; }
+    .video-placeholder .play-icon { width: 56px; height: 56px; border-radius: 50%; background: rgba(91,140,106,0.3); border: 1.5px solid rgba(91,140,106,0.6); display: flex; align-items: center; justify-content: center; }
   </style>
 </head>
 <body>
@@ -183,7 +190,7 @@
   <p class="hero-sub reveal">Pacienți confundați, seri pierdute, weekenduri pierdute pe administrativ. Aponia preia tot ce nu e terapie: programările, notificările, notițele din sesiuni. Ca tu să poți face ce ai ales: să fii prezent pentru pacienții tăi. Nu pentru agenda lor.</p>
   <div class="btn-row reveal">
     <a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a>
-    <a href="#cum-functioneaza" class="btn btn-gh">Cum funcționează</a>
+    <a href="#demo" class="btn btn-gh">▶ Demo 90s</a>
   </div>
   <span class="hero-badge reveal">Beta gratuit · fără card · fără angajament · 5 locuri disponibile</span>
 </section>
@@ -281,6 +288,31 @@
     <div class="gc reveal"><div style="font-family:'Inter Tight',sans-serif;font-weight:900;font-size:3.5rem;color:rgba(91,140,106,0.12);line-height:1;margin-bottom:0.8rem;">1</div><div class="ftit">Îți creezi profilul de cabinet</div><p style="font-size:0.9rem;color:var(--muted);line-height:1.72;margin-bottom:0.7rem;">Disponibilitatea săptămânală, durata sesiunii, tipul de terapie. O singură dată. Dacă se schimbă ceva, modifici în 2 minute.</p><p class="fmic">Cabinetul tău, digitalizat.</p></div>
     <div class="gca reveal"><div style="font-family:'Inter Tight',sans-serif;font-weight:900;font-size:3.5rem;color:rgba(91,140,106,0.12);line-height:1;margin-bottom:0.8rem;">2</div><div class="ftit">Pacienții rezervă singuri din link-ul tău</div><p style="font-size:0.9rem;color:var(--muted);line-height:1.72;margin-bottom:0.7rem;">Trimiți un link. Ei văd orele libere, aleg, confirmă. Tu primești o notificare. Fără mesaje, fără telefoane, fără negociat la 23:00.</p><p class="fmic">Programările se fac fără tine.</p></div>
     <div class="gc reveal"><div style="font-family:'Inter Tight',sans-serif;font-weight:900;font-size:3.5rem;color:rgba(91,140,106,0.12);line-height:1;margin-bottom:0.8rem;">3</div><div class="ftit">Aponia ține evidența. Tu faci terapie.</div><p style="font-size:0.9rem;color:var(--muted);line-height:1.72;margin-bottom:0.7rem;">Notificări automate cu 24h și 1h înainte. Istoricul sesiunilor, stocat în siguranță. Totul despre fiecare pacient, la un click distanță.</p><p class="fmic">Efort administrativ zero. Prezență la maximum.</p></div>
+  </div>
+</section>
+
+<!-- DEMO VIDEO -->
+<section id="demo">
+  <div class="wrap reveal">
+    <span class="eyebrow">Demo</span>
+    <h2 class="stitle" style="margin-bottom:0.5rem;">Cum arată în practică.<br><em style="font-family:'Newsreader',serif;font-weight:400;font-style:italic;color:var(--green);">90 de secunde.</em></h2>
+    <p class="ssub" style="margin: 0 auto 2rem;">Nu descrieri. Nu promisiuni. De la primul mesaj al pacientului până la notița din sesiune.</p>
+    <div class="video-container">
+      <div class="video-wrap">
+        <!-- ÎNLOCUIEȘTE src cu URL-ul Loom sau YouTube după ce filmezi -->
+        <!-- Loom: https://www.loom.com/embed/LOOM_ID -->
+        <!-- YouTube: https://www.youtube.com/embed/YOUTUBE_ID -->
+        <div class="video-placeholder">
+          <div class="play-icon">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M7 4l9 6-9 6V4z" fill="rgba(91,140,106,0.9)"/></svg>
+          </div>
+          <span>Demo video — în curând</span>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:2rem;">
+      <a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a>
+    </div>
   </div>
 </section>
 

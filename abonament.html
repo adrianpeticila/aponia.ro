@@ -26,6 +26,8 @@
     .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
     .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.3rem; font-weight: 600; }
     .nav-logo .gk { color: var(--green); letter-spacing: 0.05em; }
+    .nav-logo svg { flex-shrink: 0; }
+    .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.82rem; font-weight: 700; border-radius: 3px; white-space: nowrap; }
 
     /* MAIN */
     .main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 3rem 1.5rem; }
@@ -53,8 +55,10 @@
     .badge-active { background: #e8f5e9; color: var(--green); padding: 2px 10px; border-radius: 20px; font-size: 0.78rem; font-weight: 700; font-family: 'Inter Tight', sans-serif; }
 
     /* FOOTER */
-    .footer { text-align: center; padding: 1.5rem; font-family: 'Inter Tight', sans-serif; font-size: 0.75rem; color: var(--muted); border-top: 1px solid var(--border); }
-    .footer a { color: var(--green); }
+    .footer { padding: 2.5rem 1.5rem; border-top: 1px solid var(--border); text-align: center; }
+    .flinks { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1rem; }
+    .flinks a { font-family: 'Inter Tight', monospace; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--green); border-bottom: 1px solid rgba(91,140,106,0.3); padding-bottom: 2px; }
+    .fcopy { font-family: 'Inter Tight', monospace; font-size: 0.58rem; color: #bbb; letter-spacing: 0.08em; text-transform: uppercase; }
 
     /* hidden by default, shown by JS */
     .state { display: none; }
@@ -66,12 +70,13 @@
   <nav class="nav">
     <div class="nav-inner">
       <a href="/" class="nav-logo">
-        <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <rect width="40" height="40" rx="9" fill="#5b8c6a"/>
           <path fill="white" transform="translate(7,7) scale(1.71)" d="M11.2742697,4.64414711 C9.75026973,6.47014711 8.31826973,7.87314711 6.03026973,8.49314711 L5.30126973,6.41314711 C4.87126973,5.17714711 -0.344730272,6.99814711 0.0882697282,8.23514711 L1.22126973,11.4771471 C1.65326973,12.7131471 3.27960785,13.2907915 4.76354965,12.853149 C5.9393281,12.5063897 8.85126973,11.5001471 12.2922697,6.50414711 C13.4172697,4.86914711 14.8580511,3.84423001 15.9900511,3.49823001 L15.4750511,2.02523001 C15.4750511,2.02523001 13.1972697,2.34114711 11.2742697,4.64414711 Z"/>
         </svg>
-        <span class="gk">aponia</span>
+        <span class="gk">APONIA</span>
       </a>
+      <a href="https://tally.so/r/aQEp0v" class="btn-nav">Vreau seara mea înapoi →</a>
     </div>
   </nav>
 
@@ -146,10 +151,13 @@
   </main>
 
   <footer class="footer">
-    <a href="/">aponia.ro</a> &nbsp;·&nbsp;
-    <a href="/legal/politica-confidentialitate.html">Confidențialitate</a> &nbsp;·&nbsp;
-    <a href="/legal/termene-conditii.html">Termeni</a> &nbsp;·&nbsp;
-    <a href="mailto:hello@aponia.ro">Contact</a>
+    <div class="flinks">
+      <a href="/legal/politica-confidentialitate.html">Politică de confidențialitate</a>
+      <a href="/legal/termene-conditii.html">Termene și condiții</a>
+      <a href="/legal/politica-cookies.html">Politică cookies</a>
+      <a href="mailto:hello@aponia.ro">hello@aponia.ro</a>
+    </div>
+    <p class="fcopy">© 2026 aponia.ro · toate drepturile rezervate</p>
   </footer>
 
   <script>
