@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programare · aponia</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary: #5B8C6A;
+      --primary-light: #5B8C6A18;
+      --primary-border: #5B8C6A30;
+      --bg: #F7F5F0;
+      --surface: #FFFFFF;
+      --text: #1A1A1A;
+      --text-sec: #6B7280;
+      --text-light: #9CA3AF;
+      --border: #E5E7EB;
+      --warning: #E8B86D;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding-bottom: 40px;
+    }
+
+    .header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-circle {
+      width: 34px; height: 34px;
+      background: var(--primary);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .logo-text { font-size: 17px; font-weight: 800; color: var(--text); }
+
+    .container { max-width: 520px; margin: 0 auto; padding: 20px 16px; }
+
+    #loading, #error-state, #success-state { text-align: center; padding: 60px 20px; }
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid var(--primary-light);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .state-icon { font-size: 48px; margin-bottom: 12px; }
+    .state-title { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+    .state-sub { color: var(--text-sec); font-size: 15px; line-height: 1.5; }
+
+    .therapist-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow);
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .therapist-avatar {
+      width: 60px; height: 60px; border-radius: 50%;
+      background: var(--primary);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; font-weight: 700; color: #fff;
+      flex-shrink: 0;
+    }
+    .therapist-name { font-size: 18px; font-weight: 700; margin-bottom: 2px; }
+    .therapist-role { font-size: 13px; color: var(--text-sec); margin-bottom: 8px; }
+    .therapist-bio { font-size: 14px; color: var(--text-sec); line-height: 1.5; margin-bottom: 10px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .chip {
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 12px; font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 100px;
+      border: 1px solid var(--primary-border);
+    }
+    .price-badge {
+      display: inline-block;
+      background: var(--warning);
+      color: #7C4A00;
+      font-size: 13px; font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 100px;
+      margin-top: 8px;
+    }
+
+    .section-title { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+
+    .week-nav {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .week-label { font-size: 14px; color: var(--text-sec); font-weight: 600; }
+    .week-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      width: 34px; height: 34px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px;
+    }
+    .week-btn:disabled { opacity: .35; cursor: default; }
+
+    .days-row {
+      display: grid; grid-template-columns: repeat(7, 1fr);
+      gap: 4px; margin-bottom: 16px;
+    }
+    .day-cell {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 8px 4px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .day-cell.disabled { opacity: .4; cursor: default; pointer-events: none; background: var(--bg); }
+    .day-cell.selected { border-color: var(--primary); background: var(--primary); color: #fff; }
+    .day-name-lbl { font-size: 10px; font-weight: 600; color: var(--text-light); text-transform: uppercase; }
+    .day-cell.selected .day-name-lbl { color: rgba(255,255,255,.75); }
+    .day-num-lbl { font-size: 15px; font-weight: 700; }
+
+    .slots-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 8px; margin-bottom: 20px;
+    }
+    .slot-btn {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 10px 6px;
+      text-align: center;
+      cursor: pointer;
+      font-size: 14px; font-weight: 600;
+    }
+    .slot-btn.selected { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .no-slots { color: var(--text-sec); font-size: 14px; padding: 16px 0; text-align: center; grid-column: 1/-1; }
+
+    .form-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: var(--shadow);
+      margin-bottom: 16px;
+    }
+    .field { margin-bottom: 16px; }
+    .field:last-child { margin-bottom: 0; }
+    label {
+      display: block; font-size: 12px; font-weight: 700;
+      color: var(--text-sec); text-transform: uppercase;
+      letter-spacing: .04em; margin-bottom: 6px;
+    }
+    input {
+      width: 100%;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 11px 14px;
+      font-size: 15px; color: var(--text);
+      background: var(--bg); outline: none;
+    }
+    input:focus { border-color: var(--primary); background: #fff; }
+    input::placeholder { color: var(--text-light); }
+
+    .summary {
+      background: var(--primary-light);
+      border: 1px solid var(--primary-border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      font-size: 14px;
+      margin-bottom: 16px;
+      display: none;
+    }
+    .summary.visible { display: block; }
+    .summary-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
+    .summary-row:last-child { margin-bottom: 0; }
+    .summary-label { color: var(--text-sec); }
+    .summary-value { font-weight: 600; }
+
+    .submit-btn {
+      width: 100%; background: var(--primary); color: #fff;
+      border: none; border-radius: var(--radius);
+      padding: 15px; font-size: 16px; font-weight: 700;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .submit-btn:disabled { opacity: .5; cursor: default; }
+    .submit-spinner {
+      width: 18px; height: 18px;
+      border: 2px solid rgba(255,255,255,.4);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+    .gdpr-note { font-size: 12px; color: var(--text-light); text-align: center; margin-top: 12px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo-circle">
+    <svg width="20" height="20" viewBox="0 0 40 40" fill="none">
+      <path fill="white" transform="translate(7,7) scale(1.71)"
+        d="M11.2742697,4.64414711 C9.75026973,6.47014711 8.31826973,7.87314711 6.03026973,8.49314711
+           L5.30126973,6.41314711 C4.87126973,5.17714711 -0.344730272,6.99814711 0.0882697282,8.23514711
+           L1.22126973,11.4771471 C1.65326973,12.7131471 3.27960785,13.2907915 4.76354965,12.853149
+           C5.9393281,12.5063897 8.85126973,11.5001471 12.2922697,6.50414711 C13.4172697,4.86914711
+           14.8580511,3.84423001 15.9900511,3.49823001 L15.4750511,2.02523001
+           C15.4750511,2.02523001 13.1972697,2.34114711 11.2742697,4.64414711 Z"/>
+    </svg>
+  </div>
+  <span class="logo-text">aponia</span>
+</div>
+
+<div class="container">
+  <div id="loading"><div class="spinner"></div><p style="color:var(--text-sec);font-size:15px">Se încarcă...</p></div>
+  <div id="error-state" style="display:none">
+    <div class="state-icon">😕</div>
+    <div class="state-title">Link invalid</div>
+    <div class="state-sub">Acest link de programare nu există.<br>Contactează terapeutul tău pentru un link nou.</div>
+  </div>
+  <div id="success-state" style="display:none">
+    <div class="state-icon">🎉</div>
+    <div class="state-title">Cerere trimisă!</div>
+    <p class="state-sub" id="success-msg"></p>
+  </div>
+
+  <div id="booking-content" style="display:none">
+    <div class="therapist-card" id="therapist-info"></div>
+
+    <div class="section-title">Alege data</div>
+    <div class="week-nav">
+      <button class="week-btn" id="prev-week" onclick="changeWeek(-1)">&#8249;</button>
+      <span class="week-label" id="week-label"></span>
+      <button class="week-btn" id="next-week" onclick="changeWeek(1)">&#8250;</button>
+    </div>
+    <div class="days-row" id="days-row"></div>
+
+    <div id="slots-section" style="display:none">
+      <div class="section-title">Alege ora</div>
+      <div class="slots-grid" id="slots-grid"></div>
+    </div>
+
+    <div class="section-title">Datele tale</div>
+    <div class="form-card">
+      <div class="field">
+        <label for="patient-name">Nume complet *</label>
+        <input type="text" id="patient-name" placeholder="Ex: Maria Ionescu" autocomplete="name" />
+      </div>
+      <div class="field">
+        <label for="patient-email">Email *</label>
+        <input type="email" id="patient-email" placeholder="email@exemplu.ro" autocomplete="email" />
+      </div>
+      <div class="field">
+        <label for="patient-phone">Telefon (opțional)</label>
+        <input type="tel" id="patient-phone" placeholder="07xx xxx xxx" autocomplete="tel" />
+      </div>
+    </div>
+
+    <div class="summary" id="summary">
+      <div class="summary-row"><span class="summary-label">Terapeut</span><span class="summary-value" id="sum-therapist"></span></div>
+      <div class="summary-row"><span class="summary-label">Data</span><span class="summary-value" id="sum-date"></span></div>
+      <div class="summary-row"><span class="summary-label">Ora</span><span class="summary-value" id="sum-time"></span></div>
+      <div class="summary-row"><span class="summary-label">Preț</span><span class="summary-value" id="sum-price"></span></div>
+    </div>
+
+    <button class="submit-btn" id="submit-btn" onclick="submitBooking()" disabled>
+      <span id="submit-label">Selectează data și ora</span>
+    </button>
+    <p class="gdpr-note">Date stocate securizat pe servere EU (Frankfurt) · Folosite exclusiv pentru programări</p>
+  </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+<script>
+firebase.initializeApp({
+  apiKey: 'AIzaSyBnnqkIhc3swadt5ZPFf6vCLSg6P8b7Uqw',
+  authDomain: 'aponia-ro.firebaseapp.com',
+  projectId: 'aponia-ro',
+  storageBucket: 'aponia-ro.firebasestorage.app',
+  messagingSenderId: '135118037840',
+  appId: '1:135118037840:web:ab60a245883ae11650c255',
+});
+const db = firebase.firestore();
+
+let therapist = null, availability = null;
+let selectedDate = null, selectedSlot = null, weekOffset = 0;
+const DAY_NAMES = ['Du','Lu','Ma','Mi','Jo','Vi','Sâ'];
+const MONTH_NAMES = ['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','nov','dec'];
+
+function pad(n) { return String(n).padStart(2,'0'); }
+function dateToISO(d) { return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; }
+function addMinutes(t, m) {
+  const [h,mn] = t.split(':').map(Number), tot = h*60+mn+m;
+  return `${pad(Math.floor(tot/60)%24)}:${pad(tot%60)}`;
+}
+function txt(el, str) { el.textContent = str; } // safe text setter
+
+function getSlug() { return new URLSearchParams(window.location.search).get('t') || ''; }
+
+function generateSlots(avail) {
+  const slots = [], dur = availability.sessionDuration||50, brk = availability.breakBetween||10;
+  let cur = avail.startTime;
+  while (true) {
+    const end = addMinutes(cur, dur);
+    if (end > avail.endTime) break;
+    slots.push({ startTime: cur, endTime: end });
+    cur = addMinutes(end, brk);
+  }
+  return slots;
+}
+
+function getWeekDates() {
+  const today = new Date(); today.setHours(0,0,0,0);
+  const start = new Date(today); start.setDate(today.getDate() + weekOffset*7);
+  return Array.from({length:7}, (_,i) => { const d=new Date(start); d.setDate(start.getDate()+i); return d; });
+}
+
+// ── Render therapist card using safe DOM methods ─────────────────────────────
+function renderTherapist() {
+  const card = document.getElementById('therapist-info');
+  card.textContent = ''; // clear
+
+  const avatar = document.createElement('div');
+  avatar.className = 'therapist-avatar';
+  txt(avatar, (therapist.displayName||'T').charAt(0).toUpperCase());
+  card.appendChild(avatar);
+
+  const info = document.createElement('div');
+  info.style.flex = '1'; info.style.minWidth = '0';
+
+  const name = document.createElement('div');
+  name.className = 'therapist-name';
+  txt(name, therapist.displayName||'Terapeut');
+  info.appendChild(name);
+
+  const role = document.createElement('div');
+  role.className = 'therapist-role';
+  txt(role, 'Psihoterapeut');
+  info.appendChild(role);
+
+  if (therapist.bio) {
+    const bio = document.createElement('div');
+    bio.className = 'therapist-bio';
+    txt(bio, therapist.bio);
+    info.appendChild(bio);
+  }
+
+  if (therapist.specialties && therapist.specialties.length) {
+    const chips = document.createElement('div');
+    chips.className = 'chips';
+    therapist.specialties.forEach(s => {
+      const chip = document.createElement('span');
+      chip.className = 'chip';
+      txt(chip, s);
+      chips.appendChild(chip);
+    });
+    info.appendChild(chips);
+  }
+
+  if (therapist.sessionPrice) {
+    const price = document.createElement('div');
+    price.className = 'price-badge';
+    txt(price, `${therapist.sessionPrice} RON / ședință`);
+    info.appendChild(price);
+  }
+
+  card.appendChild(info);
+}
+
+function renderWeek() {
+  const today = new Date(); today.setHours(0,0,0,0);
+  const dates = getWeekDates();
+  const wl = document.getElementById('week-label');
+  txt(wl, `${dates[0].getDate()} ${MONTH_NAMES[dates[0].getMonth()]} – ${dates[6].getDate()} ${MONTH_NAMES[dates[6].getMonth()]}`);
+
+  document.getElementById('prev-week').disabled = weekOffset <= 0;
+  document.getElementById('next-week').disabled = weekOffset >= 3;
+
+  const container = document.getElementById('days-row');
+  container.textContent = '';
+  dates.forEach(date => {
+    const dow = date.getDay();
+    const avail = availability && availability.slots && availability.slots[dow];
+    const hasSlots = avail && avail.enabled && date >= today;
+    const iso = dateToISO(date);
+    const sel = iso === selectedDate;
+
+    const cell = document.createElement('div');
+    cell.className = 'day-cell' + (!hasSlots ? ' disabled' : '') + (sel ? ' selected' : '');
+
+    const dn = document.createElement('div'); dn.className = 'day-name-lbl'; txt(dn, DAY_NAMES[dow]);
+    const dd = document.createElement('div'); dd.className = 'day-num-lbl'; txt(dd, date.getDate());
+    cell.appendChild(dn); cell.appendChild(dd);
+    if (hasSlots) cell.addEventListener('click', () => selectDate(iso, dow));
+    container.appendChild(cell);
+  });
+}
+
+function selectDate(iso, dow) {
+  selectedDate = iso; selectedSlot = null;
+  renderWeek(); renderSlots(dow); updateSummary(); updateSubmitBtn();
+}
+
+function renderSlots(dow) {
+  const avail = availability.slots[dow];
+  const slotList = generateSlots(avail);
+  const container = document.getElementById('slots-grid');
+  container.textContent = '';
+  document.getElementById('slots-section').style.display = 'block';
+
+  if (!slotList.length) {
+    const msg = document.createElement('div');
+    msg.className = 'no-slots';
+    txt(msg, 'Niciun slot disponibil.');
+    container.appendChild(msg);
+    return;
+  }
+
+  slotList.forEach(slot => {
+    const btn = document.createElement('div');
+    btn.className = 'slot-btn' + (selectedSlot && selectedSlot.startTime === slot.startTime ? ' selected' : '');
+    txt(btn, slot.startTime);
+    btn.addEventListener('click', () => { selectedSlot = slot; renderSlots(dow); updateSummary(); updateSubmitBtn(); });
+    container.appendChild(btn);
+  });
+}
+
+function updateSummary() {
+  const el = document.getElementById('summary');
+  if (!selectedDate || !selectedSlot) { el.classList.remove('visible'); return; }
+  el.classList.add('visible');
+  const [y,m,d] = selectedDate.split('-');
+  txt(document.getElementById('sum-therapist'), therapist.displayName||'—');
+  txt(document.getElementById('sum-date'), `${d}.${m}.${y}`);
+  txt(document.getElementById('sum-time'), `${selectedSlot.startTime} – ${selectedSlot.endTime}`);
+  txt(document.getElementById('sum-price'), therapist.sessionPrice ? `${therapist.sessionPrice} RON` : '—');
+}
+
+function updateSubmitBtn() {
+  const btn = document.getElementById('submit-btn');
+  const lbl = document.getElementById('submit-label');
+  btn.disabled = !selectedDate || !selectedSlot;
+  txt(lbl, (!selectedDate || !selectedSlot) ? 'Selectează data și ora' : 'Trimite cererea de programare →');
+}
+
+function changeWeek(dir) {
+  const n = weekOffset + dir;
+  if (n < 0 || n > 3) return;
+  weekOffset = n;
+  if (selectedDate) {
+    const visible = getWeekDates().map(dateToISO);
+    if (!visible.includes(selectedDate)) {
+      selectedDate = null; selectedSlot = null;
+      document.getElementById('slots-section').style.display = 'none';
+      updateSummary(); updateSubmitBtn();
+    }
+  }
+  renderWeek();
+}
+
+async function submitBooking() {
+  const name  = document.getElementById('patient-name').value.trim();
+  const email = document.getElementById('patient-email').value.trim();
+  const phone = document.getElementById('patient-phone').value.trim();
+
+  if (!name)                     { alert('Completează numele complet.'); return; }
+  if (!email||!email.includes('@')) { alert('Completează o adresă de email validă.'); return; }
+  if (!selectedDate||!selectedSlot) { alert('Selectează data și ora.'); return; }
+
+  const btn = document.getElementById('submit-btn');
+  btn.disabled = true;
+  const lbl = document.getElementById('submit-label');
+  lbl.style.display = 'none';
+  const sp = document.createElement('div'); sp.className = 'submit-spinner';
+  btn.appendChild(sp);
+
+  try {
+    await db.collection('sessions').add({
+      psychiatristId:   therapist.uid,
+      psychiatristName: therapist.displayName || '',
+      patientId:        null,
+      patientName:      name,
+      patientEmail:     email,
+      patientPhone:     phone || null,
+      date:             selectedDate,
+      startTime:        selectedSlot.startTime,
+      endTime:          selectedSlot.endTime,
+      status:           'pending',
+      price:            therapist.sessionPrice || 0,
+      source:           'web',
+      createdAt:        Date.now(),
+    });
+
+    document.getElementById('booking-content').style.display = 'none';
+    document.getElementById('success-state').style.display = 'block';
+    const [y,m,d] = selectedDate.split('-');
+    const msg = document.getElementById('success-msg');
+    // Build success message with textContent nodes to avoid XSS
+    msg.textContent = '';
+    const line1 = document.createElement('span');
+    txt(line1, `Cererea pentru `);
+    const boldDate = document.createElement('strong'); txt(boldDate, `${d}.${m}.${y}`);
+    const line1b = document.createElement('span'); txt(line1b, ` la ora `);
+    const boldTime = document.createElement('strong'); txt(boldTime, selectedSlot.startTime);
+    const line1c = document.createElement('span'); txt(line1c, ` a fost trimisă.`);
+    const br1 = document.createElement('br'), br2 = document.createElement('br');
+    const line2 = document.createElement('span');
+    txt(line2, `${therapist.displayName||'Terapeutul'} va confirma în curând. Detaliile ajung pe `);
+    const boldEmail = document.createElement('strong'); txt(boldEmail, email);
+    const dot = document.createElement('span'); txt(dot, '.');
+    msg.append(line1, boldDate, line1b, boldTime, line1c, br1, br2, line2, boldEmail, dot);
+
+  } catch (err) {
+    console.error(err);
+    alert('A apărut o eroare. Încearcă din nou sau contactează terapeutul direct.');
+    btn.disabled = false; sp.remove(); lbl.style.display = '';
+  }
+}
+
+async function init() {
+  const slug = getSlug();
+  if (!slug) { showError(); return; }
+  try {
+    const snap = await db.collection('users')
+      .where('bookingSlug','==', slug)
+      .where('role','==','psychiatrist')
+      .limit(1).get();
+    if (snap.empty) { showError(); return; }
+    therapist = { uid: snap.docs[0].id, ...snap.docs[0].data() };
+
+    const availSnap = await db.collection('availability').doc(therapist.uid).get();
+    if (availSnap.exists) {
+      availability = availSnap.data();
+      // Normalize Firestore string keys → numbers
+      if (availability.slots) {
+        const norm = {};
+        Object.entries(availability.slots).forEach(([k,v]) => { norm[Number(k)] = v; });
+        availability.slots = norm;
+      }
+    }
+
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('booking-content').style.display = 'block';
+    renderTherapist();
+
+    if (!availSnap.exists) {
+      const note = document.createElement('p');
+      note.style.cssText = 'color:var(--text-sec);font-size:14px;margin-bottom:16px;';
+      txt(note, 'Terapeutul nu a setat încă disponibilitatea. Contactează-l direct.');
+      document.getElementById('booking-content').insertBefore(note, document.getElementById('days-row').previousElementSibling);
+      return;
+    }
+
+    renderWeek(); updateSubmitBtn();
+  } catch(err) { console.error(err); showError(); }
+}
+
+function showError() {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('error-state').style.display = 'block';
+}
+
+init();
+</script>
+</body>
+</html>
