@@ -290,15 +290,9 @@
 
 <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+<script src="firebase-config.js"></script>
 <script>
-firebase.initializeApp({
-  apiKey: 'AIzaSyBnnqkIhc3swadt5ZPFf6vCLSg6P8b7Uqw',
-  authDomain: 'aponia-ro.firebaseapp.com',
-  projectId: 'aponia-ro',
-  storageBucket: 'aponia-ro.firebasestorage.app',
-  messagingSenderId: '135118037840',
-  appId: '1:135118037840:web:ab60a245883ae11650c255',
-});
+firebase.initializeApp(window.firebaseConfig);
 const db = firebase.firestore();
 
 let therapist = null, availability = null;
