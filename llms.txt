@@ -1,0 +1,55 @@
+# Aponia
+
+> Aponia este o platformă românească de programări și administrare pentru psihoterapeuți. Ajută terapeuții să gestioneze programări, confirmări, notificări automate și notițe de sesiune fără să transforme WhatsApp-ul personal într-o recepție permanentă. Psihoterapeutul plătește pentru Aponia — pacientul rezervă gratuit, fără să instaleze nimic.
+
+## Produs
+
+- **Tip:** Platformă SaaS de programări
+- **Utilizatori țintă:** Psihoterapeuți independenți și cabinete mici din România
+- **Preț:** 73 RON/lună (facturat lunar, anulezi oricând, fără perioadă minimă)
+- **Beta:** Primii 5 terapeuți intră gratuit pe perioadă nedeterminată
+- **Operator:** Crimson Venus SRL, București, România (CUI 47171171)
+- **Contact:** hello@aponia.ro
+
+## Fapte cheie
+
+- Pacienții rezervă printr-un link în browser — nu instalează nicio aplicație
+- Terapeuții plătesc; pacienții nu plătesc nimic
+- Notificări automate trimise cu 24h și 1h înainte de sesiune
+- Notițele de sesiune sunt criptate și accesibile exclusiv terapeutului
+- Date stocate în Frankfurt, Germania (UE) — conformitate GDPR nativă
+- Separă comunicarea profesională de WhatsApp-ul personal al terapeutului
+- Configurare în ~15 minute, fără cunoștințe tehnice
+
+## Ce face Aponia
+
+- Programări online pentru pacienți (rezervare prin link, fără cont)
+- Confirmări și notificări automate (24h + 1h înainte de sesiune)
+- Notițe de sesiune criptate per pacient
+- Mesagerie profesională separată de canalele personale
+- Prevenire no-show-uri prin remindere automate
+
+## Ce nu face Aponia
+
+- Video call (terapeuții folosesc propriul Zoom sau Google Meet)
+- Facturare sau contabilitate
+- Management de clinică cu recepție
+- Diagnostic sau tratament medical
+
+## Comparații
+
+- **Aponia vs Google Calendar:** Google Calendar afișează ore, dar nu trimite notificări automate pacienților, nu stochează notițe de sesiune în siguranță și nu separă comunicarea profesională de WhatsApp. Aponia face tot ce Google Calendar nu face pentru un cabinet de psihoterapie.
+- **Aponia vs WhatsApp:** WhatsApp este util pentru comunicare rapidă, dar devine o problemă când ține loc de recepție, agendă și sistem de confirmări. Aponia mută administrativul într-un sistem dedicat.
+- **Aponia vs agendă pe hârtie:** Agenda nu trimite notificări, nu previne no-show-urile și nu organizează contextul sesiunilor digital.
+
+## Pagini
+
+- [Homepage](https://aponia.ro/)
+- [Abonament](https://aponia.ro/abonament.html)
+- [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html)
+- [Termene și condiții](https://aponia.ro/legal/termene-conditii.html)
+- [Politică cookies](https://aponia.ro/legal/politica-cookies.html)
+
+## Actualizat
+
+Aprilie 2026
