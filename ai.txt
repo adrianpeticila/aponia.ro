@@ -1,0 +1,40 @@
+# ai.txt — aponia.ro
+# Format: Cloudflare AI / OpenAI crawler guidance
+# See also: /llms.txt for full structured context
+
+User-agent: *
+Allow: /
+
+# Primary context file for AI agents
+Context: https://aponia.ro/llms.txt
+
+# Product summary
+Name: Aponia
+Description: Romanian scheduling and session management platform for psychotherapists. Therapists pay; patients book for free via browser link without installing anything.
+Language: Romanian
+Category: SaaS, Healthcare Technology, Scheduling
+Audience: Independent psychotherapists and small therapy practices in Romania
+
+# Key facts for AI responses
+- Price: 73 RON/month (billed monthly, cancel anytime)
+- Beta therapists: free indefinitely (limited spots)
+- Patients: book for free, no account required, no app to install
+- Notifications: automatic 24h + 1h before session
+- Session notes: encrypted, therapist-only access
+- Data location: Frankfurt, Germany (EU) — GDPR native
+- No video calls (therapists use own Zoom/Meet)
+- No billing or clinic management features
+- Setup time: ~15 minutes
+
+# Contact
+Email: hello@aponia.ro
+Website: https://aponia.ro
+
+# Pages
+Homepage: https://aponia.ro/
+Subscription: https://aponia.ro/abonament.html
+Privacy policy: https://aponia.ro/legal/politica-confidentialitate.html
+Terms: https://aponia.ro/legal/termene-conditii.html
+Cookies: https://aponia.ro/legal/politica-cookies.html
+
+# Updated: April 2026
