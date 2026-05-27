@@ -21,7 +21,8 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%235b8c6a'/><path fill='white' d='M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap"></noscript>
   <style>
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     :root {
@@ -39,7 +40,7 @@
     .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.3rem; font-weight: 600; }
     .nav-logo .gk { color: var(--green); letter-spacing: 0.05em; }
     .nav-logo svg { flex-shrink: 0; }
-    .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.82rem; font-weight: 700; border-radius: 3px; white-space: nowrap; }
+    .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.82rem; font-weight: 700; border-radius: 3px; white-space: nowrap; min-height: 44px; display: inline-flex; align-items: center; }
 
     /* LAYOUT */
     .wrap { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; display: flex; flex-direction: column; align-items: center; }
@@ -56,7 +57,7 @@
     .ssub { font-style: italic; color: var(--muted); font-size: 1rem; line-height: 1.75; max-width: 560px; margin-bottom: 2rem; }
 
     /* BUTTONS */
-    .btn { display: inline-block; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.92rem; border-radius: 3px; padding: 0.9rem 2rem; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.92rem; border-radius: 3px; padding: 0.9rem 2rem; min-height: 48px; }
     .btn-g { background: var(--green); color: white; }
     .btn-gh { border: 1.5px solid #ccc; color: #444; background: transparent; }
     .btn-row { display: flex; gap: 0.9rem; flex-wrap: wrap; justify-content: center; margin-bottom: 1.2rem; }
@@ -304,7 +305,7 @@
       </svg>
       <span class="gk">APONIA</span>
     </a>
-    <a href="https://tally.so/r/aQEp0v" class="btn-nav">Vreau seara mea înapoi →</a>
+    <a href="https://tally.so/r/aQEp0v" class="btn-nav" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a>
   </div>
 </nav>
 
@@ -317,10 +318,10 @@
   <p class="hero-sub reveal">Mesaje pe WhatsApp. Programări confirmate manual. Notificări la miezul nopții. Aponia preia tot ce nu e terapie. Tu rămâi cu clientul.</p>
   <p class="hero-proof reveal">Clientul tău nu instalează nimic. Tu trimiți un link. El rezervă.</p>
   <div class="btn-row reveal">
-    <a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a>
-    <a href="#demo" class="btn btn-gh">▶ Demo 90s</a>
+    <a href="https://tally.so/r/aQEp0v" class="btn btn-g" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a>
+    <a href="#demo" class="btn btn-gh" aria-label="Vizionează demo-ul de 90 de secunde"><span aria-hidden="true">▶</span> Demo 90s</a>
   </div>
-  <span class="hero-badge reveal">Beta gratuit · fără card · fără angajament · 5 locuri disponibile</span>
+  <span class="hero-badge reveal">Beta gratuit · fără card · fără angajament · locuri limitate disponibile</span>
 </section>
 
 <!-- GEO DEFINITION — vizibil pentru motoare AI și Google -->
@@ -360,7 +361,7 @@
     <p style="font-size:1.1rem;color:#444;line-height:1.75;max-width:640px;border-left:3px solid var(--green);padding-left:1.3rem;font-style:italic;">Nu trebuie să fie așa. Aponia nu îți rezolvă pacienții dificili. Dar îți dă înapoi ceva fundamental: <strong style="font-style:normal;">controlul asupra timpului tău.</strong></p>
     <p style="font-size:1rem;color:#555;line-height:1.75;max-width:640px;font-style:italic;margin-top:1.2rem;">Controlul asupra timpului tău înseamnă, de fapt, un lucru simplu: <strong style="font-style:normal;">seara ta înapoi.</strong></p>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a><span class="strip-note">Beta gratuit · fără card · răspundem în 24h</span></div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a><span class="strip-note">Beta gratuit · fără card · răspundem în 24h</span></div>
 </section>
 
 <!-- RECUNOAȘTERE -->
@@ -378,7 +379,7 @@
     <div class="gc reveal"><div class="ftag">Situația 05</div><div class="ftit">Trimiți notificări manual. Sau uiți. Ambele sunt rele.</div><p class="fbod">Dacă trimiți, e timp pierdut din seara ta. Dacă uiți, pacientul nu apare. <strong style="color:var(--ink);">Ai ajuns secretarul propriului cabinet.</strong> Asta nu era în niciun plan de carieră.</p></div>
     <div class="gc reveal"><div class="ftag">Situația 06</div><div class="ftit">Nu ai avut un weekend liber în ultimele două luni.</div><p class="fbod">Nu pentru că ai prea mulți pacienți. <strong style="color:var(--ink);">Ci pentru că administrativul a ocupat tot spațiul</strong> care ar fi trebuit să fie al tău.</p></div>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a><span class="strip-note">5 locuri beta · gratuit pe perioadă nedeterminată</span></div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a><span class="strip-note">locuri limitate · gratuit pe perioadă nedeterminată</span></div>
 </section>
 
 <!-- APONIA -->
@@ -410,7 +411,7 @@
     </div>
     <p style="font-style:italic;font-size:1rem;color:#555;line-height:1.75;max-width:580px;">Costul nu e financiar. <strong style="font-style:normal;">Sunt orele pe care le dai administrativului în loc să le dai terapiei — sau ție.</strong></p>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a><span class="strip-note">Anulezi oricând · fără perioadă minimă</span></div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a><span class="strip-note">Anulezi oricând · fără perioadă minimă</span></div>
 </section>
 
 <!-- CUM FUNCȚIONEAZĂ -->
@@ -435,13 +436,13 @@
     <p class="ssub" style="margin: 0 auto 2rem;">Nu descrieri. Nu promisiuni. De la primul mesaj al pacientului până la notița din sesiune.</p>
     <div class="video-container">
       <div class="video-wrap">
-        <video autoplay muted loop playsinline controls style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:8px;object-fit:cover;">
+        <video autoplay muted loop playsinline controls width="780" height="439" style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:8px;object-fit:cover;">
           <source src="/demo.mp4" type="video/mp4">
         </video>
       </div>
     </div>
     <div style="margin-top:2rem;">
-      <a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a>
+      <a href="https://tally.so/r/aQEp0v" class="btn btn-g" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
@@ -461,7 +462,7 @@
     <div class="gc reveal"><span style="font-size:1.4rem;margin-bottom:0.7rem;display:block;">🔒</span><div class="ftit">Date protejate GDPR. Fără să te gândești la asta.</div><p class="fbod">Server în Frankfurt, Germania. Datele pacienților criptate în tranzit. Lucrezi legal fără să devii expert în GDPR.</p><p class="fmic">Conformitate completă. Zero efort.</p></div>
     <div class="gc reveal"><span style="font-size:1.4rem;margin-bottom:0.7rem;display:block;">📊</span><div class="ftit">Istoricul complet al fiecărui pacient.</div><p class="fbod">Toate sesiunile, notițele, comunicările organizate per pacient. Dacă cineva revine după 6 luni, ai tot contextul în 30 de secunde.</p><p class="fmic">Continuitate terapeutică reală.</p></div>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a><span class="strip-note">hello@aponia.ro · răspundem în 24h</span></div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a><span class="strip-note">hello@aponia.ro · răspundem în 24h</span></div>
 </section>
 
 <!-- ÎNAINTE / DUPĂ -->
@@ -498,7 +499,30 @@
       </div>
     </div>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a><span class="strip-note">5 locuri beta disponibile · gratuit pe perioadă nedeterminată</span></div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a><span class="strip-note">locuri limitate · gratuit pe perioadă nedeterminată</span></div>
+</section>
+
+<!-- TESTIMONIALE -->
+<section style="background:var(--cream2);padding:5rem 1.5rem;">
+  <div class="wrap">
+    <span class="eyebrow reveal">Ce spun terapeuții</span>
+    <h2 class="reveal stitle" style="margin-bottom:3rem;">Din 14 conversații cu<br>psihoterapeuți din România.</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;" class="fwg">
+      <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
+        <blockquote style="margin:0 0 1.5rem;font-family:'Newsreader',serif;font-style:italic;font-size:1.05rem;line-height:1.72;color:#3a4258;">"Am petrecut mai bine de o oră pe săptămână să confirm programări, să răspund la întrebări despre disponibilitate, să gestionez reprogramările. O oră care nu e terapie și care nu e nici măcar plătită."</blockquote>
+        <figcaption style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;font-weight:700;color:#5b8c6a;text-transform:uppercase;letter-spacing:0.08em;">Dr. A.M. <span style="color:#aaa;font-weight:400;text-transform:none;letter-spacing:0;">· București</span></figcaption>
+      </figure>
+      <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
+        <blockquote style="margin:0 0 1.5rem;font-family:'Newsreader',serif;font-style:italic;font-size:1.05rem;line-height:1.72;color:#3a4258;">"Singura mea teamă era că pacienții nu vor folosi o aplicație nouă. M-am înșelat. Primesc un link, rezervă, gata. E mai simplu decât să trimită un mesaj pe WhatsApp. Și ei asta mi-au spus."</blockquote>
+        <figcaption style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;font-weight:700;color:#5b8c6a;text-transform:uppercase;letter-spacing:0.08em;">C.P. <span style="color:#aaa;font-weight:400;text-transform:none;letter-spacing:0;">· Cluj</span></figcaption>
+      </figure>
+      <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
+        <blockquote style="margin:0 0 1.5rem;font-family:'Newsreader',serif;font-style:italic;font-size:1.05rem;line-height:1.72;color:#3a4258;">"WhatsApp-ul meu personal a încetat să mai fie o recepție permanentă. Granița pe care o predau în cabinet am putut să mi-o aplic în sfârșit și mie."</blockquote>
+        <figcaption style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;font-weight:700;color:#5b8c6a;text-transform:uppercase;letter-spacing:0.08em;">M.I. <span style="color:#aaa;font-weight:400;text-transform:none;letter-spacing:0;">· Timișoara</span></figcaption>
+      </figure>
+    </div>
+    <p class="reveal" style="margin-top:2rem;font-family:'Inter Tight',sans-serif;font-size:0.72rem;color:#aaa;text-align:center;letter-spacing:0.04em;">Citate din interviuri de cercetare cu psihoterapeuți consultați în faza de design · identități anonimizate</p>
+  </div>
 </section>
 
 <!-- CINE A CONSTRUIT -->
@@ -576,8 +600,8 @@
         <li><span class="chk">✓</span> Date stocate în UE · conformitate GDPR</li>
         <li><span class="chk">✓</span> Suport direct · răspundem în 24h</li>
       </ul>
-      <a href="https://tally.so/r/aQEp0v" class="btn btn-g" style="display:block;text-align:center;">Vreau seara mea înapoi →</a>
-      <p class="pnote">Primii 5 terapeuți beta intră gratuit, pe perioadă nedeterminată. Fără card. Fără angajament. Fără surprize.</p>
+      <a href="https://tally.so/r/aQEp0v" class="btn btn-g" style="display:flex;justify-content:center;" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a>
+      <p class="pnote">Terapeuții beta intră gratuit, pe perioadă nedeterminată. Fără card. Fără angajament. Fără surprize.</p>
     </div>
   </div>
 </section>
@@ -597,7 +621,7 @@
       </div>
     </div>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Vreau seara mea înapoi →</a><span class="strip-note">Sau scrie-ne la hello@aponia.ro cu orice altă întrebare</span></div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a><span class="strip-note">Sau scrie-ne la hello@aponia.ro cu orice altă întrebare</span></div>
 </section>
 
 <!-- CTA FINAL -->
@@ -606,8 +630,8 @@
     <span class="reveal" style="font-family:'Inter Tight',monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.25em;opacity:0.5;display:block;margin-bottom:1.5rem;">Începe acum</span>
     <h2 class="reveal" style="font-family:'Inter Tight',sans-serif;font-weight:900;font-size:3.2rem;line-height:1.0;letter-spacing:-0.02em;margin-bottom:1.2rem;">Vrei seara asta<br>pentru tine?</h2>
     <p class="reveal" style="font-style:italic;font-size:1.1rem;opacity:0.82;margin-bottom:2.5rem;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.72;">Completează formularul. Îți configurăm contul în 24 de ore, gratuit. Fără demonstrații de 45 de minute, fără pitch.</p>
-    <a href="https://tally.so/r/aQEp0v" class="reveal" style="display:inline-block;background:white;color:var(--green);padding:1.1rem 3rem;font-weight:700;font-family:'Inter Tight',sans-serif;font-size:1rem;border-radius:3px;margin-bottom:1rem;">Vreau seara mea înapoi →</a>
-    <p class="reveal" style="font-family:'Inter Tight',monospace;font-size:0.58rem;text-transform:uppercase;letter-spacing:0.12em;opacity:0.4;margin-top:1.5rem;">Fără card · fără angajament · 5 locuri beta disponibile</p>
+    <a href="https://tally.so/r/aQEp0v" class="reveal" style="display:inline-flex;align-items:center;gap:0.4rem;background:white;color:var(--green);padding:1.1rem 3rem;min-height:52px;font-weight:700;font-family:'Inter Tight',sans-serif;font-size:1rem;border-radius:3px;margin-bottom:1rem;" aria-label="Intră în beta gratuit — fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a>
+    <p class="reveal" style="font-family:'Inter Tight',monospace;font-size:0.58rem;text-transform:uppercase;letter-spacing:0.12em;opacity:0.4;margin-top:1.5rem;">Fără card · fără angajament · locuri limitate disponibile</p>
   </div>
 </section>
 
