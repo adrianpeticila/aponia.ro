@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagină negăsită · aponia.ro</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green: #5B8C6A;
+      --cream: #F7F5F0;
+      --dark: #1A1A1A;
+      --mid: #666;
+    }
+    body {
+      font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 3rem;
+      text-decoration: none;
+    }
+    .logo-dot {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+    .logo-name {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--dark);
+      letter-spacing: -0.3px;
+    }
+    .logo-name span { color: var(--green); }
+    .code {
+      font-size: 96px;
+      font-weight: 800;
+      color: var(--green);
+      letter-spacing: -4px;
+      line-height: 1;
+      margin-bottom: 1rem;
+      opacity: 0.15;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.8px;
+      margin-bottom: 0.75rem;
+    }
+    p {
+      color: var(--mid);
+      font-size: 16px;
+      line-height: 1.6;
+      max-width: 360px;
+      margin-bottom: 2.5rem;
+    }
+    a.btn {
+      display: inline-block;
+      background: var(--green);
+      color: white;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: 100px;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.2px;
+      transition: opacity 0.15s;
+    }
+    a.btn:hover { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <a href="/" class="logo">
+    <div class="logo-dot"></div>
+    <div class="logo-name">aponia<span>.ro</span></div>
+  </a>
+  <div class="code">404</div>
+  <h1>Pagina nu există.</h1>
+  <p>Linkul pe care l-ai urmat nu mai funcționează sau a fost mutat.</p>
+  <a href="/" class="btn">Înapoi la pagina principală</a>
+</body>
+</html>
