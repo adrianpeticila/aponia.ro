@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GDPR și datele pacienților: ce trebuie să știi dacă ești terapeut independent — Aponia.ro</title>
+  <meta name="description" content="Notes, foi Excel, email — nu sunt soluții GDPR-conforme pentru date de sănătate. Ce e obligatoriu și ce e de bun-simț pentru terapeutul independent din România.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700;900&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --cream: #f7f5f0; --green: #5b8c6a; --ink: #1a1a1a; --dark: #3a4258; --amber: #e8b86d; }
+    body { font-family: 'Inter Tight', sans-serif; background: var(--cream); color: var(--ink); }
+    a { color: inherit; }
+    .sitenav { border-bottom: 1px solid #e8e4dc; padding: 1.1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; max-width: 720px; margin: 0 auto; }
+    .logo { font-weight: 900; font-size: 1rem; letter-spacing: -0.02em; text-decoration: none; }
+    .logo span { color: var(--green); }
+    .back { font-size: 0.8rem; color: var(--green); font-weight: 700; text-decoration: none; }
+    .article-wrap { max-width: 680px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+    .article-cat { font-family: 'Inter Tight', monospace; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.22em; color: var(--green); display: block; margin-bottom: 1.2rem; }
+    h1 { font-family: 'Newsreader', serif; font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 400; line-height: 1.2; margin-bottom: 1.5rem; color: var(--ink); }
+    .article-meta { font-family: 'Inter Tight', monospace; font-size: 0.68rem; color: #aaa; letter-spacing: 0.06em; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid #e8e4dc; }
+    .article-body p { font-size: 1rem; line-height: 1.85; color: #333; margin-bottom: 1.5rem; }
+    .article-body h2 { font-family: 'Newsreader', serif; font-size: 1.4rem; font-weight: 400; line-height: 1.35; color: var(--ink); margin: 2.5rem 0 1rem; }
+    .article-body blockquote { border-left: 3px solid var(--green); padding: 1rem 1.5rem; background: rgba(91,140,106,0.06); font-family: 'Newsreader', serif; font-style: italic; font-size: 1.05rem; line-height: 1.72; color: var(--dark); margin: 2rem 0; border-radius: 0 4px 4px 0; }
+    .article-body strong { color: var(--ink); font-weight: 700; }
+    .article-body ul { margin: 0 0 1.5rem 1.25rem; }
+    .article-body ul li { font-size: 1rem; line-height: 1.85; color: #333; margin-bottom: 0.4rem; }
+    .warning-box { background: rgba(232,184,109,0.12); border: 1px solid rgba(232,184,109,0.4); border-radius: 4px; padding: 1.25rem 1.5rem; margin: 2rem 0; }
+    .warning-box p { font-size: 0.9rem; color: #555; line-height: 1.7; margin: 0; }
+    .warning-box strong { color: var(--ink); }
+    .checklist { background: white; border: 1px solid #e8e4dc; border-radius: 4px; padding: 1.75rem 2rem; margin: 2rem 0; }
+    .checklist h3 { font-family: 'Inter Tight', monospace; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--green); margin-bottom: 1rem; }
+    .checklist ul { list-style: none; margin: 0; padding: 0; }
+    .checklist ul li { font-size: 0.9rem; color: #444; line-height: 1.6; padding: 0.55rem 0; border-bottom: 1px solid #f0ede6; display: flex; gap: 0.75rem; }
+    .checklist ul li:last-child { border-bottom: none; }
+    .chk { color: var(--green); font-weight: 700; flex-shrink: 0; }
+    .article-cta { margin-top: 3.5rem; padding: 2rem; background: white; border: 1px solid #e8e4dc; border-radius: 4px; text-align: center; }
+    .article-cta p { font-size: 0.95rem; color: #555; line-height: 1.7; margin-bottom: 1.25rem; }
+    .btn { display: inline-flex; align-items: center; gap: 0.4rem; background: var(--green); color: white; padding: 0.9rem 2rem; font-weight: 700; font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; border-radius: 3px; text-decoration: none; }
+    footer { border-top: 1px solid #e8e4dc; padding: 2rem 1.5rem; text-align: center; font-size: 0.75rem; color: #bbb; }
+  </style>
+</head>
+<body>
+
+<div style="max-width:720px;margin:0 auto;">
+  <nav class="sitenav">
+    <a href="/" class="logo">aponia<span>.ro</span></a>
+    <a href="/blog/" class="back">← Blog</a>
+  </nav>
+</div>
+
+<article class="article-wrap">
+  <span class="article-cat">Conformitate</span>
+  <h1>GDPR și datele pacienților: ce trebuie să știi dacă ești terapeut independent</h1>
+  <p class="article-meta">6 min citit &nbsp;·&nbsp; Martie 2026</p>
+
+  <div class="article-body">
+
+    <p>Datele pe care le colectezi ca terapeut — nume, vârstă, problematică, notițe din sesiuni, istoric — nu sunt date obișnuite. Intră în categoria <strong>date speciale de sănătate</strong>, protejate explicit de GDPR prin Articolul 9.</p>
+
+    <p>Asta înseamnă că regulile obișnuite nu sunt suficiente. Și că multe din soluțiile pe care le folosesc terapeuții independent acum — un caiet, Notes pe telefon, un Google Doc — nu îndeplinesc cerințele minime.</p>
+
+    <div class="warning-box">
+      <p><strong>Important:</strong> Acest articol e informativ, nu consultanță juridică. Dacă gestionezi date sensibile ale pacienților, consultă un avocat specializat în protecția datelor pentru situația ta specifică.</p>
+    </div>
+
+    <h2>Ce date colectezi, de fapt</h2>
+
+    <p>Probabil mai multe decât crezi:</p>
+
+    <ul>
+      <li>Numele și datele de contact ale pacientului</li>
+      <li>Data și ora ședințelor (deja o informație sensibilă — implică că persoana e în terapie)</li>
+      <li>Notițele din sesiuni — conținut, problematică, evoluție</li>
+      <li>Informații despre starea de sănătate mintală</li>
+      <li>Eventual: date despre medicație, diagnostic, istoric medical relevant</li>
+      <li>Informații financiare: plăți, datorii</li>
+    </ul>
+
+    <p>Toate acestea sunt date personale. Cele care privesc sănătatea sunt <strong>date speciale</strong> — categoria cu cel mai înalt nivel de protecție din GDPR.</p>
+
+    <h2>De ce contează asta pentru terapeutul independent</h2>
+
+    <p>Multe cabinete mari au un DPO (Data Protection Officer) și proceduri interne. Ca terapeut independent, tu ești și operatorul de date, și responsabilul cu securitatea lor.</p>
+
+    <p>Asta nu înseamnă că ai nevoie de un departament juridic. Înseamnă că ai nevoie de câteva practici clare și de instrumente care le susțin.</p>
+
+    <blockquote>"Notes pe telefon nu e o soluție GDPR. Dacă îți pierzi telefonul, datele pacienților tăi sunt expuse. Dacă cineva îți ia accesul la cont, la fel."</blockquote>
+
+    <h2>Ce nu e GDPR-conform (dar mulți folosesc)</h2>
+
+    <p><strong>Notes sau Keep pe telefon.</strong> Nesincronizate cu backup criptat, fără control al accesului, vulnerabile la pierderea dispozitivului.</p>
+
+    <p><strong>Google Docs sau foi Excel.</strong> Datele ajung pe servere Google în SUA, sub jurisdicție americană. Există acorduri de transfer, dar configurarea corectă necesită atenție. Și accesul la fișier e greu de controlat.</p>
+
+    <p><strong>Email-ul personal.</strong> Dacă trimiți sau primești informații despre un pacient pe Gmail sau Yahoo, datele sunt procesate de terți. Fără criptare end-to-end, fără control real.</p>
+
+    <p><strong>WhatsApp.</strong> Meta prelucrează metadatele conversațiilor, inclusiv cine vorbești, când și cât. Chiar dacă conținutul mesajelor e criptat end-to-end, nu e o soluție potrivită pentru date medicale.</p>
+
+    <h2>Ce e obligatoriu (minimul rezonabil)</h2>
+
+    <div class="checklist">
+      <h3>Checklist conformitate de bază</h3>
+      <ul>
+        <li><span class="chk">✓</span> Consimțământ explicit al pacientului pentru prelucrarea datelor — în scris, înainte de prima ședință</li>
+        <li><span class="chk">✓</span> Politică de confidențialitate clară, comunicată pacienților</li>
+        <li><span class="chk">✓</span> Date stocate în UE sau în jurisdicții cu protecție echivalentă</li>
+        <li><span class="chk">✓</span> Acces la date restricționat — doar tu sau persoanele autorizate explicit</li>
+        <li><span class="chk">✓</span> Criptare — datele să nu fie lizibile în caz de acces neautorizat</li>
+        <li><span class="chk">✓</span> Procedură clară pentru ce faci dacă datele sunt compromise</li>
+        <li><span class="chk">✓</span> Posibilitatea pacientului de a-și solicita datele sau ștergerea lor</li>
+      </ul>
+    </div>
+
+    <h2>De ce serverul contează (și de ce Frankfurt)</h2>
+
+    <p>GDPR impune că datele cetățenilor europeni trebuie stocate în UE sau în țări cu protecție echivalentă (SUA, prin Privacy Shield, are o situație complicată din punct de vedere legal).</p>
+
+    <p>Frankfurt este unul din principalele hub-uri de date europene. Stocat acolo, datele pacienților tăi rămân sub jurisdicție europeană — cu toate garanțiile care vin cu asta.</p>
+
+    <p>Dacă folosești un instrument care stochează date pe servere americane fără un acord de transfer explicit și valid, ai deja o problemă de conformitate — indiferent cât de „securizat" pare produsul.</p>
+
+    <h2>Ce e de bun-simț (dincolo de obligatoriu)</h2>
+
+    <p>GDPR e minimul legal. Bun-simțul e mai mult.</p>
+
+    <p>Pacienții tăi îți împărtășesc lucruri pe care nu le spun nimănui altcuiva. Stocarea acestor date cu aceeași grijă cu care le asculți e o parte din contract — chiar dacă nu e scrisă explicit.</p>
+
+    <p>Un caiet pierdut în metrou, un telefon furat, un Google Doc accesat din contul personal — nu sunt scenarii paranoide. Se întâmplă. Iar consecința nu e doar o amendă GDPR. E pierderea încrederii unui pacient. E posibil un dosar la ANSPDCP. E o situație în care ai fi vrut să fi avut un sistem mai bun.</p>
+
+    <p>Nu ai nevoie de o infrastructură complicată. Ai nevoie de un instrument construit pentru asta — cu criptare, cu date în UE, cu acces controlat — care să facă conformitatea automată, nu o grijă în plus.</p>
+
+  </div>
+
+  <div class="article-cta">
+    <p>Aponia stochează datele pacienților tăi pe servere în Frankfurt, Germania. Criptare în tranzit și la stocare. Acces exclusiv ție. Conformitate GDPR nativă — fără efort suplimentar.</p>
+    <a href="https://tally.so/r/aQEp0v" class="btn">Intră în beta gratuit →</a>
+  </div>
+</article>
+
+<footer>© 2026 aponia.ro · <a href="mailto:hello@aponia.ro" style="color:var(--green);">hello@aponia.ro</a> · <a href="/blog/" style="color:var(--green);">Blog</a></footer>
+
+</body>
+</html>
