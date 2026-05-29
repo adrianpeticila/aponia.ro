@@ -3,51 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Blog — Aponia.ro · Resurse pentru terapeutul modern</title>
-  <meta name="description" content="Articole despre organizarea cabinetului, granițe terapeutice, conformitate GDPR și ce înseamnă un cabinet sănătos în 2026.">
+  <title>Blog — Aponia.ro</title>
+  <meta name="description" content="Articole practice pentru terapeuți independenți: programări, GDPR, burnout administrativ, software cabinet și mai mult.">
+  <link rel="canonical" href="https://aponia.ro/blog/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700;900&family=Newsreader:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700;900&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --cream: #f7f5f0;
-      --cream2: #f0ede6;
-      --green: #5b8c6a;
-      --amber: #e8b86d;
-      --dark: #3a4258;
-      --ink: #1a1a1a;
-    }
+    :root { --cream: #f7f5f0; --green: #5b8c6a; --ink: #1a1a1a; --dark: #3a4258; }
     body { font-family: 'Inter Tight', sans-serif; background: var(--cream); color: var(--ink); }
-    a { color: inherit; }
+    a { color: inherit; text-decoration: none; }
 
-    nav { border-bottom: 1px solid #e8e4dc; padding: 1.1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; max-width: 900px; margin: 0 auto; }
+    .sitenav { border-bottom: 1px solid #e8e4dc; padding: 1.1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; max-width: 1100px; margin: 0 auto; }
     .logo { font-weight: 900; font-size: 1rem; letter-spacing: -0.02em; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
     .logo svg { flex-shrink: 0; }
     .logo span { color: var(--green); }
-    .back { font-size: 0.8rem; color: var(--green); font-weight: 700; text-decoration: none; }
+    .nav-cta { font-size: 0.78rem; font-weight: 700; color: var(--green); border: 1.5px solid var(--green); padding: 0.4rem 1rem; border-radius: 3px; text-decoration: none; }
 
-    header { padding: 4rem 1.5rem 3rem; max-width: 900px; margin: 0 auto; }
-    header .eyebrow { font-family: 'Inter Tight', monospace; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.22em; color: var(--green); display: block; margin-bottom: 1rem; }
-    header h1 { font-family: 'Newsreader', serif; font-size: 2.8rem; font-weight: 400; line-height: 1.15; color: var(--ink); margin-bottom: 1rem; }
-    header p { font-size: 1rem; color: #666; line-height: 1.72; max-width: 540px; }
+    .blog-hero { max-width: 1100px; margin: 0 auto; padding: 4rem 1.5rem 2.5rem; }
+    .blog-hero h1 { font-family: 'Newsreader', serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 400; line-height: 1.2; margin-bottom: 0.75rem; }
+    .blog-hero p { font-size: 1rem; color: #666; line-height: 1.7; }
 
-    .blog-grid { max-width: 900px; margin: 0 auto; padding: 0 1.5rem 5rem; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; }
-    @media (max-width: 680px) { .blog-grid { grid-template-columns: 1fr; } }
+    .blog-grid { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.5rem 6rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    @media (max-width: 900px) { .blog-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .blog-grid { grid-template-columns: 1fr; } }
 
-    article { background: white; border: 1px solid #e8e4dc; border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; }
-    .article-body { padding: 2rem 2rem 1.25rem; flex: 1; }
-    .article-cat { font-family: 'Inter Tight', monospace; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.18em; color: var(--green); font-weight: 700; display: block; margin-bottom: 0.75rem; }
-    .article-title { font-family: 'Newsreader', serif; font-size: 1.12rem; font-weight: 400; line-height: 1.5; margin: 0 0 1rem; color: var(--ink); }
-    .article-excerpt { font-size: 0.87rem; color: #666; line-height: 1.68; }
-    .article-footer { padding: 0 2rem 1.75rem; display: flex; align-items: center; justify-content: space-between; }
-    .article-meta { font-family: 'Inter Tight', monospace; font-size: 0.63rem; color: #bbb; letter-spacing: 0.05em; }
-    .article-link { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; font-weight: 700; color: var(--green); text-decoration: none; }
+    .blog-grid article { background: white; border: 1px solid #e8e4dc; border-radius: 4px; padding: 1.75rem 1.5rem 1.25rem; display: flex; flex-direction: column; justify-content: space-between; }
+    .article-cat { font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.22em; color: var(--green); display: block; margin-bottom: 0.75rem; }
+    .article-title { font-family: 'Newsreader', serif; font-size: 1.1rem; font-weight: 400; line-height: 1.35; margin-bottom: 0.75rem; color: var(--ink); }
+    .article-excerpt { font-size: 0.82rem; color: #666; line-height: 1.7; margin-bottom: 1.25rem; }
+    .article-footer { display: flex; align-items: center; justify-content: space-between; padding-top: 1rem; border-top: 1px solid #f0ece4; }
+    .article-meta { font-size: 0.68rem; color: #bbb; letter-spacing: 0.04em; }
+    .article-link { font-size: 0.78rem; font-weight: 700; color: var(--green); }
 
     footer { border-top: 1px solid #e8e4dc; padding: 2rem 1.5rem; text-align: center; font-size: 0.75rem; color: #bbb; }
-    .fsocial { display: flex; gap: 1rem; justify-content: center; margin-bottom: 0.75rem; }
-    .fsocial a { color: #5b8c6a; opacity: 0.7; transition: opacity 0.2s; }
-    .fsocial a:hover { opacity: 1; }
   </style>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -56,113 +46,984 @@
 </head>
 <body>
 
-<div style="max-width:900px;margin:0 auto;">
-  <nav>
+<div style="max-width:1100px;margin:0 auto;">
+  <nav class="sitenav">
     <a href="/" class="logo"><svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#5b8c6a"/><path fill="white" transform="translate(7,7) scale(1.71)" d="M11.2742697,4.64414711 C9.75026973,6.47014711 8.31826973,7.87314711 6.03026973,8.49314711 L5.30126973,6.41314711 C4.87126973,5.17714711 -0.344730272,6.99814711 0.0882697282,8.23514711 L1.22126973,11.4771471 C1.65326973,12.7131471 3.27960785,13.2907915 4.76354965,12.853149 C5.9393281,12.5063897 8.85126973,11.5001471 12.2922697,6.50414711 C13.4172697,4.86914711 14.8580511,3.84423001 15.9900511,3.49823001 L15.4750511,2.02523001 C15.4750511,2.02523001 13.1972697,2.34114711 11.2742697,4.64414711 Z"/></svg>aponia<span>.ro</span></a>
-    <a href="/" class="back">← Înapoi la site</a>
+    <a href="https://tally.so/r/aQEp0v" class="nav-cta">Testează gratuit →</a>
   </nav>
 </div>
 
-<header>
-  <span class="eyebrow">Blog</span>
-  <h1>Resurse pentru<br>terapeutul modern.</h1>
-  <p>Organizare, granițe, conformitate. Articole scrise pentru terapeutul independent care vrea un cabinet sănătos în 2026.</p>
-</header>
+<div class="blog-hero">
+  <h1>Blog pentru terapeuți independenți</h1>
+  <p>Programări, GDPR, burnout administrativ, software cabinet — fără teorie, doar practic.</p>
+</div>
 
 <div class="blog-grid">
 
-  <article>
-    <div class="article-body">
-      <span class="article-cat">Granițe</span>
-      <h2 class="article-title">De ce granița terapeutică nu se poate ține pe WhatsApp</h2>
-      <p class="article-excerpt">WhatsApp personal + pacienți = o relație imposibilă. Nu din lipsă de bunăvoință, ci din cauza felului în care funcționează aplicația.</p>
-    </div>
-    <div class="article-footer">
-      <span class="article-meta">4 min · Mai 2026</span>
-      <a href="/blog/granita-terapeutica-whatsapp.html" class="article-link">Citește →</a>
-    </div>
-  </article>
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Comunicare</span>
+          <h2 class="article-title">Granița terapeutică și WhatsApp: cum separi cabinetul de viața personală</h2>
+          <p class="article-excerpt">Când cabinetul tău e în telefonul personal, nu există un moment în care munca se termină. Cum îți recapeți controlul fără să pari inaccesibil.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/granita-terapeutica-whatsapp.html" class="article-link">Citește →</a>
+        </div>
+      </article>
 
-  <article>
-    <div class="article-body">
-      <span class="article-cat">Organizare</span>
-      <h2 class="article-title">Câte ore pe săptămână pierzi pe administrativ? (și cum le recuperezi)</h2>
-      <p class="article-excerpt">Am întrebat 14 terapeuți. Răspunsul mediu a fost 4–6 ore. Niciuna nu era terapie. Niciuna nu era plătită.</p>
-    </div>
-    <div class="article-footer">
-      <span class="article-meta">5 min · Apr 2026</span>
-      <a href="/blog/ore-pierdute-administrativ.html" class="article-link">Citește →</a>
-    </div>
-  </article>
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Operațional</span>
+          <h2 class="article-title">Câte ore pierzi pe administrativ ca terapeut independent (și nu știi)</h2>
+          <p class="article-excerpt">Programările, confirmările, remindere, plățile — fiecare ia câteva minute. Suma anuală e surprinzătoare. Și evitabilă.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/ore-pierdute-administrativ.html" class="article-link">Citește →</a>
+        </div>
+      </article>
 
-  <article>
-    <div class="article-body">
-      <span class="article-cat">Conformitate</span>
-      <h2 class="article-title">GDPR și datele pacienților: ce trebuie să știi dacă ești terapeut independent</h2>
-      <p class="article-excerpt">Notes, foi Excel, email — nu sunt soluții GDPR-conforme pentru date de sănătate. Ce e obligatoriu și ce e de bun-simț.</p>
-    </div>
-    <div class="article-footer">
-      <span class="article-meta">6 min · Mar 2026</span>
-      <a href="/blog/gdpr-terapeut-independent.html" class="article-link">Citește →</a>
-    </div>
-  </article>
+      <article>
+        <div class="article-body">
+          <span class="article-cat">GDPR</span>
+          <h2 class="article-title">GDPR pentru terapeut independent: ce trebuie să știi în 2025</h2>
+          <p class="article-excerpt">Datele pacienților sunt date sensibile. Stocarea lor are reguli clare. Un ghid fără jargon juridic pentru cabinetul de psihologie.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/gdpr-terapeut-independent.html" class="article-link">Citește →</a>
+        </div>
+      </article>
 
-  <article>
-    <div class="article-body">
-      <span class="article-cat">Organizare</span>
-      <h2 class="article-title">Cum reduci no-show-urile la cabinet (fără să devii secretara ta)</h2>
-      <p class="article-excerpt">Un pacient care nu apare lasă mai mult decât un slot gol. Cum funcționează remindere automate și ce nu funcționează (sunatul personal).</p>
-    </div>
-    <div class="article-footer">
-      <span class="article-meta">5 min · Mai 2026</span>
-      <a href="/blog/cum-reduci-no-show-urile.html" class="article-link">Citește →</a>
-    </div>
-  </article>
+      <article>
+        <div class="article-body">
+          <span class="article-cat">No-show</span>
+          <h2 class="article-title">Cum reduci no-show-urile la cabinet fără să strici relația terapeutică</h2>
+          <p class="article-excerpt">Un pacient care nu apare fără să anunțe nu e neapărat lipsit de respect. Dar costul pentru tine e real. Ce funcționează și ce nu.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/cum-reduci-no-show-urile.html" class="article-link">Citește →</a>
+        </div>
+      </article>
 
-  <article>
-    <div class="article-body">
-      <span class="article-cat">Instrumente</span>
-      <h2 class="article-title">Platformă de programări pentru psihologi: ce să cauți înainte să alegi</h2>
-      <p class="article-excerpt">Nu orice aplicație de programări funcționează pentru un cabinet de psihoterapie. GDPR, date în UE, și ce poți ignora fără probleme.</p>
-    </div>
-    <div class="article-footer">
-      <span class="article-meta">6 min · Mai 2026</span>
-      <a href="/blog/platforma-programari-psihologi.html" class="article-link">Citește →</a>
-    </div>
-  </article>
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Software</span>
+          <h2 class="article-title">De ce terapeuții aleg o platformă dedicată în loc de Google Calendar</h2>
+          <p class="article-excerpt">Google Calendar e gratuit și familiar. Dar nu a fost construit pentru cabinet de psihologie. Ce lipsește și ce contează cu adevărat.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/platforma-programari-psihologi.html" class="article-link">Citește →</a>
+        </div>
+      </article>
 
-  <article>
-    <div class="article-body">
-      <span class="article-cat">Burnout</span>
-      <h2 class="article-title">Burnout administrativ la terapeuți: semnele pe care le ignori</h2>
-      <p class="article-excerpt">Nu burnout-ul clinic te epuizează primul. E cel administrativ — invizibil, zilnic, acumulat. Și e mult mai ușor de rezolvat decât crezi.</p>
-    </div>
-    <div class="article-footer">
-      <span class="article-meta">5 min · Mai 2026</span>
-      <a href="/blog/burnout-administrativ-terapeut.html" class="article-link">Citește →</a>
-    </div>
-  </article>
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Wellbeing</span>
+          <h2 class="article-title">Burnout administrativ la terapeuți: semnele pe care le ignori</h2>
+          <p class="article-excerpt">Nu burnout-ul clinic te epuizează primul. E cel administrativ — invizibil, zilnic, acumulat. Și e mult mai ușor de rezolvat decât crezi.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/burnout-administrativ-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
 
-  <article>
-    <div class="article-body">
-      <span class="article-cat">Organizare</span>
-      <h2 class="article-title">Cum îți organizezi programul de cabinet fără WhatsApp și Excel</h2>
-      <p class="article-excerpt">Excel și WhatsApp nu sunt sisteme de programare pentru un cabinet de psihologie. Sunt improvizații care costă timp în fiecare zi.</p>
-    </div>
-    <div class="article-footer">
-      <span class="article-meta">4 min · Mai 2026</span>
-      <a href="/blog/programul-cabinet-fara-haos.html" class="article-link">Citește →</a>
-    </div>
-  </article>
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Programări</span>
+          <h2 class="article-title">Cum îți organizezi programul de cabinet fără haos și fără recepționist</h2>
+          <p class="article-excerpt">Fără un sistem clar, fiecare programare nouă e o negociere. Există o cale mai simplă — și nu implică să angajezi pe cineva.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/programul-cabinet-fara-haos.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Obiecții</span>
+          <h2 class="article-title">„Nu am nevoie de o aplicație de programări&quot; — Câte ore pierzi cu alternativa?</h2>
+          <p class="article-excerpt">Dacă gestionezi programările manual și crezi că merge bine, articolul calculează câte ore pierzi de fapt pe an cu alternativa. Numărul surprinde de obicei.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/nu-am-nevoie-aplicatie-programari.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Obiecții</span>
+          <h2 class="article-title">Clienții tăi n-au nevoie de o aplicație. Tu da.</h2>
+          <p class="article-excerpt">Clienții tăi nu trebuie să instaleze nimic. O aplicație de programări bine configurată funcționează dintr-un link trimis pe WhatsApp sau email. Articolul explică cum funcționează pentru clienți care nu sunt tehnici.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/clientii-nu-folosesc-aplicatii.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Obiecții</span>
+          <h2 class="article-title">Frica de digital în psihologie: de ce e normală și ce o rezolvă în 10 minute</h2>
+          <p class="article-excerpt">Frica de a trece la digital e normală și apare la mulți terapeuți. Articolul nu promite că e ușor, dar arată ce durează exact 10 minute și ce poate fi delegat sau amânat.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/frica-digital-cabinet-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Obiecții</span>
+          <h2 class="article-title">De ce WhatsApp „ajunge&quot; până nu mai ajunge — și care e costul tăcut</h2>
+          <p class="article-excerpt">WhatsApp ajunge, până nu mai ajunge. Articolul descrie momentul în care costul tăcut al acestei soluții depășește confortul de a nu schimba nimic.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/whatsapp-ajunge-pentru-programari.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Obiecții</span>
+          <h2 class="article-title">Cât durează să înveți aponia.ro? (Test real: 8 minute de la zero la primul link)</h2>
+          <p class="article-excerpt">Test real: de la zero la primul link de programare activ în 8 minute. Articolul documentează fiecare pas cu timp real, nu estimat.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/cat-dureaza-sa-inveti-aponia.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Obiecții</span>
+          <h2 class="article-title">„N-am timp&quot; — Exact de aceea ai nevoie de 20 de minute acum</h2>
+          <p class="article-excerpt">Lipsa de timp e tocmai motivul pentru care digitalizarea are sens. Articolul arată că cele mai importante configurări se fac în 20 de minute și nu cer nicio întreținere ulterioară.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/nu-am-timp-digitalizare-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Obiecții</span>
+          <h2 class="article-title">Pacienții tăi în vârstă nu vor folosi o aplicație? Ce fac terapeuții care au rezolvat asta</h2>
+          <p class="article-excerpt">Pacienții în vârstă nu au nevoie de o aplicație. Au nevoie de un link. Articolul arată cum au rezolvat asta alți terapeuți cu clienți mai puțin tehnici și ce a funcționat.
+
+---
+
+## C11 — Comparații</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/pacienti-batrani-aplicatii-terapie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Comparații</span>
+          <h2 class="article-title">aponia.ro vs Sesio.ro: ce e diferit pentru un terapeut independent</h2>
+          <p class="article-excerpt">Sesio.ro și aponia.ro rezolvă probleme diferite. Articolul compară ce e specific fiecăruia și pentru ce tip de terapeut are sens fiecare.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/alternativa-sesio-ro.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Comparații</span>
+          <h2 class="article-title">De ce terapeuții migrează de la Calendly la o platformă specializată</h2>
+          <p class="article-excerpt">Calendly nu e construit pentru terapie și asta se simte. Articolul explică de ce migrează terapeuții spre platforme specializate și ce câștigă concret în schimb.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/alternativa-calendly-terapeuti.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Comparații</span>
+          <h2 class="article-title">Pasul.ro vs aponia.ro: marketplace vs tool propriu — care e pentru tine?</h2>
+          <p class="article-excerpt">Pasul.ro e un marketplace: îți aduce clienți, dar nu ești tu cel care controlează relația. Articolul compară cele două modele și ajută să decizi care se potrivește cu cum vrei să-ți construiești cabinetul.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/alternativa-pasul-ro.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Comparații</span>
+          <h2 class="article-title">Comparație completă: platforme de programări pentru terapeuți din România (2025)</h2>
+          <p class="article-excerpt">Comparație completă a platformelor de programări disponibile pentru terapeuți în România în 2025. Prețuri, funcții, limitări și pentru ce tip de cabinet e potrivit fiecare.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">7 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/comparatie-platforme-programari-terapeuti.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Comparații</span>
+          <h2 class="article-title">Top 5 soluții de gestionare a cabinetului de psihologie în România (2025)</h2>
+          <p class="article-excerpt">Cinci soluții de gestionare a cabinetului, comparate pe criterii care contează pentru un psiholog independent: ușurință de folosit, protecția datelor, prețul real și ce e inclus.
+
+---
+
+## C12 — Documente &amp; formulare</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/cel-mai-bun-software-cabinet-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Documente</span>
+          <h2 class="article-title">Model contract de psihoterapie: ce trebuie să conțină + template</h2>
+          <p class="article-excerpt">Model de contract de psihoterapie complet, cu explicații pentru fiecare secțiune. Descarcă, completează cu datele cabinetului tău și folosește de la primul client.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/model-contract-psihoterapie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Documente</span>
+          <h2 class="article-title">Consimțământ informat pentru minori în psihoterapie: cum e corect legal</h2>
+          <p class="article-excerpt">Consimțământul informat pentru minori are cerințe diferite față de cel pentru adulți. Articolul explică ce trebuie să semneze părintele, ce semnează copilul și ce spune legea.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/consimtamant-informat-minori-terapie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Documente</span>
+          <h2 class="article-title">Nota de informare GDPR pentru cabinetul de psihologie: model complet</h2>
+          <p class="article-excerpt">Nota de informare GDPR nu e opțională. Articolul oferă un model complet adaptat pentru cabinetul de psihologie, pe care îl poți folosi direct sau adapta cu datele tale.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/nota-informare-gdpr-cabinet.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Documente</span>
+          <h2 class="article-title">Acord de confidențialitate terapeut-pacient: ce e obligatoriu și ce e opțional</h2>
+          <p class="article-excerpt">Ce clauze sunt obligatorii într-un acord de confidențialitate și ce e opțional. Articolul clarifică și ce limitări legale are confidențialitatea în psihoterapie.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/acord-confidentialitate-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Documente</span>
+          <h2 class="article-title">Factură sau chitanță pentru ședințe de terapie? Ce e legal + ce preferă pacienții</h2>
+          <p class="article-excerpt">Factură sau chitanță? Fiecare variantă are condiții fiscale și preferințe ale pacienților diferite. Articolul clarifică ce e legal și ce alege de obicei fiecare tip de client.
+
+---
+
+## C13 — Gestionare cabinet</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/factura-chitanta-sedinte-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Operațional</span>
+          <h2 class="article-title">Cum îți setezi orarul de cabinet fără să epuizezi fiecare zi</h2>
+          <p class="article-excerpt">Orarul ideal nu e cel mai plin. Articolul arată cum construiești un program care să țină pe termen lung, fără să ajungi epuizat la finalul fiecărei săptămâni.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/orar-cabinet-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Operațional</span>
+          <h2 class="article-title">Cum gestionezi lista de așteptare când ești complet ocupat</h2>
+          <p class="article-excerpt">Dacă ești complet ocupat și vine cineva nou, ce faci? Articolul arată cum gestionezi o listă de așteptare fără să lași pe nimeni în incertitudine și fără să-ți creezi singur presiune.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/lista-asteptare-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Operațional</span>
+          <h2 class="article-title">Fișa de client în format digital: ce date ții și cum le protejezi</h2>
+          <p class="article-excerpt">Ce date ții pe fiecare client, unde le stochezi și cum te asiguri că sunt protejate conform GDPR. Articolul acoperă și ce nu trebuie notat în fișa digitală.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/fisa-client-terapeut-digital.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Operațional</span>
+          <h2 class="article-title">Note de sesiune: cum le scrii, unde le ții, cum le protejezi</h2>
+          <p class="article-excerpt">Notele de sesiune nu sunt standardizate, dar există practici care funcționează mai bine decât altele. Articolul acoperă ce scrii, cât de detaliat, unde păstrezi și cum protejezi.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/note-sesiune-terapie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Operațional</span>
+          <h2 class="article-title">Onboarding client nou: procesul complet de la primul mesaj la prima ședință</h2>
+          <p class="article-excerpt">De la primul mesaj primit la prima ședință față în față, fiecare pas contează pentru cum începe relația terapeutică. Articolul descrie un flux complet de onboarding, pas cu pas.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/onboarding-client-nou-psiholog.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Operațional</span>
+          <h2 class="article-title">Cum primești plata online pentru ședințe — ghid practic fără complicații</h2>
+          <p class="article-excerpt">Cum primești plata pentru ședințe fără să ceri viramento și fără să te complichezi cu POS fizic. Ghid practic pentru terapeuți care vor să accepte plăți online fără bătăi de cap.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/plata-online-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Operațional</span>
+          <h2 class="article-title">Cum comunici o creștere de preț fără să pierzi clienți</h2>
+          <p class="article-excerpt">Creșterea prețului e o decizie care provoacă anxietate la mulți terapeuți. Articolul arată cum formulezi comunicarea, când e momentul potrivit și de ce cei mai mulți clienți rămân.
+
+---
+
+## C14 — Marketing cabinet</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/creste-pretul-sedintelor-terapie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Promovare</span>
+          <h2 class="article-title">Cum îți promovezi cabinetul de psihologie fără să simți că vinzi</h2>
+          <p class="article-excerpt">Promovarea unui cabinet de psihologie nu trebuie să semene cu publicitatea unui produs. Articolul arată ce funcționează în 2025 pentru terapeuți care vor mai mulți clienți fără să simtă că vând ceva.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/promovare-cabinet-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Promovare</span>
+          <h2 class="article-title">Are nevoie un terapeut de un site web? Răspunsul sincer în 2025</h2>
+          <p class="article-excerpt">Are nevoie un terapeut de un site web în 2025? Răspunsul sincer, cu argumente pentru și împotrivă, și ce alternativă funcționează dacă decizi că nu merită efortul acum.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/site-web-terapeut-independent.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Promovare</span>
+          <h2 class="article-title">Instagram pentru terapeuți: ce să postezi fără să încalci etica</h2>
+          <p class="article-excerpt">Instagram poate aduce clienți noi, dar granița etică e ușor de depășit fără să îți dai seama. Articolul arată ce poți posta, ce e riscant și cum construiești prezență online fără să compromiți confidențialitatea.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/instagram-pentru-terapeuti.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Promovare</span>
+          <h2 class="article-title">Google Business Profile pentru terapeuți: setup complet în 15 minute</h2>
+          <p class="article-excerpt">Google Business Profile e gratuit și apare înainte de site-ul tău în căutările locale. Setup complet în 15 minute, cu ce să completezi obligatoriu și ce să eviți.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/google-my-business-cabinet-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Promovare</span>
+          <h2 class="article-title">Recenzii online pentru terapeut: etic sau nu? (Și cum le gestionezi)</h2>
+          <p class="article-excerpt">Recenziile online pentru terapeuți sunt un subiect delicat din punct de vedere etic. Articolul răspunde la întrebarea dacă e corect să le soliciți și cum le gestionezi când apar fără să le ceri.
+
+---
+
+## C15 — Wellbeing terapeut</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/recenzii-online-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Wellbeing</span>
+          <h2 class="article-title">Sănătatea mentală a terapeutului: cine are grijă de cel care are grijă de alții</h2>
+          <p class="article-excerpt">Terapeuții se ocupă de sănătatea mentală a altora și rareori de a lor. Articolul vorbește despre ce se întâmplă când nu există o practică proprie de îngrijire și ce fac concret terapeuții care au rezolvat asta.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/sanatatea-mentala-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Wellbeing</span>
+          <h2 class="article-title">Limite sănătoase la terapeut: nu e egoism, e profesionalism</h2>
+          <p class="article-excerpt">A spune nu unui client nou sau a nu răspunde la 23:00 nu e egoism, e o condiție pentru a funcționa bine pe termen lung. Articolul arată unde apar limitele cel mai des și cum le stabilești fără vinovăție.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/limite-sanatoase-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Wellbeing</span>
+          <h2 class="article-title">7 semne că ești suprasolicitat ca terapeut (nu toate arată ca epuizare)</h2>
+          <p class="article-excerpt">Suprasolicitarea nu arată întotdeauna ca epuizare clasică. Sunt 7 semne mai puțin evidente că lucrezi prea mult, dintre care unele par la prima vedere pozitive.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/suprasolicitare-terapeut-semne.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Programări</span>
+          <h2 class="article-title">Cum îți organizezi programările când ai 15+ clienți activi</h2>
+          <p class="article-excerpt">La 15 clienți activi, un calendar mental nu mai funcționează. Articolul arată cum pot fi gestionate toate programările dintr-un singur loc, fără Excel și fără conversații pe WhatsApp la 22:00.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/organizeaza-programari-psiholog.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Programări</span>
+          <h2 class="article-title">Ghid complet: programări online pentru terapeuți în 2025</h2>
+          <p class="article-excerpt">Tot ce trebuie să știe un terapeut care vrea să renunțe la programările telefonice: cum funcționează, ce să evite la început și cât durează până merge pe pilot automat. Ghid scris din experiența reală a platformelor folosite în România.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">7 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/ghid-programari-online-terapeuti.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Programări</span>
+          <h2 class="article-title">7 avantaje concrete ale programării online pentru un terapeut independent</h2>
+          <p class="article-excerpt">Nu e vorba de tehnologie de dragul tehnologiei. Sunt 7 lucruri concrete care se schimbă în cabinetul tău din ziua în care clienții se programează singuri, fără să te implici tu.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/avantaje-programare-online.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Programări</span>
+          <h2 class="article-title">Cum funcționezi fără recepționist și fără haos în calendar</h2>
+          <p class="article-excerpt">Fără angajat la recepție și fără haos în calendar se poate. Articolul explică ce instrumente acoperă ce face de obicei un recepționist și care e ordinea în care le introduci.
+
+---
+
+## C2 — Software cabinet</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/terapeut-fara-receptionist.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Software</span>
+          <h2 class="article-title">Cel mai bun software pentru cabinet de psihologie în România (2025)</h2>
+          <p class="article-excerpt">Există mai multe opțiuni pe piața din România, dar nu toate sunt potrivite pentru un cabinet solo. Comparație directă: ce oferă fiecare, cât costă și pentru ce tip de terapeut are sens.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/software-cabinet-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Software</span>
+          <h2 class="article-title">Ce aplicație folosesc terapeuții independenți în 2025</h2>
+          <p class="article-excerpt">Terapeuții independenți au nevoi diferite față de clinici. Articolul răspunde la o întrebare simplă: ce folosesc concret cei care și-au organizat deja cabinetul în 2025.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/aplicatie-terapeut-independent.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Software</span>
+          <h2 class="article-title">Cum digitalizezi un cabinet de psihologie fără să pierzi 3 luni</h2>
+          <p class="article-excerpt">Digitalizarea nu înseamnă 3 luni de configurări. Articolul arată ce pași contează și în ce ordine, ca să ai un cabinet funcțional digital în câteva zile, nu câteva luni.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/digitalizare-cabinet-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Software</span>
+          <h2 class="article-title">Gratuit sau plătit? Ce să alegi când îți digitalizezi cabinetul de psihologie</h2>
+          <p class="article-excerpt">Există soluții gratuite și există soluții plătite. Întrebarea nu e care e mai bună în abstract, ci care e pragul la care costul gratuit (timp, limitări) depășește prețul unui abonament.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/gratuit-vs-platit-software-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Software</span>
+          <h2 class="article-title">5 tool-uri pe care orice terapeut independent ar trebui să le cunoască</h2>
+          <p class="article-excerpt">Cinci instrumente pe care orice terapeut independent ar trebui să le cunoască, cu explicație scurtă pentru ce folosești fiecare. Fără suprapuneri, fără recomandări de umplutură.
+
+---
+
+## C3 — GDPR &amp; legal</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/tooluri-terapeut-independent.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Prețuri</span>
+          <h2 class="article-title">Cât costă o aplicație de programări pentru terapeuți? (Comparație reală 2025)</h2>
+          <p class="article-excerpt">Prețurile variază mult și depind de ce e inclus. Articolul pune față în față costul real al principalelor opțiuni disponibile în România în 2025, cu ce primești la fiecare.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/cat-costa-aplicatie-programari-psiholog.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Prețuri</span>
+          <h2 class="article-title">Merită să plătești pentru un software de cabinet? Calculul simplu</h2>
+          <p class="article-excerpt">Calculul e simplu: dacă o aplicație te scutește de o singură ședință pierdută pe lună, s-a plătit singură. Articolul face matematica pentru un cabinet solo tipic.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/merit-software-platit-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Prețuri</span>
+          <h2 class="article-title">aponia.ro vs Calendly pentru terapeuți: ce iei la fiecare preț</h2>
+          <p class="article-excerpt">Calendly costă mai puțin pe hârtie, dar nu e construit pentru terapie. Articolul compară ce primești concret la fiecare preț și unde apar diferențele care contează pentru un cabinet de psihologie.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/aponia-vs-calendly-pret-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Prețuri</span>
+          <h2 class="article-title">Gratuit vs. plătit: care e pragul la care plătești pentru o aplicație de cabinet</h2>
+          <p class="article-excerpt">Gratuit nu înseamnă fără costuri. Articolul arată când are sens să rămâi pe o soluție gratuită și care e semnalul că e momentul să treci la un abonament plătit.
+
+---
+
+## C10 — Obiecțiuni</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/gratuit-vs-platit-aplicatie-cabinet.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">GDPR</span>
+          <h2 class="article-title">Cum protejezi datele pacienților conform GDPR — fără avocat și fără panică</h2>
+          <p class="article-excerpt">GDPR e real și se aplică și cabinetului tău, chiar dacă ai un singur client. Articolul explică ce trebuie să faci concret, fără să ai nevoie de un avocat și fără să intri în panică.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/protectia-datelor-pacienti-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">GDPR</span>
+          <h2 class="article-title">Unde ții fișele pacienților? Cloud vs local — ce e legal și ce e sigur</h2>
+          <p class="article-excerpt">Fișele pe hârtie au riscuri. Fișele în cloud au alte riscuri. Articolul compară ce e legal și ce e sigur, cu o recomandare clară pentru cabinetele solo din România.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/stocare-date-pacienti-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">No-show</span>
+          <h2 class="article-title">Remindere automate pentru ședințe: cum funcționează și cât timp economisești</h2>
+          <p class="article-excerpt">Un reminder trimis automat cu 24 de ore înainte reduce absențele cu 30-40%. Articolul explică cum funcționează, ce să scrii în mesaj și cât timp economisești în medie per lună.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/reminder-automat-sedinta-terapie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">No-show</span>
+          <h2 class="article-title">Politica de anulare: cum o formulezi fără să strici relația terapeutică</h2>
+          <p class="article-excerpt">O politică de anulare prost formulată poate părea punitivă. Articolul arată cum o scrii clar și direct, astfel încât să fie respectată fără să afecteze relația terapeutică.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/politica-anulare-sedinta-psiholog.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">No-show</span>
+          <h2 class="article-title">De ce uită clienții programările și ce poți face fără să pari inutil</h2>
+          <p class="article-excerpt">Uneori clienții uită nu din rea-voință, ci din lipsă de structură. Articolul explică de ce se întâmplă și ce poți face practic, fără să suni tu de fiecare dată să amintești.
+
+---
+
+## C6 — Comunicare profesională</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/clienti-care-uita-programarile.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Comunicare</span>
+          <h2 class="article-title">Cum setezi disponibilitatea fără să pari inaccesibil</h2>
+          <p class="article-excerpt">Dacă clienții te scriu la orice oră și tu răspunzi, ai creat o așteptare pe care e greu să o corectezi mai târziu. Articolul arată cum setezi limite clare de disponibilitate fără să pari că ești inaccesibil.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/disponibilitate-terapeut-ore.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Comunicare</span>
+          <h2 class="article-title">Alternativa la WhatsApp pentru terapeuți: ce folosești în loc fără frecare</h2>
+          <p class="article-excerpt">WhatsApp e comod, dar nu e proiectat pentru comunicare profesională în cabinet. Articolul compară alternativele care funcționează fără să creeze frecare suplimentară pentru clienți.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/alternative-whatsapp-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Comunicare</span>
+          <h2 class="article-title">Cum separi viața personală de cea profesională ca terapeut</h2>
+          <p class="article-excerpt">Numărul personal de telefon e un detaliu mic cu consecințe mari. Articolul arată cum separi concret viața personală de cea profesională ca terapeut, cu instrumente specifice.
+
+---
+
+## C7 — Terapie online</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/comunicare-profesionala-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Automatizare</span>
+          <h2 class="article-title">Ce poți automatiza în cabinetul de psihologie fără să pierzi latura umană</h2>
+          <p class="article-excerpt">Nu tot ce se poate automatiza ar trebui automatizat în terapie. Articolul face distincția între sarcinile administrative care pot merge pe pilot automat și tot ce trebuie să rămână uman.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/automatizare-cabinet-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Automatizare</span>
+          <h2 class="article-title">Cum arată o zi eficientă pentru un terapeut cu 20 de clienți activi</h2>
+          <p class="article-excerpt">Cum arată concret o zi de lucru pentru un terapeut cu 20 de clienți activi care nu aleargă toată ziua după detalii administrative. Nu e magie, e ordine.
+
+---
+
+## C5 — Remindere &amp; anulări</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/eficienta-terapeut-independent.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Terapie online</span>
+          <h2 class="article-title">Ședințe de terapie online: ghid practic pentru terapeutul care vrea să înceapă</h2>
+          <p class="article-excerpt">Tot ce trebuie să pui la punct înainte de prima ședință online: tehnic, legal și relațional. Ghid scris pentru terapeuți care au lucrat doar față în față și vor să înceapă.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/sedinte-terapie-online-ghid.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Terapie online</span>
+          <h2 class="article-title">De ce merită să oferi ședințe online: perspectiva terapeutului, nu a pacientului</h2>
+          <p class="article-excerpt">Terapia online nu e o soluție de avarie. Articolul prezintă argumentele din perspectiva terapeutului, nu a pacientului, inclusiv ce câștigă concret cel care oferă ambele formate.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/avantaje-terapie-online-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Terapie online</span>
+          <h2 class="article-title">Cum accepți primul client online fără să te complici</h2>
+          <p class="article-excerpt">Primul client online pare complicat. Nu e. Articolul arată pas cu pas ce trebuie să fie pus la punct, de la platforma video la contract, fără să te complichezi inutil.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/accepta-clienti-online-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Terapie online</span>
+          <h2 class="article-title">Ce platformă video folosești pentru ședințe? Zoom, Meet sau ceva specializat?</h2>
+          <p class="article-excerpt">Zoom, Google Meet, Whereby sau o platformă specializată? Fiecare are avantaje și dezavantaje concrete pentru terapie. Articolul face comparația scurtă și dă o recomandare clară.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/video-call-sedinta-terapie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Terapie online</span>
+          <h2 class="article-title">Modelul hibrid: cabinet fizic + clienți online. Cum gestionezi ambele</h2>
+          <p class="article-excerpt">Unii clienți vin fizic, alții sunt online. Modelul hibrid funcționează bine dacă știi cum să gestionezi calendarul și comunicarea pentru ambele. Articolul arată cum.
+
+---
+
+## C8 — Cabinet independent</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/cabinet-hibrid-terapeut.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Cabinet</span>
+          <h2 class="article-title">Cum funcționează un cabinet individual de psihologie în România</h2>
+          <p class="article-excerpt">Ce înseamnă concret un cabinet individual de psihologie în România: forme juridice, cod CAEN, autorizații și ce diferă față de un cabinet asociat sau o clinică.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/cabinet-individual-psihologie-romania.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Cabinet</span>
+          <h2 class="article-title">De la angajat la terapeut independent: ce se schimbă operațional</h2>
+          <p class="article-excerpt">Trecerea de la angajat la independent implică mai mult decât să-ți faci cont la ANAF. Articolul acoperă ce se schimbă operațional și ce trebuie pus la punct înainte să pleci din vechiul job.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/cum-devii-terapeut-independent.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Cabinet</span>
+          <h2 class="article-title">Cât costă o ședință de terapie în România în 2025: ghid pentru terapeuți</h2>
+          <p class="article-excerpt">Cât cer alți terapeuți în 2025 și cum se formează prețul corect pentru cabinetul tău. Date concrete din piața din România, fără să generalizezi după ce ai auzit la o conferință.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/tarife-sedinte-terapie-romania.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Cabinet</span>
+          <h2 class="article-title">Supervizare online: cum o găsești și cum o organizezi eficient</h2>
+          <p class="article-excerpt">Supervizarea online există, e accesibilă și nu necesită să fii în același oraș cu supervizorul. Articolul explică unde o găsești și cum o organizezi ca să conteze, nu ca să bifezi o cerință.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/supervizare-terapeut-online.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">Cabinet</span>
+          <h2 class="article-title">Formare continuă pentru terapeuți: ce contează și ce poți ignora</h2>
+          <p class="article-excerpt">Nu toate cursurile de formare continuă merită timpul și banii. Articolul face distincția între ce e obligatoriu, ce adaugă valoare reală și ce poți ignora fără să pierzi nimic.
+
+---
+
+## C9 — Prețuri &amp; ROI</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">4 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/formare-continua-terapeut-romania.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">GDPR</span>
+          <h2 class="article-title">Model de consimțământ informat pentru psihoterapie (template descărcabil)</h2>
+          <p class="article-excerpt">Un model complet de consimțământ informat, gata de folosit, cu explicații pentru fiecare secțiune. Descarcă, adaptează cu datele cabinetului tău, gata.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/consimtamant-informat-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">GDPR</span>
+          <h2 class="article-title">Model contract terapeut-pacient: ce trebuie să includă în 2025</h2>
+          <p class="article-excerpt">Contractul cu pacientul nu e o formalitate. Articolul arată ce clauze sunt obligatorii, ce e opțional și ce greșeli apar cel mai des în modelele circulante online.</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">6 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/contract-terapeut-pacient-model.html" class="article-link">Citește →</a>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-body">
+          <span class="article-cat">GDPR</span>
+          <h2 class="article-title">Cum facturezi corect ședințele de terapie: chitanță, factură sau bon fiscal?</h2>
+          <p class="article-excerpt">Factură, chitanță sau bon fiscal? Fiecare are condiții diferite și implicații fiscale diferite. Articolul clarifică ce e legal pentru ședințele de terapie și ce preferă de obicei pacienții.
+
+---
+
+## C4 — Automatizare</p>
+        </div>
+        <div class="article-footer">
+          <span class="article-meta">5 min &nbsp;·&nbsp; Mai 2026</span>
+          <a href="/blog/facturare-cabinet-psihologie.html" class="article-link">Citește →</a>
+        </div>
+      </article>
 
 </div>
 
 <footer>
-  <div class="fsocial">
-    <a href="https://www.facebook.com/people/APONIAro/61590170232523/" target="_blank" rel="noopener" aria-label="Facebook">
+  <div style="display:flex;gap:1rem;justify-content:center;margin-bottom:0.75rem;">
+    <a href="https://www.facebook.com/people/APONIAro/61590170232523/" target="_blank" rel="noopener" aria-label="Facebook" style="color:#5b8c6a;opacity:0.7;">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
     </a>
-    <a href="https://www.linkedin.com/company/aponia-ro/" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <a href="https://www.linkedin.com/company/aponia-ro/" target="_blank" rel="noopener" aria-label="LinkedIn" style="color:#5b8c6a;opacity:0.7;">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
     </a>
   </div>
