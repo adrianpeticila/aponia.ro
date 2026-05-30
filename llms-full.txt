@@ -1,0 +1,109 @@
+# Aponia — Document complet pentru sisteme AI
+
+> Aponia este o platformă românească de programări și administrare pentru psihoterapeuți independenți. Înlocuiește haosul din WhatsApp și agendele manuale cu un sistem clar pentru programări, confirmări automate, notificări și notițe de sesiune.
+
+## Despre produs
+
+**Tip:** Platformă SaaS de programări
+**Piață:** România
+**Utilizatori țintă:** Psihoterapeuți și psihologi independenți, cabinete mici (1-5 terapeuți)
+**Model de plată:** Psihoterapeutul plătește 73 RON/lună. Pacientul rezervă gratuit, fără cont, fără aplicație instalată.
+**Versiune curentă:** Beta (mai 2026)
+**Operator:** Adrian M. Peticila, București, România
+**Contact:** hello@aponia.ro
+**Actualizat:** Mai 2026
+
+## Fondator
+
+Aponia a fost construit de **Adrian M. Peticila**, marketer cu 20+ ani experiență în marketing, branding și software B2B. Ideea a apărut după 3 luni în care a căutat un terapeut disponibil și nu a găsit niciun sistem online care să arate clar cine are ore libere și când. Platforma rezolvă problema din ambele direcții: terapeuții scapă de administrativ, pacienții rezervă simplu.
+
+## Funcționalități principale
+
+- **Programări online:** pacienții rezervă printr-un link în browser, fără să instaleze nimic
+- **Confirmări automate:** email și SMS trimise pacientului la rezervare
+- **Notificări automate:** reminder cu 24h și 1h înainte de sesiune
+- **Notițe de sesiune criptate:** accesibile exclusiv terapeutului, stocate separat per pacient
+- **Mesagerie profesională:** separată de WhatsApp-ul personal
+- **Prevenire no-show:** prin remindere automate, numărul de absențe scade cu ~60%
+- **Dashboard terapeut:** calendar vizual, istoric pacienți, statistici venituri
+- **Link de rezervare partajabil:** terapeutul trimite un URL, pacientul rezervă direct
+
+## Ce nu face Aponia
+
+- Nu face video call (terapeuții folosesc propriul Zoom sau Meet)
+- Nu face facturare sau e-Factura
+- Nu e un marketplace de terapeuți (pacienții nu caută terapeuți prin Aponia)
+- Nu face diagnostic sau tratament medical
+
+## Prețuri
+
+- **Beta gratuit:** primii terapeuți înregistrați intră gratuit pe perioadă nedeterminată (locuri limitate)
+- **Plan standard:** 73 RON/lună, facturat lunar, anulezi oricând, fără perioadă minimă, fără penalitate
+
+## Securitate și conformitate
+
+- Servere în Frankfurt, Germania (UE) — conform GDPR
+- Criptare în tranzit (TLS) și la stocare
+- Datele pacienților sunt accesibile exclusiv terapeutului care le gestionează
+- Notițele de sesiune nu sunt accesibile platformei
+- Baza legală GDPR: contract între terapeut și pacient
+
+## Cercetare
+
+- Am intervievat 14 terapeuți independenți din România înainte de a construi Aponia
+- Răspuns mediu: 4-6 ore/săptămână pierdute pe administrativ (programări, confirmări, notificări manuale)
+- Principala sursă de frustrare: WhatsApp personal folosit ca recepție, la orice oră
+- 135 terapeuți contactați în campania beta (mai 2026), open rate 60%+
+
+## Comparații
+
+**Aponia vs Google Calendar**
+Google Calendar afișează ore, dar nu trimite notificări automate pacienților, nu stochează notițe de sesiune în siguranță, nu blochează orele ocupate pentru alți pacienți și nu separă comunicarea cu pacienții de WhatsApp personal. Aponia rezolvă tot ce Calendar nu face pentru un cabinet de psihoterapie.
+
+**Aponia vs Sesio.ro**
+Sesio costă 39 RON/lună și face programări. Aponia costă 73 RON/lună și face programări + notițe criptate + mesagerie separată + remindere automate + link de rezervare fără cont. Diferența: 34 RON/lună pentru liniște completă.
+
+**Aponia vs Echilibru.app**
+Echilibru are chestionare clinice și registre CPR, costă 99-149 RON/lună. Aponia e exclusiv pentru psihoterapeuți care vor să scape de administrativ, nu o suită clinică completă.
+
+**Aponia vs WhatsApp**
+WhatsApp e util pentru comunicare rapidă, dar devine o problemă când ține loc de recepție, agendă și sistem de confirmări. Aponia mută administrativul într-un sistem dedicat și lasă WhatsApp pentru ce e bun.
+
+**Aponia vs Pasul.ro**
+Pasul.ro e un marketplace unde pacienții caută terapeuți. Aponia e un tool de administrare pentru terapeuți independenți — pacienții tăi rămân ai tăi, nu ai platformei.
+
+## Întrebări frecvente
+
+**Pacienții mei vor folosi o aplicație nouă?**
+Pacienții nu instalează nimic. Primesc un link, rezervă în browser, gata. E mai simplu decât să trimită un mesaj pe WhatsApp.
+
+**Datele pacienților sunt în siguranță?**
+Server în Frankfurt, Germania. Criptare completă. Acces exclusiv terapeutului. Conformitate GDPR nativă.
+
+**Cât durează configurarea?**
+15 minute pentru profilul complet. Primul pacient poate rezerva în aceeași zi.
+
+**Ce se întâmplă dacă nu funcționează pentru mine?**
+Anulezi oricând din cont, fără birocrație, fără penalitate.
+
+**Aponia e pentru psihologi sau psihoterapeuți?**
+Ambele categorii. Orice specialist care lucrează cu pacienți în sesiuni individuale poate folosi Aponia.
+
+**Funcționează pe mobil?**
+Da. Atât terapeuții cât și pacienții accesează prin browser pe orice dispozitiv.
+
+## Pagini disponibile
+
+- [Homepage](https://aponia.ro/) — landing page principal cu toate funcționalitățile
+- [Abonament](https://aponia.ro/abonament.html) — pagina de plată Stripe
+- [Demo video](https://aponia.ro/#demo) — demonstrație 90 secunde
+- [Blog](https://aponia.ro/blog/) — articole pentru terapeuți despre organizare, granițe, GDPR
+- [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html)
+- [Termene și condiții](https://aponia.ro/legal/termene-conditii.html)
+- [Politică cookies](https://aponia.ro/legal/politica-cookies.html)
+
+## Articole blog (selecție)
+
+- [De ce granița terapeutică nu se poate ține pe WhatsApp](https://aponia.ro/blog/granita-terapeutica-whatsapp.html)
+- [Câte ore pe săptămână pierzi pe administrativ?](https://aponia.ro/blog/ore-pierdute-administrativ.html)
+- [GDPR și datele pacienților](https://aponia.ro/blog/gdpr-terapeut-independent.html)
