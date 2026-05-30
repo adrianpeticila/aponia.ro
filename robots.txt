@@ -3,3 +3,4 @@ Allow: /
 Disallow: /book.html
 
 Sitemap: https://aponia.ro/sitemap.xml
+Sitemap: https://aponia.ro/sitemap_blog.xml
