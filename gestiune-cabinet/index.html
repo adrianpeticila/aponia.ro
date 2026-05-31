@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Gestiune cabinet psihoterapie — Aponia</title>
+  <meta name="description" content="Aponia gestionează întregul flux al unui cabinet de psihoterapie: programări, confirmări, notițe de sesiune, profiluri pacienți. Un singur sistem, zero haos.">
+  <link rel="canonical" href="https://aponia.ro/gestiune-cabinet/">
+  <meta property="og:title" content="Gestiune cabinet psihoterapie — Aponia">
+  <meta property="og:description" content="Aponia gestionează programările, confirmările și notițele de sesiune pentru cabinete de psihoterapie. Un singur sistem, fără haos.">
+  <meta property="og:url" content="https://aponia.ro/gestiune-cabinet/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ro_RO">
+  <meta name="theme-color" content="#5b8c6a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%235b8c6a'/><path fill='white' d='M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap"></noscript>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --cream: #f7f5f0; --cream2: #f0ede6; --green: #5b8c6a; --amber: #e8b86d; --dark: #3a4258; --ink: #1a1a1a; --muted: #666; --border: #e0dbd2; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; overflow-x: hidden; }
+    a { color: inherit; text-decoration: none; }
+    .nav { position: sticky; top: 0; z-index: 100; background: rgba(247,245,240,0.95); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
+    .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.3rem; font-weight: 600; }
+    .nav-logo .gk { color: var(--green); }
+    .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.82rem; font-weight: 700; border-radius: 3px; min-height: 44px; display: inline-flex; align-items: center; }
+    .page-wrap { max-width: 760px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+    .bc { font-family: 'Inter Tight', monospace; font-size: 0.6rem; color: #aaa; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 2.5rem; }
+    .bc a { color: var(--green); }
+    .eyebrow { font-family: 'Inter Tight', monospace; font-size: 0.62rem; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase; color: var(--green); display: block; margin-bottom: 1rem; }
+    .page-h1 { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 2.6rem; letter-spacing: -0.03em; line-height: 1.0; color: var(--ink); margin-bottom: 1.4rem; }
+    .page-lead { font-style: italic; font-size: 1.08rem; color: #555; line-height: 1.78; margin-bottom: 2.5rem; max-width: 600px; }
+    .page-lead strong { color: var(--ink); font-style: normal; }
+    .answer-box { border-left: 4px solid var(--green); padding: 1.2rem 1.5rem; background: white; margin-bottom: 3rem; border-radius: 0 4px 4px 0; }
+    .answer-label { font-family: 'Inter Tight', monospace; font-size: 0.57rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--green); margin-bottom: 0.5rem; }
+    .answer-box p { font-family: 'Inter Tight', sans-serif; font-size: 0.93rem; color: #444; line-height: 1.75; }
+    .section { margin-bottom: 2.5rem; padding-bottom: 2.5rem; border-bottom: 1px solid var(--border); }
+    .section:last-of-type { border-bottom: none; }
+    .section h2 { font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.35rem; color: var(--ink); margin-bottom: 0.9rem; }
+    .section p { font-size: 0.97rem; color: #444; line-height: 1.82; margin-bottom: 0.85rem; }
+    .section p strong { color: var(--ink); font-weight: 700; }
+    .faq-wrap { margin-bottom: 3rem; }
+    .faq-wrap h2 { font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.35rem; color: var(--ink); margin-bottom: 1.5rem; }
+    .faqlist { border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+    .faqitem { padding: 1.6rem 1.8rem; border-bottom: 1px solid var(--border); background: white; }
+    .faqitem:last-child { border-bottom: none; }
+    .faqq { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.95rem; color: var(--ink); margin-bottom: 0.5rem; }
+    .faqa { font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; color: #555; line-height: 1.72; }
+    .cta-dark { background: var(--dark); padding: 2.5rem 2rem; text-align: center; border-radius: 4px; margin-bottom: 3rem; }
+    .cta-dark h3 { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 1.6rem; letter-spacing: -0.03em; color: #f7f5f0; margin-bottom: 0.6rem; line-height: 1.1; }
+    .cta-dark p { font-style: italic; color: rgba(247,245,240,0.65); font-size: 0.9rem; margin-bottom: 1.5rem; line-height: 1.7; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.9rem; border-radius: 3px; padding: 0.85rem 1.8rem; min-height: 46px; }
+    .btn-g { background: var(--green); color: white; }
+    .also { padding-top: 2rem; border-top: 1px solid var(--border); }
+    .also p { font-family: 'Inter Tight', monospace; font-size: 0.58rem; color: #aaa; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 0.8rem; }
+    .also-links { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .also-links a { font-family: 'Inter Tight', sans-serif; font-size: 0.82rem; font-weight: 600; color: var(--green); border: 1px solid rgba(91,140,106,0.3); padding: 0.35rem 0.8rem; border-radius: 3px; }
+    @media (max-width: 640px) { .page-h1 { font-size: 2rem; } .page-wrap { padding: 3rem 1rem 4rem; } }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://aponia.ro/gestiune-cabinet/",
+        "url": "https://aponia.ro/gestiune-cabinet/",
+        "name": "Gestiune cabinet psihoterapie — Aponia",
+        "description": "Aponia gestionează întregul flux al unui cabinet de psihoterapie: programări, confirmări, notițe de sesiune, profiluri pacienți.",
+        "inLanguage": "ro",
+        "isPartOf": { "@id": "https://aponia.ro/#website" },
+        "dateModified": "2026-05-31"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Aponia", "item": "https://aponia.ro/" },
+          { "@type": "ListItem", "position": 2, "name": "Gestiune cabinet", "item": "https://aponia.ro/gestiune-cabinet/" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <svg width="26" height="26" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="9" fill="#5b8c6a"/><path fill="white" d="M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z"/></svg>
+        <span class="gk">Aponia</span>
+      </a>
+      <a href="/#early-access" class="btn-nav">Acces anticipat</a>
+    </div>
+  </nav>
+
+  <div class="page-wrap">
+    <p class="bc"><a href="/">aponia.ro</a> / gestiune-cabinet</p>
+    <span class="eyebrow">Funcționalitate</span>
+    <h1 class="page-h1">Gestiune cabinet<br>psihoterapie</h1>
+    <p class="page-lead">Un cabinet de psihoterapie bine gestionat înseamnă că tu te concentrezi pe terapie, nu pe logistică. <strong>Aponia preia administrarea: programări, confirmări, notițe, profiluri pacienți</strong> — totul în același sistem, GDPR nativ.</p>
+
+    <div class="answer-box">
+      <p class="answer-label">Ce înseamnă gestiunea unui cabinet în Aponia</p>
+      <p>Aponia centralizează tot ce până acum era distribuit pe WhatsApp, Google Calendar, foi volante și fișiere Word: programările săptămânale, confirmările automate, notițele de sesiune, istoricul fiecărui pacient. Tu deschizi aplicația înainte de o sesiune și ai tot ce ai nevoie în față.</p>
+    </div>
+
+    <div class="section">
+      <h2>Problemele reale ale gestionării unui cabinet</h2>
+      <p>Terapeuții cu care am vorbit descriu aceeași situație: <strong>miercuri dimineața, înainte de prima sesiune, 20 de minute pierdute</strong> să găsească notițele din săptămâna trecută, să verifice dacă pacientul a confirmat, să trimită remindere celor care n-au răspuns. Nu e un ritual — e ineficiență acumulată.</p>
+      <p>Conform unui sondaj intern al European Federation of Psychologists' Associations din 2023, psihologii cu cabinet privat alocă în medie <strong>6-8 ore pe săptămână pe activități administrative</strong> — programări, comunicare cu pacienții, documente. Aponia poate reduce această cifră la sub 2 ore.</p>
+    </div>
+
+    <div class="section">
+      <h2>Componentele sistemului de gestiune</h2>
+      <p><strong>Profiluri pacienți:</strong> fiecare pacient are un profil complet — date de contact, istoricul sesiunilor, notițele tale, note despre context și obiective terapeutice.</p>
+      <p><strong>Calendar de cabinet:</strong> vizualizezi toate sesiunile programate per zi și per săptămână. Modificările se reflectă imediat și în pagina de programare a pacienților.</p>
+      <p><strong>Notițe de sesiune:</strong> adaugi notițe după fiecare sesiune, atașate cronologic. Înainte de sesiunea următoare, deschizi profilul și ai tot istoricul vizibil.</p>
+      <p><strong>Automatizare comunicare:</strong> confirmări, remindere, notificări de anulare — toate automate. Tu nu trimiți nimic manual.</p>
+    </div>
+
+    <div class="faq-wrap">
+      <h2>Întrebări frecvente</h2>
+      <div class="faqlist">
+        <div class="faqitem">
+          <h3 class="faqq">Pot importa pacienții pe care îi am deja în alte sisteme?</h3>
+          <p class="faqa">Da. Aponia suportă import din CSV sau din exporturi din alte platforme. La onboarding, te ghidăm prin procesul de migrare al bazei de date existente.</p>
+        </div>
+        <div class="faqitem">
+          <h3 class="faqq">Pot vedea istoricul complet cu un pacient?</h3>
+          <p class="faqa">Da. Profilul fiecărui pacient afișează cronologic toate sesiunile, notițele asociate, și orice alte informații adăugate. Poți filtra și căuta în istoricul relației.</p>
+        </div>
+        <div class="faqitem">
+          <h3 class="faqq">Este sistemul accesibil de pe telefon?</h3>
+          <p class="faqa">Da. Aponia funcționează pe orice dispozitiv — telefon, tabletă, laptop. Nu necesită instalare. Accesezi din browser.</p>
+        </div>
+        <div class="faqitem">
+          <h3 class="faqq">Ce se întâmplă cu datele dacă decid să nu mai folosesc Aponia?</h3>
+          <p class="faqa">Poți exporta toate datele tale oricând, în format CSV sau PDF. Datele îți aparțin complet și poți să le iei cu tine fără restricții.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-dark">
+      <h3>De la haos la sistem în 15 minute</h3>
+      <p>Beta gratuit. Fără card. Configurezi tot în prima zi.</p>
+      <a href="/#early-access" class="btn btn-g">Vreau acces anticipat</a>
+    </div>
+
+    <div class="also">
+      <p>Vezi și</p>
+      <div class="also-links">
+        <a href="/cabinet-psiholog/">Cabinet psiholog</a>
+        <a href="/programare-terapeut/">Programare online</a>
+        <a href="/vs-simplepractice/">vs. SimplePractice</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
