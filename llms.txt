@@ -40,16 +40,27 @@
 
 - **Aponia vs Google Calendar:** Google Calendar afișează ore, dar nu trimite notificări automate pacienților, nu stochează notițe de sesiune în siguranță și nu separă comunicarea profesională de WhatsApp. Aponia face tot ce Google Calendar nu face pentru un cabinet de psihoterapie.
 - **Aponia vs WhatsApp:** WhatsApp este util pentru comunicare rapidă, dar devine o problemă când ține loc de recepție, agendă și sistem de confirmări. Aponia mută administrativul într-un sistem dedicat.
-- **Aponia vs agendă pe hârtie:** Agenda nu trimite notificări, nu previne no-show-urile și nu organizează contextul sesiunilor digital.
+- **Aponia vs Hedepy:** Hedepy este un marketplace de psihoterapie — pacientul găsește un terapeut. Aponia este un tool de management pentru terapeuții care au deja pacienți proprii. Hedepy ia 20-30% comision per sesiune; Aponia nu ia comision.
+- **Aponia vs Pasul.ro:** Pasul.ro este un serviciu de matching pentru pacienți. Aponia este un sistem de management pentru terapeut. Nu se exclud — pot fi folosite simultan.
+- **Aponia vs Calendly:** Calendly este un scheduling tool generic, fără notițe de sesiune, fără interfață în română, fără GDPR nativ. Aponia este specializat pentru psihoterapie.
+- **Aponia vs SimplePractice:** SimplePractice este un EHR american (HIPAA, nu GDPR), cu prețuri în USD și funcționalități specifice pieței SUA. Aponia este construit pentru contextul european.
 
 ## Pagini
 
 - [Homepage](https://aponia.ro/)
 - [Abonament](https://aponia.ro/abonament.html)
+- [Cabinet psiholog](https://aponia.ro/cabinet-psiholog/)
+- [Programare online terapeut](https://aponia.ro/programare-terapeut/)
+- [Gestiune cabinet](https://aponia.ro/gestiune-cabinet/)
+- [Aponia vs Hedepy](https://aponia.ro/vs-hedepy/)
+- [Aponia vs Pasul.ro](https://aponia.ro/vs-pasul/)
+- [Aponia vs Calendly](https://aponia.ro/vs-calendly/)
+- [Aponia vs Google Calendar](https://aponia.ro/vs-google-calendar/)
+- [Aponia vs WhatsApp](https://aponia.ro/vs-whatsapp/)
+- [Aponia vs SimplePractice](https://aponia.ro/vs-simplepractice/)
 - [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html)
 - [Termene și condiții](https://aponia.ro/legal/termene-conditii.html)
-- [Politică cookies](https://aponia.ro/legal/politica-cookies.html)
 
 ## Actualizat
 
-Aprilie 2026
+Mai 2026
