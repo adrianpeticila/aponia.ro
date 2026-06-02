@@ -18,6 +18,8 @@
   <meta name="twitter:description" content="Aponia ajută psihoterapeuții să gestioneze programări, confirmări, notificări și notițe de sesiune fără haos în WhatsApp sau agendă.">
   <meta name="twitter:image" content="https://aponia.ro/og-image.png">
   <meta name="theme-color" content="#5b8c6a">
+  <meta name="color-scheme" content="light">
+  <link rel="manifest" href="/manifest.json">
   <meta name="author" content="Aponia">
   <meta name="date" content="2026-06-02">
   <meta name="revised" content="June 2, 2026">
@@ -37,6 +39,8 @@
       --muted: #666; --border: #e0dbd2; --red: #c0392b;
     }
     html { scroll-behavior: smooth; }
+    .skip-link { position: absolute; top: -100%; left: 1rem; background: var(--green); color: #fff; padding: 0.5rem 1rem; font-size: 0.875rem; font-family: 'Inter Tight', sans-serif; border-radius: 0 0 4px 4px; z-index: 9999; text-decoration: none; }
+    .skip-link:focus { top: 0; }
     body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
     a { color: inherit; text-decoration: none; }
 
@@ -321,6 +325,7 @@
   </script>
 </head>
 <body>
+<a href="#main" class="skip-link">Sari la conținut</a>
 
 <nav class="nav">
   <div class="nav-inner">
