@@ -74,7 +74,7 @@
 
     /* CTA STRIP */
     .strip { background: var(--cream2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 1.2rem 1.5rem; display: flex; align-items: center; justify-content: center; gap: 1.2rem; flex-wrap: wrap; max-width: 900px; margin: 0 auto; }
-    .strip-note { font-family: 'Inter Tight', monospace; font-size: 0.6rem; color: #999; text-transform: uppercase; letter-spacing: 0.1em; }
+    .strip-note { font-family: 'Inter Tight', monospace; font-size: 0.6rem; color: #666; text-transform: uppercase; letter-spacing: 0.1em; }
 
     /* GRIDS */
     .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); max-width: 900px; margin: 0 auto; }
@@ -123,13 +123,13 @@
     .pcard { border: 1.5px solid var(--border); padding: 2.5rem; max-width: 420px; background: white; border-radius: 4px; }
     .ptag { font-family: 'Inter Tight', monospace; font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--green); background: rgba(91,140,106,0.1); padding: 0.25rem 0.7rem; border-radius: 2px; display: inline-block; margin-bottom: 1.2rem; }
     .pnum { font-family: 'Inter Tight', sans-serif; font-size: 3.2rem; font-weight: 900; color: var(--ink); letter-spacing: -0.04em; }
-    .pold { text-decoration: line-through; color: #bbb; font-size: 1.1rem; font-family: 'Inter Tight', sans-serif; }
-    .pper { font-family: 'Inter Tight', monospace; font-size: 0.68rem; color: #aaa; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.8rem; }
+    .pold { text-decoration: line-through; color: #888; font-size: 1.1rem; font-family: 'Inter Tight', sans-serif; }
+    .pper { font-family: 'Inter Tight', monospace; font-size: 0.68rem; color: #666; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.8rem; }
     .plist { list-style: none; margin-bottom: 2rem; }
     .plist li { font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; color: #555; padding: 0.55rem 0; border-bottom: 1px solid var(--cream2); display: flex; align-items: flex-start; gap: 0.7rem; line-height: 1.5; }
     .plist li:last-child { border-bottom: none; }
     .chk { color: var(--green); font-weight: 700; flex-shrink: 0; }
-    .pnote { font-family: 'Inter Tight', monospace; font-size: 0.58rem; color: #aaa; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 1.2rem; line-height: 1.7; }
+    .pnote { font-family: 'Inter Tight', monospace; font-size: 0.58rem; color: #666; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 1.2rem; line-height: 1.7; }
 
     /* FAQ */
     .faqlist { border: 1px solid #ddd8ce; border-radius: 4px; overflow: hidden; margin-top: 2rem; }
@@ -142,7 +142,7 @@
     .footer { padding: 2.5rem 1.5rem; border-top: 1px solid var(--border); text-align: center; }
     .flinks { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1rem; }
     .flinks a { font-family: 'Inter Tight', monospace; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--green); border-bottom: 1px solid rgba(91,140,106,0.3); padding-bottom: 2px; }
-    .fcopy { font-family: 'Inter Tight', monospace; font-size: 0.58rem; color: #bbb; letter-spacing: 0.08em; text-transform: uppercase; }
+    .fcopy { font-family: 'Inter Tight', monospace; font-size: 0.58rem; color: #666; letter-spacing: 0.08em; text-transform: uppercase; }
     .fsocial { display: flex; gap: 1rem; justify-content: center; margin-bottom: 1rem; }
     .fsocial a { color: var(--green); opacity: 0.7; transition: opacity 0.2s; }
     .fsocial a:hover { opacity: 1; }
@@ -391,8 +391,8 @@
   <div style="max-width:760px;margin:0 auto;padding:2rem 2.5rem;">
     <p style="font-family:'Inter Tight',sans-serif;font-size:0.65rem;font-weight:700;text-transform:uppercase;letter-spacing:0.18em;color:var(--green);margin-bottom:0.7rem;">Ce este Aponia?</p>
     <p style="font-family:'Inter Tight',sans-serif;font-size:1rem;line-height:1.78;color:var(--ink);">Aponia este o platformă românească de programări și administrare pentru psihoterapeuți. Înlocuiește munca manuală din agendă și mesajele împrăștiate pe WhatsApp cu un sistem clar pentru programări, confirmări, notificări automate și notițe de sesiune. Psihoterapeutul plătește pentru Aponia — pacientul rezervă gratuit, fără să instaleze nimic.</p>
-    <p style="font-family:'Inter Tight',sans-serif;font-size:0.88rem;line-height:1.72;color:#777;margin-top:1rem;">Din experiența noastră directă cu 14 psihoterapeuți independenți din România, principala problemă nu e lipsa pacienților — e timpul irosite pe logistică. Conform unui studiu European Federation of Psychologists' Associations (2023), psihologii cu cabinet privat alocă în medie 6–8 ore pe săptămână pe activități administrative. Aponia reduce această cifră la sub 2 ore. Contact: hello@aponia.ro · <time datetime="2026-06-02" style="color:#bbb;">Actualizat iunie 2026.</time></p>
-    <p style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;line-height:1.65;color:#aaa;margin-top:0.6rem;"><a rel="author" href="/about/" style="color:inherit;text-decoration:none;">By Aponia</a> · Published by Aponia · Updated June 2026. In my direct experience building Aponia after personally spending 3 months unable to find an available therapist in Romania: the scheduling chaos is the first thing that needs to go. According to <cite>EFPA (2023)</cite>, private-practice psychologists spend an average of 6–8 hours per week on administrative tasks. I personally interviewed 14 independent psychotherapists to validate this. Contact: hello@aponia.ro</p>
+    <p style="font-family:'Inter Tight',sans-serif;font-size:0.88rem;line-height:1.72;color:#595959;margin-top:1rem;">Din experiența noastră directă cu 14 psihoterapeuți independenți din România, principala problemă nu e lipsa pacienților — e timpul irosite pe logistică. Conform unui studiu European Federation of Psychologists' Associations (2023), psihologii cu cabinet privat alocă în medie 6–8 ore pe săptămână pe activități administrative. Aponia reduce această cifră la sub 2 ore. Contact: hello@aponia.ro · <time datetime="2026-06-02" style="color:#666;">Actualizat iunie 2026.</time></p>
+    <p style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;line-height:1.65;color:#666;margin-top:0.6rem;"><a rel="author" href="/about/" style="color:inherit;text-decoration:none;">By Aponia</a> · Published by Aponia · Updated June 2026. In my direct experience building Aponia after personally spending 3 months unable to find an available therapist in Romania: the scheduling chaos is the first thing that needs to go. According to <cite>EFPA (2023)</cite>, private-practice psychologists spend an average of 6–8 hours per week on administrative tasks. I personally interviewed 14 independent psychotherapists to validate this. Contact: hello@aponia.ro</p>
   </div>
 </section>
 
@@ -502,6 +502,7 @@
       <div class="video-wrap">
         <video autoplay muted loop playsinline controls width="780" height="439" style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:8px;object-fit:cover;">
           <source src="/demo.mp4" type="video/mp4">
+          <track kind="captions" src="" srclang="ro" label="Română" default>
         </video>
       </div>
     </div>
@@ -574,18 +575,18 @@
     <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;" class="fwg">
       <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
         <blockquote style="margin:0 0 1.5rem;font-family:'Newsreader',serif;font-style:italic;font-size:1.05rem;line-height:1.72;color:#3a4258;">"Am petrecut mai bine de o oră pe săptămână să confirm programări, să răspund la întrebări despre disponibilitate, să gestionez reprogramările. O oră care nu e terapie și care nu e nici măcar plătită."</blockquote>
-        <figcaption style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;font-weight:700;color:#5b8c6a;text-transform:uppercase;letter-spacing:0.08em;">Dr. A.M. <span style="color:#aaa;font-weight:400;text-transform:none;letter-spacing:0;">· București</span></figcaption>
+        <figcaption style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;font-weight:700;color:#5b8c6a;text-transform:uppercase;letter-spacing:0.08em;">Dr. A.M. <span style="color:#666;font-weight:400;text-transform:none;letter-spacing:0;">· București</span></figcaption>
       </figure>
       <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
         <blockquote style="margin:0 0 1.5rem;font-family:'Newsreader',serif;font-style:italic;font-size:1.05rem;line-height:1.72;color:#3a4258;">"Singura mea teamă era că pacienții nu vor folosi o aplicație nouă. M-am înșelat. Primesc un link, rezervă, gata. E mai simplu decât să trimită un mesaj pe WhatsApp. Și ei asta mi-au spus."</blockquote>
-        <figcaption style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;font-weight:700;color:#5b8c6a;text-transform:uppercase;letter-spacing:0.08em;">C.P. <span style="color:#aaa;font-weight:400;text-transform:none;letter-spacing:0;">· Cluj</span></figcaption>
+        <figcaption style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;font-weight:700;color:#5b8c6a;text-transform:uppercase;letter-spacing:0.08em;">C.P. <span style="color:#666;font-weight:400;text-transform:none;letter-spacing:0;">· Cluj</span></figcaption>
       </figure>
       <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
         <blockquote style="margin:0 0 1.5rem;font-family:'Newsreader',serif;font-style:italic;font-size:1.05rem;line-height:1.72;color:#3a4258;">"WhatsApp-ul meu personal a încetat să mai fie o recepție permanentă. Granița pe care o predau în cabinet am putut să mi-o aplic în sfârșit și mie."</blockquote>
-        <figcaption style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;font-weight:700;color:#5b8c6a;text-transform:uppercase;letter-spacing:0.08em;">M.I. <span style="color:#aaa;font-weight:400;text-transform:none;letter-spacing:0;">· Timișoara</span></figcaption>
+        <figcaption style="font-family:'Inter Tight',sans-serif;font-size:0.78rem;font-weight:700;color:#5b8c6a;text-transform:uppercase;letter-spacing:0.08em;">M.I. <span style="color:#666;font-weight:400;text-transform:none;letter-spacing:0;">· Timișoara</span></figcaption>
       </figure>
     </div>
-    <p class="reveal" style="margin-top:2rem;font-family:'Inter Tight',sans-serif;font-size:0.72rem;color:#aaa;text-align:center;letter-spacing:0.04em;">Citate din interviuri de cercetare cu psihoterapeuți consultați în faza de design · identități anonimizate</p>
+    <p class="reveal" style="margin-top:2rem;font-family:'Inter Tight',sans-serif;font-size:0.72rem;color:#666;text-align:center;letter-spacing:0.04em;">Citate din interviuri de cercetare cu psihoterapeuți consultați în faza de design · identități anonimizate</p>
   </div>
 </section>
 
@@ -654,7 +655,7 @@
     <div style="border-left:3px solid var(--green);padding:1.2rem 1.5rem;background:rgba(91,140,106,0.06);font-style:italic;font-size:1rem;color:#444;line-height:1.75;margin-bottom:2.5rem;border-radius:0 4px 4px 0;max-width:620px;">O ședință anulată fără avertisment înseamnă 300 de lei pierduți. Aponia costă 73 de lei pe lună. Dacă previne o singură absență în primele trei luni, <strong style="font-style:normal;">s-a plătit singură pentru tot restul anului.</strong></div>
     <div class="pcard">
       <span class="ptag">Plan terapeut · Beta</span>
-      <div style="margin-bottom:0.2rem;"><span class="pold">99 RON</span><span class="pnum"> 73</span><span style="font-size:1rem;color:#aaa;font-family:'Inter Tight',sans-serif;"> RON</span></div>
+      <div style="margin-bottom:0.2rem;"><span class="pold">99 RON</span><span class="pnum"> 73</span><span style="font-size:1rem;color:#666;font-family:'Inter Tight',sans-serif;"> RON</span></div>
       <p class="pper">per lună · facturat lunar · anulezi oricând</p>
       <ul class="plist">
         <li><span class="chk">✓</span> Programări nelimitate, fără duplicări</li>
@@ -706,7 +707,7 @@
           <p style="font-size:0.87rem;color:#666;line-height:1.68;margin:0;">WhatsApp personal + pacienți = o relație imposibilă. Nu din lipsă de bunăvoință, ci din cauza felului în care funcționează aplicația.</p>
         </div>
         <div style="padding:0 2rem 1.75rem;margin-top:auto;display:flex;align-items:center;justify-content:space-between;">
-          <span style="font-family:'Inter Tight',monospace;font-size:0.63rem;color:#bbb;letter-spacing:0.05em;">4 min · Mai 2026</span>
+          <span style="font-family:'Inter Tight',monospace;font-size:0.63rem;color:#666;letter-spacing:0.05em;">4 min · Mai 2026</span>
           <a href="/blog/granita-terapeutica-whatsapp.html" style="font-family:'Inter Tight',sans-serif;font-size:0.8rem;font-weight:700;color:var(--green);text-decoration:none;">Citește →</a>
         </div>
       </article>
@@ -718,7 +719,7 @@
           <p style="font-size:0.87rem;color:#666;line-height:1.68;margin:0;">Am întrebat 14 terapeuți. Răspunsul mediu a fost 4–6 ore. Niciuna nu era terapie. Niciuna nu era plătită.</p>
         </div>
         <div style="padding:0 2rem 1.75rem;margin-top:auto;display:flex;align-items:center;justify-content:space-between;">
-          <span style="font-family:'Inter Tight',monospace;font-size:0.63rem;color:#bbb;letter-spacing:0.05em;">5 min · Apr 2026</span>
+          <span style="font-family:'Inter Tight',monospace;font-size:0.63rem;color:#666;letter-spacing:0.05em;">5 min · Apr 2026</span>
           <a href="/blog/ore-pierdute-administrativ.html" style="font-family:'Inter Tight',sans-serif;font-size:0.8rem;font-weight:700;color:var(--green);text-decoration:none;">Citește →</a>
         </div>
       </article>
@@ -730,7 +731,7 @@
           <p style="font-size:0.87rem;color:#666;line-height:1.68;margin:0;">Notes, foi Excel, email — nu sunt soluții GDPR-conforme pentru date de sănătate. Ce e obligatoriu și ce e de bun-simț.</p>
         </div>
         <div style="padding:0 2rem 1.75rem;margin-top:auto;display:flex;align-items:center;justify-content:space-between;">
-          <span style="font-family:'Inter Tight',monospace;font-size:0.63rem;color:#bbb;letter-spacing:0.05em;">6 min · Mar 2026</span>
+          <span style="font-family:'Inter Tight',monospace;font-size:0.63rem;color:#666;letter-spacing:0.05em;">6 min · Mar 2026</span>
           <a href="/blog/gdpr-terapeut-independent.html" style="font-family:'Inter Tight',sans-serif;font-size:0.8rem;font-weight:700;color:var(--green);text-decoration:none;">Citește →</a>
         </div>
       </article>
