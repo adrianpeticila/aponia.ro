@@ -365,36 +365,6 @@
   </div>
   <span class="hero-badge reveal">Beta gratuit · fără card · fără angajament · locuri limitate disponibile</span>
 </section>
-<script>
-(function() {
-  const ref = document.referrer || '';
-  const returning = localStorage.getItem('apo-visited');
-  localStorage.setItem('apo-visited', '1');
-  const h1   = document.getElementById('dyn-h1');
-  const sub  = document.getElementById('dyn-sub');
-  const prf  = document.getElementById('dyn-proof');
-  const cta  = document.getElementById('dyn-cta-btn');
-  const isGoogle = /google\.[a-z]{2,3}/.test(ref);
-  const isComp   = window.location.pathname.includes('/vs-');
-
-  if (isComp) {
-    // Coming from a comparison page — already decided, nudge to action
-    if (sub)  sub.textContent  = 'Ai comparat. Acum știi cu ce nu vrei. Aponia e ce rămâne după eliminare.';
-    if (cta)  cta.childNodes[0].textContent = 'Intru în beta acum ';
-  } else if (returning === '1') {
-    // Returning visitor
-    if (h1)   h1.innerHTML = 'Ești din nou<br><em>pe aici.</em>';
-    if (sub)  sub.textContent  = 'Dacă tot te-ai întors — ia 90 de secunde și uită-te la demo. Poate acum e momentul.';
-    if (cta)  cta.childNodes[0].textContent = 'Mă înscriu de data asta ';
-  } else if (isGoogle) {
-    // Searching for scheduling software — more curious, less frustrated
-    if (h1)   h1.innerHTML = 'Cabinetul tău<br><em>fără haos logistic.</em>';
-    if (sub)  sub.textContent  = 'Programări, confirmări, notificări automate, notițe de sesiune. Totul într-un sistem construit pentru terapeuți, nu pentru corporații.';
-    if (prf)  prf.textContent  = 'Setup în 15 minute. Primul pacient poate rezerva în aceeași zi.';
-    if (cta)  cta.childNodes[0].textContent = 'Explorez gratuit ';
-  }
-})();
-</script>
 
 <!-- GEO DEFINITION — vizibil pentru motoare AI și Google -->
 <section style="background:var(--cream2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
