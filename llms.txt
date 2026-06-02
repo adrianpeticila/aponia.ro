@@ -47,6 +47,12 @@
 
 ## Pagini
 
+- About: https://aponia.ro/about/
+- Blog: https://aponia.ro/blog/
+- Granița terapeutică și WhatsApp: https://aponia.ro/blog/granita-terapeutica-whatsapp.html
+- Ore pierdute pe administrativ: https://aponia.ro/blog/ore-pierdute-administrativ.html
+- GDPR și datele pacienților: https://aponia.ro/blog/gdpr-terapeut-independent.html
+
 - [Homepage](https://aponia.ro/)
 - [Abonament](https://aponia.ro/abonament.html)
 - [Cabinet psiholog](https://aponia.ro/cabinet-psiholog/)
@@ -63,4 +69,4 @@
 
 ## Actualizat
 
-Mai 2026
+Iunie 2026
