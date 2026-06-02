@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "name": "Aponia",
+  "description": "Scheduling and session management platform for Romanian psychotherapists. Book sessions, manage availability, send automated reminders.",
+  "url": "https://aponia.ro/",
+  "contact": "hello@aponia.ro",
+  "capabilities": [
+    {
+      "name": "product_info",
+      "description": "Platform features, pricing (73 RON/month), and onboarding for therapists",
+      "endpoint": "https://aponia.ro/llms.txt"
+    }
+  ],
+  "content_index": "https://aponia.ro/llms.txt",
+  "sitemap": "https://aponia.ro/sitemap.xml"
+}

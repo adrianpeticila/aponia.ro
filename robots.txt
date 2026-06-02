@@ -2,5 +2,30 @@ User-agent: *
 Allow: /
 Disallow: /book.html
 
+# AI crawlers — welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
 Sitemap: https://aponia.ro/sitemap.xml
 Sitemap: https://aponia.ro/sitemap_blog.xml
