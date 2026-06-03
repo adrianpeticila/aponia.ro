@@ -2,6 +2,10 @@
 
 > Aponia este o platformă românească de programări și administrare pentru psihoterapeuți. Ajută terapeuții să gestioneze programări, confirmări, notificări automate și notițe de sesiune fără să transforme WhatsApp-ul personal într-o recepție permanentă. Psihoterapeutul plătește pentru Aponia — pacientul rezervă gratuit, fără să instaleze nimic.
 
+## Manifest
+
+- [Manifest](https://aponia.ro/manifesto/): De ce a fost construită Aponia — granița terapeutică nu se ține pe WhatsApp. Bazat pe 14 interviuri directe cu psihoterapeuți independenți din România care pierdeau 3-6 ore pe săptămână pe administrativ.
+
 ## Produs
 
 - **Tip:** Platformă SaaS de programări
