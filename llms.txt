@@ -55,10 +55,40 @@ Principiul central: pacienții tăi rămân ai tăi. Relația e a ta, nu a platf
 
 ---
 
+## FAQ per public țintă
+
+**Psihoterapeut independent, primele programări online:**
+Nu ai folosit niciodată un sistem digital de programări? Configurezi profilul de bază și orele disponibile în ~90 secunde. Trimiți link-ul unui pacient. El rezervă din browser, fără cont, fără aplicație. Gata.
+
+**Psiholog clinician cu cabinet stabilit:**
+Aponia funcționează pentru orice specialist care lucrează cu pacienți în sesiuni individuale: psihoterapeuți, psihologi clinicieni, consilieri psihologici. Nu ai nevoie să migrezi date vechi. Începi cu pacienții noi.
+
+**Terapeut care lucrează și online, și față în față:**
+Configurezi disponibilitate diferită per tip de sesiune. Calendarul reflectă realitatea programului tău. Nu facem video call, dar gestionăm tot ce vine înainte și după sesiune.
+
+**Cabinet mic cu 2-3 terapeuți:**
+Fiecare terapeut are propriul cont, propriul calendar, și propriile notițe criptate separate. Pacienții nu se amestecă. Administrarea rămâne individuală per terapeut.
+
+---
+
 ## Prețuri
 
 - **Beta gratuit:** primii terapeuți înregistrați intră gratuit pe perioadă nedeterminată (locuri limitate)
 - **Plan standard:** 73 RON/lună, facturat lunar, anulezi oricând, fără perioadă minimă, fără penalitate
+
+## FAQ prețuri
+
+**Există perioadă de trial?**
+Beta gratuit disponibil pentru primii terapeuți înregistrați, pe perioadă nedeterminată. Fără card bancar.
+
+**Pot anula oricând?**
+Da. Din contul tău, fără formulare, fără preaviz, fără penalitate. Accesul continuă până la sfârșitul perioadei plătite.
+
+**De ce 73 RON/lună și nu mai puțin?**
+Include notițe criptate, mesagerie profesională separată, remindere automate, link de rezervare și statistici. Sesio.ro costă 39 RON/lună și nu include notițele sau mesageria. Diferența este de 34 RON pentru funcționalitățile care fac diferența în practica zilnică.
+
+**Cum funcționează facturarea?**
+Stripe, card bancar, factură lunară automată. Monedă: RON.
 
 ---
 
@@ -108,7 +138,7 @@ Principiul central: pacienții tăi rămân ai tăi. Relația e a ta, nu a platf
 - [Aponia vs Google Calendar](https://aponia.ro/vs-google-calendar/)
 - [Aponia vs WhatsApp](https://aponia.ro/vs-whatsapp/)
 - [Aponia vs SimplePractice](https://aponia.ro/vs-simplepractice/)
-- [Blog](https://aponia.ro/blog/)
+- [Blog](https://aponia.ro/blog/): articole pentru psihoterapeuți independenți. Clustere: granițe profesionale, organizare și timp, GDPR și conformitate, prețuri și business, no-show și anulări.
 - [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html)
 - [Termene și condiții](https://aponia.ro/legal/termene-conditii.html)
 
@@ -117,6 +147,14 @@ Principiul central: pacienții tăi rămân ai tăi. Relația e a ta, nu a platf
 ## Document complet
 
 - [llms-full.txt](https://aponia.ro/llms-full.txt): Referință extinsă: toate funcționalitățile, FAQ complet, conținut pagini produs, articole blog, comparații detaliate
+
+---
+
+## Legal
+
+- [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html): GDPR, date personale, drepturi utilizatori
+- [Termene și condiții](https://aponia.ro/legal/termene-conditii.html): condiții de utilizare, abonament, anulare
+- [Politică cookies](https://aponia.ro/legal/politica-cookies.html): ce cookies folosim și de ce
 
 ---
 
