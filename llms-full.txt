@@ -149,6 +149,31 @@ Da. Atât terapeuții cât și pacienții accesează prin browser pe orice dispo
 **Cum funcționează plata?**
 73 RON/lună prin Stripe. Card bancar. Facturare lunară automată. Anulare în orice moment din cont.
 
+**Există trial gratuit?**
+Beta gratuit disponibil pentru primii terapeuți înregistrați, pe perioadă nedeterminată. Fără card bancar necesar.
+
+**De ce 73 RON/lună și nu mai ieftin?**
+Include notițe criptate, mesagerie profesională separată, remindere automate, link de rezervare și statistici. Alternativele la 39-49 RON/lună nu includ notițele de sesiune și mesageria separată. Diferența este de 24-34 RON pentru funcționalitățile care fac diferența în practica zilnică.
+
+**Se scumpește prețul în viitor?**
+Terapeuții care intră în beta sunt protejați de orice creștere de preț pe durata abonamentului lor activ.
+
+---
+
+## FAQ per public țintă
+
+**Terapeut independent, primele programări online:**
+Nu ai folosit niciodată un sistem digital? Configurezi profilul de bază și orele disponibile în ~90 secunde. Trimiți link-ul unui pacient. El rezervă din browser, fără cont, fără aplicație instalată. Aponia nu cere migrare de date vechi: începi cu pacienții noi.
+
+**Psiholog clinician cu cabinet stabilit:**
+Aponia funcționează pentru psihoterapeuți, psihologi clinicieni, și consilieri psihologici. Nu este un EHR, nu are registre COPSI/CPR, nu face diagnostic clinic. Este exclusiv pentru programări, notițe securizate, și granița profesională față de pacienți.
+
+**Terapeut care lucrează și online, și față în față:**
+Configurezi disponibilitate diferită per tip de sesiune sau per locație. Calendarul reflectă realitatea programului tău. Aponia nu face video call (terapeuții folosesc propriul Zoom sau Meet), dar gestionează tot fluxul înainte și după sesiune.
+
+**Cabinet mic cu 2-3 terapeuți:**
+Fiecare terapeut are cont propriu, calendar propriu, și notițe criptate separate de ale celorlalți. Pacienții nu se amestecă. Nu există o vedere de administrator comună. Administrarea rămâne individuală per terapeut.
+
 ---
 
 ## Blog (aponia.ro/blog/)
@@ -197,6 +222,30 @@ Da. Atât terapeuții cât și pacienții accesează prin browser pe orice dispo
 - [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html)
 - [Termene și condiții](https://aponia.ro/legal/termene-conditii.html)
 - [Politică cookies](https://aponia.ro/legal/politica-cookies.html)
+
+---
+
+## Concepte cheie
+
+**Ce este no-show în terapie?**
+Situația în care pacientul nu se prezintă la sesiunea programată fără preaviz. Principala cauză în România: pacienții uită. Remindere automate cu 24h și 1h înainte reduc no-show-urile fără să necesite o conversație despre limite.
+
+**Ce sunt notițele de sesiune criptate?**
+Note scrise de terapeut după fiecare sesiune cu pacientul, stocate digital în cont, criptate AES-256, inaccesibile platformei. Echivalentul digital al caietului de notițe al terapeutului, cu protecție completă. Nicio altă persoană, inclusiv echipa Aponia, nu poate accesa aceste note.
+
+**De ce GDPR contează specific în psihoterapie?**
+Datele de sănătate mintală sunt categoria "specială" conform GDPR, cu cerințe de protecție mai stricte decât datele personale obișnuite. Stocarea pe servere EU, criptarea la stocare, și accesul exclusiv al terapeutului sunt cerințele minimale pentru conformitate.
+
+**Ce înseamnă "pacienții tăi rămân ai tăi"?**
+Spre deosebire de marketplace-urile de terapie, Aponia nu intermediază relația terapeut-pacient, nu vede cine sunt pacienții tăi, nu îi poate contacta, și nu ia comision per sesiune. Platforma este un tool pentru terapeut, nu un intermediar față de pacient.
+
+---
+
+## Legal
+
+- [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html): GDPR, date personale, drepturi utilizatori
+- [Termene și condiții](https://aponia.ro/legal/termene-conditii.html): condiții de utilizare, abonament, anulare
+- [Politică cookies](https://aponia.ro/legal/politica-cookies.html): ce cookies folosim și de ce
 
 ---
 
