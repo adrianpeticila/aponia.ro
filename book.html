@@ -24,7 +24,7 @@
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-family: 'Inter Tight', sans-serif'Segoe UI', sans-serif;
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
@@ -211,7 +211,10 @@
     }
     .gdpr-note { font-size: 12px; color: var(--text-light); text-align: center; margin-top: 12px; line-height: 1.5; }
   </style>
-</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;700;800;900&display=swap">
+  </head>
 <body>
 
 <div class="header">
@@ -384,7 +387,7 @@ function renderWeek() {
   const today = new Date(); today.setHours(0,0,0,0);
   const dates = getWeekDates();
   const wl = document.getElementById('week-label');
-  txt(wl, `${dates[0].getDate()} ${MONTH_NAMES[dates[0].getMonth()]} – ${dates[6].getDate()} ${MONTH_NAMES[dates[6].getMonth()]}`);
+  txt(wl, `${dates[0].getDate()} ${MONTH_NAMES[dates[0].getMonth()]}, ${dates[6].getDate()} ${MONTH_NAMES[dates[6].getMonth()]}`);
 
   document.getElementById('prev-week').disabled = weekOffset <= 0;
   document.getElementById('next-week').disabled = weekOffset >= 3;
@@ -443,10 +446,10 @@ function updateSummary() {
   if (!selectedDate || !selectedSlot) { el.classList.remove('visible'); return; }
   el.classList.add('visible');
   const [y,m,d] = selectedDate.split('-');
-  txt(document.getElementById('sum-therapist'), therapist.displayName||'—');
+  txt(document.getElementById('sum-therapist'), therapist.displayName||', ');
   txt(document.getElementById('sum-date'), `${d}.${m}.${y}`);
-  txt(document.getElementById('sum-time'), `${selectedSlot.startTime} – ${selectedSlot.endTime}`);
-  txt(document.getElementById('sum-price'), therapist.sessionPrice ? `${therapist.sessionPrice} RON` : '—');
+  txt(document.getElementById('sum-time'), `${selectedSlot.startTime}, ${selectedSlot.endTime}`);
+  txt(document.getElementById('sum-price'), therapist.sessionPrice ? `${therapist.sessionPrice} RON` : ', ');
 }
 
 function updateSubmitBtn() {
