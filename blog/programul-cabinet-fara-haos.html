@@ -78,6 +78,8 @@
     .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
     .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.35rem; font-weight: 600; text-decoration: none; }
     .nav-logo .gk { color: var(--green); }
+    .nav-actions { display: flex; align-items: center; gap: 1.1rem; }
+    .nav-back { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; color: var(--green); text-decoration: none; white-space: nowrap; }
     .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; border-radius: 3px; min-height: 44px; display: inline-flex; align-items: center; text-decoration: none; }
   </style>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -93,7 +95,10 @@
         <svg width="26" height="26" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="9" fill="#5b8c6a"/><path fill="white" d="M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z"/></svg>
         <span class="gk">APONIA.ro</span>
       </a>
-      <a href="/#early-access" class="btn-nav">Acces anticipat</a>
+      <div class="nav-actions">
+        <a href="/blog/" class="nav-back">← Blog</a>
+        <a href="/#early-access" class="btn-nav">Acces anticipat</a>
+      </div>
     </div>
   </nav>
 
