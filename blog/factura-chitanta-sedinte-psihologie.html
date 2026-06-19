@@ -81,6 +81,13 @@
     .btn { display: inline-flex; align-items: center; gap: 0.4rem; background: var(--green); color: white; padding: 0.9rem 2rem; font-weight: 700; font-family: 'Inter Tight', sans-serif; font-size: 1rem; border-radius: 3px; text-decoration: none; }
 
     footer { border-top: 1px solid #e8e4dc; padding: 2rem 1.5rem; text-align: center; font-size: 0.85rem; color: #bbb; }
+  
+    /* brand nav (unified S115) */
+    .nav { position: sticky; top: 0; z-index: 100; background: rgba(247,245,240,0.95); border-bottom: 1px solid #e0dbd2; backdrop-filter: blur(8px); }
+    .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.35rem; font-weight: 600; text-decoration: none; }
+    .nav-logo .gk { color: var(--green); }
+    .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; border-radius: 3px; min-height: 44px; display: inline-flex; align-items: center; text-decoration: none; }
   </style>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -89,12 +96,15 @@
 </head>
 <body>
 
-<div style="max-width:720px;margin:0 auto;">
-  <nav class="sitenav">
-    <a href="/" class="logo"><svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#5b8c6a"/><path fill="white" transform="translate(7,7) scale(1.71)" d="M11.2742697,4.64414711 C9.75026973,6.47014711 8.31826973,7.87314711 6.03026973,8.49314711 L5.30126973,6.41314711 C4.87126973,5.17714711 -0.344730272,6.99814711 0.0882697282,8.23514711 L1.22126973,11.4771471 C1.65326973,12.7131471 3.27960785,13.2907915 4.76354965,12.853149 C5.9393281,12.5063897 8.85126973,11.5001471 12.2922697,6.50414711 C13.4172697,4.86914711 14.8580511,3.84423001 15.9900511,3.49823001 L15.4750511,2.02523001 C15.4750511,2.02523001 13.1972697,2.34114711 11.2742697,4.64414711 Z"/></svg>aponia<span>.ro</span></a>
-    <a href="/blog/" class="back">← Blog</a>
+<nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <svg width="26" height="26" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="9" fill="#5b8c6a"/><path fill="white" d="M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z"/></svg>
+        <span class="gk">APONIA.ro</span>
+      </a>
+      <a href="/#early-access" class="btn-nav">Acces anticipat</a>
+    </div>
   </nav>
-</div>
 
 <article class="article-wrap">
   <span class="article-cat">Documente</span>
