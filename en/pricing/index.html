@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Pricing, APONIA.ro — scheduling for therapists</title>
+  <meta name="description" content="APONIA.ro Pro: 73 RON/month. Unlimited appointments, automatic reminders, encrypted session notes. Free beta, no card required.">
+  <link rel="canonical" href="https://aponia.ro/en/pricing/">
+  <link rel="alternate" hreflang="ro" href="https://aponia.ro/abonament.html">
+  <link rel="alternate" hreflang="en" href="https://aponia.ro/en/pricing/">
+  <link rel="alternate" hreflang="x-default" href="https://aponia.ro/abonament.html">
+  <meta name="theme-color" content="#5b8c6a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%235b8c6a'/><path fill='white' d='M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z'/></svg>">
+  <style>
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/InterTight-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/InterTight-700-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:800;font-display:swap;src:url('/fonts/InterTight-800-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:900;font-display:swap;src:url('/fonts/InterTight-900-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-italic.woff2?v=2') format('woff2');}
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --cream: #f7f5f0; --cream2: #f0ede6; --green: #5b8c6a;
+      --amber: #e8b86d; --dark: #3a4258; --ink: #1a1a1a;
+      --muted: #666; --border: #e0dbd2; --red: #c0392b;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+    a { color: inherit; text-decoration: none; }
+    strong, b { font-weight: 600; }
+
+    .nav { position: sticky; top: 0; z-index: 100; background: rgba(247,245,240,0.95); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
+    .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.35rem; font-weight: 600; }
+    .nav-logo .gk { color: var(--green); letter-spacing: 0.05em; }
+    .nav-logo svg { flex-shrink: 0; }
+    .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; border-radius: 3px; white-space: nowrap; }
+    .lang-sw { font-family: 'Inter Tight', monospace; font-size: 0.72rem; letter-spacing: 0.12em; color: var(--muted); margin-right: 1rem; }
+    .lang-sw a { color: var(--green); font-weight: 700; }
+    .lang-sw span { color: var(--ink); font-weight: 700; }
+
+    .main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 3rem 1.5rem; }
+    .card { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 3rem 2.5rem; max-width: 480px; width: 100%; text-align: center; box-shadow: 0 2px 16px rgba(0,0,0,0.06); }
+
+    .icon { width: 64px; height: 64px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem; }
+    .icon-success { background: #e8f5e9; }
+    .icon-cancel { background: #fff3e0; }
+    .icon-default { background: rgba(91,140,106,0.1); }
+
+    .card-title { font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.65rem; letter-spacing: -0.02em; margin-bottom: 0.75rem; color: var(--ink); }
+    .card-body { font-size: 1rem; color: var(--muted); line-height: 1.75; margin-bottom: 2rem; }
+    .card-body strong { color: var(--ink); font-style: normal; }
+
+    .btn { display: inline-block; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 1rem; border-radius: 3px; padding: 0.85rem 2rem; cursor: pointer; border: none; text-decoration: none; }
+    .btn-g { background: var(--green); color: white; }
+    .btn-gh { border: 1.5px solid #ccc; color: #444; background: transparent; margin-top: 0.75rem; display: block; }
+
+    .divider { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+
+    .detail-row { display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 0; border-bottom: 1px solid var(--border); font-size: 1rem; }
+    .detail-row:last-child { border-bottom: none; }
+    .detail-label { color: var(--muted); font-family: 'Inter Tight', sans-serif; }
+    .detail-value { font-family: 'Inter Tight', sans-serif; font-weight: 700; color: var(--ink); }
+    .badge-active { background: #e8f5e9; color: var(--green); padding: 2px 10px; border-radius: 20px; font-size: 0.85rem; font-weight: 700; font-family: 'Inter Tight', sans-serif; }
+
+    .footer { padding: 2.5rem 1.5rem; border-top: 1px solid var(--border); text-align: center; }
+    .flinks { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1rem; }
+    .flinks a { font-family: 'Inter Tight', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--green); border-bottom: 1px solid rgba(91,140,106,0.3); padding-bottom: 2px; }
+    .fcopy { font-family: 'Inter Tight', monospace; font-size: 0.72rem; color: #bbb; letter-spacing: 0.08em; text-transform: uppercase; }
+    .fsocial { display: flex; gap: 1rem; justify-content: center; margin-bottom: 1rem; }
+    .fsocial a { color: var(--green); opacity: 0.7; transition: opacity 0.2s; }
+    .fsocial a:hover { opacity: 1; }
+
+    .state { display: none; }
+    .state.active { display: block; }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/en/" class="nav-logo">
+        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="40" height="40" rx="9" fill="#5b8c6a"/>
+          <path fill="white" transform="translate(7,7) scale(1.71)" d="M11.2742697,4.64414711 C9.75026973,6.47014711 8.31826973,7.87314711 6.03026973,8.49314711 L5.30126973,6.41314711 C4.87126973,5.17714711 -0.344730272,6.99814711 0.0882697282,8.23514711 L1.22126973,11.4771471 C1.65326973,12.7131471 3.27960785,13.2907915 4.76354965,12.853149 C5.9393281,12.5063897 8.85126973,11.5001471 12.2922697,6.50414711 C13.4172697,4.86914711 14.8580511,3.84423001 15.9900511,3.49823001 L15.4750511,2.02523001 C15.4750511,2.02523001 13.1972697,2.34114711 11.2742697,4.64414711 Z"/>
+        </svg>
+        <span class="gk">APONIA.ro</span>
+      </a>
+      <div style="display:flex;align-items:center;">
+        <span class="lang-sw"><a href="/abonament.html" lang="ro">RO</a> | <span lang="en" aria-current="page">EN</span></span>
+        <a href="https://tally.so/r/aQEp0v" class="btn-nav">Get my evenings back →</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main">
+
+    <!-- SUCCESS STATE -->
+    <div class="card state" id="state-success">
+      <div class="icon icon-success">✓</div>
+      <div class="card-title">Subscription activated</div>
+      <p class="card-body">
+        Payment processed successfully. <strong>APONIA.ro Pro</strong> is now active on your account.
+        Open the app and you will see the green badge in the Payments section.
+      </p>
+      <hr class="divider">
+      <div class="detail-row">
+        <span class="detail-label">Plan</span>
+        <span class="detail-value">APONIA.ro Pro</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Price</span>
+        <span class="detail-value">73 RON / month</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Status</span>
+        <span class="badge-active">Active</span>
+      </div>
+      <hr class="divider">
+      <a href="/en/" class="btn btn-g">Back to APONIA.ro</a>
+    </div>
+
+    <!-- CANCELED STATE -->
+    <div class="card state" id="state-canceled">
+      <div class="icon icon-cancel">✕</div>
+      <div class="card-title">Payment canceled</div>
+      <p class="card-body">
+        No payment was made. You can return at any time to activate your subscription. <strong>The first 30 days are free</strong>, no card required.
+      </p>
+      <a href="/en/" class="btn btn-g">Back to homepage</a>
+      <a href="javascript:history.back()" class="btn btn-gh">Try again</a>
+    </div>
+
+    <!-- DEFAULT STATE -->
+    <div class="card state" id="state-default">
+      <div class="icon icon-default">
+        <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+          <path fill="#5b8c6a" transform="translate(4,4) scale(1.6)" d="M11.2742697,4.64414711 C9.75026973,6.47014711 8.31826973,7.87314711 6.03026973,8.49314711 L5.30126973,6.41314711 C4.87126973,5.17714711 -0.344730272,6.99814711 0.0882697282,8.23514711 L1.22126973,11.4771471 C1.65326973,12.7131471 3.27960785,13.2907915 4.76354965,12.853149 C5.9393281,12.5063897 8.85126973,11.5001471 12.2922697,6.50414711 C13.4172697,4.86914711 14.8580511,3.84423001 15.9900511,3.49823001 L15.4750511,2.02523001 C15.4750511,2.02523001 13.1972697,2.34114711 11.2742697,4.64414711 Z"/>
+        </svg>
+      </div>
+      <div class="card-title">APONIA.ro Pro</div>
+      <p class="card-body">
+        Manage appointments, notifications, and session notes.
+        <strong>73 RON / month</strong> — less than a single missed therapy session.
+      </p>
+      <hr class="divider">
+      <div class="detail-row">
+        <span class="detail-label">Plan</span>
+        <span class="detail-value">APONIA.ro Pro</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Price</span>
+        <span class="detail-value">73 RON / month</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Cancellation</span>
+        <span class="detail-value">Anytime, no penalties</span>
+      </div>
+      <hr class="divider">
+      <a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back →</a>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="fsocial">
+      <a href="https://www.facebook.com/people/APONIAro/61590170232523/" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/company/aponia-ro/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+    </div>
+    <div class="flinks">
+      <a href="/legal/politica-confidentialitate.html">Privacy Policy</a>
+      <a href="/legal/termene-conditii.html">Terms &amp; Conditions</a>
+      <a href="/legal/politica-cookies.html">Cookie Policy</a>
+      <a href="mailto:hello@aponia.ro">hello@aponia.ro</a>
+    </div>
+    <p class="fcopy">© 2026 APONIA.ro · all rights reserved</p>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('success') === 'true') {
+      document.getElementById('state-success').classList.add('active');
+    } else if (params.get('canceled') === 'true') {
+      document.getElementById('state-canceled').classList.add('active');
+    } else {
+      document.getElementById('state-default').classList.add('active');
+    }
+  </script>
+
+</body>
+</html>

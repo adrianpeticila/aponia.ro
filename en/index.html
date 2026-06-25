@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Online scheduling for psychotherapists | APONIA.ro</title>
+  <meta name="description" content="APONIA.ro handles scheduling, confirmations and session notes for psychotherapists. You focus on therapy. Free beta, no card required.">
+  <link rel="canonical" href="https://aponia.ro/en/">
+  <link rel="alternate" hreflang="ro" href="https://aponia.ro/">
+  <link rel="alternate" hreflang="en" href="https://aponia.ro/en/">
+  <link rel="alternate" hreflang="x-default" href="https://aponia.ro/">
+  <meta property="og:title" content="APONIA.ro — Scheduling and practice management for psychotherapists">
+  <meta property="og:description" content="Confused patients, lost evenings, weekends buried in admin. APONIA.ro takes everything that is not therapy.">
+  <meta property="og:url" content="https://aponia.ro/en/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://aponia.ro/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="APONIA.ro — scheduling and practice management for psychotherapists">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="APONIA.ro">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="APONIA.ro — Scheduling and practice management for psychotherapists">
+  <meta name="twitter:description" content="APONIA.ro helps psychotherapists manage appointments, confirmations, notifications and session notes without chaos in WhatsApp or a paper diary.">
+  <meta name="twitter:image" content="https://aponia.ro/og-image.png">
+  <meta name="theme-color" content="#5b8c6a">
+  <meta name="color-scheme" content="light">
+  <meta name="author" content="APONIA.ro">
+  <meta name="date" content="2026-06-25">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%235b8c6a'/><path fill='white' d='M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z'/></svg>">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://aponia.ro/#website",
+        "url": "https://aponia.ro/",
+        "name": "APONIA.ro",
+        "description": "Scheduling and practice management platform for psychotherapists",
+        "inLanguage": ["ro", "en"],
+        "publisher": { "@id": "https://aponia.ro/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://aponia.ro/#organization",
+        "name": "APONIA.ro",
+        "url": "https://aponia.ro/",
+        "about": "https://aponia.ro/en/about/",
+        "logo": { "@type": "ImageObject", "url": "https://aponia.ro/favicon.svg" },
+        "knowsAbout": ["psychotherapy", "online scheduling", "therapy practice management", "mental health", "GDPR compliance"],
+        "email": "hello@aponia.ro",
+        "address": { "@type": "PostalAddress", "addressLocality": "Bucharest", "addressCountry": "RO" },
+        "contactPoint": { "@type": "ContactPoint", "email": "hello@aponia.ro", "contactType": "customer support", "availableLanguage": ["Romanian", "English"] }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://aponia.ro/#software",
+        "name": "APONIA.ro",
+        "url": "https://aponia.ro/",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web, iOS, Android",
+        "description": "APONIA.ro is a scheduling and practice management platform for independent psychotherapists. It helps therapists manage appointments, confirmations, automatic notifications and session notes without turning personal WhatsApp into a permanent reception desk.",
+        "disambiguatingDescription": "APONIA.ro is a commercial SaaS product for psychotherapists — not the Greek philosophical concept aponia (absence of pain, Epicurean concept).",
+        "inLanguage": ["ro", "en"],
+        "offers": { "@type": "Offer", "price": "73", "priceCurrency": "RON", "description": "Monthly therapist plan, cancel anytime" },
+        "provider": { "@id": "https://aponia.ro/#organization" },
+        "audience": { "@type": "Audience", "audienceType": "Psychotherapists, Psychologists", "geographicArea": { "@type": "Place", "name": "Europe" } }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://aponia.ro/en/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is APONIA.ro?", "acceptedAnswer": { "@type": "Answer", "text": "APONIA.ro is a scheduling and practice management platform for independent psychotherapists. It helps therapists manage appointments, confirmations, automatic notifications and session notes in one place, without turning personal WhatsApp into a permanent reception desk." } },
+          { "@type": "Question", "name": "Who is APONIA.ro for?", "acceptedAnswer": { "@type": "Answer", "text": "APONIA.ro is for independent psychotherapists and small practices who want to reduce administrative work and scattered WhatsApp messages. It works best for therapists with 8 or more active patients." } },
+          { "@type": "Question", "name": "Who pays for APONIA.ro?", "acceptedAnswer": { "@type": "Answer", "text": "The psychotherapist pays for APONIA.ro, not the patient. Patients book for free, without installing anything. The rate is 73 RON per month for the therapist." } },
+          { "@type": "Question", "name": "My patients won't use a new app.", "acceptedAnswer": { "@type": "Answer", "text": "Patients install nothing. They receive a link, book in the browser, done. It is simpler than sending a WhatsApp message." } },
+          { "@type": "Question", "name": "My patients' data is extremely sensitive.", "acceptedAnswer": { "@type": "Answer", "text": "Server in Frankfurt, Germany. AES-256 encryption in transit and at rest. Exclusive access to the therapist. Native GDPR compliance. Data is safer in APONIA.ro than in phone Notes or a notebook." } },
+          { "@type": "Question", "name": "How long does setup take?", "acceptedAnswer": { "@type": "Answer", "text": "15 minutes for a complete profile. Your first patient can book on the same day you register." } },
+          { "@type": "Question", "name": "I already use Google Calendar. Why switch?", "acceptedAnswer": { "@type": "Answer", "text": "Google Calendar does not send automatic notifications to patients. It does not block occupied slots for other patients. It does not store session notes securely. It does not separate patient communication from personal WhatsApp. It does one thing: keeps a calendar. APONIA.ro does everything else." } }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://aponia.ro/en/",
+        "url": "https://aponia.ro/en/",
+        "name": "APONIA.ro — Scheduling and practice management for psychotherapists",
+        "description": "Scheduling and practice management platform for psychotherapists. Reduces admin time from 6-8 hours to under 2 hours per week.",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://aponia.ro/#website" },
+        "publisher": { "@id": "https://aponia.ro/#organization" },
+        "dateModified": "2026-06-25"
+      }
+    ]
+  }
+  </script>
+  <style>
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/InterTight-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/InterTight-700-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:800;font-display:swap;src:url('/fonts/InterTight-800-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:900;font-display:swap;src:url('/fonts/InterTight-900-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-italic.woff2?v=2') format('woff2');}
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --cream: #f7f5f0; --cream2: #f0ede6; --green: #5b8c6a; --amber: #e8b86d; --dark: #3a4258; --ink: #1a1a1a; --muted: #666; --border: #e0dbd2; --red: #c0392b; }
+    html { scroll-behavior: smooth; }
+    .skip-link { position: absolute; top: -100%; left: 1rem; background: var(--green); color: #fff; padding: 0.5rem 1rem; font-size: 0.85rem; font-family: 'Inter Tight', sans-serif; border-radius: 0 0 4px 4px; z-index: 9999; text-decoration: none; }
+    .skip-link:focus { top: 0; }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
+    a { color: inherit; text-decoration: none; }
+    strong, b { font-weight: 600; }
+    .nav { position: sticky; top: 0; z-index: 100; background: rgba(247,245,240,0.95); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
+    .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.35rem; font-weight: 600; }
+    .nav-logo .gk { color: var(--green); letter-spacing: 0.05em; }
+    .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; border-radius: 3px; white-space: nowrap; min-height: 44px; display: inline-flex; align-items: center; }
+    .lang-sw { font-family: 'Inter Tight', monospace; font-size: 0.72rem; letter-spacing: 0.12em; color: var(--muted); margin-right: 1rem; }
+    .lang-sw a { color: var(--green); font-weight: 700; }
+    .lang-sw span { color: var(--ink); font-weight: 700; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; display: flex; flex-direction: column; align-items: center; }
+    .wrap > * { width: 100%; }
+    .reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.65s ease, transform 0.65s ease; }
+    .reveal.in-view { opacity: 1; transform: translateY(0); }
+    .eyebrow { font-family: 'Inter Tight', monospace; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase; color: var(--green); display: block; margin-bottom: 0.6rem; }
+    .eyebrow-sub { font-family: 'Inter Tight', sans-serif; font-size: 1.05rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1.3; color: var(--ink); opacity: 0.78; margin-bottom: 1.4rem; }
+    .eyebrow-amber { color: var(--amber); }
+    .stitle { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 2rem; letter-spacing: -0.02em; line-height: 1.05; margin-bottom: 0.8rem; }
+    .ssub { color: var(--muted); font-size: 1rem; line-height: 1.75; max-width: 560px; margin-bottom: 2rem; }
+    .t-intro { font-family: 'Newsreader', serif; font-size: 1.35rem; font-style: italic; color: var(--ink); line-height: 1.72; margin-bottom: 2rem; max-width: 680px; }
+    .t-intro-dk { font-size: 1.35rem; font-style: italic; color: rgba(247,245,240,0.88); line-height: 1.72; margin-bottom: 2rem; max-width: 680px; }
+    .t-pull { font-size: 1rem; font-style: italic; color: var(--ink); line-height: 1.75; max-width: 640px; border-left: 3px solid var(--green); padding-left: 1.3rem; margin-bottom: 1.2rem; }
+    .stitle-dk { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 2rem; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 2rem; color: #f7f5f0; }
+    .dk-note { font-size: 0.85rem; line-height: 1.7; max-width: 660px; color: rgba(247,245,240,0.55); border-top: 1px solid rgba(247,245,240,0.1); padding-top: 1rem; margin-top: 0.5rem; }
+    .icp-h { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--green); }
+    .t-quote { font-family: 'Newsreader', serif; font-style: italic; font-size: 1rem; line-height: 1.72; color: var(--dark); margin: 0 0 1.5rem; }
+    .t-body { font-family: 'Inter Tight', sans-serif; font-size: 1rem; color: var(--muted); line-height: 1.75; }
+    .t-body-sm { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; color: var(--muted); line-height: 1.7; }
+    .t-link { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; color: var(--green); }
+    .stat-num { font-family: 'Inter Tight', monospace; font-size: 1.65rem; font-weight: 900; line-height: 1; margin-bottom: 0.3rem; }
+    .stat-lbl { font-family: 'Inter Tight', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(247,245,240,0.60); line-height: 1.5; }
+    .blog-title { font-family: 'Newsreader', serif; font-size: 1.1rem; font-weight: 400; line-height: 1.5; margin: 0 0 1rem; color: var(--ink); }
+    .btn { display: inline-flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 1rem; border-radius: 3px; padding: 0.9rem 2rem; min-height: 48px; }
+    .btn-g { background: var(--green); color: white; }
+    .btn-gh { border: 1.5px solid #ccc; color: #444; background: transparent; }
+    .btn-row { display: flex; gap: 0.9rem; flex-wrap: wrap; justify-content: center; margin-bottom: 1.2rem; }
+    .strip { background: var(--cream2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 1.2rem 1.5rem; display: flex; align-items: center; justify-content: center; gap: 1.2rem; flex-wrap: wrap; max-width: 900px; margin: 0 auto; }
+    .strip-note { font-family: 'Inter Tight', monospace; font-size: 0.72rem; color: #666; text-transform: uppercase; letter-spacing: 0.1em; }
+    .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); max-width: 900px; margin: 0 auto; }
+    .g3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; background: var(--border); max-width: 900px; margin: 0 auto; }
+    .g2t { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem; }
+    .gc { background: var(--cream); padding: 1.8rem 2.5rem; }
+    .gca { background: var(--cream2); padding: 1.8rem 2.5rem; }
+    .ftag { font-family: 'Inter Tight', monospace; font-size: 0.72rem; letter-spacing: 0.2em; color: var(--green); text-transform: uppercase; margin-bottom: 0.7rem; }
+    .ftit { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 1rem; color: var(--ink); margin-bottom: 0.5rem; line-height: 1.3; }
+    .fbod { font-size: 1rem; color: var(--muted); line-height: 1.72; }
+    .fmic { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; color: var(--green); margin-top: 0.6rem; font-weight: 700; }
+    .dark { background: var(--dark); }
+    .dp { padding: 4.5rem 2.5rem; max-width: 900px; margin: 0 auto; }
+    .dt { color: #f7f5f0; }
+    .dtd { color: rgba(247,245,240,0.80); max-width: 660px; line-height: 1.85; margin-bottom: 1.8rem; }
+    .dtl { color: rgba(247,245,240,0.80); max-width: 660px; line-height: 1.85; }
+    .dk-sub { font-size: 1rem; color: rgba(247,245,240,0.62); display: block; margin-top: 0.5rem; font-style: normal; }
+    .dk-sm { font-size: 0.85rem; line-height: 1.7; color: rgba(247,245,240,0.80); }
+    .icon-md { font-size: 1.5rem; margin-bottom: 0.8rem; display: block; }
+    .step-num { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 3.5rem; color: rgba(91,140,106,0.18); line-height: 1; margin-bottom: 0.6rem; }
+    section { text-align: center; }
+    .gc, .gca, .faqitem, .pcard, .plist li { text-align: left; }
+    .lp { padding: 4rem 2.5rem; }
+    .lps { padding: 2.5rem 2.5rem 1.5rem; }
+    #hero { padding: 5rem 1.5rem 4rem; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 90vh; }
+    #hero h1 { all: unset; display: block; font-family: 'Inter Tight', monospace; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase; color: var(--green); margin-bottom: 1.4rem; }
+    .hero-headline { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 3.5rem; line-height: 0.97; letter-spacing: -0.05em; color: var(--ink); margin-bottom: 1.8rem; max-width: 820px; }
+    .hero-headline em { font-family: 'Newsreader', serif; font-weight: 400; font-style: italic; color: var(--green); font-size: 3.5rem; }
+    .hero-sub { font-style: italic; font-size: 1.1rem; color: #555; max-width: 560px; margin: 0 auto 2.5rem; line-height: 1.78; }
+    .hero-badge { font-family: 'Inter Tight', monospace; font-size: 0.72rem; color: #767676; text-transform: uppercase; letter-spacing: 0.12em; }
+    .hero-proof { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; color: var(--green); margin: -0.8rem auto 2.2rem; max-width: 480px; letter-spacing: 0.01em; }
+    .ag { font-size: 3.5rem; color: var(--green); font-weight: 400; letter-spacing: 0.05em; line-height: 1; margin-bottom: 0.3rem; }
+    .al { font-family: 'Inter Tight', sans-serif; font-size: 1.35rem; color: var(--green); letter-spacing: 0.3em; font-weight: 700; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .as { font-family: 'Newsreader', serif; font-size: 1.1rem; color: rgba(247,245,240,0.65); margin-bottom: 3rem; line-height: 1.8; }
+    .ab { font-size: 1.1rem; font-style: italic; color: rgba(247,245,240,0.82); max-width: 600px; margin: 0 auto; line-height: 1.8; }
+    .pcard { border: 1.5px solid var(--border); padding: 2.5rem; max-width: 420px; background: white; border-radius: 4px; }
+    .ptag { font-family: 'Inter Tight', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--green); background: rgba(91,140,106,0.1); padding: 0.25rem 0.7rem; border-radius: 2px; display: inline-block; margin-bottom: 1.2rem; }
+    .pnum { font-family: 'Inter Tight', sans-serif; font-size: 3.5rem; font-weight: 900; color: var(--ink); letter-spacing: -0.04em; }
+    .pold { text-decoration: line-through; color: #595959; font-size: 1.1rem; font-family: 'Inter Tight', sans-serif; }
+    .pper { font-family: 'Inter Tight', monospace; font-size: 0.72rem; color: #666; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 1.8rem; }
+    .plist { list-style: none; margin-bottom: 2rem; }
+    .plist li { font-family: 'Inter Tight', sans-serif; font-size: 1rem; color: #555; padding: 0.55rem 0; border-bottom: 1px solid var(--cream2); display: flex; align-items: flex-start; gap: 0.7rem; line-height: 1.5; }
+    .plist li:last-child { border-bottom: none; }
+    .chk { color: var(--green); font-weight: 700; flex-shrink: 0; }
+    .pnote { font-family: 'Inter Tight', monospace; font-size: 0.72rem; color: #666; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 1.2rem; line-height: 1.7; }
+    .faqlist { border: 1px solid #ddd8ce; border-radius: 4px; overflow: hidden; margin-top: 2rem; }
+    .faqitem { padding: 2rem; border-bottom: 1px solid #ddd8ce; background: white; }
+    .faqitem:last-child { border-bottom: none; }
+    .faqq { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 1rem; color: var(--ink); margin-bottom: 0.6rem; }
+    .faqa { font-family: 'Inter Tight', sans-serif; font-size: 1rem; color: #555; line-height: 1.72; }
+    .footer { padding: 2.5rem 1.5rem; border-top: 1px solid var(--border); text-align: center; }
+    .flinks { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1rem; }
+    .flinks a { font-family: 'Inter Tight', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--green); border-bottom: 1px solid rgba(91,140,106,0.3); padding-bottom: 2px; }
+    .fcopy { font-family: 'Inter Tight', monospace; font-size: 0.72rem; color: #666; letter-spacing: 0.08em; text-transform: uppercase; }
+    .fsocial { display: flex; gap: 1rem; justify-content: center; margin-bottom: 1rem; }
+    .fsocial a { color: var(--green); opacity: 0.7; transition: opacity 0.2s; }
+    .fsocial a:hover { opacity: 1; }
+    #demo { padding: 4rem 1.5rem 3rem; text-align: center; }
+    .video-container { max-width: 780px; margin: 0 auto; }
+    .video-wrap { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; background: var(--dark); border: 1px solid var(--border); box-shadow: 0 12px 48px rgba(0,0,0,0.13); }
+    .video-wrap video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px; object-fit: cover; }
+    @media (max-width: 640px) {
+      #hero { padding: 3.5rem 1.2rem 3rem; min-height: 85vh; }
+      .hero-headline { font-size: 2.8rem; }
+      .hero-headline em { font-size: 2rem; }
+      .hero-sub { font-size: 1rem; }
+      .hero-badge { display: none; }
+      .g2, .g3 { grid-template-columns: 1fr; }
+      .g2t { grid-template-columns: 1fr; gap: 2rem; }
+      .fwg { grid-template-columns: 1fr !important; }
+      .stitle { font-size: 1.65rem; }
+      .lp { padding: 3rem 1.2rem; }
+      .lps { padding: 2rem 1.2rem 1rem; }
+      .dp { padding: 3rem 1.2rem; }
+      .ag { font-size: 2.8rem; }
+      .al { font-size: 1rem; }
+      .as { font-size: 1rem; }
+      .ab { font-size: 1rem; }
+      .pcard { max-width: 100%; }
+      .strip { flex-direction: column; align-items: flex-start; }
+      .btn-row .btn { flex: 1; min-width: 0; text-align: center; }
+      .faqitem { padding: 1.5rem 1rem; }
+      #cta-final { padding: 4rem 1.2rem !important; }
+      #cta-final h2 { font-size: 2rem !important; }
+      .nav-inner { padding: 0 1rem; }
+      .btn-nav { font-size: 0.85rem; padding: 0.5rem 0.9rem; }
+      .gc, .gca { padding: 1.5rem 1.2rem; }
+    }
+    @media (max-width: 400px) {
+      .hero-headline { font-size: 2rem; }
+      .hero-headline em { font-size: 2rem; }
+      .stitle { font-size: 1.65rem; }
+    }
+  </style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/en/" class="nav-logo">
+      <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="40" height="40" rx="9" fill="#5b8c6a"/>
+        <path fill="white" transform="translate(7,7) scale(1.71)" d="M11.2742697,4.64414711 C9.75026973,6.47014711 8.31826973,7.87314711 6.03026973,8.49314711 L5.30126973,6.41314711 C4.87126973,5.17714711 -0.344730272,6.99814711 0.0882697282,8.23514711 L1.22126973,11.4771471 C1.65326973,12.7131471 3.27960785,13.2907915 4.76354965,12.853149 C5.9393281,12.5063897 8.85126973,11.5001471 12.2922697,6.50414711 C13.4172697,4.86914711 14.8580511,3.84423001 15.9900511,3.49823001 L15.4750511,2.02523001 C15.4750511,2.02523001 13.1972697,2.34114711 11.2742697,4.64414711 Z"/>
+      </svg>
+      <span class="gk">APONIA.ro</span>
+    </a>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <a href="/en/about/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;">About</a>
+      <a href="/en/manifesto/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">Manifesto</a>
+      <span class="lang-sw"><a href="/" lang="ro">RO</a> | <span lang="en" aria-current="page">EN</span></span>
+      <a href="https://tally.so/r/aQEp0v" class="btn-nav">Get my evenings back <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- HERO -->
+<section id="hero">
+  <h1 class="eyebrow reveal">APONIA.ro · scheduling and practice management for psychotherapists</h1>
+  <p class="eyebrow-sub reveal">So you can be a therapist, not an office administrator.</p>
+  <p class="hero-headline reveal">21:14. Your last session ends.<br><em>Your evening is no longer yours.</em></p>
+  <p class="hero-sub reveal">WhatsApp messages. Manually confirmed appointments. Midnight notifications. APONIA.ro takes everything that is not therapy. You stay with your patient.</p>
+  <p class="hero-proof reveal">No manual confirmations. No WhatsApp. No missed sessions. Your patient installs nothing. You send a link. They book.</p>
+  <div class="btn-row reveal">
+    <a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a>
+    <a href="#demo" class="btn btn-gh" aria-label="Watch the 90-second demo"><span aria-hidden="true">▶</span> Demo 90s</a>
+  </div>
+  <span class="hero-badge reveal">Free beta · no card · no commitment · limited spots · manually selected</span>
+</section>
+
+<!-- REFRAMING -->
+<section style="padding:3.5rem 1.5rem;text-align:center;background:var(--cream);">
+  <div style="max-width:680px;margin:0 auto;">
+    <p class="reveal" style="font-family:'Inter Tight',sans-serif;font-weight:900;font-size:1.65rem;line-height:1.15;letter-spacing:-0.025em;color:var(--ink);margin-bottom:1.4rem;">Your practice starts with the booking link.</p>
+    <p class="reveal t-body" style="line-height:1.78; margin-bottom:0.6rem">The first impression is not in the room. It is in how easily the patient booked their first session.</p>
+    <p class="reveal t-body" style="line-height:1.78">Patients cannot evaluate therapy. They know how to evaluate how easy it was to book.</p>
+  </div>
+</section>
+
+<!-- GEO DEFINITION -->
+<section style="background:var(--cream2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div style="max-width:760px;margin:0 auto;padding:2rem 2.5rem;">
+    <p class="eyebrow" style="margin-bottom:0.7rem;">What is APONIA.ro?</p>
+    <p style="font-family:'Inter Tight',sans-serif;line-height:1.78;color:var(--ink);">APONIA.ro is a scheduling and practice management platform for independent psychotherapists. It replaces manual diary management and scattered WhatsApp messages with a clear system for appointments, confirmations, automatic notifications and session notes. The therapist pays for APONIA.ro; patients book for free without installing anything.</p>
+    <p style="font-family:'Inter Tight',sans-serif;line-height:1.78;color:var(--ink);margin-top:1.75rem;">Based on direct conversations with 14 independent psychotherapists, the main problem is not a lack of patients — it is time wasted on logistics. According to the European Federation of Psychologists' Associations (2023), psychologists in private practice spend an average of 6-8 hours per week on administrative tasks. APONIA.ro reduces this to under 2 hours. Contact: hello@aponia.ro · <time datetime="2026-06-25">Updated June 2026.</time></p>
+  </div>
+</section>
+
+<!-- SCENE -->
+<section class="dark">
+  <div class="dp">
+    <div class="wrap">
+      <span class="eyebrow eyebrow-amber reveal">Thursday, 23:12</span>
+      <blockquote class="t-intro-dk reveal" style="border-left:3px solid var(--green);padding-left:1.3rem;">"Hello, do you have any free slots this week? Or maybe Friday after 6pm?"</blockquote>
+      <p class="reveal dtd">The fourth message tonight. You open your diary and count the free hours. You reply. You confirm. You add to the calendar. You send a manual notification.<br><br><strong class="dt">It is 23:31 when you finish. Tomorrow your first session is at 8:30.</strong></p>
+      <p class="reveal dtd">Between the confirmation message and tomorrow morning, there is another one: a patient who ran over his slot and cut into the next person's time. Whom you rescheduled. Again. Whom you called. Again. Who left unhappy. Again.</p>
+      <p class="reveal dtd">Not the first time. Not the last. And somewhere behind the exhaustion is a question you do not say out loud:</p>
+      <div class="reveal" style="border-left:3px solid var(--amber);padding:1.5rem;background:rgba(232,184,109,0.07);margin-bottom:2rem;border-radius:0 4px 4px 0;max-width:660px;">
+        <p class="t-intro-dk" style="margin-bottom:0;">Why am I doing this at my own expense?<span class="dk-sub">Not the practice's expense. Mine. My time. My rest. My family's.</span></p>
+      </div>
+      <div class="reveal" style="padding:1.5rem;border:1px solid rgba(255,255,255,0.1);border-radius:4px;background:rgba(255,255,255,0.03);max-width:660px;">
+        <p class="dtl" style="font-style:italic;">The worst was Wednesday, when you called a patient into your room and realized in the first 30 seconds that <strong class="dt">it was not the one you were expecting.</strong> The other one was in the waiting room. Both were looking at you.<br><br><strong class="dt">You spent years building trust with your patients. A broken system can undermine it in a second.</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE TRUTH -->
+<section>
+  <div class="lp wrap reveal">
+    <span class="eyebrow">What nobody tells you</span>
+    <p class="t-intro reveal">You have studied therapeutic boundaries for years. You know the theory by heart. And yet in your own practice, the boundary between work and personal life <strong style="font-style:normal;">has dissolved completely.</strong></p>
+    <p class="t-intro reveal">You are not disorganized. You are not negligent. <strong style="font-style:normal;">You simply do not have a system to hold that boundary in place.</strong> Without a system, everything reaches you directly, at any hour, through any channel, with any perceived urgency.</p>
+    <p class="t-intro reveal" style="margin-bottom:2.5rem;">And you carry on. Because you are dedicated. Because you care. Because this is what you do. <strong style="font-style:normal;">You eat into your own time to serve your patients, against your own interest.</strong> And you have normalized this as part of the job.</p>
+    <p class="t-pull reveal">It does not have to be this way. APONIA.ro does not fix your difficult patients. But it gives you back something fundamental: <strong style="font-style:normal;">control over your time.</strong></p>
+    <p class="reveal" style="font-style:italic;color:var(--muted);margin-top:1.2rem;max-width:640px;">Control over your time means, in practice, one simple thing: <strong style="font-style:normal;">your evening back.</strong></p>
+  </div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Free beta · no card · we reply in 24h</span></div>
+</section>
+
+<!-- RECOGNITION -->
+<section>
+  <div class="lps wrap reveal">
+    <span class="eyebrow">Familiar situations</span>
+    <h2 class="stitle">Do any of<br>these sound familiar?</h2>
+    <p class="reveal ssub" style="margin-bottom:0.9rem;">Nobody taught you how to run a practice. You learned how to be a therapist.</p>
+    <p class="ssub">These are not character flaws. They are the natural consequences of a practice without a system. It happens to everyone. It does not have to keep happening.</p>
+  </div>
+  <div class="g2">
+    <div class="gc reveal"><div class="ftag">Situation 01</div><div class="ftit">You check your diary twice before every session.</div><p class="fbod">Not because you are distracted. Because you added the appointment manually and cannot be completely sure. <strong style="color:var(--ink);">That uncertainty costs energy before the patient has even walked through the door.</strong></p></div>
+    <div class="gc reveal"><div class="ftag">Situation 02</div><div class="ftit">You ran over with one patient and cut into the next one's time.</div><p class="fbod">No one to knock on the door. No visible clock. <strong style="color:var(--ink);">Your second patient waited in the hallway</strong> while you were in the middle of something important with the first.</p></div>
+    <div class="gc reveal"><div class="ftag">Situation 03</div><div class="ftit">The patient does not show. No call. No message.</div><p class="fbod">The 5pm slot is gone. <strong style="color:var(--ink);">Money evaporated</strong> plus the worry that something might be wrong. Without automatic confirmation, it will happen again.</p></div>
+    <div class="gc reveal"><div class="ftag">Situation 04</div><div class="ftit">Personal WhatsApp has become a direct practice line.</div><p class="fbod">Messages Saturday morning, Sunday evening, during holidays. <strong style="color:var(--ink);">The boundary between your life and your practice</strong> no longer exists in reality, even if it does in theory.</p></div>
+    <div class="gc reveal"><div class="ftag">Situation 05</div><div class="ftit">You send reminders manually. Or you forget. Both are bad.</div><p class="fbod">If you send them, that is time taken from your evening. If you forget, the patient does not show. <strong style="color:var(--ink);">You have become the secretary of your own practice.</strong> That was not in any career plan.</p></div>
+    <div class="gc reveal"><div class="ftag">Situation 06</div><div class="ftit">You have not had a free weekend in the last two months.</div><p class="fbod">Not because you have too many patients. <strong style="color:var(--ink);">But because admin has taken up all the space</strong> that was supposed to be yours.</p></div>
+  </div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Limited spots · free for an indefinite period</span></div>
+</section>
+
+<!-- APONIA ETYMOLOGY -->
+<section class="dark">
+  <div class="dp" style="text-align:center;">
+    <div class="wrap">
+      <div class="ag reveal">Ἀπονία</div>
+      <div class="al reveal">APONIA.ro</div>
+      <div class="as reveal">Ancient Greek &nbsp;·&nbsp; absence of suffering<br><strong style="font-weight:400;opacity:0.85;">the declared goal of psychotherapy</strong></div>
+      <p class="ab reveal">You already know what it means. It is what you seek for your patients in every session.<br><br>We chose this name because <strong class="dt">you deserve what you give them.</strong><br><br>An organized practice is not a competitive advantage. It is the minimum condition in which you can do good therapy without consuming yourself in the process.</p>
+      <div style="width:40px;height:2px;background:var(--green);margin:2.5rem auto;" class="reveal"></div>
+      <p class="eyebrow eyebrow-amber reveal">APONIA.ro is not just a scheduling tool. It is the mental space in which you can actually be present.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REAL COST -->
+<section>
+  <div class="lp wrap reveal">
+    <span class="eyebrow">Let's do the math</span>
+    <h2 class="stitle">How much time are you<br>actually losing without a system?</h2>
+    <div class="t-body-sm" style="background:white; border:1px solid var(--border); border-radius:4px; padding:1.5rem; margin-bottom:2rem; line-height:2.4">
+      <div>2 no-shows per month (without automatic notifications) &nbsp;=&nbsp; <strong style="color:var(--red);">2 unannounced lost therapy hours</strong></div>
+      <div>~1h / week on admin (confirming, scheduling, sending reminders) &nbsp;=&nbsp; <strong style="color:var(--red);">4 hours / month being a secretary, not a therapist</strong></div>
+      <div>4 hours / month &nbsp;=&nbsp; <strong style="color:var(--red);">a full afternoon, every month, every year</strong></div>
+      <div>Weekends and evenings occupied by things that are not therapy &nbsp;=&nbsp; <strong style="color:var(--red);">time that cannot be recovered</strong></div>
+      <div style="border-top:2px solid var(--red);margin-top:0.8rem;padding-top:0.8rem;color:var(--red);font-weight:700;font-size:1rem;">Total / month &nbsp;=&nbsp; several solid hours in which you are not a therapist. You are an organizer.</div>
+      <div style="margin-top:0.8rem;color:var(--ink);">APONIA.ro &nbsp;=&nbsp; <strong style="color:var(--green);font-size:1rem;">73 RON / month</strong> &nbsp;·&nbsp; less than a single therapy session</div>
+    </div>
+    <p class="t-body" style="line-height:1.75; max-width:580px">The cost is not financial. <strong style="font-style:normal;">It is the hours you give to admin instead of giving them to therapy, or to yourself.</strong></p>
+  </div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Cancel anytime · no minimum period</span></div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works">
+  <div class="lps wrap reveal">
+    <span class="eyebrow">How it works</span>
+    <h2 class="stitle">From first message<br>to organized practice: 15 minutes.</h2>
+    <p class="ssub">No technical preparation needed. No hour-long tutorial. Set up your practice once. APONIA.ro handles everything from there.</p>
+  </div>
+  <div class="g3">
+    <div class="gc reveal"><div class="step-num">1</div><div class="ftit">Set up your practice profile</div><p class="t-body" style="line-height:1.72; margin-bottom:0.7rem">Your weekly availability, session duration, therapy type. Once. If something changes, you update it in 2 minutes.</p><p class="fmic">Your practice, digitized.</p></div>
+    <div class="gca reveal"><div class="step-num">2</div><div class="ftit">Patients book themselves from your link</div><p class="t-body" style="line-height:1.72; margin-bottom:0.7rem">You send a link. They see available slots, pick one, confirm. You receive a notification. No messages, no phone calls, no negotiating at 11pm.</p><p class="fmic">Appointments happen without you.</p></div>
+    <div class="gc reveal"><div class="step-num">3</div><div class="ftit">APONIA.ro keeps track. You do therapy.</div><p class="t-body" style="line-height:1.72; margin-bottom:0.7rem">Automatic notifications 24h and 1h before each session. Session history stored securely. Everything about each patient, one click away.</p><p class="fmic">Zero admin effort. Maximum presence.</p></div>
+  </div>
+</section>
+
+<!-- DEMO VIDEO -->
+<section id="demo">
+  <div class="wrap reveal">
+    <span class="eyebrow">Demo</span>
+    <h2 class="stitle" style="margin-bottom:0.5rem;">How it looks in practice.<br><em style="font-family:'Newsreader',serif;font-weight:400;font-style:italic;color:var(--green);">90 seconds.</em></h2>
+    <p class="ssub" style="margin: 0 auto 2rem;">No descriptions. No promises. From the patient's first message to the session note.</p>
+    <div class="video-container">
+      <div class="video-wrap">
+        <video autoplay muted loop playsinline controls width="780" height="439">
+          <source src="/demo.mp4" type="video/mp4">
+          <track kind="captions" src="/demo.vtt" srclang="ro" label="Romanian" default>
+        </video>
+      </div>
+    </div>
+    <div style="margin-top:2rem;text-align:center;">
+      <a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section>
+  <div class="lps wrap reveal">
+    <span class="eyebrow">What APONIA.ro does</span>
+    <h2 class="stitle">A better practice.<br>Not a more complicated diary.</h2>
+    <p class="ssub">Designed for the therapist with their own or shared practice. Not for a clinic with a reception desk and 50 staff.</p>
+  </div>
+  <div class="g3">
+    <div class="gc reveal"><span class="icon-md">📅</span><div class="ftit">No more calling in the wrong patient.</div><p class="fbod">A booked slot disappears immediately for everyone else. Each patient knows exactly when they come. You know exactly who you are expecting.</p><p class="fmic">Zero awkward moments. Zero apologies.</p></div>
+    <div class="gc reveal"><span class="icon-md">🔔</span><div class="ftit">Automatic notifications. You send nothing.</div><p class="fbod">24h and 1h before every session. Automatically. Patients show up. Slots are not lost.</p><p class="fmic">No-show rate drops. Your evening is free.</p></div>
+    <div class="gc reveal"><span class="icon-md">📝</span><div class="ftit">Session notes, secured and findable.</div><p class="fbod">Per patient, encrypted, accessible only to you. Before any session you have full context one click away. No searching through notebooks.</p><p class="fmic">You walk in prepared. Every time.</p></div>
+    <div class="gc reveal"><span class="icon-md">💬</span><div class="ftit">Personal WhatsApp stays yours. Not the practice's.</div><p class="fbod">Patients write in the app. You reply when you choose, within practice hours. Saturday morning is yours.</p><p class="fmic">Boundary restored. Evening is yours.</p></div>
+    <div class="gc reveal"><span class="icon-md">🔒</span><div class="ftit">GDPR-protected data. Without thinking about it.</div><p class="fbod">Server in Frankfurt, Germany. Patient data encrypted in transit. Work legally without becoming a GDPR expert.</p><p class="fmic">Full compliance. Zero effort.</p></div>
+    <div class="gc reveal"><span class="icon-md">📊</span><div class="ftit">Complete history for each patient.</div><p class="fbod">All sessions, notes and communications organized per patient. If someone returns after 6 months, you have full context in 30 seconds.</p><p class="fmic">Real therapeutic continuity.</p></div>
+  </div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">hello@aponia.ro · we reply in 24h</span></div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section>
+  <div class="lp" style="background:var(--cream2);">
+    <div class="wrap reveal">
+      <span class="eyebrow">The transformation</span>
+      <h2 class="stitle">What a practice looks like<br>with APONIA.ro.</h2>
+      <div class="g2t">
+        <div>
+          <h3 class="eyebrow" style="color:var(--red);margin-bottom:1.2rem;">Without APONIA.ro</h3>
+          <p class="t-body-sm" style="line-height:1.7; margin-bottom:1.2rem">An independent psychotherapist manages an average of 6-8 hours per week on scheduling, confirmations and reminders sent manually through WhatsApp. Without an automated system, 1 in 5 patients is late or absent without notice. Session notes end up in 4 different places: notebooks, phone notes, email, memory. The weekend becomes time to catch up on accumulated admin.</p>
+          <ul style="list-style:none;">
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✕ &nbsp;WhatsApp open at 11pm for scheduling</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✕ &nbsp;Reminder sent manually from bed on Friday evening</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✕ &nbsp;Patient absent Monday. Money lost.</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✕ &nbsp;Wrong patient called into the room</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✕ &nbsp;Notes in 4 places, impossible to find quickly</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✕ &nbsp;Weekend spent confirming and rescheduling</li>
+            <li class="t-body" style="padding:0.55rem 0; line-height:1.55">✕ &nbsp;The evening belongs to the practice, not to you</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="eyebrow" style="color:var(--green);margin-bottom:1.2rem;">With APONIA.ro</h3>
+          <p class="t-body-sm" style="line-height:1.7; margin-bottom:1.2rem">With APONIA.ro, the patient books themselves through a link in under 90 seconds, no account, no app to install. The platform automatically sends notifications 24 hours and 1 hour before each session. Beta therapists report under 2 hours of admin per week, down from 6-8. Session notes are AES-256 encrypted and one click away, linked directly to the patient's profile.</p>
+          <ul style="list-style:none;">
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✓ &nbsp;Patients book themselves in under 90 seconds, no account, no app</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✓ &nbsp;Automatic notifications 24h and 1h before. 0 reminders sent by you.</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✓ &nbsp;Patient shows up. Session is paid.</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✓ &nbsp;Zero duplicates. Zero confusion. Zero awkwardness.</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✓ &nbsp;Notes secured, one click away</li>
+            <li class="t-body" style="padding:0.55rem 0; border-bottom:1px solid #ddd8ce; line-height:1.55">✓ &nbsp;Weekend is yours. No negotiation.</li>
+            <li class="t-body" style="padding:0.55rem 0; line-height:1.55">✓ &nbsp;The evening is yours. Or your family's. Or yours.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Limited spots · free for an indefinite period</span></div>
+</section>
+
+<!-- FEATURE CARDS -->
+<section style="background:var(--cream);padding:5rem 1.5rem;border-top:1px solid var(--border);">
+  <div class="wrap">
+    <span class="eyebrow reveal">Features</span>
+    <h2 class="reveal stitle" style="margin-bottom:1rem;">Everything APONIA.ro does,<br>in detail.</h2>
+    <p class="reveal ssub" style="margin-bottom:3.5rem;">5 integrated modules, zero installation for patients.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;" class="fwg">
+      <a href="/en/psychologist-cabinet/" style="display:block;background:white;border:1px solid var(--border);border-radius:4px;padding:2rem;text-decoration:none;" class="reveal">
+        <div style="width:40px;height:40px;background:rgba(91,140,106,0.1);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5b8c6a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <div class="ftit" style="margin-bottom:0.6rem;">Therapist practice software</div>
+        <p class="t-body-sm" style="line-height:1.7; margin-bottom:1rem">Unlimited appointments, AES-256 encrypted session notes and complete patient profiles in one place. Beta therapists report under 2 hours of admin per week, down from 6-8. No WhatsApp, no paper.</p>
+        <span class="t-link">Learn more →</span>
+      </a>
+      <a href="/en/booking/" style="display:block;background:white;border:1px solid var(--border);border-radius:4px;padding:2rem;text-decoration:none;" class="reveal">
+        <div style="width:40px;height:40px;background:rgba(91,140,106,0.1);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5b8c6a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <div class="ftit" style="margin-bottom:0.6rem;">Online booking for therapists</div>
+        <p class="t-body-sm" style="line-height:1.7; margin-bottom:1rem">Patients book themselves through a link in under 90 seconds, no account, no app to install. Automatic confirmations. You do not touch the phone.</p>
+        <span class="t-link">Learn more →</span>
+      </a>
+      <a href="/en/practice-management/" style="display:block;background:white;border:1px solid var(--border);border-radius:4px;padding:2rem;text-decoration:none;" class="reveal">
+        <div style="width:40px;height:40px;background:rgba(91,140,106,0.1);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5b8c6a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="ftit" style="margin-bottom:0.6rem;">Therapy practice management</div>
+        <p class="t-body-sm" style="line-height:1.7; margin-bottom:1rem">Your entire practice flow, organized. From first contact to session note.</p>
+        <span class="t-link">Learn more →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section style="background:var(--cream2);padding:5rem 1.5rem;">
+  <div class="wrap">
+    <span class="eyebrow reveal">What therapists say</span>
+    <h2 class="reveal stitle" style="margin-bottom:3rem;">From 14 conversations with<br>psychotherapists.</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;" class="fwg">
+      <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
+        <blockquote class="t-quote">"I spent over an hour per week confirming appointments, answering questions about availability, managing reschedules. An hour that is not therapy, and not even paid."</blockquote>
+        <figcaption class="t-link">Dr. A.M. <span style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;">· Bucharest</span></figcaption>
+      </figure>
+      <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
+        <blockquote class="t-quote">"My only worry was that patients would not use a new system. I was wrong. They receive a link, they book, done. It is simpler than sending a WhatsApp message. That is what they told me too."</blockquote>
+        <figcaption class="t-link">C.P. <span style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;">· Cluj</span></figcaption>
+      </figure>
+      <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
+        <blockquote class="t-quote">"My personal WhatsApp stopped being a permanent reception desk. The boundary I teach in sessions I was finally able to apply to myself."</blockquote>
+        <figcaption class="t-link">M.I. <span style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;">· Timișoara</span></figcaption>
+      </figure>
+    </div>
+    <p class="eyebrow reveal" style="color:var(--muted);margin-top:2rem;text-transform:none;letter-spacing:0.04em;">Quotes from research interviews with therapists consulted during the design phase · identities anonymized</p>
+  </div>
+</section>
+
+<!-- WHO BUILT IT -->
+<section class="dark">
+  <div class="dp">
+    <div class="wrap">
+      <span class="eyebrow reveal">Who built APONIA.ro</span>
+      <p class="reveal dk-note" style="border:none;padding:0;color:rgba(247,245,240,0.50);"><a rel="author" href="/en/about/" style="color:inherit;border-bottom:1px solid rgba(247,245,240,0.25);padding-bottom:1px;">By APONIA.ro</a> · Updated June 2026 · 14 psychotherapists consulted directly</p>
+      <h2 class="reveal stitle-dk">I am not a therapist.<br>But I grew up around them.</h2>
+      <p class="reveal dtd">I am surrounded by psychotherapists. I watched them closely, year after year, losing entire weekends to things that should have taken 15 minutes with a decent system. I watched them without free evenings, without free holidays, without the boundary they teach to others.</p>
+      <p class="reveal dtd">I did not see disorganized therapists. I saw serious professionals compensating daily, with their own time and energy, for the lack of a proper tool. People who knew exactly how to support someone else's boundary, <strong class="dt">and who had no system to support their own.</strong></p>
+      <p class="reveal dtd">APONIA.ro is what I wished I could have given them sooner. Not a magic solution. A simple system that does what a well-organized practice should do, so they can do what they know how to do.</p>
+      <p class="reveal dk-note">The platform was built in 2024 with direct input from 14 independent psychotherapists, focused on native GDPR compliance and exclusive EU data storage (Frankfurt, Germany).</p>
+    </div>
+  </div>
+</section>
+
+<!-- CREDIBILITY STATS -->
+<section class="dark" style="border-top:1px solid rgba(255,255,255,0.08);">
+  <div style="max-width:900px;margin:0 auto;padding:2rem 2.5rem;">
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:0;border:1px solid rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;">
+      <div style="padding:1.4rem 1.5rem;border-right:1px solid rgba(255,255,255,0.07);">
+        <div class="stat-num" style="color:#f7f5f0;">14</div>
+        <div class="stat-lbl">psychotherapists<br>consulted in design</div>
+      </div>
+      <div style="padding:1.4rem 1.5rem;border-right:1px solid rgba(255,255,255,0.07);">
+        <div class="stat-num" style="color:#f7f5f0;">EU</div>
+        <div class="stat-lbl">data stored exclusively<br>in Frankfurt, Germany</div>
+      </div>
+      <div style="padding:1.4rem 1.5rem;border-right:1px solid rgba(255,255,255,0.07);">
+        <div class="stat-num" style="color:var(--green);">GDPR</div>
+        <div class="stat-lbl">native compliance<br>no effort required from you</div>
+      </div>
+      <div style="padding:1.4rem 1.5rem;">
+        <div class="stat-num" style="color:#f7f5f0;">APONIA.ro</div>
+        <div class="stat-lbl">registered company<br>Bucharest, Romania</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR WHOM -->
+<section class="dark" style="border-top:1px solid rgba(255,255,255,0.06);">
+  <div class="dp">
+    <div class="wrap">
+      <span class="eyebrow eyebrow-amber reveal">Who APONIA.ro is for</span>
+      <h2 class="reveal stitle-dk">APONIA.ro is for you<br>if you recognize yourself in this:</h2>
+      <div class="fwg reveal" style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-bottom:2rem;">
+        <div style="border:1px solid rgba(255,255,255,0.08);padding:1.5rem;border-radius:3px;"><h3 class="icp-h">You are a therapist with your own practice</h3><p class="dk-sm">Solo or with a few colleagues. You manage your own diary, no receptionist. Every hour of admin is an hour that is not therapy. Therapists with their own practice lose an average of 6-8 hours per week on scheduling and confirmations. With APONIA.ro, under 2 hours.</p></div>
+        <div style="border:1px solid rgba(255,255,255,0.08);padding:1.5rem;border-radius:3px;"><h3 class="icp-h">You have more than 8 active patients</h3><p class="dk-sm">Up to 8, a paper diary works. From 10 upward, the old system creates constant small crises and you manage them one by one.</p></div>
+        <div style="border:1px solid rgba(255,255,255,0.08);padding:1.5rem;border-radius:3px;"><h3 class="icp-h">You want to grow without growing the chaos</h3><p class="dk-sm">Each new patient should bring revenue, not 20-30 extra minutes of admin. At 10 active patients, that is 3-5 hours per week on messages, confirmations and rescheduling.</p></div>
+        <div style="border:1px solid rgba(255,255,255,0.08);padding:1.5rem;border-radius:3px;"><h3 class="icp-h">You want a real boundary, not just in theory</h3><p class="dk-sm">You know therapeutic boundary theory. But without a system, everything arrives directly to you: Saturday morning messages, 11pm confirmations, personal WhatsApp as a reception desk. APONIA.ro moves scheduling, confirmations and automatic notifications (24h and 1h before) to one place, so the boundary exists in practice, not just in theory.</p></div>
+      </div>
+      <div class="reveal" style="padding:1.2rem 1.5rem;border:1px solid rgba(255,255,255,0.06);border-radius:3px;">
+        <p class="dk-note" style="border:none;padding:0;margin:0;"><strong style="color:rgba(247,245,240,0.45);">APONIA.ro is not for you if</strong> you need integrated invoicing, video conferencing or a system for a clinic with a reception desk. APONIA.ro does one thing: organizes your practice so you can do therapy without consuming yourself.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section>
+  <div class="lp wrap reveal">
+    <span class="eyebrow">Pricing</span>
+    <h2 class="stitle">Not an expense.<br>It is a boundary you set<br>with your own practice.</h2>
+    <div class="t-pull reveal" style="padding:1.2rem 1.5rem;background:rgba(91,140,106,0.06);border-radius:0 4px 4px 0;margin-bottom:2.5rem;max-width:620px;">One cancelled session without notice means a lost payment. APONIA.ro costs 73 RON per month. If it prevents a single no-show in the first three months, <strong style="font-style:normal;">it has paid for itself for the rest of the year.</strong></div>
+    <div class="pcard">
+      <span class="ptag">Therapist plan · Beta</span>
+      <div style="margin-bottom:0.2rem;"><span class="pold">99 RON</span><span class="pnum"> 73</span><span class="t-body"> RON</span></div>
+      <p class="pper">per month · billed monthly · cancel anytime</p>
+      <ul class="plist">
+        <li><span class="chk">✓</span> Unlimited appointments, no duplicates</li>
+        <li><span class="chk">✓</span> Automatic notifications (24h + 1h)</li>
+        <li><span class="chk">✓</span> Full patient history, encrypted</li>
+        <li><span class="chk">✓</span> Messaging separate from personal WhatsApp</li>
+        <li><span class="chk">✓</span> Complete history per patient</li>
+        <li><span class="chk">✓</span> Data stored in EU · GDPR compliant</li>
+        <li><span class="chk">✓</span> Direct support · we reply in 24h</li>
+      </ul>
+      <div style="text-align:center;margin-top:1.5rem;"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a></div>
+      <p class="pnote">Beta therapists enter free, for an indefinite period. No card. No commitment. No surprises.</p>
+    </div>
+  </div>
+</section>
+
+<!-- STATS TABLE -->
+<section style="background:var(--cream);padding:4rem 1.5rem;">
+  <div class="wrap reveal">
+    <span class="eyebrow">APONIA.ro in numbers</span>
+    <h2 class="stitle" style="margin-bottom:1.2rem;">Some concrete numbers.</h2>
+    <p class="t-body" style="line-height:1.78; max-width:680px; margin:0 auto 2rem">Based on beta data and our own research with 14 psychotherapists interviewed (2026): a therapist with their own practice loses an average of 6 hours per week to admin. With APONIA.ro, this drops below 2 hours. Patients book in under 90 seconds, no account, no app to install. Session notes are AES-256 encrypted, stored on servers in Frankfurt, Germany. Price: 73 RON per month, less than a single therapy session.</p>
+    <table style="width:100%;max-width:720px;border-collapse:collapse;font-family:'Inter Tight',sans-serif;text-align:left;" aria-label="APONIA.ro statistics">
+      <caption style="display:none;">Data and statistics about the APONIA.ro platform for psychotherapists</caption>
+      <thead>
+        <tr style="background:var(--green);color:#fff;">
+          <th style="padding:1rem 1.25rem;text-align:left;font-weight:700;border-radius:3px 0 0 0;">Metric</th>
+          <th style="padding:1rem 1.25rem;text-align:left;font-weight:700;border-radius:0 3px 0 0;">Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid var(--border);background:#fff;">
+          <td style="padding:0.9rem 1.25rem;color:var(--ink);">Psychotherapists consulted in building the platform</td>
+          <td style="padding:0.9rem 1.25rem;font-weight:700;color:var(--green);">14</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);background:var(--cream2);">
+          <td style="padding:0.9rem 1.25rem;color:var(--ink);">Therapists invited to beta</td>
+          <td style="padding:0.9rem 1.25rem;font-weight:700;color:var(--green);">517+</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);background:#fff;">
+          <td style="padding:0.9rem 1.25rem;color:var(--ink);">Admin time saved per week</td>
+          <td style="padding:0.9rem 1.25rem;font-weight:700;color:var(--green);">~3 hours</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);background:var(--cream2);">
+          <td style="padding:0.9rem 1.25rem;color:var(--ink);">Time to set up availability</td>
+          <td style="padding:0.9rem 1.25rem;font-weight:700;color:var(--green);">under 90 seconds</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);background:#fff;">
+          <td style="padding:0.9rem 1.25rem;color:var(--ink);">Session note encryption</td>
+          <td style="padding:0.9rem 1.25rem;font-weight:700;color:var(--green);">AES-256</td>
+        </tr>
+        <tr style="border-bottom:1px solid var(--border);background:var(--cream2);">
+          <td style="padding:0.9rem 1.25rem;color:var(--ink);">Free beta period</td>
+          <td style="padding:0.9rem 1.25rem;font-weight:700;color:var(--green);">3 months, no card</td>
+        </tr>
+        <tr style="background:#fff;">
+          <td style="padding:0.9rem 1.25rem;color:var(--ink);border-radius:0 0 0 3px;">Price after free period</td>
+          <td style="padding:0.9rem 1.25rem;font-weight:700;color:var(--green);border-radius:0 0 3px 0;">73 RON/month</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="lp" style="background:var(--cream2);">
+    <div class="wrap reveal">
+      <span class="eyebrow">Real questions</span>
+      <h2 class="stitle">You are thinking about this.<br>We answer directly.</h2>
+      <div class="faqlist">
+        <div class="faqitem"><h3 class="faqq">"My patients won't use a new app."</h3><p class="faqa">Your patients install nothing and create no account. They receive a link, open it in the browser, pick a slot. Under 90 seconds. In the beta with 14 psychotherapists, not a single patient refused to book online. It is simpler than sending you a WhatsApp.</p></div>
+        <div class="faqitem"><h3 class="faqq">"My patients' data is extremely sensitive."</h3><p class="faqa">Server in Frankfurt, Germany. AES-256 encryption in transit and at rest. Exclusive access to you — zero access by the APONIA.ro team to your patients' data. Native GDPR compliance, without reading any legal document. Your patients' data is not sold, not used for ads, not visible to other therapists.</p></div>
+        <div class="faqitem"><h3 class="faqq">"How long does setup take?"</h3><p class="faqa">15 minutes for a complete profile: availability, rate, booking link. First patient can book the same day. No tutorial, no step-by-step onboarding, no call with a consultant. If you have 15 free minutes between sessions today, you can be live today.</p></div>
+        <div class="faqitem"><h3 class="faqq">"What if it doesn't work for me?"</h3><p class="faqa">Cancel anytime from your account, on your own, without sending any email. No minimum period, no cancellation fee, no phone call with anyone. One click. If APONIA.ro doesn't give you back at least 3 hours/week of admin, it isn't worth the 73 RON.</p></div>
+        <div class="faqitem"><h3 class="faqq">"I already use Google Calendar. Why switch?"</h3><p class="faqa">Google Calendar does not send automatic notifications to your patients. It does not block occupied slots for other patients. It does not store session notes securely. It does not separate patient communication from personal WhatsApp. Therapists who used it before APONIA.ro reported 6-8 hours per week on admin, at least half on manual confirmations. It does one thing: keeps a calendar. APONIA.ro does everything else.</p></div>
+        <div class="faqitem"><h3 class="faqq">"Is APONIA.ro for psychologists or psychotherapists?"</h3><p class="faqa">Both. APONIA.ro is a scheduling and practice management platform for any specialist with individually scheduled sessions: psychologist, psychotherapist, counsellor, clinical coach. Beta therapists average 10-15 active clients. The only condition: one specialist per session. It does not work for groups or drop-in sessions.</p></div>
+        <div class="faqitem"><h3 class="faqq">"How do I know my data won't reach other platforms or marketplaces?"</h3><p class="faqa">APONIA.ro is not a marketplace and does not live off data: revenue comes from your 73 RON monthly subscription, not from your patients. Data is stored AES-256 encrypted on servers in Frankfurt, Germany, under GDPR. Your patients are not visible to other therapists, not recommended, not receiving ads. No data is shared with third parties. The relationship with the patient remains yours; APONIA.ro is only the scheduling infrastructure.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Or write to us at hello@aponia.ro with any other question</span></div>
+</section>
+
+<!-- BLOG -->
+<section style="background:var(--cream);padding:5rem 1.5rem;">
+  <div class="wrap">
+    <span class="eyebrow reveal">From the blog</span>
+    <h2 class="reveal stitle" style="margin-bottom:0.75rem;">Resources for<br>the modern therapist.</h2>
+    <p class="reveal ssub" style="margin-bottom:3rem;">Organization, boundaries, and what a healthy practice looks like in 2026.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;margin-bottom:2.5rem;" class="fwg">
+
+      <article class="reveal" style="background:white;border:1px solid #e8e4dc;border-radius:4px;overflow:hidden;display:flex;flex-direction:column;">
+        <div style="padding:2rem 2rem 1.25rem;">
+          <span class="eyebrow" style="margin-bottom:0.75rem;">Boundaries</span>
+          <h3 class="blog-title">Why therapeutic boundaries cannot be maintained on WhatsApp</h3>
+          <p class="t-body-sm" style="line-height:1.68; margin:0">Personal WhatsApp + patients = an impossible relationship. Not from lack of goodwill, but because of how the app works.</p>
+        </div>
+        <div style="padding:0 2rem 1.75rem;margin-top:auto;display:flex;align-items:center;justify-content:space-between;">
+          <span class="eyebrow">4 min · May 2026</span>
+          <a class="t-link" href="/en/blog/therapeutic-boundary-whatsapp.html">Read →</a>
+        </div>
+      </article>
+
+      <article class="reveal" style="background:white;border:1px solid #e8e4dc;border-radius:4px;overflow:hidden;display:flex;flex-direction:column;">
+        <div style="padding:2rem 2rem 1.25rem;">
+          <span class="eyebrow" style="margin-bottom:0.75rem;">Organization</span>
+          <h3 class="blog-title">How many hours per week are you losing to admin? (and how to get them back)</h3>
+          <p class="t-body-sm" style="line-height:1.68; margin:0">We asked 14 therapists. The average answer was 4-6 hours. None of it was therapy. None of it was paid.</p>
+        </div>
+        <div style="padding:0 2rem 1.75rem;margin-top:auto;display:flex;align-items:center;justify-content:space-between;">
+          <span class="eyebrow">5 min · Apr 2026</span>
+          <a class="t-link" href="/en/blog/admin-hours-lost.html">Read →</a>
+        </div>
+      </article>
+
+      <article class="reveal" style="background:white;border:1px solid #e8e4dc;border-radius:4px;overflow:hidden;display:flex;flex-direction:column;">
+        <div style="padding:2rem 2rem 1.25rem;">
+          <span class="eyebrow" style="margin-bottom:0.75rem;">Compliance</span>
+          <h3 class="blog-title">GDPR and patient data: what you need to know as an independent therapist</h3>
+          <p class="t-body-sm" style="line-height:1.68; margin:0">Notes, Excel files, email — none of these are GDPR-compliant solutions for health data. What is mandatory and what is just good practice.</p>
+        </div>
+        <div style="padding:0 2rem 1.75rem;margin-top:auto;display:flex;align-items:center;justify-content:space-between;">
+          <span class="eyebrow">6 min · Mar 2026</span>
+          <a class="t-link" href="/en/blog/gdpr-independent-therapist.html">Read →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="cta-final" style="background:var(--green);color:white;padding:6rem 1.5rem;text-align:center;">
+  <div class="wrap">
+    <span class="eyebrow reveal" style="color:rgba(255,255,255,0.6);letter-spacing:0.25em;display:block;margin-bottom:1.5rem;">Start now</span>
+    <h2 class="reveal" style="font-family:'Inter Tight',sans-serif;font-weight:900;font-size:3.5rem;line-height:1.0;letter-spacing:-0.02em;margin-bottom:1.2rem;">Want this evening<br>for yourself?</h2>
+    <p class="reveal" style="font-style:italic;font-size:1.1rem;opacity:0.82;margin-bottom:2.5rem;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.72;">Fill in the form. We set up your account within 24 hours, free. No 45-minute demos, no pitch.</p>
+    <a href="https://tally.so/r/aQEp0v" class="reveal" style="display:inline-flex;align-items:center;gap:0.4rem;background:white;color:var(--green);padding:1.1rem 3rem;min-height:52px;font-weight:700;font-family:'Inter Tight',sans-serif;font-size:1rem;border-radius:3px;margin-bottom:1rem;width:auto;">Get my evenings back <span aria-hidden="true">→</span></a>
+    <p class="eyebrow reveal" style="color:rgba(255,255,255,0.5);letter-spacing:0.12em;margin-top:1.5rem;">No card · no commitment · limited spots available</p>
+  </div>
+</section>
+
+</main>
+
+<!-- MANIFESTO CTA STRIP -->
+<section style="background:var(--cream2);border-top:1px solid var(--border);padding:3rem 1.5rem;">
+  <div style="max-width:900px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:2rem;flex-wrap:wrap;">
+    <div>
+      <p class="eyebrow" style="margin-bottom:0.75rem;">why we built this</p>
+      <h2 style="font-family:'Newsreader',serif;font-size:clamp(1.2rem,3vw,1.8rem);font-weight:600;line-height:1.35;color:var(--ink);margin-bottom:0.5rem;">Therapeutic boundaries<br>cannot be maintained on WhatsApp.</h2>
+      <p class="t-body-sm" style="line-height:1.65; max-width:400px">we spoke to 14 therapists. we understood the problem. here is what we built and why.</p>
+    </div>
+    <a class="t-link" href="/en/manifesto/" style="background:var(--green); color:var(--cream); padding:0.75rem 1.75rem; border-radius:3px; white-space:nowrap; flex-shrink:0;">read the manifesto →</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="fsocial">
+    <a href="https://www.facebook.com/people/APONIAro/61590170232523/" target="_blank" rel="noopener" aria-label="Facebook">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/company/aponia-ro/" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+  </div>
+  <div class="flinks">
+    <a href="/en/pricing/">Pricing</a>
+    <a href="/en/about/">About APONIA.ro</a>
+    <a href="/en/manifesto/">Manifesto</a>
+    <a href="/en/vs-whatsapp/">vs. WhatsApp</a>
+    <a href="/en/vs-calendly/">vs. Calendly</a>
+    <a href="/en/vs-simplepractice/">vs. SimplePractice</a>
+    <span style="color:inherit;font-size:inherit;">hello@aponia.ro</span>
+  </div>
+  <p class="fcopy">&copy; 2026 APONIA.ro · <time datetime="2026-06-25">updated June 2026</time> · all rights reserved</p>
+</footer>
+
+<script>
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in-view'); obs.unobserve(e.target); } });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+
+</body>
+</html>

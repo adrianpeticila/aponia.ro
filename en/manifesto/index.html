@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manifest, De ce există APONIA.ro · Programări pentru psihoterapeuți</title>
-  <meta name="description" content="Granița terapeutică nu se ține pe WhatsApp. Am vorbit cu 14 psihoterapeuți independenți înainte să scriem primul rând de cod. Iată ce am înțeles și de ce am construit APONIA.ro.">
-  <link rel="canonical" href="https://aponia.ro/manifesto/">
+  <title>Manifesto — Why APONIA.ro exists · Scheduling for psychotherapists</title>
+  <meta name="description" content="Therapeutic boundaries don't hold on WhatsApp. We spoke with 14 independent psychotherapists before writing a single line of code. Here is what we understood and why we built APONIA.ro.">
+  <link rel="canonical" href="https://aponia.ro/en/manifesto/">
   <link rel="alternate" hreflang="ro" href="https://aponia.ro/manifesto/">
   <link rel="alternate" hreflang="en" href="https://aponia.ro/en/manifesto/">
   <link rel="alternate" hreflang="x-default" href="https://aponia.ro/manifesto/">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://aponia.ro/manifesto/">
-  <meta property="og:title" content="Manifest, De ce există APONIA.ro · platformă programări psihoterapeuți">
-  <meta property="og:description" content="Granița terapeutică nu se ține pe WhatsApp. Iată ce am înțeles vorbind cu 14 psihoterapeuți independenți, și de ce am construit APONIA.ro.">
-  <meta property="og:locale" content="ro_RO">
+  <meta property="og:url" content="https://aponia.ro/en/manifesto/">
+  <meta property="og:title" content="Manifesto — Why APONIA.ro exists · Scheduling for psychotherapists">
+  <meta property="og:description" content="Therapeutic boundaries don't hold on WhatsApp. Here is what we understood speaking with 14 independent psychotherapists, and why we built APONIA.ro.">
+  <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="APONIA.ro">
   <meta property="og:image" content="https://aponia.ro/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -24,31 +24,26 @@
   <meta name="color-scheme" content="light">
   <link rel="manifest" href="/manifest.json">
   <meta name="author" content="APONIA.ro">
-  <meta name="date" content="2026-06-03">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "https://aponia.ro/manifesto/",
-        "url": "https://aponia.ro/manifesto/",
-        "name": "Manifest, De ce există APONIA.ro · platformă de programare pentru psihoterapeuți",
-        "description": "Granița terapeutică nu se ține pe WhatsApp. Platforma APONIA.ro a fost construită după 14 interviuri directe cu psihoterapeuți independenți din România care pierdeau 3-6 ore pe săptămână pe administrativ.",
-        "inLanguage": "ro",
+        "@id": "https://aponia.ro/en/manifesto/",
+        "url": "https://aponia.ro/en/manifesto/",
+        "name": "Manifesto — Why APONIA.ro exists · scheduling platform for psychotherapists",
+        "description": "Therapeutic boundaries don't hold on WhatsApp. APONIA.ro was built after 14 direct interviews with independent psychotherapists in Romania who were losing 3-6 hours per week to admin.",
+        "inLanguage": "en",
         "isPartOf": { "@id": "https://aponia.ro/#website" },
         "author": { "@id": "https://aponia.ro/#organization" },
-        "dateModified": "2026-06-03",
-        "about": {
-          "@type": "Thing",
-          "name": "Platformă programări psihoterapeuți România, gestiune cabinet psihologie"
-        }
+        "dateModified": "2026-06-03"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Acasă", "item": "https://aponia.ro/" },
-          { "@type": "ListItem", "position": 2, "name": "Manifest", "item": "https://aponia.ro/manifesto/" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aponia.ro/en/" },
+          { "@type": "ListItem", "position": 2, "name": "Manifesto", "item": "https://aponia.ro/en/manifesto/" }
         ]
       }
     ]
@@ -81,7 +76,6 @@
     body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; overflow-x: hidden; }
     a { color: inherit; text-decoration: none; }
 
-    /* NAV */
     .nav { position: sticky; top: 0; z-index: 100; background: rgba(247,245,240,0.95); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
     .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
     .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.35rem; font-weight: 600; }
@@ -91,21 +85,18 @@
     .nav-link { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 600; color: #555; letter-spacing: 0.04em; }
     .nav-link:hover, .nav-link.active { color: var(--green); }
     .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; border-radius: 3px; white-space: nowrap; min-height: 44px; display: inline-flex; align-items: center; }
-    .lang-sw { font-family: 'Inter Tight', monospace; font-size: 0.72rem; letter-spacing: 0.12em; color: #888; margin-right: 0.5rem; }
-    .lang-sw a { color: var(--green); font-weight: 700; text-decoration: none; }
+    .lang-sw { font-family: 'Inter Tight', monospace; font-size: 0.72rem; letter-spacing: 0.12em; color: var(--muted); margin-right: 1rem; }
+    .lang-sw a { color: var(--green); font-weight: 700; }
     .lang-sw span { color: var(--ink); font-weight: 700; }
 
-    /* MAIN */
     main { max-width: 760px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
 
-    /* PAGE HEADER */
     .pg-tag { font-family: 'Inter Tight', sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); margin-bottom: 1rem; }
     .pg-title { font-family: 'Newsreader', serif; font-size: clamp(2rem, 6vw, 3.5rem); font-weight: 600; line-height: 1.1; color: var(--ink); margin-bottom: 1.25rem; }
     .pg-title em { font-style: italic; color: var(--green); }
     .pg-deck { font-size: 1rem; color: var(--muted); line-height: 1.75; max-width: 580px; margin-bottom: 3rem; border-left: 3px solid var(--green); padding-left: 1rem; }
     .pg-divider { height: 1px; background: var(--border); margin: 3rem 0; }
 
-    /* SECTIONS */
     .m-section { margin-bottom: 3rem; }
     .m-label { font-family: 'Inter Tight', sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--green); margin-bottom: 0.75rem; }
     .m-section h2 { font-family: 'Newsreader', serif; font-size: clamp(1.3rem, 3vw, 1.9rem); font-weight: 600; line-height: 1.2; color: var(--ink); margin-bottom: 1rem; }
@@ -113,14 +104,12 @@
     .m-section p:last-child { margin-bottom: 0; }
     .m-pull { font-family: 'Newsreader', serif; font-style: italic; font-size: clamp(1.1rem, 2.5vw, 1.4rem); line-height: 1.4; color: var(--green); margin: 1.5rem 0; padding-left: 1.25rem; border-left: 3px solid var(--amber); }
 
-    /* CTA */
     .cta-block { background: var(--green); padding: 3rem; margin-top: 4rem; border-radius: 4px; }
     .cta-block h2 { font-family: 'Newsreader', serif; font-size: clamp(1.5rem, 4vw, 2.2rem); font-weight: 600; line-height: 1.15; color: white; margin-bottom: 0.75rem; }
     .cta-block p { font-size: 1rem; color: rgba(255,255,255,0.8); line-height: 1.65; margin-bottom: 1.75rem; }
     .btn-white { display: inline-block; background: white; color: var(--green); font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; padding: 0.75rem 1.75rem; border-radius: 3px; transition: opacity 0.2s; }
     .btn-white:hover { opacity: 0.9; }
 
-    /* FOOTER */
     .footer { padding: 2.5rem 1.5rem; border-top: 1px solid var(--border); text-align: center; }
     .fsocial { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1.25rem; color: var(--muted); }
     .flinks { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.5rem; margin-bottom: 1rem; }
@@ -137,11 +126,11 @@
   </style>
 </head>
 <body>
-  <a href="#main" class="skip-link">Sari la conținut</a>
+  <a href="#main" class="skip-link">Skip to content</a>
 
   <nav class="nav">
     <div class="nav-inner">
-      <a href="/" class="nav-logo">
+      <a href="/en/" class="nav-logo">
         <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <rect width="40" height="40" rx="9" fill="#5B8C6A"/>
           <path fill="white" d="M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z"/>
@@ -149,10 +138,10 @@
         <span class="gk">APONIA.ro</span>
       </a>
       <div class="nav-links">
-        <a href="/about/" class="nav-link">Despre</a>
-        <a href="/manifesto/" class="nav-link active">Manifest</a>
-        <span class="lang-sw"><span lang="ro" aria-current="page">RO</span> | <a href="/en/manifesto/" lang="en">EN</a></span>
-        <a href="https://tally.so/r/aQEp0v" class="btn-nav" aria-label="Intră în beta gratuit, fără card">Vreau seara mea înapoi <span aria-hidden="true">→</span></a>
+        <a href="/en/about/" class="nav-link">About</a>
+        <a href="/en/manifesto/" class="nav-link active">Manifesto</a>
+        <span class="lang-sw"><a href="/manifesto/" lang="ro">RO</a> | <span lang="en" aria-current="page">EN</span></span>
+        <a href="https://tally.so/r/aQEp0v" class="btn-nav" aria-label="Join free beta">Get my evenings back <span aria-hidden="true">→</span></a>
       </div>
     </div>
   </nav>
@@ -160,58 +149,58 @@
   <main id="main">
 
     <header style="margin-bottom:3rem;">
-      <p class="pg-tag">manifest</p>
-      <h1 class="pg-title">De ce există<br><em>APONIA.ro</em></h1>
-      <p class="pg-deck">granița terapeutică nu se ține pe whatsapp. iată ce am înțeles, și ce am construit ca răspuns.</p>
+      <p class="pg-tag">manifesto</p>
+      <h1 class="pg-title">Why<br><em>APONIA.ro</em> exists</h1>
+      <p class="pg-deck">therapeutic boundaries don't hold on whatsapp. here is what we understood, and what we built in response.</p>
     </header>
 
     <article>
 
       <section class="m-section">
-        <p class="m-label">punctul de plecare</p>
-        <h2>Există o conversație care se întâmplă constant după ședințe.</h2>
-        <p>mesaje pe whatsapp la 22:00. clientul care vrea să anuleze. altul care întreabă dacă mai ai loc joi. notița pe care ai uitat să o completezi pentru că ai sărit direct la următoarea ședință. programarea confirmată verbal pe care nu ai notat-o nicăieri.</p>
-        <p>nu e o criză. e zgomot de fond. dar se acumulează.</p>
-        <p>am vorbit direct cu 14 psihoterapeuți independenți înainte să scriem primul rând de cod. fiecare pierdea între 3 și 6 ore pe săptămână pe administrativ. fiecare gestiona programările prin whatsapp, sms sau apeluri telefonice. conform datelor <cite>EFPA (2023)</cite>, psihologii din practica privată petrec în medie 6-8 ore pe săptămână pe sarcini administrative.</p>
-        <p class="m-pull">"seara ta nu mai e a ta, nu din cauza pacienților, ci din cauza logisticii din jurul lor."</p>
+        <p class="m-label">the starting point</p>
+        <h2>There is a conversation that happens constantly after sessions.</h2>
+        <p>WhatsApp messages at 10pm. A client wanting to cancel. Another asking if you still have Thursday free. The session note you forgot to write because you rushed straight to the next session. The verbally confirmed appointment you never wrote down anywhere.</p>
+        <p>It's not a crisis. It's background noise. But it accumulates.</p>
+        <p>We spoke directly with 14 independent psychotherapists before writing a single line of code. Each one was losing between 3 and 6 hours a week to admin. Each one managed appointments through WhatsApp, SMS, or phone calls. According to data from the <cite>European Federation of Psychologists' Associations (EFPA, 2023)</cite>, psychologists in private practice spend an average of 6-8 hours per week on administrative tasks.</p>
+        <p class="m-pull">"your evening is no longer yours — not because of your clients, but because of the logistics surrounding them."</p>
       </section>
 
       <div class="pg-divider"></div>
 
       <section class="m-section">
-        <p class="m-label">ce credem</p>
-        <h2>Granița terapeutică nu se ține pe WhatsApp.</h2>
-        <p>nu pentru că terapeutul nu are disciplina necesară. ci pentru că platforma nu permite structura.</p>
-        <p>un canal informal, mereu deschis, fără context clar, în care clientul scrie când îl cuprinde anxietatea, iar terapeutul se simte obligat să răspundă, nu este un instrument de lucru. este o sursă continuă de ambiguitate pentru ambii.</p>
-        <p>psihoterapia funcționează în cadre clare. atunci când cadrul lipsește, terapeutul îl construiește manual, la fiecare client, de fiecare dată. aceasta nu este o problemă de tehnologie. este o problemă de claritate.</p>
+        <p class="m-label">what we believe</p>
+        <h2>Therapeutic boundaries don't hold on WhatsApp.</h2>
+        <p>Not because the therapist lacks the necessary discipline. But because the platform doesn't allow for structure.</p>
+        <p>An informal channel, always open, without clear context — one in which the client writes when anxiety strikes, and the therapist feels obligated to respond — is not a work tool. It is a continuous source of ambiguity for both parties.</p>
+        <p>Psychotherapy works within clear frameworks. When the framework is absent, the therapist constructs it manually, for every client, every time. This is not a technology problem. It is a clarity problem.</p>
       </section>
 
       <div class="pg-divider"></div>
 
       <section class="m-section">
-        <p class="m-label">ce face aponia</p>
-        <h2>Programări online construite exclusiv pentru psihoterapeuți independenți.</h2>
-        <p>clientul tău primește un link. intră, alege un slot disponibil din calendarul tău, confirmă. primește reminder automat cu 24 de ore și cu o oră înainte. anulările se gestionează fără mesaje pe whatsapp. notițele de ședință rămân organizate per client, într-un singur loc.</p>
-        <p>tu nu mai ești coordonatorul logistic al propriei practici.</p>
-        <p>73 ron pe lună. fără comision per ședință. fără contracte pe termen lung. calendarul tău, regulile tale.</p>
+        <p class="m-label">what aponia does</p>
+        <h2>Online scheduling built exclusively for independent psychotherapists.</h2>
+        <p>Your client receives a link. They open it, choose an available slot from your calendar, confirm. They receive an automatic reminder 24 hours and 1 hour before the session. Cancellations are managed without WhatsApp messages. Session notes stay organized per client, in one place.</p>
+        <p>You are no longer the logistical coordinator of your own practice.</p>
+        <p>73 RON per month. No per-session commission. No long-term contracts. Your calendar, your rules.</p>
       </section>
 
       <div class="pg-divider"></div>
 
       <section class="m-section">
-        <p class="m-label">ce nu suntem</p>
-        <h2>Nu suntem un marketplace. Relația cu clienții tăi e a ta.</h2>
-        <p>nu îți aducem clienți noi și nu îți publicăm profilul pentru ca pacienții să te găsească și să te compare cu alții. nu vrem comision din fiecare ședință.</p>
-        <p>nu construim o platformă pentru clinici sau cabinete cu 10 terapeuți. suntem un instrument pentru terapeutul independent care vrea să-și recupereze serile.</p>
-        <p>relația cu clienții tăi e a ta. noi gestionăm logistica din jurul ei. atât.</p>
+        <p class="m-label">what we are not</p>
+        <h2>We are not a marketplace. Your relationship with clients is yours.</h2>
+        <p>We don't bring you new clients and we don't publish your profile so patients can find and compare you with others. We don't want a commission from each session.</p>
+        <p>We are not building a platform for clinics or practices with 10 therapists. We are a tool for the independent therapist who wants to reclaim their evenings.</p>
+        <p>Your relationship with your clients is yours. We manage the logistics around it. That's all.</p>
       </section>
 
     </article>
 
     <div class="cta-block">
-      <h2>Intră în beta gratuit.<br>Fără card.</h2>
-      <p>terapeuții din beta intră gratuit, pe perioadă nedeterminată. când ieșim din beta, prețul e 73 ron/lună. nicio altă condiție.</p>
-      <a href="https://tally.so/r/aQEp0v" class="btn-white">vreau seara mea înapoi →</a>
+      <h2>Join free beta.<br>No card.</h2>
+      <p>Beta therapists join for free, indefinitely. When we exit beta, the price is 73 RON/month. No other conditions.</p>
+      <a href="https://tally.so/r/aQEp0v" class="btn-white">get my evenings back →</a>
     </div>
 
   </main>
@@ -226,15 +215,15 @@
       </a>
     </div>
     <div class="flinks">
-      <a href="legal/politica-confidentialitate.html">Politică de confidențialitate</a>
-      <a href="legal/termene-conditii.html">Termene și condiții</a>
-      <a href="legal/politica-cookies.html">Politică cookies</a>
+      <a href="/legal/politica-confidentialitate.html">Privacy Policy</a>
+      <a href="/legal/termene-conditii.html">Terms &amp; Conditions</a>
+      <a href="/legal/politica-cookies.html">Cookie Policy</a>
       <a href="mailto:hello@aponia.ro">hello@aponia.ro</a>
-      <a href="/about/">Despre APONIA.ro</a>
-      <a href="/manifesto/">Manifest</a>
+      <a href="/en/about/">About APONIA.ro</a>
+      <a href="/en/manifesto/">Manifesto</a>
       <a href="https://www.producthunt.com/products/aponia" target="_blank" rel="noopener">Product Hunt</a>
     </div>
-    <p class="fcopy">© 2026 APONIA.ro · <time datetime="2026-06-03">actualizat iunie 2026</time> · toate drepturile rezervate</p>
+    <p class="fcopy">© 2026 APONIA.ro · <time datetime="2026-06-03">updated June 2026</time> · all rights reserved</p>
   </footer>
 </body>
 </html>

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Despre APONIA.ro, platformă pentru psihoterapeuți din România</title>
-  <meta name="description" content="APONIA.ro este o platformă de programări și administrare construită special pentru psihoterapeuți independenți și cabinete mici din România.">
-  <link rel="canonical" href="https://aponia.ro/about/">
+  <title>About APONIA.ro, scheduling platform for psychotherapists</title>
+  <meta name="description" content="APONIA.ro is a scheduling and practice management platform built specifically for independent psychotherapists and small practices.">
+  <link rel="canonical" href="https://aponia.ro/en/about/">
   <link rel="alternate" hreflang="ro" href="https://aponia.ro/about/">
   <link rel="alternate" hreflang="en" href="https://aponia.ro/en/about/">
   <link rel="alternate" hreflang="x-default" href="https://aponia.ro/about/">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://aponia.ro/about/">
-  <meta property="og:title" content="Despre APONIA.ro">
-  <meta property="og:description" content="Platformă de programări și administrare pentru psihoterapeuți din România. 73 RON/lună. Fără contract.">
-  <meta property="og:locale" content="ro_RO">
+  <meta property="og:url" content="https://aponia.ro/en/about/">
+  <meta property="og:title" content="About APONIA.ro">
+  <meta property="og:description" content="Scheduling and practice management platform for therapists. 73 RON/month. No contract.">
+  <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="APONIA.ro">
   <meta name="theme-color" content="#5b8c6a">
   <script type="application/ld+json">
@@ -22,11 +22,11 @@
     "@graph": [
       {
         "@type": "AboutPage",
-        "@id": "https://aponia.ro/about/#page",
-        "url": "https://aponia.ro/about/",
-        "name": "Despre APONIA.ro",
-        "description": "APONIA.ro este o platformă de programări și administrare construită pentru psihoterapeuți independenți și cabinete mici din România.",
-        "inLanguage": "ro",
+        "@id": "https://aponia.ro/en/about/#page",
+        "url": "https://aponia.ro/en/about/",
+        "name": "About APONIA.ro",
+        "description": "APONIA.ro is a scheduling and practice management platform built for independent psychotherapists and small practices.",
+        "inLanguage": "en",
         "isPartOf": { "@id": "https://aponia.ro/#website" },
         "about": { "@id": "https://aponia.ro/#organization" },
         "publisher": { "@id": "https://aponia.ro/#organization" }
@@ -37,8 +37,8 @@
         "name": "APONIA.ro",
         "url": "https://aponia.ro/",
         "logo": { "@type": "ImageObject", "url": "https://aponia.ro/favicon.svg" },
-        "description": "Platformă de programări și administrare pentru psihoterapeuți din România. Reduce munca administrativă, elimină mesajele pe WhatsApp personal și automatizează confirmările de programare.",
-        "knowsAbout": ["psihoterapie", "programări online", "management cabinet psihologic", "sănătate mentală", "platforme medicale"],
+        "description": "Scheduling and practice management platform for psychotherapists. Reduces admin work, eliminates messages on personal WhatsApp, and automates appointment confirmations.",
+        "knowsAbout": ["psychotherapy", "online scheduling", "psychology practice management", "mental health", "medical platforms"],
         "sameAs": [
           "https://www.linkedin.com/company/aponia-ro/",
           "https://www.facebook.com/people/APONIAro/61590170232523/",
@@ -49,8 +49,8 @@
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Acasă", "item": "https://aponia.ro/" },
-          { "@type": "ListItem", "position": 2, "name": "Despre", "item": "https://aponia.ro/about/" }
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aponia.ro/en/" },
+          { "@type": "ListItem", "position": 2, "name": "About", "item": "https://aponia.ro/en/about/" }
         ]
       }
     ]
@@ -79,26 +79,22 @@
     body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
     a { color: inherit; text-decoration: none; }
 
-    /* NAV */
     .nav { position: sticky; top: 0; z-index: 100; background: rgba(247,245,240,0.95); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
     .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
     .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.35rem; font-weight: 600; }
     .nav-logo .gk { color: var(--green); letter-spacing: 0.05em; }
     .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; border-radius: 3px; white-space: nowrap; min-height: 44px; display: inline-flex; align-items: center; }
-    .lang-sw { font-family: 'Inter Tight', monospace; font-size: 0.72rem; letter-spacing: 0.12em; color: #888; margin-right: 0.5rem; }
-    .lang-sw a { color: var(--green); font-weight: 700; text-decoration: none; }
+    .lang-sw { font-family: 'Inter Tight', monospace; font-size: 0.72rem; letter-spacing: 0.12em; color: var(--muted); margin-right: 1rem; }
+    .lang-sw a { color: var(--green); font-weight: 700; }
     .lang-sw span { color: var(--ink); font-weight: 700; }
 
-    /* WRAP */
     .wrap { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; }
 
-    /* PAGE HEADER */
     .page-header { padding: 4rem 0 3rem; border-bottom: 1px solid var(--border); }
     .eyebrow { font-family: 'Inter Tight', monospace; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase; color: var(--green); display: block; margin-bottom: 1.2rem; }
     .page-header h1 { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 2.8rem; letter-spacing: -0.03em; line-height: 1.05; margin-bottom: 1rem; }
     .page-header p { font-style: italic; color: var(--muted); font-size: 1.1rem; max-width: 560px; line-height: 1.75; }
 
-    /* CONTENT */
     .content { padding: 3rem 0 4rem; max-width: 680px; }
     .content h2 { font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: -0.01em; margin: 2.5rem 0 0.8rem; }
     .content h2:first-child { margin-top: 0; }
@@ -106,18 +102,14 @@
     .content ul { margin: 0 0 1rem 1.2rem; }
     .content ul li { font-size: 1rem; line-height: 1.8; color: #333; margin-bottom: 0.3rem; }
 
-    /* STAT ROW */
     .stat-row { display: flex; gap: 2rem; flex-wrap: wrap; margin: 2rem 0; }
-    .stat-item { }
     .stat-n { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 2rem; color: var(--green); line-height: 1; }
     .stat-l { font-family: 'Inter Tight', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--muted); margin-top: 0.2rem; }
 
-    /* CONTACT */
     .contact-box { background: var(--cream2); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin: 2.5rem 0; }
     .contact-box p { margin: 0; font-size: 1rem; }
     .contact-box a { color: var(--green); font-weight: 600; border-bottom: 1px solid rgba(91,140,106,0.4); }
 
-    /* FOOTER */
     .footer { padding: 2.5rem 1.5rem; border-top: 1px solid var(--border); text-align: center; }
     .flinks { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1rem; }
     .flinks a { font-family: 'Inter Tight', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--green); border-bottom: 1px solid rgba(91,140,106,0.3); padding-bottom: 2px; }
@@ -135,64 +127,66 @@
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="/" class="nav-logo">
+    <a href="/en/" class="nav-logo">
       <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <rect width="40" height="40" rx="9" fill="#5b8c6a"/>
         <path fill="white" transform="translate(7,7) scale(1.71)" d="M11.2742697,4.64414711 C9.75026973,6.47014711 8.31826973,7.87314711 6.03026973,8.49314711 L5.30126973,6.41314711 C4.87126973,5.17714711 -0.344730272,6.99814711 0.0882697282,8.23514711 L1.22126973,11.4771471 C1.65326973,12.7131471 3.27960785,13.2907915 4.76354965,12.853149 C5.9393281,12.5063897 8.85126973,11.5001471 12.2922697,6.50414711 C13.4172697,4.86914711 14.8580511,3.84423001 15.9900511,3.49823001 L15.4750511,2.02523001 C15.4750511,2.02523001 13.1972697,2.34114711 11.2742697,4.64414711 Z"/>
       </svg>
       <span class="gk">APONIA.ro</span>
     </a>
-    <span class="lang-sw"><span lang="ro" aria-current="page">RO</span> | <a href="/en/about/" lang="en">EN</a></span>
-    <a href="https://tally.so/r/aQEp0v" class="btn-nav" aria-label="Intră în beta gratuit">Vreau seara mea înapoi <span aria-hidden="true">→</span></a>
+    <div style="display:flex;align-items:center;">
+      <span class="lang-sw"><a href="/about/" lang="ro">RO</a> | <span lang="en" aria-current="page">EN</span></span>
+      <a href="https://tally.so/r/aQEp0v" class="btn-nav" aria-label="Join free beta">Get my evenings back <span aria-hidden="true">→</span></a>
+    </div>
   </div>
 </nav>
 
 <main>
   <div class="wrap">
     <div class="page-header">
-      <span class="eyebrow">Despre noi</span>
-      <h1>Ce este APONIA.ro</h1>
-      <p>O platformă de programări construită pentru psihoterapeuți care vor să petreacă mai puțin timp cu administrarea și mai mult timp cu pacienții.</p>
+      <span class="eyebrow">About us</span>
+      <h1>What is APONIA.ro</h1>
+      <p>A scheduling platform built for therapists who want to spend less time on admin and more time with their clients.</p>
     </div>
 
     <div class="content">
 
-      <h2>De unde am pornit</h2>
-      <p>APONIA.ro s-a născut dintr-o frustrare reală: găsirea unui terapeut disponibil în România este inutil de complicată. Nu există vizibilitate în cine are locuri libere, când și la ce preț.</p>
-      <p>Dar înainte să rezolvăm problema pacientului, am vrut să înțelegem problema terapeutului. Și ce am găsit: WhatsApp transformat în recepție permanentă, programări confirmate pe foi volante, notițe pe telefon.</p>
-      <p>APONIA.ro rezolvă asta. Faza 1, instrument de administrare pentru terapeut. Faza 2, director cu disponibilitate în timp real pentru pacient.</p>
+      <h2>Where we started</h2>
+      <p>APONIA.ro was born from a real frustration: finding a therapist available in Romania is unnecessarily complicated. There is no visibility into who has open slots, when, and at what price.</p>
+      <p>But before solving the patient's problem, we wanted to understand the therapist's problem. What we found: WhatsApp turned into a permanent receptionist, appointments confirmed on loose sheets of paper, session notes scattered across phone notes.</p>
+      <p>APONIA.ro solves this. Phase 1: practice management tool for the therapist. Phase 2: real-time availability directory for the patient.</p>
 
-      <h2>Ce facem concret</h2>
+      <h2>What we do concretely</h2>
       <ul>
-        <li>Programări online, pacienții rezervă fără să sune sau să trimită mesaje</li>
-        <li>Confirmări automate, reminder cu 24h și 1h înainte de sesiune</li>
-        <li>Calendar centralizat, toate programările într-un singur loc</li>
-        <li>Notițe de sesiune, securizate, accesibile doar terapeutului</li>
-        <li>Urmărire venituri, câți pacienți, câte sesiuni, cât a intrat</li>
+        <li>Online scheduling — patients book without calling or texting</li>
+        <li>Automatic confirmations — reminders sent 24h and 1h before each session</li>
+        <li>Centralized calendar — all appointments in one place</li>
+        <li>Session notes — encrypted, accessible only to the therapist</li>
+        <li>Revenue tracking — number of clients, sessions, and income at a glance</li>
       </ul>
 
       <div class="stat-row">
-        <div class="stat-item">
+        <div>
           <div class="stat-n">73</div>
-          <div class="stat-l">RON / lună</div>
+          <div class="stat-l">RON / month</div>
         </div>
-        <div class="stat-item">
+        <div>
           <div class="stat-n">15</div>
-          <div class="stat-l">Minute configurare</div>
+          <div class="stat-l">Minutes to set up</div>
         </div>
-        <div class="stat-item">
+        <div>
           <div class="stat-n">0</div>
-          <div class="stat-l">Instalări necesare pentru pacienți</div>
+          <div class="stat-l">Apps for patients to install</div>
         </div>
       </div>
 
-      <h2>Cine suntem</h2>
-      <p>APONIA.ro este construită de o echipă mică, fără finanțare externă. Serverele sunt în Frankfurt, Germania. Datele sunt criptate în tranzit și la stocare. Conformitate GDPR nativă.</p>
-      <p>Nu suntem o companie mare de software medical. Suntem oameni care au vrut să facă un instrument simplu și cinstit pentru o profesie care merită mai mult respect administrativ.</p>
+      <h2>Who we are</h2>
+      <p>APONIA.ro is built by a small team, without external funding. Servers are in Frankfurt, Germany. Data is encrypted in transit and at rest. Native GDPR compliance.</p>
+      <p>We are not a large medical software company. We are people who wanted to build a simple, honest tool for a profession that deserves more administrative respect.</p>
 
       <h2>Contact</h2>
       <div class="contact-box">
-        <p>Pentru orice întrebare despre platformă, parteneriate sau colaborări: <a href="mailto:hello@aponia.ro">hello@aponia.ro</a></p>
+        <p>For any questions about the platform, partnerships, or collaborations: <a href="mailto:hello@aponia.ro">hello@aponia.ro</a></p>
       </div>
 
     </div>
@@ -209,12 +203,12 @@
     </a>
   </div>
   <div class="flinks">
-    <a href="/legal/politica-confidentialitate.html">Politică de confidențialitate</a>
-    <a href="/legal/termene-conditii.html">Termene și condiții</a>
+    <a href="/legal/politica-confidentialitate.html">Privacy Policy</a>
+    <a href="/legal/termene-conditii.html">Terms &amp; Conditions</a>
     <a href="mailto:hello@aponia.ro">hello@aponia.ro</a>
     <a href="https://www.producthunt.com/products/aponia" target="_blank" rel="noopener">Product Hunt</a>
   </div>
-  <p class="fcopy">© 2026 APONIA.ro · toate drepturile rezervate</p>
+  <p class="fcopy">© 2026 APONIA.ro · all rights reserved</p>
 </footer>
 
 </body>
