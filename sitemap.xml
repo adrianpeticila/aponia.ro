@@ -55,6 +55,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://aponia.ro/blog/software-cabinet-psihoterapie-comparatie.html</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aponia.ro/cabinet-psiholog/</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -234,5 +240,11 @@
     <lastmod>2026-06-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://aponia.ro/en/blog/therapy-practice-software-romania.html</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
