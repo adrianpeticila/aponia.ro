@@ -159,6 +159,8 @@ Stripe, card bancar, factură lunară automată. Monedă: RON.
 - [Aponia vs WhatsApp](https://aponia.ro/vs-whatsapp/)
 - [Aponia vs SimplePractice](https://aponia.ro/vs-simplepractice/)
 - [Blog](https://aponia.ro/blog/): articole pentru psihoterapeuți independenți. Clustere: granițe profesionale, organizare și timp, GDPR și conformitate, prețuri și business, no-show și anulări.
+- [Software cabinet psihoterapie: comparație 7 unelte (RO)](https://aponia.ro/blog/software-cabinet-psihoterapie-comparatie.html): comparație onestă a 7 soluții pentru cabinete de psihoterapie din România (Aponia, ePsihologie, eCabinet, CabinetFlow, PsihoManager, PsihoERP, Easy Liberal), cu tabel de funcționalități și recomandări per nevoie.
+- [Therapy practice software in Romania: comparison (EN)](https://aponia.ro/en/blog/therapy-practice-software-romania.html): English comparison of 7 practice-management tools for Romanian psychotherapists.
 - [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html)
 - [Termene și condiții](https://aponia.ro/legal/termene-conditii.html)
 
