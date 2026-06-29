@@ -94,6 +94,36 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "SoftwareApplication",
+        "@id": "https://aponia.ro/#app",
+        "name": "APONIA.ro",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Therapy practice management software",
+        "operatingSystem": "Web",
+        "url": "https://aponia.ro/",
+        "description": "Platformă de gestionare cabinet psihoterapie pentru terapeuți independenți din România. Programări, notițe criptate, confirmări automate, GDPR.",
+        "inLanguage": "ro",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RON", "description": "Acces anticipat gratuit" },
+        "audience": { "@type": "Audience", "audienceType": "Psihoterapeuți și consilieri psihologici din România" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "SimplePractice",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "EHR and practice management",
+        "url": "https://simplepractice.com",
+        "description": "Platformă EHR americană pentru terapeuți, optimizată pentru piața SUA."
+      },
+      {
+        "@type": "ItemList",
+        "name": "Comparație APONIA.ro vs SimplePractice",
+        "description": "APONIA.ro este alternativa europeană GDPR pentru terapeuți din România; SimplePractice este optimizat pentru piața americană.",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "url": "https://aponia.ro/" },
+          { "@type": "ListItem", "position": 2, "name": "SimplePractice", "url": "https://simplepractice.com" }
+        ]
+      },
+      {
         "@type": "WebPage",
         "@id": "https://aponia.ro/vs-simplepractice/",
         "url": "https://aponia.ro/vs-simplepractice/",

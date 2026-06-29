@@ -88,6 +88,36 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "SoftwareApplication",
+        "@id": "https://aponia.ro/#app",
+        "name": "APONIA.ro",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Therapy practice management software",
+        "operatingSystem": "Web",
+        "url": "https://aponia.ro/",
+        "description": "Platformă de gestionare cabinet psihoterapie pentru terapeuți independenți din România. Programări, notițe criptate, confirmări automate, GDPR.",
+        "inLanguage": "ro",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RON", "description": "Acces anticipat gratuit" },
+        "audience": { "@type": "Audience", "audienceType": "Psihoterapeuți și consilieri psihologici din România" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Pasul.ro",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Therapist matching platform",
+        "url": "https://pasul.ro",
+        "description": "Platformă de matching între pacienți și terapeuți din România."
+      },
+      {
+        "@type": "ItemList",
+        "name": "Comparație APONIA.ro vs Pasul.ro",
+        "description": "Pasul.ro conectează pacienții cu terapeuți (matching); APONIA.ro gestionează cabinetul după ce ai pacienții.",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "url": "https://aponia.ro/" },
+          { "@type": "ListItem", "position": 2, "name": "Pasul.ro", "url": "https://pasul.ro" }
+        ]
+      },
+      {
         "@type": "WebPage",
         "@id": "https://aponia.ro/vs-pasul/",
         "url": "https://aponia.ro/vs-pasul/",
