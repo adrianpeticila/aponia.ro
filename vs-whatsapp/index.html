@@ -94,6 +94,36 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "SoftwareApplication",
+        "@id": "https://aponia.ro/#app",
+        "name": "APONIA.ro",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Therapy practice management software",
+        "operatingSystem": "Web",
+        "url": "https://aponia.ro/",
+        "description": "Platformă de gestionare cabinet psihoterapie pentru terapeuți independenți din România. Programări, notițe criptate, confirmări automate, GDPR.",
+        "inLanguage": "ro",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RON", "description": "Acces anticipat gratuit" },
+        "audience": { "@type": "Audience", "audienceType": "Psihoterapeuți și consilieri psihologici din România" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "WhatsApp",
+        "applicationCategory": "MobileApplication",
+        "applicationSubCategory": "Messaging",
+        "url": "https://whatsapp.com",
+        "description": "Aplicație de mesagerie personală, folosită informal pentru confirmări de programări."
+      },
+      {
+        "@type": "ItemList",
+        "name": "Comparație APONIA.ro vs WhatsApp",
+        "description": "APONIA.ro este un sistem profesional de cabinet terapeutic; WhatsApp este o aplicație de mesagerie personală fără funcții de gestionare cabinet.",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "url": "https://aponia.ro/" },
+          { "@type": "ListItem", "position": 2, "name": "WhatsApp", "url": "https://whatsapp.com" }
+        ]
+      },
+      {
         "@type": "WebPage",
         "@id": "https://aponia.ro/vs-whatsapp/",
         "url": "https://aponia.ro/vs-whatsapp/",

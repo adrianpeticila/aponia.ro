@@ -94,6 +94,36 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "SoftwareApplication",
+        "@id": "https://aponia.ro/#app",
+        "name": "APONIA.ro",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Therapy practice management software",
+        "operatingSystem": "Web",
+        "url": "https://aponia.ro/",
+        "description": "Platformă de gestionare cabinet psihoterapie pentru terapeuți independenți din România. Programări, notițe criptate, confirmări automate, GDPR.",
+        "inLanguage": "ro",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RON", "description": "Acces anticipat gratuit" },
+        "audience": { "@type": "Audience", "audienceType": "Psihoterapeuți și consilieri psihologici din România" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Google Calendar",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Calendar and scheduling",
+        "url": "https://calendar.google.com",
+        "description": "Aplicație gratuită de calendar și programări de la Google, destinată uzului general."
+      },
+      {
+        "@type": "ItemList",
+        "name": "Comparație APONIA.ro vs Google Calendar",
+        "description": "APONIA.ro este un sistem de cabinet terapeutic; Google Calendar este o agendă generică fără funcții specifice pentru terapeuți.",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "url": "https://aponia.ro/" },
+          { "@type": "ListItem", "position": 2, "name": "Google Calendar", "url": "https://calendar.google.com" }
+        ]
+      },
+      {
         "@type": "WebPage",
         "@id": "https://aponia.ro/vs-google-calendar/",
         "url": "https://aponia.ro/vs-google-calendar/",
