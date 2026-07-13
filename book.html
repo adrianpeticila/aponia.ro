@@ -498,21 +498,34 @@ async function submitBooking() {
   btn.appendChild(sp);
 
   try {
-    await db.collection('sessions').add({
-      psychiatristId:   therapist.uid,
-      psychiatristName: therapist.displayName || '',
-      patientId:        null,
-      patientName:      name,
-      patientEmail:     email,
-      patientPhone:     phone || null,
-      date:             selectedDate,
-      startTime:        selectedSlot.startTime,
-      endTime:          selectedSlot.endTime,
-      status:           'pending',
-      price:            therapist.sessionPrice || 0,
-      source:           'web',
-      createdAt:        Date.now(),
+    const resp = await fetch('https://europe-west3-aponia-ro.cloudfunctions.net/bookSession', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ data: {
+        psychiatristId:   therapist.uid,
+        psychiatristName: therapist.displayName || '',
+        patientId:        null,
+        patientName:      name,
+        patientEmail:     email,
+        patientPhone:     phone || null,
+        date:             selectedDate,
+        startTime:        selectedSlot.startTime,
+        endTime:          selectedSlot.endTime,
+        price:            therapist.sessionPrice || 0,
+        source:           'web',
+      }}),
     });
+    const body = await resp.json();
+    if (!resp.ok) {
+      const code = body?.error?.status;
+      if (code === 'ALREADY_EXISTS') {
+        alert('Acest interval a fost rezervat deja. Alege alt interval.');
+      } else {
+        alert(body?.error?.message || 'A apărut o eroare. Încearcă din nou.');
+      }
+      btn.disabled = false; sp.remove(); lbl.style.display = '';
+      return;
+    }
 
     document.getElementById('booking-content').style.display = 'none';
     document.getElementById('success-state').style.display = 'block';
