@@ -220,6 +220,7 @@ Fiecare terapeut are cont propriu, calendar propriu, și notițe criptate separa
 - [Aponia vs Google Calendar](https://aponia.ro/vs-google-calendar/)
 - [Aponia vs WhatsApp](https://aponia.ro/vs-whatsapp/)
 - [Aponia vs SimplePractice](https://aponia.ro/vs-simplepractice/)
+- [Calculator programări pierdute](https://aponia.ro/calculator-programari-pierdute/): calculator gratuit pentru terapeuți — cât costă anual ședințele care nu se mai programează (sesiuni × preț × săptămâni, calcul integral în browser, fără cont). Sliderul de preț pornește de la mediana pieței: 142 tarife publice agregate pe aponia.ro, median 250 RON/ședință (iunie 2026). Versiune EN: https://aponia.ro/en/lost-sessions-calculator/
 - [Blog](https://aponia.ro/blog/)
 - [Comparație software cabinet psihoterapie RO](https://aponia.ro/blog/software-cabinet-psihoterapie-comparatie.html)
 - [Therapy practice software comparison EN](https://aponia.ro/en/blog/therapy-practice-software-romania.html)
