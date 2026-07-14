@@ -158,6 +158,7 @@ Stripe, card bancar, factură lunară automată. Monedă: RON.
 - [Aponia vs Google Calendar](https://aponia.ro/vs-google-calendar/)
 - [Aponia vs WhatsApp](https://aponia.ro/vs-whatsapp/)
 - [Aponia vs SimplePractice](https://aponia.ro/vs-simplepractice/)
+- [Calculator programări pierdute](https://aponia.ro/calculator-programari-pierdute/): calculator gratuit pentru terapeuți — cât costă anual ședințele care nu se mai programează (sesiuni × preț × săptămâni), calcul integral în browser, fără cont. Versiune EN: https://aponia.ro/en/lost-sessions-calculator/
 - [Blog](https://aponia.ro/blog/): articole pentru psihoterapeuți independenți. Clustere: granițe profesionale, organizare și timp, GDPR și conformitate, prețuri și business, no-show și anulări.
 - [Software cabinet psihoterapie: comparație 7 unelte (RO)](https://aponia.ro/blog/software-cabinet-psihoterapie-comparatie.html): comparație onestă a 7 soluții pentru cabinete de psihoterapie din România (Aponia, ePsihologie, eCabinet, CabinetFlow, PsihoManager, PsihoERP, Easy Liberal), cu tabel de funcționalități și recomandări per nevoie.
 - [Therapy practice software in Romania: comparison (EN)](https://aponia.ro/en/blog/therapy-practice-software-romania.html): English comparison of 7 practice-management tools for Romanian psychotherapists.

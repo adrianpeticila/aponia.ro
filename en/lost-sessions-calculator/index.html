@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lost Sessions Calculator · What no-shows cost you yearly · APONIA.ro</title>
+  <meta name="description" content="Free calculator for therapists: find out what cancelled and forgotten sessions cost you per year. 3 sliders, instant result, right in your browser. No account, no email.">
+  <link rel="canonical" href="https://aponia.ro/en/lost-sessions-calculator/">
+  <link rel="alternate" hreflang="ro" href="https://aponia.ro/calculator-programari-pierdute/">
+  <link rel="alternate" hreflang="en" href="https://aponia.ro/en/lost-sessions-calculator/">
+  <link rel="alternate" hreflang="x-default" href="https://aponia.ro/calculator-programari-pierdute/">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://aponia.ro/en/lost-sessions-calculator/">
+  <meta property="og:title" content="Lost Sessions Calculator · What no-shows cost you yearly">
+  <meta property="og:description" content="Drag 3 sliders and see what sessions that never get rebooked cost you per year. Free, instant, no account.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="APONIA.ro">
+  <meta property="og:image" content="https://aponia.ro/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://aponia.ro/og-image.png">
+  <meta name="theme-color" content="#5b8c6a">
+  <meta name="color-scheme" content="light">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="author" content="APONIA.ro">
+  <meta name="date" content="2026-07-14">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://aponia.ro/en/lost-sessions-calculator/",
+        "url": "https://aponia.ro/en/lost-sessions-calculator/",
+        "name": "Lost Sessions Calculator · What no-shows cost you yearly",
+        "description": "Free calculator for therapists: what cancelled and forgotten sessions cost you per year. Instant result, right in your browser, no account.",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://aponia.ro/#website" },
+        "author": { "@id": "https://aponia.ro/#organization" },
+        "dateModified": "2026-07-14"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How does this tool calculate the money lost to missed sessions?",
+            "acceptedAnswer": { "@type": "Answer", "text": "It multiplies three numbers you set yourself: sessions that never get rebooked in a typical week, your average session rate, and your active weeks per year. The formula is transparent: sessions × rate × weeks. Nothing leaves your browser." }
+          },
+          {
+            "@type": "Question",
+            "name": "Where does the 250 RON average session rate come from?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Based on data aggregated on aponia.ro from 142 public rates, an individual psychotherapy session costs a median of 250 RON (June 2026), with most falling between 200 and 350 RON. The slider starts there, but you can adjust it to your real rate." }
+          },
+          {
+            "@type": "Question",
+            "name": "What counts as a lost session?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Any slot that never materializes: the client forgot, cancelled late, gave up after a long message exchange, or the rescheduling died somewhere on WhatsApp. The slot stays empty, and that hour never comes back." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the calculator collect any data about me?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No. All the math happens in your browser. No account, no email required to see the result, nothing sent to a server." }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I reduce lost sessions?",
+            "acceptedAnswer": { "@type": "Answer", "text": "The most common causes are manual confirmations and WhatsApp rescheduling. A booking system with a direct reservation link and automatic notifications eliminates most of them. That is what APONIA.ro does, at 73 RON per month." }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aponia.ro/en/" },
+          { "@type": "ListItem", "position": 2, "name": "Lost Sessions Calculator", "item": "https://aponia.ro/en/lost-sessions-calculator/" }
+        ]
+      }
+    ]
+  }
+  </script>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style>
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/InterTight-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/InterTight-700-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-italic.woff2?v=2') format('woff2');}
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --cream: #f7f5f0; --cream2: #f0ede6; --green: #5b8c6a;
+      --amber: #e8b86d; --dark: #3a4258; --ink: #1a1a1a;
+      --muted: #666; --border: #e0dbd2;
+    }
+    html { scroll-behavior: smooth; }
+    .skip-link { position: absolute; top: -100%; left: 1rem; background: var(--green); color: #fff; padding: 0.5rem 1rem; font-size: 0.85rem; font-family: 'Inter Tight', sans-serif; border-radius: 0 0 4px 4px; z-index: 9999; text-decoration: none; }
+    .skip-link:focus { top: 0; }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; overflow-x: hidden; }
+    a { color: inherit; text-decoration: none; }
+
+    .nav { position: sticky; top: 0; z-index: 100; background: rgba(247,245,240,0.95); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
+    .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.35rem; font-weight: 600; }
+    .nav-logo .gk { color: var(--green); letter-spacing: 0.05em; }
+    .nav-logo svg { flex-shrink: 0; }
+    .nav-links { display: flex; align-items: center; gap: 1.25rem; }
+    .nav-link { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 600; color: #555; letter-spacing: 0.04em; }
+    .nav-link:hover, .nav-link.active { color: var(--green); }
+    .lang-sw { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; font-weight: 600; color: var(--muted); letter-spacing: 0.03em; }
+    .lang-sw a:hover { color: var(--green); }
+    .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; border-radius: 3px; white-space: nowrap; min-height: 44px; display: inline-flex; align-items: center; }
+
+    main { max-width: 760px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+
+    .pg-tag { font-family: 'Inter Tight', sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); margin-bottom: 1rem; }
+    .pg-title { font-family: 'Newsreader', serif; font-size: clamp(2rem, 6vw, 3.5rem); font-weight: 600; line-height: 1.1; color: var(--ink); margin-bottom: 1.25rem; }
+    .pg-title em { font-style: italic; color: var(--green); }
+    .pg-deck { font-size: 1rem; color: var(--muted); line-height: 1.75; max-width: 600px; margin-bottom: 1.25rem; border-left: 3px solid var(--green); padding-left: 1rem; }
+    .pg-badge { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; color: var(--green); font-weight: 700; margin-bottom: 3rem; }
+
+    .m-section { margin-bottom: 3rem; }
+    .m-label { font-family: 'Inter Tight', sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--green); margin-bottom: 0.75rem; }
+    .m-section h2 { font-family: 'Newsreader', serif; font-size: clamp(1.3rem, 3vw, 1.9rem); font-weight: 600; line-height: 1.2; color: var(--ink); margin-bottom: 1rem; }
+    .m-section p { font-size: 1rem; line-height: 1.8; color: var(--ink); opacity: 0.85; margin-bottom: 0.9rem; }
+    .m-section p:last-child { margin-bottom: 0; }
+    .stat-src { font-family: 'Inter Tight', sans-serif; font-size: 0.78rem; color: var(--muted); }
+    .stat-src a { color: var(--green); text-decoration: underline; }
+
+    .calc-form { background: var(--cream2); border: 1px solid var(--border); border-radius: 6px; padding: 2rem 1.75rem; }
+    .c-item { margin-bottom: 2rem; }
+    .c-item:last-child { margin-bottom: 0; }
+    .c-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 0.35rem; }
+    .c-label { font-family: 'Inter Tight', sans-serif; font-size: 1.02rem; font-weight: 600; color: var(--ink); line-height: 1.4; }
+    .c-val { font-family: 'Inter Tight', sans-serif; font-size: 1.15rem; font-weight: 700; color: var(--green); white-space: nowrap; }
+    .c-note { font-family: 'Inter Tight', sans-serif; font-size: 0.82rem; color: var(--muted); line-height: 1.6; margin-bottom: 0.9rem; }
+    input[type="range"] { -webkit-appearance: none; appearance: none; width: 100%; height: 6px; border-radius: 3px; background: var(--border); outline: none; cursor: pointer; }
+    input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 26px; height: 26px; border-radius: 50%; background: var(--green); border: 3px solid white; box-shadow: 0 1px 4px rgba(0,0,0,0.25); cursor: pointer; }
+    input[type="range"]::-moz-range-thumb { width: 26px; height: 26px; border-radius: 50%; background: var(--green); border: 3px solid white; box-shadow: 0 1px 4px rgba(0,0,0,0.25); cursor: pointer; }
+    input[type="range"]:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
+
+    .result-card { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-top: 1.5rem; }
+    .result-kicker { font-family: 'Inter Tight', sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+    .result-big { font-family: 'Newsreader', serif; font-size: clamp(2.2rem, 7vw, 3.6rem); font-weight: 600; line-height: 1.05; color: var(--dark); margin-bottom: 0.35rem; }
+    .result-big .unit { font-size: 0.45em; color: var(--muted); font-weight: 400; }
+    .result-sub { font-family: 'Inter Tight', sans-serif; font-size: 0.92rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .result-equiv { border-top: 1px solid var(--border); padding-top: 1.25rem; display: grid; gap: 0.9rem; }
+    .equiv-row { display: flex; gap: 0.75rem; align-items: baseline; }
+    .equiv-num { font-family: 'Newsreader', serif; font-size: 1.5rem; font-weight: 600; color: var(--green); white-space: nowrap; min-width: 3.5rem; }
+    .equiv-txt { font-family: 'Inter Tight', sans-serif; font-size: 0.92rem; color: var(--ink); opacity: 0.85; line-height: 1.55; }
+
+    .cta-block { background: var(--green); padding: 2.5rem 2rem; margin-top: 1.5rem; border-radius: 6px; }
+    .cta-block h2 { font-family: 'Newsreader', serif; font-size: clamp(1.3rem, 3.5vw, 1.7rem); font-weight: 600; line-height: 1.25; color: white; margin-bottom: 0.75rem; }
+    .cta-block .cta-lead { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; color: rgba(255,255,255,0.9); line-height: 1.7; margin-bottom: 1.5rem; }
+    .btn-white { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; background: white; color: var(--green); font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; font-weight: 700; padding: 0.9rem 1.75rem; border-radius: 4px; border: none; cursor: pointer; min-height: 48px; white-space: nowrap; }
+    .btn-white:hover { opacity: 0.92; }
+    .cta-alt { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; color: rgba(255,255,255,0.85); margin-top: 1.25rem; line-height: 1.7; }
+    .cta-alt a { text-decoration: underline; color: white; }
+
+    .faq-item { margin-bottom: 1.5rem; }
+    .faq-item h3 { font-family: 'Inter Tight', sans-serif; font-size: 1rem; font-weight: 700; color: var(--ink); margin-bottom: 0.5rem; }
+    .faq-item p { font-size: 0.98rem; line-height: 1.7; color: var(--ink); opacity: 0.85; }
+
+    .footer { padding: 2.5rem 1.5rem; border-top: 1px solid var(--border); text-align: center; }
+    .fsocial { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 1.25rem; color: var(--muted); }
+    .flinks { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.5rem; margin-bottom: 1rem; }
+    .flinks a { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; color: var(--muted); }
+    .flinks a:hover { color: var(--green); }
+    .fcopy { font-family: 'Inter Tight', sans-serif; font-size: 0.72rem; color: #aaa; }
+
+    @media (max-width: 640px) {
+      .nav-links .nav-link { display: none; }
+      .nav-inner { padding: 0 1rem; }
+      main { padding: 2.5rem 1rem 4rem; }
+      .calc-form { padding: 1.5rem 1.25rem; }
+      .cta-block { padding: 2rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/en/" class="nav-logo">
+        <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="40" height="40" rx="9" fill="#5B8C6A"/>
+          <path fill="white" d="M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z"/>
+        </svg>
+        <span class="gk">APONIA.ro</span>
+      </a>
+      <div class="nav-links">
+        <a href="/en/about/" class="nav-link">About</a>
+        <a href="/en/anxiety-test/" class="nav-link">Anxiety Test</a>
+        <a href="/en/lost-sessions-calculator/" class="nav-link active">Calculator</a>
+        <span class="lang-sw"><a href="/calculator-programari-pierdute/" lang="ro">RO</a> | <span lang="en" aria-current="page">EN</span></span>
+        <a href="https://tally.so/r/aQEp0v" class="btn-nav" aria-label="Get free early access, no card required">Get my evenings back <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <header style="margin-bottom:1.5rem;">
+      <p class="pg-tag">calculator · lost sessions</p>
+      <h1 class="pg-title">What do the sessions that<br><em>never get rebooked</em> cost you?</h1>
+      <p class="pg-deck">"I forgot." "Can we move it to Thursday?" "I'll get back to you." Every session that never gets rebooked is an empty hour in your calendar and one more evening spent texting. Drag the sliders and see the yearly bill.</p>
+      <p class="pg-badge">Free. Instant. Nothing leaves your browser.</p>
+    </header>
+
+    <section class="m-section">
+      <p class="m-label">how it works</p>
+      <p>Three numbers you already know, one multiplication you have never done. The rate slider starts at the market median: based on data aggregated on aponia.ro from 142 public rates, an individual session costs a median of 250 RON (June 2026). <span class="stat-src">Source: <a href="/cat-costa-terapie-romania/">therapy costs in Romania</a> (Romanian-language page).</span></p>
+    </section>
+
+    <div class="calc-form" role="group" aria-label="Lost sessions calculator">
+      <div class="c-item">
+        <div class="c-head">
+          <label class="c-label" for="sesiuni">Sessions lost per week</label>
+          <span class="c-val" id="sesiuni-val">3</span>
+        </div>
+        <p class="c-note">How many bookings never materialize in a typical week. Includes "I forgot", late cancellations, and reschedules that die on WhatsApp.</p>
+        <input type="range" id="sesiuni" min="1" max="10" step="1" value="3" aria-describedby="sesiuni-val">
+      </div>
+      <div class="c-item">
+        <div class="c-head">
+          <label class="c-label" for="pret">Average rate per session</label>
+          <span class="c-val" id="pret-val">250 RON</span>
+        </div>
+        <p class="c-note">What you charge, on average, for a 50-minute session.</p>
+        <input type="range" id="pret" min="100" max="500" step="10" value="250" aria-describedby="pret-val">
+      </div>
+      <div class="c-item">
+        <div class="c-head">
+          <label class="c-label" for="sapt">Active weeks per year</label>
+          <span class="c-val" id="sapt-val">46</span>
+        </div>
+        <p class="c-note">How many weeks per year you are actually available for sessions, minus holidays, vacations, sick days.</p>
+        <input type="range" id="sapt" min="30" max="52" step="1" value="46" aria-describedby="sapt-val">
+      </div>
+    </div>
+
+    <div class="result-card" aria-live="polite">
+      <p class="result-kicker">You lose yearly</p>
+      <p class="result-big"><span id="annual">34,500</span> <span class="unit">RON</span></p>
+      <p class="result-sub">from sessions that never get rebooked</p>
+      <div class="result-equiv">
+        <div class="equiv-row">
+          <span class="equiv-num" id="sedinte-an">138</span>
+          <span class="equiv-txt">therapy hours per year where your calendar sits empty, even though the demand was there</span>
+        </div>
+        <div class="equiv-row">
+          <span class="equiv-num" id="multiplu">39×</span>
+          <span class="equiv-txt">the yearly cost of a booking system like APONIA.ro (73 RON/month = 876 RON/year). A single recovered session per month covers it three times over.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-block">
+      <h2>Stop the leak with one link.</h2>
+      <p class="cta-lead">Your client installs nothing. You send a link, they book directly, you get notified. No back-and-forth messages, no "I forgot". 73 RON/month, and right now you can join the beta for free, no card required.</p>
+      <a href="https://tally.so/r/aQEp0v" class="btn-white">I want to stop the losses <span aria-hidden="true">→</span></a>
+      <p class="cta-alt">Want an analysis of your number first? <a href="#" id="cta-mail">Email us your result</a> and you get a single reply with 3 concrete steps. No newsletter, no automated follow-up.</p>
+    </div>
+
+    <div class="pg-divider" style="height:1px;background:var(--border);margin:3rem 0;"></div>
+
+    <section class="m-section">
+      <p class="m-label">frequently asked questions</p>
+      <div class="faq-item">
+        <h3>How does this tool calculate the money lost?</h3>
+        <p>It multiplies three numbers you set yourself: sessions lost per week, your average rate, and your active weeks per year. The formula is in plain sight: sessions × rate × weeks. Nothing leaves your browser.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Where does the 250 RON average rate come from?</h3>
+        <p>From data aggregated on aponia.ro: 142 public individual psychotherapy rates, median 250 RON in June 2026, most between 200 and 350 RON. Adjust the slider to your real rate.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What counts as a lost session?</h3>
+        <p>Any slot that never materializes: the client forgot, cancelled late, gave up after a long message exchange, or the rescheduling died somewhere on WhatsApp. That hour never comes back.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Does the calculator collect any data about me?</h3>
+        <p>No. All the math happens in your browser. No account, no required email, no tracking.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How do I reduce lost sessions?</h3>
+        <p>The most common causes are manual confirmations and WhatsApp rescheduling. A direct booking link with automatic notifications eliminates most of them. That is what APONIA.ro does, at 73 RON per month.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="fsocial">
+      <a href="https://www.facebook.com/people/APONIAro/61590170232523/" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/company/aponia-ro/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+    </div>
+    <div class="flinks">
+      <a href="/legal/politica-confidentialitate.html">Privacy Policy</a>
+      <a href="/legal/termene-conditii.html">Terms</a>
+      <a href="mailto:hello@aponia.ro">hello@aponia.ro</a>
+      <a href="/en/about/">About APONIA.ro</a>
+      <a href="/en/manifesto/">Manifesto</a>
+      <a href="/en/anxiety-test/">Anxiety Test</a>
+      <a href="/en/lost-sessions-calculator/">Lost Sessions Calculator</a>
+    </div>
+    <p class="fcopy">© 2026 APONIA.ro · <time datetime="2026-07-14">updated July 2026</time> · all rights reserved</p>
+  </footer>
+
+  <script>
+    (function () {
+      var $ = function (id) { return document.getElementById(id); };
+      var fmt = function (n) { return new Intl.NumberFormat('en-US').format(Math.round(n)); };
+      var APONIA_ANUAL = 73 * 12;
+
+      function update() {
+        var sesiuni = parseInt($('sesiuni').value, 10);
+        var pret = parseInt($('pret').value, 10);
+        var sapt = parseInt($('sapt').value, 10);
+
+        $('sesiuni-val').textContent = sesiuni;
+        $('pret-val').textContent = fmt(pret) + ' RON';
+        $('sapt-val').textContent = sapt;
+
+        var annual = sesiuni * pret * sapt;
+        $('annual').textContent = fmt(annual);
+        $('sedinte-an').textContent = fmt(sesiuni * sapt);
+        $('multiplu').textContent = Math.round(annual / APONIA_ANUAL) + '×';
+
+        var subject = encodeURIComponent('My result: ' + fmt(annual) + ' RON lost yearly to missed sessions');
+        var body = encodeURIComponent('Hi,\n\nI used the calculator on aponia.ro.\n\nMy result: ' + fmt(annual) + ' RON lost per year.\n\nDetails:\n- ' + sesiuni + ' sessions lost per week\n- ' + pret + ' RON average rate per session\n- ' + sapt + ' active weeks per year\n\nI would like the analysis with 3 concrete steps.\n\nThank you.');
+        $('cta-mail').href = 'mailto:hello@aponia.ro?subject=' + subject + '&body=' + body;
+      }
+
+      ['sesiuni', 'pret', 'sapt'].forEach(function (id) {
+        $(id).addEventListener('input', update);
+      });
+      update();
+    })();
+  </script>
+</body>
+</html>
