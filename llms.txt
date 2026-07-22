@@ -145,7 +145,7 @@ Stripe, card bancar, factură lunară automată. Monedă: RON.
 
 ## Pagini
 
-- [Homepage](https://aponia.ro/)
+- [Homepage](https://aponia.ro/) (text simplu: https://aponia.ro/index.md)
 - [Despre Aponia](https://aponia.ro/about/) (text simplu: https://aponia.ro/about.md)
 - [Manifest](https://aponia.ro/manifesto/) (text simplu: https://aponia.ro/manifesto.md)
 - [Abonament](https://aponia.ro/abonament.html)
@@ -167,6 +167,28 @@ Stripe, card bancar, factură lunară automată. Monedă: RON.
 - [Therapy practice software in Romania: comparison (EN)](https://aponia.ro/en/blog/therapy-practice-software-romania.html): English comparison of 7 practice-management tools for Romanian psychotherapists.
 - [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html)
 - [Termene și condiții](https://aponia.ro/legal/termene-conditii.html)
+
+---
+
+## Pagini în engleză
+
+Versiunea în engleză a site-ului, la `/en/`. Același produs, aceleași prețuri (73 RON/lună) — nu e o ofertă separată.
+
+- [Homepage EN](https://aponia.ro/en/) (text simplu: https://aponia.ro/en.md)
+- [About APONIA.ro](https://aponia.ro/en/about/) (text simplu: https://aponia.ro/en/about.md)
+- [Manifesto](https://aponia.ro/en/manifesto/) (text simplu: https://aponia.ro/en/manifesto.md)
+- [Pricing](https://aponia.ro/en/pricing/)
+- [Software for independent psychologist practice](https://aponia.ro/en/psychologist-cabinet/) (text simplu: https://aponia.ro/en/psychologist-cabinet.md)
+- [Online booking for therapists](https://aponia.ro/en/booking/) (text simplu: https://aponia.ro/en/booking.md)
+- [Therapy practice management software](https://aponia.ro/en/practice-management/) (text simplu: https://aponia.ro/en/practice-management.md)
+- [Free online anxiety test (GAD-7)](https://aponia.ro/en/anxiety-test/): chestionar de autoevaluare, calcul în browser, fără cont (text simplu: https://aponia.ro/en/anxiety-test.md)
+- [Lost sessions calculator](https://aponia.ro/en/lost-sessions-calculator/): cât costă anual ședințele care nu se mai programează (text simplu: https://aponia.ro/en/lost-sessions-calculator.md)
+- [APONIA.ro vs Hedepy](https://aponia.ro/en/vs-hedepy/) (text simplu: https://aponia.ro/en/vs-hedepy.md)
+- [APONIA.ro vs Calendly](https://aponia.ro/en/vs-calendly/) (text simplu: https://aponia.ro/en/vs-calendly.md)
+- [APONIA.ro vs Google Calendar](https://aponia.ro/en/vs-google-calendar/) (text simplu: https://aponia.ro/en/vs-google-calendar.md)
+- [APONIA.ro vs WhatsApp](https://aponia.ro/en/vs-whatsapp/) (text simplu: https://aponia.ro/en/vs-whatsapp.md)
+- [APONIA.ro vs SimplePractice](https://aponia.ro/en/vs-simplepractice/) (text simplu: https://aponia.ro/en/vs-simplepractice.md)
+- [Therapy practice software in Romania: comparison](https://aponia.ro/en/blog/therapy-practice-software-romania.html)
 
 ---
 
