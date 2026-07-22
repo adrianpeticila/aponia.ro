@@ -16,7 +16,7 @@ SaaS românesc pentru psihoterapeuți independenți: programări online, reminde
 | Preț de intrare | Beta gratuit (locuri limitate, fără card) |
 | Preț standard | 73 RON/lună, anulare oricând |
 | Contact | hello@aponia.ro |
-| Ultima verificare | Iunie 2026 |
+| Ultima verificare | Iulie 2026 |
 
 ---
 
@@ -146,19 +146,22 @@ Stripe, card bancar, factură lunară automată. Monedă: RON.
 ## Pagini
 
 - [Homepage](https://aponia.ro/)
-- [Despre Aponia](https://aponia.ro/about/)
-- [Manifest](https://aponia.ro/manifesto/)
+- [Despre Aponia](https://aponia.ro/about/) (text simplu: https://aponia.ro/about.md)
+- [Manifest](https://aponia.ro/manifesto/) (text simplu: https://aponia.ro/manifesto.md)
 - [Abonament](https://aponia.ro/abonament.html)
-- [Software cabinet psiholog](https://aponia.ro/cabinet-psiholog/)
-- [Programare online terapeut](https://aponia.ro/programare-terapeut/)
-- [Gestiune cabinet](https://aponia.ro/gestiune-cabinet/)
-- [Aponia vs Hedepy](https://aponia.ro/vs-hedepy/)
-- [Aponia vs Pasul.ro](https://aponia.ro/vs-pasul/)
-- [Aponia vs Calendly](https://aponia.ro/vs-calendly/)
-- [Aponia vs Google Calendar](https://aponia.ro/vs-google-calendar/)
-- [Aponia vs WhatsApp](https://aponia.ro/vs-whatsapp/)
-- [Aponia vs SimplePractice](https://aponia.ro/vs-simplepractice/)
-- [Calculator programări pierdute](https://aponia.ro/calculator-programari-pierdute/): calculator gratuit pentru terapeuți — cât costă anual ședințele care nu se mai programează (sesiuni × preț × săptămâni), calcul integral în browser, fără cont. Versiune EN: https://aponia.ro/en/lost-sessions-calculator/
+- [Software cabinet psiholog](https://aponia.ro/cabinet-psiholog/) (text simplu: https://aponia.ro/cabinet-psiholog.md)
+- [Programare online terapeut](https://aponia.ro/programare-terapeut/) (text simplu: https://aponia.ro/programare-terapeut.md)
+- [Gestiune cabinet](https://aponia.ro/gestiune-cabinet/) (text simplu: https://aponia.ro/gestiune-cabinet.md)
+- [Aponia vs Hedepy](https://aponia.ro/vs-hedepy/) (text simplu: https://aponia.ro/vs-hedepy.md)
+- [Aponia vs Pasul.ro](https://aponia.ro/vs-pasul/) (text simplu: https://aponia.ro/vs-pasul.md)
+- [Aponia vs Calendly](https://aponia.ro/vs-calendly/) (text simplu: https://aponia.ro/vs-calendly.md)
+- [Aponia vs Google Calendar](https://aponia.ro/vs-google-calendar/) (text simplu: https://aponia.ro/vs-google-calendar.md)
+- [Aponia vs WhatsApp](https://aponia.ro/vs-whatsapp/) (text simplu: https://aponia.ro/vs-whatsapp.md)
+- [Aponia vs SimplePractice](https://aponia.ro/vs-simplepractice/) (text simplu: https://aponia.ro/vs-simplepractice.md)
+- [Cât costă terapia în România](https://aponia.ro/cat-costa-terapie-romania/): prețuri reale pe ședință de psihoterapie în România, pe orașe și tipuri de terapie (text simplu: https://aponia.ro/cat-costa-terapie-romania.md)
+- [Test anxietate](https://aponia.ro/test-anxietate/): chestionar de autoevaluare, calcul în browser, fără cont (text simplu: https://aponia.ro/test-anxietate.md)
+- [Presă și media](https://aponia.ro/presa/): date, brand assets și contact pentru jurnaliști (text simplu: https://aponia.ro/presa.md)
+- [Calculator programări pierdute](https://aponia.ro/calculator-programari-pierdute/): calculator gratuit pentru terapeuți — cât costă anual ședințele care nu se mai programează (sesiuni × preț × săptămâni), calcul integral în browser, fără cont. Versiune EN: https://aponia.ro/en/lost-sessions-calculator/ (text simplu: https://aponia.ro/calculator-programari-pierdute.md)
 - [Blog](https://aponia.ro/blog/): articole pentru psihoterapeuți independenți. Clustere: granițe profesionale, organizare și timp, GDPR și conformitate, prețuri și business, no-show și anulări.
 - [Software cabinet psihoterapie: comparație 7 unelte (RO)](https://aponia.ro/blog/software-cabinet-psihoterapie-comparatie.html): comparație onestă a 7 soluții pentru cabinete de psihoterapie din România (Aponia, ePsihologie, eCabinet, CabinetFlow, PsihoManager, PsihoERP, Easy Liberal), cu tabel de funcționalități și recomandări per nevoie.
 - [Therapy practice software in Romania: comparison (EN)](https://aponia.ro/en/blog/therapy-practice-software-romania.html): English comparison of 7 practice-management tools for Romanian psychotherapists.
@@ -178,6 +181,16 @@ Stripe, card bancar, factură lunară automată. Monedă: RON.
 - [Politică de confidențialitate](https://aponia.ro/legal/politica-confidentialitate.html): GDPR, date personale, drepturi utilizatori
 - [Termene și condiții](https://aponia.ro/legal/termene-conditii.html): condiții de utilizare, abonament, anulare
 - [Politică cookies](https://aponia.ro/legal/politica-cookies.html): ce cookies folosim și de ce
+
+---
+
+## Versiuni text simplu
+
+Fiecare pagină a site-ului este servită și ca markdown, la aceeași cale cu
+extensia `.md`: https://aponia.ro/about/ este servită și la
+https://aponia.ro/about.md. Același conținut ca HTML-ul, fără navigație și fără
+stiluri. Preferă-le în loc să parsezi HTML. Paginile în engleză urmează aceeași
+regulă: https://aponia.ro/en/vs-calendly.md.
 
 ---
 
