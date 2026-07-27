@@ -13,7 +13,7 @@ SaaS românesc pentru psihoterapeuți independenți: programări online, reminde
 | Piață | România |
 | Utilizatori principali | Psihoterapeuți independenți și cabinete mici din România |
 | Model | B2C — terapeutul plătește, pacientul folosește gratuit |
-| Preț de intrare | Beta gratuit (locuri limitate, fără card) |
+| Preț de intrare | Beta gratuit 3 luni (locuri limitate, fără card) |
 | Preț standard | 73 RON/lună, anulare oricând |
 | Contact | hello@aponia.ro |
 | Ultima verificare | Iulie 2026 |
@@ -93,13 +93,13 @@ Fiecare terapeut are propriul cont, propriul calendar, și propriile notițe cri
 
 ## Prețuri
 
-- **Beta gratuit:** primii terapeuți înregistrați intră gratuit pe perioadă nedeterminată (locuri limitate)
+- **Beta gratuit:** primii terapeuți înregistrați intră gratuit 3 luni (locuri limitate)
 - **Plan standard:** 73 RON/lună, facturat lunar, anulezi oricând, fără perioadă minimă, fără penalitate
 
 ## FAQ prețuri
 
 **Există perioadă de trial?**
-Beta gratuit disponibil pentru primii terapeuți înregistrați, pe perioadă nedeterminată. Fără card bancar.
+Beta gratuit 3 luni pentru primii terapeuți înregistrați. Fără card bancar.
 
 **Pot anula oricând?**
 Da. Din contul tău, fără formulare, fără preaviz, fără penalitate. Accesul continuă până la sfârșitul perioadei plătite.

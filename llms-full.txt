@@ -50,7 +50,7 @@ Platforma rezolvă problema din ambele direcții: terapeuții scapă de administ
 
 ## Prețuri
 
-- **Beta gratuit:** primii terapeuți înregistrați intră gratuit pe perioadă nedeterminată (locuri limitate)
+- **Beta gratuit:** primii terapeuți înregistrați intră gratuit 3 luni (locuri limitate)
 - **Plan standard:** 73 RON/lună, facturat lunar, anulezi oricând din cont, fără birocrație, fără penalitate, fără perioadă minimă
 
 ---
@@ -150,7 +150,7 @@ Da. Atât terapeuții cât și pacienții accesează prin browser pe orice dispo
 73 RON/lună prin Stripe. Card bancar. Facturare lunară automată. Anulare în orice moment din cont.
 
 **Există trial gratuit?**
-Beta gratuit disponibil pentru primii terapeuți înregistrați, pe perioadă nedeterminată. Fără card bancar necesar.
+Beta gratuit 3 luni pentru primii terapeuți înregistrați. Fără card bancar necesar.
 
 **De ce 73 RON/lună și nu mai ieftin?**
 Include notițe criptate, mesagerie profesională separată, remindere automate, link de rezervare și statistici. Alternativele la 39-49 RON/lună nu includ notițele de sesiune și mesageria separată. Diferența este de 24-34 RON pentru funcționalitățile care fac diferența în practica zilnică.
@@ -295,7 +295,7 @@ Intră în beta gratuit.\
 Fără card.
 -----------------------
 
-terapeuții din beta intră gratuit, pe perioadă nedeterminată. când ieșim din beta, prețul e 73 ron/lună. nicio altă condiție.
+terapeuții din beta intră gratuit 3 luni. când ieșim din beta, prețul e 73 ron/lună. nicio altă condiție.
 
 [vreau seara mea înapoi →](https://tally.so/r/aQEp0v)
 
