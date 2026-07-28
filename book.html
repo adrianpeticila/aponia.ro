@@ -248,7 +248,7 @@
   </div>
   <div id="success-state" style="display:none">
     <div class="state-icon">🎉</div>
-    <div class="state-title">Cerere trimisă!</div>
+    <div class="state-title">Programare confirmată!</div>
     <p class="state-sub" id="success-msg"></p>
   </div>
 
@@ -551,10 +551,10 @@ async function submitBooking() {
     const boldDate = document.createElement('strong'); txt(boldDate, `${d}.${m}.${y}`);
     const line1b = document.createElement('span'); txt(line1b, ` la ora `);
     const boldTime = document.createElement('strong'); txt(boldTime, selectedSlot.startTime);
-    const line1c = document.createElement('span'); txt(line1c, ` a fost trimisă.`);
+    const line1c = document.createElement('span'); txt(line1c, ` e confirmată.`);
     const br1 = document.createElement('br'), br2 = document.createElement('br');
     const line2 = document.createElement('span');
-    txt(line2, `${therapist.displayName||'Terapeutul'} va confirma în curând. Detaliile ajung pe `);
+    txt(line2, `${therapist.displayName||'Terapeutul'} a fost anunțat. Detaliile ajung pe `);
     const boldEmail = document.createElement('strong'); txt(boldEmail, email);
     const dot = document.createElement('span'); txt(dot, '.');
     msg.append(line1, boldDate, line1b, boldTime, line1c, br1, br2, line2, boldEmail, dot);
