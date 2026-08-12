@@ -1,5 +1,5 @@
 window.firebaseConfig = {
-  apiKey: 'REDACTED_API_KEY',
+  apiKey: 'AIzaSyBEiIpUc8i3vbaf5uIGsjmYCCZ5FaP8CHE',
   authDomain: 'aponia-ro.firebaseapp.com',
   projectId: 'aponia-ro',
   storageBucket: 'aponia-ro.firebasestorage.app',
