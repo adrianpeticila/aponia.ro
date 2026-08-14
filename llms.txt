@@ -161,6 +161,8 @@ Stripe, card bancar, factură lunară automată. Monedă: RON.
 - [Cât costă terapia în România](https://aponia.ro/cat-costa-terapie-romania/): prețuri reale pe ședință de psihoterapie în România, pe orașe și tipuri de terapie (text simplu: https://aponia.ro/cat-costa-terapie-romania.md)
 - [Test anxietate](https://aponia.ro/test-anxietate/): chestionar de autoevaluare, calcul în browser, fără cont (text simplu: https://aponia.ro/test-anxietate.md)
 - [Wellbeing](https://aponia.ro/wellbeing/): spațiu biofil de liniște și claritate, 7 module de reglare emoțională (text simplu: https://aponia.ro/wellbeing.md)
+- [Rhea](https://aponia.ro/rhea/): scor gratuit de vizibilitate online pentru psihoterapeuți - prezența pe Google, site propriu și semnale sociale, calcul în browser (text simplu: https://aponia.ro/rhea.md)
+
 - [Presă și media](https://aponia.ro/presa/): date, brand assets și contact pentru jurnaliști (text simplu: https://aponia.ro/presa.md)
 - [Calculator programări pierdute](https://aponia.ro/calculator-programari-pierdute/): calculator gratuit pentru terapeuți — cât costă anual ședințele care nu se mai programează (sesiuni × preț × săptămâni), calcul integral în browser, fără cont. Versiune EN: https://aponia.ro/en/lost-sessions-calculator/ (text simplu: https://aponia.ro/calculator-programari-pierdute.md)
 - [Blog](https://aponia.ro/blog/): articole pentru psihoterapeuți independenți. Clustere: reglare vagală și wellbeing, granițe profesionale, organizare și timp, GDPR și conformitate, prețuri și business, no-show și anulări.
@@ -190,12 +192,16 @@ Versiunea în engleză a site-ului, la `/en/`. Același produs, aceleași prețu
 - [APONIA.ro vs Calendly](https://aponia.ro/en/vs-calendly/) (text simplu: https://aponia.ro/en/vs-calendly.md)
 - [APONIA.ro vs Google Calendar](https://aponia.ro/en/vs-google-calendar/) (text simplu: https://aponia.ro/en/vs-google-calendar.md)
 - [APONIA.ro vs WhatsApp](https://aponia.ro/en/vs-whatsapp/) (text simplu: https://aponia.ro/en/vs-whatsapp.md)
+- [Rhea](https://aponia.ro/en/rhea/): free online visibility score for therapists - Google presence, your own website and social proof, computed in the browser (text simplu: https://aponia.ro/en/rhea.md)
+
 - [Biophilic Wellbeing & Emotional Regulation](https://aponia.ro/en/wellbeing/): biophilic space with 7 modules for nervous system settling (text simplu: https://aponia.ro/en/wellbeing.md)
 - [Therapy practice software in Romania: comparison](https://aponia.ro/en/blog/therapy-practice-software-romania.html)
 - [Vagal regulation between sessions: why 6 breaths/minute matters](https://aponia.ro/en/blog/vagal-regulation-breathing-therapist.html): 0.1 Hz resonance, HRV, parasympathetic tone, and Popas module.
 - [Why WhatsApp chaos drives therapist cortisol](https://aponia.ro/en/blog/whatsapp-cortisol-therapist-burnout.html): attention residue, decision fatigue, and quiet boundaries with Tihnă.
 - [Daemon & Network Pulse](https://aponia.ro/daemon/): Monitorizare transparentă a infrastructurii de programare, integritate date și protocol triaj.
 - [MCP Server & Protocol Triaj](https://aponia.ro/mcp/): Protocol de recomandare inteligentă și triaj automat pentru terapeuți independenți prin ChatGPT și agenți AI.
+- [Daemon & Network Pulse (English)](https://aponia.ro/en/daemon/): Real-time transparent telemetry for therapy scheduling infrastructure and edge uptime.
+- [Mental Health MCP Server (English)](https://aponia.ro/en/mcp/): Intelligent asynchronous triage and referral protocol for independent therapists via ChatGPT and AI agents.
 
 ---
 

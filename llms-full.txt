@@ -1286,3 +1286,22 @@ https://aponia.ro/mcp/
 **Titlu:** server mcp triaj & ghidare pacienti.
 
 **Descriere:** Protocol inteligent de recomandare si triaj asincron pentru terapeuti independenti din Romania, accesibil prin agenti AI si ChatGPT.
+
+### Daemon (System Telemetry & Network Health)
+https://aponia.ro/en/daemon/
+
+**Headline:** daemon: system telemetry & network health.
+
+**Description:** Real-time operational status of APONIA.ro systems: therapist vetting, edge latency, and scheduling infrastructure.
+
+### Mental Health MCP Server
+https://aponia.ro/en/mcp/
+
+**Headline:** mental health mcp server & patient triage.
+
+**Description:** Intelligent asynchronous guidance and triage protocol for independent psychotherapists in Romania, accessible via ChatGPT and AI agents.
+
+## Tools
+
+- [Rhea](https://aponia.ro/rhea/): free online visibility score for therapists, computed in the browser (text: https://aponia.ro/rhea.md)
+- [Rhea EN](https://aponia.ro/en/rhea/): free online visibility score for therapists, English version (text: https://aponia.ro/en/rhea.md)
