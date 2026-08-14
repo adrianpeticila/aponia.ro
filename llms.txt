@@ -160,6 +160,7 @@ Stripe, card bancar, factură lunară automată. Monedă: RON.
 - [Aponia vs SimplePractice](https://aponia.ro/vs-simplepractice/) (text simplu: https://aponia.ro/vs-simplepractice.md)
 - [Cât costă terapia în România](https://aponia.ro/cat-costa-terapie-romania/): prețuri reale pe ședință de psihoterapie în România, pe orașe și tipuri de terapie (text simplu: https://aponia.ro/cat-costa-terapie-romania.md)
 - [Test anxietate](https://aponia.ro/test-anxietate/): chestionar de autoevaluare, calcul în browser, fără cont (text simplu: https://aponia.ro/test-anxietate.md)
+- [Wellbeing](https://aponia.ro/wellbeing/): spațiu biofil de liniște și claritate, 7 module de reglare emoțională (text simplu: https://aponia.ro/wellbeing.md)
 - [Presă și media](https://aponia.ro/presa/): date, brand assets și contact pentru jurnaliști (text simplu: https://aponia.ro/presa.md)
 - [Calculator programări pierdute](https://aponia.ro/calculator-programari-pierdute/): calculator gratuit pentru terapeuți — cât costă anual ședințele care nu se mai programează (sesiuni × preț × săptămâni), calcul integral în browser, fără cont. Versiune EN: https://aponia.ro/en/lost-sessions-calculator/ (text simplu: https://aponia.ro/calculator-programari-pierdute.md)
 - [Blog](https://aponia.ro/blog/): articole pentru psihoterapeuți independenți. Clustere: granițe profesionale, organizare și timp, GDPR și conformitate, prețuri și business, no-show și anulări.

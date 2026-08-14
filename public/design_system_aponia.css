@@ -1,0 +1,526 @@
+/* ==========================================================================
+   APONIA.RO - Biophilic Wellbeing Design System v2.0
+   Inspired by 7 Mental Wellbeing Design Projects (Popas, Mugur, Rădăcină,
+   Freamăt, Tihnă, Adăpost, Florilegiu) & StoryBrand Architecture
+   ========================================================================== */
+
+:root {
+  /* Biophilic Organic Palette - Soft Earth, Sage, Forest Moss & Warm Light */
+  --aponia-bg: #faf8f5;
+  --aponia-bg-warm: #f4eee6;
+  --aponia-card-bg: #ffffff;
+  --aponia-card-surface: #fdfbf7;
+  --aponia-card-alt: #f3ece2;
+  
+  --aponia-text-main: #242c25;
+  --aponia-text-muted: #5e6b60;
+  --aponia-text-light: #8b998d;
+  
+  --aponia-sage-light: #e6ede6;
+  --aponia-sage-subtle: #d2ded3;
+  --aponia-sage: #7a9a80;
+  --aponia-sage-dark: #415945;
+  --aponia-moss-deep: #2d3d30;
+  
+  --aponia-amber-soft: #f4ece1;
+  --aponia-amber-warm: #e8b86d;
+  --aponia-terracotta: #d9825b;
+  
+  --aponia-border: #e2dbd0;
+  --aponia-border-light: rgba(122, 154, 128, 0.18);
+  --aponia-border-focus: rgba(65, 89, 69, 0.4);
+  
+  --aponia-accent-glow: rgba(122, 154, 128, 0.22);
+  --aponia-warm-glow: rgba(232, 184, 109, 0.18);
+
+  /* Typography */
+  --aponia-font-serif: 'Newsreader', Georgia, serif;
+  --aponia-font-sans: 'Inter Tight', system-ui, -apple-system, sans-serif;
+  
+  /* Radii */
+  --aponia-radius-xl: 28px;
+  --aponia-radius-lg: 20px;
+  --aponia-radius-md: 14px;
+  --aponia-radius-sm: 8px;
+  --aponia-radius-pill: 9999px;
+
+  /* Shadows - Subtle & Imperceptible */
+  --aponia-shadow-subtle: 0 4px 20px rgba(45, 61, 48, 0.04);
+  --aponia-shadow-card: 0 8px 32px rgba(45, 61, 48, 0.06);
+  --aponia-shadow-hover: 0 14px 40px rgba(45, 61, 48, 0.10);
+  --aponia-shadow-inner: inset 0 2px 4px rgba(45, 61, 48, 0.03);
+}
+
+/* Base Theme */
+body.aponia-theme {
+  background-color: var(--aponia-bg);
+  color: var(--aponia-text-main);
+  font-family: var(--aponia-font-sans);
+  margin: 0;
+  padding: 0;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Card Hierarchy & Biophilic Layout Grid */
+.aponia-modules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+  margin: 40px 0;
+}
+
+.aponia-card-premium {
+  background: var(--aponia-card-bg);
+  border-radius: var(--aponia-radius-lg);
+  border: 1px solid var(--aponia-border-light);
+  padding: 32px 28px;
+  box-shadow: var(--aponia-shadow-card);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease, border-color 0.35s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.aponia-card-premium::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--aponia-sage-light), var(--aponia-sage), var(--aponia-amber-soft));
+  opacity: 0.8;
+}
+
+.aponia-card-premium:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--aponia-shadow-hover);
+  border-color: rgba(122, 154, 128, 0.35);
+}
+
+/* Card Header Components */
+.aponia-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.aponia-card-number {
+  font-family: var(--aponia-font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--aponia-sage-dark);
+  background: var(--aponia-sage-light);
+  padding: 4px 10px;
+  border-radius: var(--aponia-radius-pill);
+}
+
+.aponia-card-badge {
+  font-family: var(--aponia-font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--aponia-text-muted);
+  background: var(--aponia-card-alt);
+  padding: 4px 10px;
+  border-radius: var(--aponia-radius-pill);
+}
+
+.aponia-card-title {
+  font-family: var(--aponia-font-serif);
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--aponia-moss-deep);
+  margin: 0 0 8px 0;
+}
+
+.aponia-card-subtitle {
+  font-family: var(--aponia-font-sans);
+  font-size: 0.92rem;
+  color: var(--aponia-text-muted);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* 1. Modul Popas (Breathing Guide) */
+.aponia-popas-box {
+  background: var(--aponia-bg-warm);
+  border-radius: var(--aponia-radius-md);
+  padding: 24px;
+  text-align: center;
+  border: 1px solid var(--aponia-border-light);
+  margin-top: auto;
+}
+
+.aponia-breathing-orb {
+  width: 110px;
+  height: 110px;
+  margin: 16px auto;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--aponia-sage) 0%, var(--aponia-sage-light) 75%);
+  box-shadow: 0 0 30px var(--aponia-accent-glow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--aponia-moss-deep);
+  font-family: var(--aponia-font-sans);
+  font-weight: 700;
+  font-size: 0.85rem;
+  transition: transform 0.2s ease;
+}
+
+.aponia-breathing-orb.active {
+  animation: aponiaBreath8s 8s ease-in-out infinite;
+}
+
+@keyframes aponiaBreath8s {
+  0%, 100% {
+    transform: scale(0.85);
+    opacity: 0.7;
+    box-shadow: 0 0 16px var(--aponia-accent-glow);
+  }
+  50% {
+    transform: scale(1.22);
+    opacity: 1;
+    box-shadow: 0 0 45px rgba(122, 154, 128, 0.55);
+  }
+}
+
+.aponia-breath-label {
+  font-family: var(--aponia-font-serif);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--aponia-moss-deep);
+  min-height: 28px;
+  margin-bottom: 12px;
+}
+
+/* 2. Modul Mugur (Digital Garden) */
+.aponia-mugur-box {
+  background: var(--aponia-card-surface);
+  border-radius: var(--aponia-radius-md);
+  padding: 20px;
+  border: 1px solid var(--aponia-border-light);
+  margin-top: auto;
+}
+
+.aponia-garden-nodes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+  padding: 8px 4px;
+}
+
+.aponia-sprout-node {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--aponia-sage-light);
+  border: 2px solid var(--aponia-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--aponia-text-muted);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.aponia-sprout-node.bloomed {
+  background: var(--aponia-sage);
+  border-color: var(--aponia-sage-dark);
+  color: #ffffff;
+  box-shadow: 0 0 12px var(--aponia-accent-glow);
+  transform: scale(1.08);
+}
+
+.aponia-sprout-status {
+  font-size: 0.85rem;
+  color: var(--aponia-text-muted);
+  text-align: center;
+  margin-top: 8px;
+}
+
+/* 3. Modul Rădăcină (Tactile Journal) */
+.aponia-radacina-box {
+  background: var(--aponia-bg-warm);
+  border-radius: var(--aponia-radius-md);
+  padding: 20px;
+  border-left: 3px solid var(--aponia-sage);
+  margin-top: auto;
+}
+
+.aponia-anchor-pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.aponia-anchor-pill {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  background: var(--aponia-card-bg);
+  border: 1px solid var(--aponia-border);
+  border-radius: var(--aponia-radius-pill);
+  color: var(--aponia-moss-deep);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.aponia-anchor-pill:hover, .aponia-anchor-pill.selected {
+  background: var(--aponia-sage-light);
+  border-color: var(--aponia-sage);
+  color: var(--aponia-sage-dark);
+}
+
+/* 4. Modul Freamăt (60 bpm Pulse Visualizer) */
+.aponia-freamat-box {
+  background: var(--aponia-card-surface);
+  border-radius: var(--aponia-radius-md);
+  padding: 20px;
+  border: 1px solid var(--aponia-border-light);
+  text-align: center;
+  margin-top: auto;
+}
+
+.aponia-pulse-wave {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  height: 48px;
+  margin: 16px 0;
+}
+
+.aponia-pulse-bar {
+  width: 5px;
+  height: 18px;
+  background: var(--aponia-sage);
+  border-radius: 4px;
+  animation: aponiaPulse60bpm 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.aponia-pulse-bar:nth-child(2) { animation-delay: 0.15s; height: 32px; }
+.aponia-pulse-bar:nth-child(3) { animation-delay: 0.3s; height: 42px; background: var(--aponia-sage-dark); }
+.aponia-pulse-bar:nth-child(4) { animation-delay: 0.45s; height: 28px; }
+.aponia-pulse-bar:nth-child(5) { animation-delay: 0.6s; height: 16px; }
+
+@keyframes aponiaPulse60bpm {
+  0%, 100% {
+    transform: scaleY(0.5);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+/* 5. Modul Tihnă (3-Step Booking Simulator) */
+.aponia-tihna-box {
+  background: var(--aponia-bg-warm);
+  border-radius: var(--aponia-radius-md);
+  padding: 20px;
+  border: 1px solid var(--aponia-border-light);
+  margin-top: auto;
+}
+
+.aponia-step-indicators {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.aponia-step-indicators::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 15%;
+  right: 15%;
+  height: 2px;
+  background: var(--aponia-border);
+  z-index: 1;
+}
+
+.aponia-step-dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--aponia-card-bg);
+  border: 2px solid var(--aponia-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--aponia-text-muted);
+  position: relative;
+  z-index: 2;
+}
+
+.aponia-step-dot.active {
+  background: var(--aponia-sage-dark);
+  border-color: var(--aponia-sage-dark);
+  color: #ffffff;
+}
+
+.aponia-step-dot.done {
+  background: var(--aponia-sage);
+  border-color: var(--aponia-sage);
+  color: #ffffff;
+}
+
+.aponia-tihna-content {
+  font-size: 0.88rem;
+  color: var(--aponia-text-main);
+  background: var(--aponia-card-bg);
+  padding: 12px 16px;
+  border-radius: var(--aponia-radius-sm);
+  border: 1px solid var(--aponia-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 6. Modul Adăpost (Confidential Sanctuary) */
+.aponia-adapost-box {
+  background: var(--aponia-card-surface);
+  border-radius: var(--aponia-radius-md);
+  padding: 20px;
+  border: 1px solid var(--aponia-border-light);
+  margin-top: auto;
+}
+
+.aponia-shield-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--aponia-sage-light);
+  border-radius: var(--aponia-radius-sm);
+  margin-top: 10px;
+}
+
+.aponia-shield-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--aponia-sage-dark);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+}
+
+.aponia-shield-text {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--aponia-moss-deep);
+  line-height: 1.4;
+}
+
+/* 7. Modul Florilegiu (1-Minute Daily Routine) */
+.aponia-florilegiu-box {
+  background: var(--aponia-bg-warm);
+  border-radius: var(--aponia-radius-md);
+  padding: 20px;
+  border: 1px solid var(--aponia-border-light);
+  margin-top: auto;
+}
+
+.aponia-daily-pills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.aponia-daily-btn {
+  background: var(--aponia-card-bg);
+  border: 1px solid var(--aponia-border);
+  border-radius: var(--aponia-radius-sm);
+  padding: 8px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--aponia-text-main);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.aponia-daily-btn:hover, .aponia-daily-btn.active {
+  background: var(--aponia-sage-dark);
+  color: #ffffff;
+  border-color: var(--aponia-sage-dark);
+}
+
+/* Button & Utility System */
+.aponia-btn-action {
+  background-color: var(--aponia-sage-dark);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--aponia-radius-sm);
+  padding: 10px 20px;
+  font-family: var(--aponia-font-sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.aponia-btn-action:hover {
+  background-color: var(--aponia-moss-deep);
+  transform: translateY(-1px);
+}
+
+.aponia-btn-subtle {
+  background-color: transparent;
+  color: var(--aponia-sage-dark);
+  border: 1px solid var(--aponia-sage);
+  border-radius: var(--aponia-radius-sm);
+  padding: 9px 18px;
+  font-family: var(--aponia-font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.aponia-btn-subtle:hover {
+  background-color: var(--aponia-sage-light);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  .aponia-modules-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .aponia-card-premium {
+    padding: 24px 20px;
+  }
+  
+  .aponia-breathing-orb {
+    width: 95px;
+    height: 95px;
+  }
+}
