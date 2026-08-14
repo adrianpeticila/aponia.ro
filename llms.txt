@@ -190,8 +190,10 @@ Versiunea în engleză a site-ului, la `/en/`. Același produs, aceleași prețu
 - [APONIA.ro vs Calendly](https://aponia.ro/en/vs-calendly/) (text simplu: https://aponia.ro/en/vs-calendly.md)
 - [APONIA.ro vs Google Calendar](https://aponia.ro/en/vs-google-calendar/) (text simplu: https://aponia.ro/en/vs-google-calendar.md)
 - [APONIA.ro vs WhatsApp](https://aponia.ro/en/vs-whatsapp/) (text simplu: https://aponia.ro/en/vs-whatsapp.md)
-- [APONIA.ro vs SimplePractice](https://aponia.ro/en/vs-simplepractice/) (text simplu: https://aponia.ro/en/vs-simplepractice.md)
+- [Biophilic Wellbeing & Emotional Regulation](https://aponia.ro/en/wellbeing/): biophilic space with 7 modules for nervous system settling (text simplu: https://aponia.ro/en/wellbeing.md)
 - [Therapy practice software in Romania: comparison](https://aponia.ro/en/blog/therapy-practice-software-romania.html)
+- [Vagal regulation between sessions: why 6 breaths/minute matters](https://aponia.ro/en/blog/vagal-regulation-breathing-therapist.html): 0.1 Hz resonance, HRV, parasympathetic tone, and Popas module.
+- [Why WhatsApp chaos drives therapist cortisol](https://aponia.ro/en/blog/whatsapp-cortisol-therapist-burnout.html): attention residue, decision fatigue, and quiet boundaries with Tihnă.
 
 ---
 
