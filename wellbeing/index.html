@@ -160,11 +160,35 @@
     .flinks a:hover { color: var(--green); }
     .fcopy { font-family: 'Inter Tight', sans-serif; font-size: 0.75rem; color: #888; }
 
+    @media (max-width: 1024px) and (min-width: 769px) {
+      .nav-inner { padding: 0 1rem; }
+      .nav-links { gap: 0.85rem; }
+      .nav-link { font-size: 0.8rem; letter-spacing: 0.02em; }
+      .btn-nav { padding: 0.45rem 0.9rem; font-size: 0.8rem; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { gap: 0.75rem; }
+      .nav-links .nav-link-secondary { display: none; }
+      .btn-nav { padding: 0.45rem 0.85rem; font-size: 0.78rem; min-height: 38px; }
+      .btn-nav-text-full { display: none; }
+      .btn-nav-text-short { display: inline; }
+    }
+
+    @media (min-width: 769px) {
+      .btn-nav-text-short { display: none; }
+      .btn-nav-text-full { display: inline; }
+    }
+
     @media (max-width: 640px) {
-      .nav-links .nav-link { display: none; }
       .wb-hero { padding: 3rem 1rem 2rem; }
       .wb-container { padding: 0 1rem 3rem; }
       .wb-cta { padding: 2.5rem 1.25rem; }
+    }
+
+    @media (max-width: 480px) {
+      .nav-links .nav-link { display: none; }
+      .lang-sw { display: none; }
     }
   </style>
 </head>
@@ -181,12 +205,15 @@
         <span class="gk">APONIA.ro</span>
       </a>
       <div class="nav-links">
-        <a href="/about/" class="nav-link">Despre</a>
-        <a href="/manifesto/" class="nav-link">Manifest</a>
-        <a href="/test-anxietate/" class="nav-link">Test anxietate</a>
+        <a href="/about/" class="nav-link nav-link-secondary">Despre</a>
+        <a href="/manifesto/" class="nav-link nav-link-secondary">Manifest</a>
+        <a href="/test-anxietate/" class="nav-link nav-link-secondary">Test anxietate</a>
         <a href="/wellbeing/" class="nav-link active" aria-current="page">Wellbeing</a>
         <span class="lang-sw"><span lang="ro" aria-current="page">RO</span></span>
-        <a href="https://tally.so/r/aQEp0v" class="btn-nav" aria-label="Intră în beta gratuit">Vreau seara mea înapoi <span aria-hidden="true">→</span></a>
+        <a href="https://tally.so/r/aQEp0v" class="btn-nav" aria-label="Intră în beta gratuit">
+          <span class="btn-nav-text-full">Vreau seara mea înapoi <span aria-hidden="true">→</span></span>
+          <span class="btn-nav-text-short">Începe gratuit <span aria-hidden="true">→</span></span>
+        </a>
       </div>
     </div>
   </nav>
