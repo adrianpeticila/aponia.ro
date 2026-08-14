@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aponia MCP Protocol · Test Workbench</title>
+  <meta name="description" content="Interfata de testare si documentatie pentru Aponia Model Context Protocol (MCP) Server.">
+  <link rel="canonical" href="https://aponia.ro/mcp/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preload" as="font" href="/fonts/InterTight-400-normal.woff2?v=2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="/fonts/InterTight-700-normal.woff2?v=2" type="font/woff2" crossorigin>
+  <style>
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/InterTight-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/InterTight-700-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-normal.woff2?v=2') format('woff2');}
+
+    :root {
+      --cream: #f7f5f0; --cream2: #f0ede6; --green: #5b8c6a;
+      --amber: #e8b86d; --dark: #3a4258; --ink: #1a1a1a;
+      --muted: #666; --border: #e0dbd2; --red: #c0392b;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; padding-bottom: 4rem; }
+    a { color: inherit; text-decoration: none; }
+
+    .nav { position: sticky; top: 0; z-index: 100; background: rgba(247,245,240,0.95); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
+    .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.35rem; font-weight: 600; }
+    .nav-logo .gk { color: var(--green); letter-spacing: 0.05em; }
+    .btn-nav { background: var(--green); color: white; padding: 0.55rem 1.2rem; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; border-radius: 3px; }
+
+    .wrap { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem 0; }
+    .eyebrow { font-family: 'Inter Tight', monospace; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); font-weight: 700; margin-bottom: 0.5rem; }
+    h1 { font-family: 'Inter Tight', sans-serif; font-size: clamp(2rem, 4vw, 2.75rem); font-weight: 800; letter-spacing: -0.03em; color: var(--ink); margin-bottom: 1rem; }
+    .lead { font-size: 1.15rem; color: var(--muted); max-width: 65ch; margin-bottom: 2.5rem; }
+
+    .workbench { background: var(--cream2); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; margin-bottom: 2rem; }
+    .wb-title { font-family: 'Inter Tight', sans-serif; font-size: 1.1rem; font-weight: 700; color: var(--dark); margin-bottom: 1.25rem; }
+    
+    label { display: block; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; margin-bottom: 0.4rem; color: var(--dark); }
+    textarea, select { width: 100%; padding: 0.85rem; font-family: 'Newsreader', serif; font-size: 1rem; border: 1px solid var(--border); border-radius: 4px; background: #fff; margin-bottom: 1rem; outline: none; }
+    textarea:focus, select:focus { border-color: var(--green); }
+    
+    .btn-run { background: var(--green); color: #fff; border: none; padding: 0.75rem 1.5rem; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; border-radius: 3px; cursor: pointer; }
+    .btn-run:hover { opacity: 0.9; }
+
+    .output-box { margin-top: 1.5rem; padding: 1.25rem; background: #fff; border: 1px solid var(--border); border-radius: 4px; font-family: 'Inter Tight', monospace; font-size: 0.85rem; line-height: 1.6; white-space: pre-wrap; display: none; }
+    .output-box.active { display: block; }
+
+    footer { max-width: 900px; margin: 4rem auto 0; padding: 2rem 1.5rem 0; border-top: 1px solid var(--border); font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <svg width="24" height="24" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#5b8c6a"/><path fill="white" d="M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z"/></svg>
+      <span>APONIA<span class="gk">.ro</span></span>
+    </a>
+    <a href="/daemon" class="btn-nav">Daemon Live</a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="eyebrow">Protocol Recomandare Inteligentă // MCP Server</div>
+  <h1>Cum te găsesc pacienții prin ChatGPT și AI</h1>
+  <p class="lead">Asistenții AI (ChatGPT, Claude, Apple Intelligence) primesc zilnic mii de căutări pentru terapie în România. Protocolul MCP Aponia conectează aceste căutări direct cu profilul tău acreditat, trimițând pacientul pe pagina ta de programare fără comisioane pe ședință.</p>
+
+  <div class="workbench">
+    <div class="wb-title">Simulare Triaj Automat: triage_mental_health</div>
+    <p style="font-size: 0.95rem; color: var(--muted); margin-bottom: 1.25rem;">Testează modul în care ChatGPT apelează serverul Aponia atunci când un pacient descrie ce simte:</p>
+    
+    <label for="symptoms">Descriere Simptome Pacient:</label>
+    <textarea id="symptoms" rows="3">Am atacuri de panica frecvente noaptea si dificultati de concentrare din cauza stresului.</textarea>
+
+    <label for="urgency">Nivel Urgență:</label>
+    <select id="urgency">
+      <option value="moderate">Moderată (Standard)</option>
+      <option value="high" selected>Ridicată (Prioritară)</option>
+      <option value="low">Scăzută (Preventivă)</option>
+    </select>
+
+    <button class="btn-run" id="run-btn" type="button">Execută Apel MCP (JSON-RPC 2.0)</button>
+
+    <div class="output-box" id="output-box"></div>
+    <p style="font-family: 'Inter Tight', sans-serif; font-size: 0.75rem; color: var(--muted); margin-top: 0.75rem;">// răspuns afișat = simulare demo. Serverul real returnează date din surse live.</p>
+  </div>
+
+  <div style="background: var(--cream2); border: 1px solid var(--border); border-radius: 6px; padding: 1.75rem; margin-top: 2rem;">
+    <h3 style="font-family: 'Inter Tight', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--dark);">Beneficiul Terapeutului Acreditat</h3>
+    <p style="font-size: 0.95rem; color: var(--muted); line-height: 1.6;">
+      Spre deosebire de marketplace-urile care rețin 20-30% din fiecare ședință, Aponia acționează ca un nod deschis de distribuție. Un pacient care primește recomandarea în ChatGPT ajunge direct pe calendarul tău privat, cu datele și confirmările gestionate direct de tine.
+    </p>
+  </div>
+</div>
+
+<footer>
+  <p>Aponia MCP Protocol v2024-11-05 · Compatibil cu OpenAI Apps SDK și Claude Desktop.</p>
+</footer>
+
+<script>
+document.getElementById('run-btn').addEventListener('click', () => {
+  const sym = document.getElementById('symptoms').value.toLowerCase();
+  const urgency = document.getElementById('urgency').value;
+  
+  let rec = "Terapie Cognitiv-Comportamentala (CBT) si Tehnici de Reglare Emotionala";
+  if (sym.includes("relatie") || sym.includes("cuplu")) {
+    rec = "Terapie Sistemica de Cuplu si Familie";
+  } else if (sym.includes("trauma") || sym.includes("copilarie")) {
+    rec = "Terapie EMDR si Psihoterapie Integrativa";
+  }
+
+  const jsonRpcPayload = {
+    jsonrpc: "2.0",
+    id: 1,
+    result: {
+      content: [
+        {
+          type: "text",
+          text: `Recomandare Triaj Aponia:\nAbordare recomandata: ${rec}\nNivel prioritate: ${urgency}\nUrmatorul pas: Programati o sedinta initiala de evaluare pe aponia.ro.`
+        }
+      ]
+    }
+  };
+
+  const box = document.getElementById('output-box');
+  box.textContent = JSON.stringify(jsonRpcPayload, null, 2);
+  box.classList.add('active');
+});
+</script>
+</body>
+</html>
