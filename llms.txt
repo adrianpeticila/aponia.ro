@@ -194,6 +194,8 @@ Versiunea în engleză a site-ului, la `/en/`. Același produs, aceleași prețu
 - [Therapy practice software in Romania: comparison](https://aponia.ro/en/blog/therapy-practice-software-romania.html)
 - [Vagal regulation between sessions: why 6 breaths/minute matters](https://aponia.ro/en/blog/vagal-regulation-breathing-therapist.html): 0.1 Hz resonance, HRV, parasympathetic tone, and Popas module.
 - [Why WhatsApp chaos drives therapist cortisol](https://aponia.ro/en/blog/whatsapp-cortisol-therapist-burnout.html): attention residue, decision fatigue, and quiet boundaries with Tihnă.
+- [Daemon & Network Pulse](https://aponia.ro/daemon/): Monitorizare transparentă a infrastructurii de programare, integritate date și protocol triaj.
+- [MCP Server & Protocol Triaj](https://aponia.ro/mcp/): Protocol de recomandare inteligentă și triaj automat pentru terapeuți independenți prin ChatGPT și agenți AI.
 
 ---
 
