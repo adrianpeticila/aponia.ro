@@ -6,7 +6,7 @@ Patients book themselves. Therapists keep their prices, their hours, and their p
 
 Named after ἀπονία, the Epicurean idea of freedom from pain. The stated goal of therapy. Should be the stated goal of software too.
 
-This repo is the landing site: static HTML, a small build script, JSON-LD on every page, llms.txt for the machines that read the web now. The app itself lives in its own repo.
+This repo is the landing site: static HTML, a small build script, JSON-LD on every page, llms.txt for the machines that read the web now. The app itself lives in its own repo. Features the [Daemon](https://aponia.ro/daemon/) telemetry feed and the [MCP Protocol](https://aponia.ro/mcp/) triage server.
 
 **Stack:** HTML, CSS, vanilla JS, GitHub Pages, Cloudflare DNS.
 

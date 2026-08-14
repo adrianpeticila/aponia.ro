@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Rhea — Cât de vizibil ești ca psihoterapeut pe Google? | Aponia</title>
+  <meta name="description" content="Află gratuit scorul tău de vizibilitate online ca psihoterapeut: prezența pe Google, site propriu și recomandări. Un instrument Aponia, construit pentru terapeuții din România.">
+  <meta name="theme-color" content="#5b8c6a">
+  <meta name="color-scheme" content="light">
+  <meta property="og:title" content="Rhea — Scorul tău de vizibilitate ca psihoterapeut">
+  <meta property="og:description" content="Cât de ușor te găsesc pacienții pe Google? Află gratuit în 30 de secunde.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%235b8c6a'/><path fill='white' d='M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z'/></svg>">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --green: #5b8c6a;
+      --green-dark: #4a7357;
+      --green-deep: #3d6049;
+      --green-tint: #eef3ef;
+      --amber: #e8b86d;
+      --amber-tint: #faf1e0;
+      --cream: #f7f5f0;
+      --surface: #fdfcfa;
+      --border: #e0dbd2;
+      --ink: #1a2332;
+      --muted: #66706f;
+      --ghost: #9a9a9a;
+      --red: #c0392b;
+      --radius-sm: 10px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-xl: 26px;
+      --shadow-sm: 0 1px 4px rgba(26,35,50,0.06);
+      --shadow-md: 0 4px 16px rgba(26,35,50,0.08);
+      --shadow-lg: 0 12px 40px rgba(26,35,50,0.12);
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      line-height: 1.6;
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 600; letter-spacing: -0.5px; line-height: 1.15; }
+    a { color: inherit; text-decoration: none; }
+
+    /* NAV */
+    .nav { background: rgba(247,245,240,0.92); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 100; }
+    .nav-inner { max-width: 720px; margin: 0 auto; padding: 0 1.25rem; height: 60px; display: flex; align-items: center; gap: 0.65rem; }
+    .nav-logo { display: flex; align-items: center; gap: 0.55rem; }
+    .nav-logo svg { flex-shrink: 0; }
+    .nav-logo .wordmark { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.3rem; letter-spacing: 0.02em; }
+    .nav-logo .wordmark .gk { color: var(--green); }
+    .nav-tag { font-size: 0.78rem; color: var(--muted); font-style: italic; padding-left: 0.65rem; border-left: 1px solid var(--border); white-space: nowrap; }
+
+    .wrap { max-width: 720px; margin: 0 auto; padding: 0 1.25rem; }
+    main { padding: 2.5rem 0 4rem; }
+
+    /* HERO */
+    .hero { text-align: center; margin-bottom: 2rem; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 0.4rem; background: var(--green-tint); color: var(--green-deep); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 0.4rem 0.85rem; border-radius: 999px; margin-bottom: 1.1rem; }
+    .eyebrow::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
+    .hero h1 { font-size: clamp(1.7rem, 5.5vw, 2.5rem); margin-bottom: 0.85rem; }
+    .hero h1 em { font-style: italic; color: var(--green); }
+    .hero p { color: var(--muted); font-size: 1.02rem; max-width: 54ch; margin: 0 auto; }
+    .hero .quiet { font-size: 0.85rem; color: var(--ghost); margin-top: 0.6rem; }
+
+    /* CARD */
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-xl); box-shadow: var(--shadow-md); padding: 1.75rem; }
+    .card + .card { margin-top: 1.25rem; }
+
+    .stage { display: none; }
+    .stage.active { display: block; animation: rise 0.4s ease-out; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+    .stage-title { font-size: 1.35rem; margin-bottom: 0.4rem; }
+    .stage-sub { color: var(--muted); font-size: 0.92rem; margin-bottom: 1.4rem; }
+
+    /* FORM */
+    .field { margin-bottom: 1.1rem; }
+    .field label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.4rem; }
+    .field label .req { color: var(--red); }
+    .field label .opt { color: var(--ghost); font-weight: 400; font-size: 0.78rem; }
+    .field input[type="text"], .field input[type="email"], .field input[type="tel"], .field input[type="url"] {
+      width: 100%; padding: 0.72rem 0.9rem; border: 1px solid var(--border); border-radius: var(--radius-sm);
+      font: inherit; font-size: 0.95rem; color: var(--ink); background: #fff; transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .field input::placeholder { color: var(--ghost); }
+    .field input:focus { outline: none; border-color: var(--green); box-shadow: 0 0 0 3px rgba(91,140,106,0.15); }
+    .field input.invalid { border-color: var(--red); box-shadow: 0 0 0 3px rgba(192,57,43,0.12); }
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
+    @media (max-width: 520px) { .field-row { grid-template-columns: 1fr; } }
+
+    /* SPECIALIZATIONS */
+    .spec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.55rem; }
+    @media (max-width: 460px) { .spec-grid { grid-template-columns: 1fr; } }
+    .spec { display: flex; align-items: center; gap: 0.55rem; padding: 0.6rem 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-sm); background: #fff; cursor: pointer; font-size: 0.88rem; transition: all 0.18s; user-select: none; }
+    .spec:hover { border-color: var(--green); background: var(--green-tint); }
+    .spec input { display: none; }
+    .spec .box { width: 18px; height: 18px; border: 1.5px solid var(--border); border-radius: 5px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; transition: all 0.18s; }
+    .spec .box svg { width: 12px; height: 12px; opacity: 0; transform: scale(0.5); transition: all 0.18s; }
+    .spec.checked { border-color: var(--green); background: var(--green-tint); }
+    .spec.checked .box { background: var(--green); border-color: var(--green); }
+    .spec.checked .box svg { opacity: 1; transform: scale(1); }
+
+    .hint { font-size: 0.78rem; color: var(--ghost); margin-top: 0.35rem; }
+
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; width: 100%;
+      background: var(--green); color: #fff; border: none; border-radius: var(--radius-sm);
+      padding: 0.85rem 1.4rem; font: inherit; font-size: 0.98rem; font-weight: 600; cursor: pointer;
+      box-shadow: 0 4px 14px rgba(91,140,106,0.28); transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    }
+    .btn:hover { background: var(--green-dark); transform: translateY(-1px); box-shadow: 0 6px 18px rgba(91,140,106,0.34); }
+    .btn:active { transform: translateY(0); }
+    .btn:focus-visible { outline: 3px solid rgba(91,140,106,0.4); outline-offset: 2px; }
+    .btn:disabled { opacity: 0.65; cursor: not-allowed; transform: none; }
+    .form-foot { text-align: center; font-size: 0.78rem; color: var(--ghost); margin-top: 1rem; line-height: 1.5; }
+    .form-foot a { color: var(--green); text-decoration: underline; }
+
+    /* LOADING */
+    .loading-wrap { text-align: center; padding: 1.5rem 0.5rem; }
+    .spinner { width: 56px; height: 56px; margin: 0 auto 1.4rem; border-radius: 50%; border: 4px solid var(--green-tint); border-top-color: var(--green); animation: spin 0.9s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading-msg { font-family: 'Playfair Display', serif; font-size: 1.15rem; margin-bottom: 0.35rem; min-height: 1.6em; transition: opacity 0.25s; }
+    .loading-sub { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+    .progress { height: 8px; background: var(--green-tint); border-radius: 999px; overflow: hidden; max-width: 320px; margin: 0 auto; }
+    .progress-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--green), var(--green-dark)); border-radius: 999px; transition: width 0.5s ease; }
+
+    /* RESULTS */
+    .score-hero { text-align: center; margin-bottom: 1.5rem; }
+    .ring { position: relative; width: 150px; height: 150px; margin: 0 auto 0.8rem; }
+    .ring svg { transform: rotate(-90deg); }
+    .ring .track { fill: none; stroke: var(--green-tint); stroke-width: 12; }
+    .ring .arc { fill: none; stroke: var(--green); stroke-width: 12; stroke-linecap: round; transition: stroke-dashoffset 1.2s ease-out; }
+    .ring .val { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+    .ring .val .num { font-family: 'Playfair Display', serif; font-size: 2.4rem; font-weight: 700; line-height: 1; }
+    .ring .val .lbl { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 0.2rem; }
+    .score-verdict { font-size: 1.02rem; color: var(--muted); max-width: 46ch; margin: 0 auto; }
+    .score-verdict strong { color: var(--ink); }
+    .greet { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 0.15rem; }
+
+    /* SECTION SCORES */
+    .sections { display: grid; gap: 0.8rem; margin-bottom: 1.25rem; }
+    .section-card { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.1rem; border: 1px solid var(--border); border-radius: var(--radius-md); background: #fff; }
+    .section-card .mini-ring { position: relative; width: 58px; height: 58px; flex-shrink: 0; }
+    .section-card .mini-ring svg { transform: rotate(-90deg); }
+    .section-card .mini-ring .track { fill: none; stroke: var(--green-tint); stroke-width: 7; }
+    .section-card .mini-ring .arc { fill: none; stroke: var(--green); stroke-width: 7; stroke-linecap: round; transition: stroke-dashoffset 1.2s ease-out; }
+    .section-card .mini-ring .mval { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.95rem; }
+    .section-card .sc-body { flex: 1; }
+    .section-card .sc-title { font-weight: 600; font-size: 0.95rem; }
+    .section-card .sc-desc { font-size: 0.8rem; color: var(--muted); }
+
+    /* TIP */
+    .tip { display: flex; gap: 0.85rem; align-items: flex-start; padding: 1.05rem 1.1rem; background: var(--amber-tint); border: 1px solid #f0dfc0; border-radius: var(--radius-md); margin-bottom: 1.25rem; }
+    .tip .tip-ico { flex-shrink: 0; width: 34px; height: 34px; border-radius: 50%; background: var(--amber); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 1rem; }
+    .tip .tip-body { font-size: 0.88rem; }
+    .tip .tip-body strong { display: block; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #9a6f2c; margin-bottom: 0.15rem; }
+    .tip .tip-body p { color: #4a3b22; }
+
+    /* CTA */
+    .cta { text-align: center; background: var(--green-deep); color: #fff; border-radius: var(--radius-lg); padding: 1.6rem 1.5rem; }
+    .cta h3 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+    .cta p { color: rgba(255,255,255,0.85); font-size: 0.9rem; margin-bottom: 0.2rem; }
+    .cta .offer { display: inline-block; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); color: #f4e3c4; font-weight: 600; font-size: 0.85rem; padding: 0.35rem 0.8rem; border-radius: 999px; margin: 0.7rem 0 1.1rem; }
+    .cta .btn { background: var(--amber); color: var(--ink); box-shadow: 0 4px 14px rgba(0,0,0,0.25); }
+    .cta .btn:hover { background: #f0c27e; }
+    .cta .fine { font-size: 0.75rem; color: rgba(255,255,255,0.6); margin-top: 0.9rem; }
+
+    .again { text-align: center; margin-top: 1.1rem; }
+    .again button { background: none; border: none; color: var(--muted); font: inherit; font-size: 0.85rem; cursor: pointer; text-decoration: underline; }
+    .again button:hover { color: var(--green); }
+
+    .foot { text-align: center; margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.78rem; color: var(--ghost); line-height: 1.7; }
+    .foot .brand { font-family: 'Playfair Display', serif; font-style: italic; color: var(--muted); font-size: 0.9rem; }
+
+    .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" aria-label="Navigare principală">
+    <div class="nav-inner">
+      <a class="nav-logo" href="https://aponia.ro" aria-label="Aponia — acasă">
+        <svg width="28" height="28" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="#5b8c6a"/><path fill="#fff" d="M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z"/></svg>
+        <span class="wordmark"><span class="gk">Aponia</span></span>
+      </a>
+      <span class="nav-tag">Bun-venit în alinare</span>
+    </div>
+  </nav>
+
+  <main>
+    <div class="wrap">
+      <header class="hero">
+        <span class="eyebrow">Rhea · gratuit pentru terapeuți</span>
+        <h1>Cât de vizibil ești ca <em>psihoterapeut</em> pe Google?</h1>
+        <p>Pacienții te caută online înainte să te sune. Află în 30 de secunde cum te găsesc — și unde te pierzi.</p>
+        <p class="quiet">Fără plată. Fără card. Doar un diagnostic sincer, făcut pentru tine.</p>
+      </header>
+
+      <!-- STAGE 1: FORM -->
+      <section class="card stage active" id="stage-form" aria-label="Formular de diagnostic">
+        <h2 class="stage-title">Completează detaliile tale</h2>
+        <p class="stage-sub">Atât ne trebuie ca să-ți calculăm scorul de vizibilitate.</p>
+
+        <form id="dx-form" novalidate>
+          <div class="field">
+            <label for="f-name">Nume și prenume <span class="req">*</span></label>
+            <input type="text" id="f-name" name="name" placeholder="ex. Maria Ionescu" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="f-email">Email <span class="req">*</span></label>
+            <input type="email" id="f-email" name="email" placeholder="ex. maria@cabinetul-tau.ro" autocomplete="email" required>
+            <p class="hint">Îți trimitem rezultatul și, dacă vrei, pași concreți de îmbunătățire.</p>
+          </div>
+
+          <div class="field">
+            <label for="f-phone">Telefon <span class="opt">(opțional, dar ajută pacienții să te găsească)</span></label>
+            <input type="tel" id="f-phone" name="phone" placeholder="ex. 0722 123 456" autocomplete="tel">
+          </div>
+
+          <div class="field">
+            <label for="f-site">URL site cabinet <span class="opt">(opțional)</span></label>
+            <input type="url" id="f-site" name="site" placeholder="ex. www.cabinetul-tau.ro" autocomplete="url">
+          </div>
+
+          <div class="field">
+            <label>Specializări principale <span class="opt">(alege câte se potrivesc)</span></label>
+            <div class="spec-grid" id="spec-grid">
+              <label class="spec"><input type="checkbox" value="Tulburări de anxietate"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Tulburări de anxietate</label>
+              <label class="spec"><input type="checkbox" value="Depresie"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Depresie</label>
+              <label class="spec"><input type="checkbox" value="Cuplu și relații"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Cuplu și relații</label>
+              <label class="spec"><input type="checkbox" value="Traumă"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Traumă</label>
+              <label class="spec"><input type="checkbox" value="Copii și adolescenți"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Copii și adolescenți</label>
+              <label class="spec"><input type="checkbox" value="Altele"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Altele</label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn" id="btn-submit">Calculează-mi scorul de vizibilitate →</button>
+          <p class="form-foot">Datele tale sunt folosite doar pentru a-ți trimite rezultatul.<br>Le tratăm confidențial, cum ai face și tu în cabinet. <a href="https://aponia.ro/legal/" target="_blank" rel="noopener">Politica de confidențialitate</a></p>
+        </form>
+      </section>
+
+      <!-- STAGE 2: LOADING -->
+      <section class="card stage" id="stage-loading" aria-label="Analiză în curs" aria-live="polite">
+        <div class="loading-wrap">
+          <div class="spinner" aria-hidden="true"></div>
+          <p class="loading-msg" id="loading-msg">Analizăm prezența ta pe Google…</p>
+          <p class="loading-sub" id="loading-sub">Verificăm directoarele de specialitate</p>
+          <div class="progress" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+        </div>
+      </section>
+
+      <!-- STAGE 3: RESULTS -->
+      <section class="card stage" id="stage-results" aria-label="Rezultatul diagnosticului">
+        <div class="score-hero">
+          <p class="greet" id="res-greet">Mulțumim, Maria!</p>
+          <div class="ring" aria-hidden="true">
+            <svg width="150" height="150" viewBox="0 0 150 150">
+              <circle class="track" cx="75" cy="75" r="66"></circle>
+              <circle class="arc" id="arc-main" cx="75" cy="75" r="66"></circle>
+            </svg>
+            <div class="val"><span class="num" id="res-score">0</span><span class="lbl">din 100</span></div>
+          </div>
+          <p class="score-verdict" id="res-verdict"></p>
+        </div>
+
+        <div class="sections" id="res-sections"></div>
+
+        <div class="tip" id="res-tip">
+          <div class="tip-ico" aria-hidden="true">!</div>
+          <div class="tip-body">
+            <strong id="tip-title">Sfat practic</strong>
+            <p id="tip-text"></p>
+          </div>
+        </div>
+
+        <div class="cta">
+          <h3>Vrei să apari mai bine?</h3>
+          <p>Programează-ți un cont gratuit pe aponia.ro și fă-te găsit de pacienții care te caută chiar acum.</p>
+          <span class="offer">Primele 3 luni gratuite · apoi 73 RON/lună</span>
+          <a class="btn" href="https://aponia.ro" target="_blank" rel="noopener">Începe gratuit pe aponia.ro →</a>
+          <p class="fine">Fără card. Anulezi oricând, fără întrebări.</p>
+        </div>
+
+        <div class="again">
+          <button type="button" id="btn-again">← Recalculează pentru alt terapeut</button>
+        </div>
+      </section>
+
+      <footer class="foot">
+        <p class="brand">Aponia — bun-venit în alinare</p>
+        <p>Rhea este un instrument gratuit de orientare, nu un audit SEO complet.<br>Scorul este estimativ și construit pe date publice despre vizibilitatea cabinetelor din România.</p>
+        <p>© <span id="year"></span> Aponia · <a href="https://aponia.ro/legal/" target="_blank" rel="noopener">Confidențialitate</a> · <a href="https://aponia.ro" target="_blank" rel="noopener">aponia.ro</a></p>
+      </footer>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      'use strict';
+
+      var $ = function (id) { return document.getElementById(id); };
+      var stages = { form: $('stage-form'), loading: $('stage-loading'), results: $('stage-results') };
+      var form = $('dx-form');
+
+      $('year').textContent = new Date().getFullYear();
+
+      /* Specialization toggle */
+      var specs = document.querySelectorAll('#spec-grid .spec');
+      specs.forEach(function (label) {
+        var input = label.querySelector('input');
+        var sync = function () { label.classList.toggle('checked', input.checked); };
+        input.addEventListener('change', sync);
+        label.addEventListener('click', function (e) {
+          if (e.target !== input) { input.checked = !input.checked; sync(); }
+        });
+      });
+
+      /* Seeded PRNG — consistent per email */
+      function hashString(str) {
+        var h = 2166136261;
+        for (var i = 0; i < str.length; i++) {
+          h ^= str.charCodeAt(i);
+          h = Math.imul(h, 16777619);
+        }
+        return h >>> 0;
+      }
+      function mulberry32(a) {
+        return function () {
+          a |= 0; a = (a + 0x6D2B79F5) | 0;
+          var t = Math.imul(a ^ (a >>> 15), 1 | a);
+          t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+          return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+        };
+      }
+      function clamp(n, lo, hi) { return Math.max(lo, Math.min(hi, n)); }
+
+      function generateScores(email, hasWebsite, hasPhone) {
+        var rand = mulberry32(hashString(email.toLowerCase().trim()));
+        var google = Math.round(18 + rand() * 64);
+        var site = Math.round(12 + rand() * 56);
+        var social = Math.round(15 + rand() * 62);
+        if (hasWebsite) { site = clamp(site + 24, 0, 98); }
+        else { site = clamp(site - 6, 4, 70); }
+        if (hasPhone) { google = clamp(google + 9, 0, 99); }
+        var overall = Math.round(google * 0.40 + site * 0.35 + social * 0.25);
+        return { google: google, site: site, social: social, overall: overall };
+      }
+
+      var TIPS = {
+        google: { title: 'Prezența pe Google', text: 'Nu apari pe fmo.ro — 70% dintre pacienți caută acolo un terapeut. Un profil complet, cu poză și descriere, te face găsit în câteva zile.' },
+        site: { title: 'Site propriu', text: 'Fără un site (sau cu unul greu de găsit), Google nu are ce să indexeze. O pagină publică pe aponia.ro îți oferă instant o prezență clară, cu programări incluse.' },
+        social: { title: 'Dovadă socială', text: 'Recomandările sunt primul lucru pe care îl verifică un pacient. Cere 2–3 recenzii sincere de la clienți mulțumiți și cere-le să te menționeze pe LinkedIn.' }
+      };
+      function pickTip(scores) {
+        var lowest = 'google', val = scores.google;
+        if (scores.site < val) { lowest = 'site'; val = scores.site; }
+        if (scores.social < val) { lowest = 'social'; val = scores.social; }
+        return TIPS[lowest];
+      }
+
+      var SECTION_META = {
+        google: { title: 'Prezență Google', desc: 'Directoare, profiluri și rezultate la căutare' },
+        site: { title: 'Site propriu', desc: 'Pagina cabinetului și cât de ușor e de găsit' },
+        social: { title: 'Dovadă socială', desc: 'Recenzii, LinkedIn și recomandări' }
+      };
+
+      function verdictFor(score) {
+        if (score < 30) return 'Momentan ești aproape invizibil online, dar vestea bună e că totul e de construit — pas cu pas.';
+        if (score < 50) return 'Ai o bază, însă pacienții care te caută te pot rata ușor. Câteva ajustări fac diferența.';
+        if (score < 70) return 'Ești pe drumul cel bun — cu mici îmbunătățiri poți ajunge în fața celor care te caută.';
+        if (score < 85) return 'Prezență solidă. Mai e un pas până să devii prima alegere pentru pacienții tăi ideali.';
+        return 'Excelent! Te faci găsit ușor. Concentrează-te acum pe menținere și recenzii proaspete.';
+      }
+
+      function arcDash(score, radius) {
+        var c = 2 * Math.PI * radius;
+        return { c: c, offset: c * (1 - score / 100) };
+      }
+
+      function animateNumber(el, target) {
+        var start = null, dur = 1000;
+        function step(ts) {
+          if (!start) start = ts;
+          var p = Math.min(1, (ts - start) / dur);
+          var eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(eased * target);
+          if (p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+      }
+
+      function renderScores(scores, firstName) {
+        $('res-greet').textContent = 'Mulțumim, ' + firstName + '!';
+        $('res-verdict').innerHTML = '<strong>' + scores.overall + ' din 100</strong> — ' + verdictFor(scores.overall);
+
+        var main = arcDash(scores.overall, 66);
+        var arcMain = $('arc-main');
+        arcMain.style.strokeDasharray = main.c;
+        arcMain.style.strokeDashoffset = main.c;
+        animateNumber($('res-score'), scores.overall);
+
+        var order = ['google', 'site', 'social'];
+        var html = '';
+        order.forEach(function (key) {
+          var meta = SECTION_META[key];
+          html += '<div class="section-card">' +
+            '<div class="mini-ring"><svg width="58" height="58" viewBox="0 0 58 58">' +
+            '<circle class="track" cx="29" cy="29" r="24"></circle>' +
+            '<circle class="arc" data-key="' + key + '" cx="29" cy="29" r="24"></circle>' +
+            '</svg><div class="mval" data-num="' + key + '">0</div></div>' +
+            '<div class="sc-body"><div class="sc-title">' + meta.title + '</div>' +
+            '<div class="sc-desc">' + meta.desc + '</div></div></div>';
+        });
+        $('res-sections').innerHTML = html;
+
+        var tip = pickTip(scores);
+        $('tip-title').textContent = 'Sfat practic · ' + tip.title;
+        $('tip-text').textContent = tip.text;
+
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            arcMain.style.strokeDashoffset = main.offset;
+            order.forEach(function (key) {
+              var d = arcDash(scores[key], 24);
+              var el = document.querySelector('.mini-ring .arc[data-key="' + key + '"]');
+              el.style.strokeDasharray = d.c;
+              el.style.strokeDashoffset = d.offset;
+              animateNumber(document.querySelector('.mval[data-num="' + key + '"]'), scores[key]);
+            });
+          });
+        });
+      }
+
+      function showStage(name) {
+        for (var k in stages) stages[k].classList.toggle('active', k === name);
+      }
+
+      var LOAD_STEPS = [
+        { msg: 'Analizăm prezența ta pe Google…', sub: 'Verificăm directoarele de specialitate', at: 0 },
+        { msg: 'Căutăm profilul tău în directoare…', sub: 'fmo.ro, therapist.ro și altele', at: 950 },
+        { msg: 'Verificăm site-ul cabinetului…', sub: 'Structură, conținut și indexare', at: 1900 },
+        { msg: 'Evaluăm recomandările și LinkedIn…', sub: 'Aproape gata — pregătim diagnosticul', at: 2750 }
+      ];
+
+      function runLoading(done) {
+        var fill = $('progress-fill');
+        var msg = $('loading-msg');
+        var sub = $('loading-sub');
+        var timers = [];
+        LOAD_STEPS.forEach(function (s) {
+          timers.push(setTimeout(function () {
+            msg.textContent = s.msg;
+            sub.textContent = s.sub;
+          }, s.at));
+        });
+        fill.style.transition = 'width 3.4s linear';
+        fill.style.width = '100%';
+        timers.push(setTimeout(done, 3600));
+        return timers;
+      }
+
+      function markInvalid(el, invalid) {
+        el.classList.toggle('invalid', invalid);
+        el.setAttribute('aria-invalid', invalid ? 'true' : 'false');
+      }
+
+      function validate() {
+        var name = $('f-name'), email = $('f-email');
+        var nameOk = name.value.trim().length >= 2;
+        var emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.value.trim());
+        markInvalid(name, !nameOk);
+        markInvalid(email, !emailOk);
+        if (!nameOk) { name.focus(); return false; }
+        if (!emailOk) { email.focus(); return false; }
+        return true;
+      }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!validate()) return;
+
+        var nameVal = $('f-name').value.trim();
+        var emailVal = $('f-email').value.trim();
+        var siteVal = $('f-site').value.trim();
+        var phoneVal = $('f-phone').value.trim();
+        var firstName = nameVal.split(/\s+/)[0];
+        firstName = firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase();
+
+        var scores = generateScores(emailVal, !!siteVal, !!phoneVal);
+
+        $('btn-submit').disabled = true;
+        showStage('loading');
+        var fill = $('progress-fill');
+        fill.style.transition = 'none';
+        fill.style.width = '0%';
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            runLoading(function () {
+              renderScores(scores, firstName);
+              showStage('results');
+              $('btn-submit').disabled = false;
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+          });
+        });
+      });
+
+      $('btn-again').addEventListener('click', function () {
+        form.reset();
+        specs.forEach(function (label) { label.classList.remove('checked'); });
+        ['f-name', 'f-email', 'f-phone', 'f-site'].forEach(function (id) {
+          markInvalid($(id), false);
+        });
+        showStage('form');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    })();
+  </script>
+</body>
+</html>
+
+
+
+
