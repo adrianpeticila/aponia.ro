@@ -3,7 +3,7 @@
 > Aponia este o platformă românească de programări și administrare pentru psihoterapeuți independenți. Psihoterapeutul plătește. Pacientul rezervă gratuit, fără să instaleze nimic.
 
 ## TL;DR
-SaaS românesc pentru psihoterapeuți independenți: programări online, remindere automate, notițe de sesiune criptate AES-256. Terapeutul plătește 73 RON/lună. Pacientul rezervă gratuit, din browser, fără aplicație. Beta gratuit pentru primii înregistrați. Contact: hello@aponia.ro
+SaaS românesc pentru psihoterapeuți independenți: programări online, remindere automate, notițe de sesiune criptate AES-256. Terapeutul plătește 73 RON/lună (14 zile trial gratuit, fără card la înregistrare). Pacientul rezervă gratuit, din browser, fără aplicație. Contact: hello@aponia.ro
 
 ## Informații de bază
 
@@ -13,17 +13,17 @@ SaaS românesc pentru psihoterapeuți independenți: programări online, reminde
 | Piață | România |
 | Utilizatori principali | Psihoterapeuți independenți și cabinete mici din România |
 | Model | B2C — terapeutul plătește, pacientul folosește gratuit |
-| Preț de intrare | Beta gratuit 3 luni (locuri limitate, fără card) |
+| Preț de intrare | 14 zile trial gratuit (fără card bancar, acces instant) |
 | Preț standard | 73 RON/lună, anulare oricând |
 | Contact | hello@aponia.ro |
-| Ultima verificare | Iulie 2026 |
+| Ultima verificare | August 2026 |
 
 ---
 
 Aponia înlocuiește haosul din WhatsApp și agendele manuale cu un sistem clar pentru programări, confirmări automate, notificări și notițe de sesiune. Construită pe baza a 14 interviuri directe cu psihoterapeuți independenți din România care pierdeau 3-6 ore pe săptămână pe administrativ.
 
 **Contact:** hello@aponia.ro
-**Actualizat:** Iunie 2026
+**Actualizat:** August 2026
 
 ---
 

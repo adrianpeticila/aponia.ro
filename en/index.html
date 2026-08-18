@@ -63,7 +63,7 @@
         "description": "APONIA.ro is a scheduling and practice management platform for independent psychotherapists. It helps therapists manage appointments, confirmations, automatic notifications and session notes without turning personal WhatsApp into a permanent reception desk.",
         "disambiguatingDescription": "APONIA.ro is a commercial SaaS product for psychotherapists — not the Greek philosophical concept aponia (absence of pain, Epicurean concept).",
         "inLanguage": ["ro", "en"],
-        "offers": { "@type": "Offer", "price": "73", "priceCurrency": "RON", "description": "Monthly therapist plan, cancel anytime" },
+        "offers": { "@type": "Offer", "price": "73", "priceCurrency": "RON", "description": "73 RON/month after 14-day free trial, no credit card required to start, cancel anytime" },
         "provider": { "@id": "https://aponia.ro/#organization" },
         "audience": { "@type": "Audience", "audienceType": "Psychotherapists, Psychologists", "geographicArea": { "@type": "Place", "name": "Europe" } }
       },
@@ -73,10 +73,10 @@
         "mainEntity": [
           { "@type": "Question", "name": "What is APONIA.ro?", "acceptedAnswer": { "@type": "Answer", "text": "APONIA.ro is a scheduling and practice management platform for independent psychotherapists. It helps therapists manage appointments, confirmations, automatic notifications and session notes in one place, without turning personal WhatsApp into a permanent reception desk." } },
           { "@type": "Question", "name": "Who is APONIA.ro for?", "acceptedAnswer": { "@type": "Answer", "text": "APONIA.ro is for independent psychotherapists and small practices who want to reduce administrative work and scattered WhatsApp messages. It works best for therapists with 8 or more active patients." } },
-          { "@type": "Question", "name": "Who pays for APONIA.ro?", "acceptedAnswer": { "@type": "Answer", "text": "The psychotherapist pays for APONIA.ro, not the patient. Patients book for free, without installing anything. The rate is 73 RON per month for the therapist." } },
+          { "@type": "Question", "name": "Who pays for APONIA.ro?", "acceptedAnswer": { "@type": "Answer", "text": "The psychotherapist pays for APONIA.ro, not the patient. Patients book for free, without installing anything. The rate is 73 RON per month for the therapist with a 14-day free trial." } },
           { "@type": "Question", "name": "My patients won't use a new app.", "acceptedAnswer": { "@type": "Answer", "text": "Patients install nothing. They receive a link, book in the browser, done. It is simpler than sending a WhatsApp message." } },
           { "@type": "Question", "name": "My patients' data is extremely sensitive.", "acceptedAnswer": { "@type": "Answer", "text": "Server in Frankfurt, Germany. AES-256 encryption in transit and at rest. Exclusive access to the therapist. Native GDPR compliance. Data is safer in APONIA.ro than in phone Notes or a notebook." } },
-          { "@type": "Question", "name": "How long does setup take?", "acceptedAnswer": { "@type": "Answer", "text": "15 minutes for a complete profile. Your first patient can book on the same day you register." } },
+          { "@type": "Question", "name": "How long does setup take?", "acceptedAnswer": { "@type": "Answer", "text": "10-15 minutes for a complete profile. Your first patient can book on the same day you register." } },
           { "@type": "Question", "name": "I already use Google Calendar. Why switch?", "acceptedAnswer": { "@type": "Answer", "text": "Google Calendar does not send automatic notifications to patients. It does not block occupied slots for other patients. It does not store session notes securely. It does not separate patient communication from personal WhatsApp. It does one thing: keeps a calendar. APONIA.ro does everything else." } }
         ]
       },
@@ -89,7 +89,7 @@
         "inLanguage": "en",
         "isPartOf": { "@id": "https://aponia.ro/#website" },
         "publisher": { "@id": "https://aponia.ro/#organization" },
-        "dateModified": "2026-06-25"
+        "dateModified": "2026-08-18"
       }
     ]
   }
@@ -260,7 +260,7 @@
       <a href="/en/anxiety-test/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">Anxiety Test</a>
       <a href="/en/lost-sessions-calculator/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">Calculator</a>
     <span class="lang-sw"><a href="/" lang="ro">RO</a> | <span lang="en" aria-current="page">EN</span></span>
-      <a href="https://tally.so/r/aQEp0v" class="btn-nav">Get my evenings back <span aria-hidden="true">→</span></a>
+      <a href="https://app.aponia.ro/register" class="btn-nav">Get my evenings back <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </nav>
@@ -274,11 +274,43 @@
   <p class="hero-headline reveal">21:14. Your last session ends.<br><em>Your evening is no longer yours.</em></p>
   <p class="hero-sub reveal">WhatsApp messages. Manually confirmed appointments. Midnight notifications. APONIA.ro takes everything that is not therapy. You stay with your patient.</p>
   <p class="hero-proof reveal">No manual confirmations. No WhatsApp. No missed sessions. Your patient installs nothing. You send a link. They book.</p>
-  <div class="btn-row reveal">
-    <a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a>
-    <a href="#demo" class="btn btn-gh" aria-label="Watch the 90-second demo"><span aria-hidden="true">▶</span> Demo 90s</a>
+  <div class="btn-row reveal" style="flex-direction:column; align-items:center;">
+    <div style="display:flex; gap:0.9rem; flex-wrap:wrap; justify-content:center;">
+      <a href="https://app.aponia.ro/register" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a>
+      <a href="#demo" class="btn btn-gh" aria-label="Watch the 90-second demo"><span aria-hidden="true">▶</span> Demo 90s</a>
+    </div>
+    <div style="margin-top:0.6rem;"><a href="https://app.aponia.ro/register" style="font-family:'Inter Tight',sans-serif; font-size:0.85rem; font-weight:700; color:var(--green); text-decoration:underline;">Activate your practice (14 days free trial) →</a></div>
   </div>
-  <span class="hero-badge reveal">Free beta · no card · no commitment · limited spots · manually selected</span>
+  <span class="hero-badge reveal">14-day free trial · no credit card required · 73 RON/mo after · cancel anytime</span>
+</section>
+
+<!-- PRICING SECTION -->
+<section style="background: #fff; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 3.5rem 1.5rem; text-align: center;">
+  <div style="max-width: 600px; margin: 0 auto;">
+    <span class="eyebrow">Practice Subscription</span>
+    <h2 class="stitle" style="font-size: 2.2rem; margin-bottom: 0.5rem;">One simple price. Zero headaches.</h2>
+    <p class="ssub" style="margin: 0 auto 2rem;">Less than one third of a single saved session per month.</p>
+
+    <div style="background: var(--cream); border: 2px solid var(--green); border-radius: 8px; padding: 2.5rem; text-align: center;">
+      <div style="display: inline-block; background: rgba(91,140,106,0.15); color: var(--green); font-family: 'Inter Tight', monospace; font-size: 0.75rem; font-weight: 700; padding: 0.3rem 0.8rem; border-radius: 20px; text-transform: uppercase; margin-bottom: 1rem;">
+        Founder Practice Offer
+      </div>
+      <div style="font-family: 'Inter Tight', sans-serif; font-size: 3.5rem; font-weight: 900; color: var(--ink); line-height: 1;">
+        73 RON <span style="font-size: 1.1rem; font-weight: 400; color: var(--muted); font-family: 'Newsreader', serif; font-style: italic;">/ month (~€15)</span>
+      </div>
+      <p style="font-size: 0.85rem; color: #888; text-decoration: line-through; margin-top: 0.2rem;">Standard price: 99 RON / month</p>
+
+      <ul style="list-style: none; text-align: left; margin: 1.8rem 0; padding: 0; font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; color: #444; line-height: 2;">
+        <li style="border-bottom: 1px solid rgba(0,0,0,0.05); padding: 0.4rem 0;">✓ <strong>Dedicated booking link</strong> for your clients</li>
+        <li style="border-bottom: 1px solid rgba(0,0,0,0.05); padding: 0.4rem 0;">✓ <strong>Automated email reminders & notifications</strong></li>
+        <li style="border-bottom: 1px solid rgba(0,0,0,0.05); padding: 0.4rem 0;">✓ <strong>Encrypted session notes</strong> (GDPR-compliant)</li>
+        <li style="padding: 0.4rem 0;">✓ <strong>Cancel anytime</strong> directly from your dashboard</li>
+      </ul>
+
+      <a href="https://app.aponia.ro/register" class="btn btn-g" style="width: 100%; font-size: 1.05rem; padding: 1rem;">Start 14-day free trial →</a>
+      <p style="font-size: 0.75rem; color: var(--muted); margin-top: 0.8rem; font-family: 'Inter Tight', sans-serif;">10-minute setup · No credit card required to start</p>
+    </div>
+  </div>
 </section>
 
 <!-- REFRAMING -->
@@ -328,7 +360,7 @@
     <p class="t-pull reveal">It does not have to be this way. APONIA.ro does not fix your difficult patients. But it gives you back something fundamental: <strong style="font-style:normal;">control over your time.</strong></p>
     <p class="reveal" style="font-style:italic;color:var(--muted);margin-top:1.2rem;max-width:640px;">Control over your time means, in practice, one simple thing: <strong style="font-style:normal;">your evening back.</strong></p>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Free beta · no card · we reply in 24h</span></div>
+  <div class="strip"><a href="https://app.aponia.ro/register" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Free beta · no card · we reply in 24h</span></div>
 </section>
 
 <!-- RECOGNITION -->
@@ -347,7 +379,7 @@
     <div class="gc reveal"><div class="ftag">Situation 05</div><div class="ftit">You send reminders manually. Or you forget. Both are bad.</div><p class="fbod">If you send them, that is time taken from your evening. If you forget, the patient does not show. <strong style="color:var(--ink);">You have become the secretary of your own practice.</strong> That was not in any career plan.</p></div>
     <div class="gc reveal"><div class="ftag">Situation 06</div><div class="ftit">You have not had a free weekend in the last two months.</div><p class="fbod">Not because you have too many patients. <strong style="color:var(--ink);">But because admin has taken up all the space</strong> that was supposed to be yours.</p></div>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Limited spots · free for an indefinite period</span></div>
+  <div class="strip"><a href="https://app.aponia.ro/register" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Limited spots · free for an indefinite period</span></div>
 </section>
 
 <!-- APONIA ETYMOLOGY -->
@@ -379,7 +411,7 @@
     </div>
     <p class="t-body" style="line-height:1.75; max-width:580px">The cost is not financial. <strong style="font-style:normal;">It is the hours you give to admin instead of giving them to therapy, or to yourself.</strong></p>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Cancel anytime · no minimum period</span></div>
+  <div class="strip"><a href="https://app.aponia.ro/register" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Cancel anytime · no minimum period</span></div>
 </section>
 
 <!-- HOW IT WORKS -->
@@ -411,7 +443,7 @@
       </div>
     </div>
     <div style="margin-top:2rem;text-align:center;">
-      <a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a>
+      <a href="https://app.aponia.ro/register" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </section>
@@ -431,7 +463,7 @@
     <div class="gc reveal"><span class="icon-md">🔒</span><div class="ftit">GDPR-protected data. Without thinking about it.</div><p class="fbod">Server in Frankfurt, Germany. Patient data encrypted in transit. Work legally without becoming a GDPR expert.</p><p class="fmic">Full compliance. Zero effort.</p></div>
     <div class="gc reveal"><span class="icon-md">📊</span><div class="ftit">Complete history for each patient.</div><p class="fbod">All sessions, notes and communications organized per patient. If someone returns after 6 months, you have full context in 30 seconds.</p><p class="fmic">Real therapeutic continuity.</p></div>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">hello@aponia.ro · we reply in 24h</span></div>
+  <div class="strip"><a href="https://app.aponia.ro/register" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">hello@aponia.ro · we reply in 24h</span></div>
 </section>
 
 <!-- BEFORE / AFTER -->
@@ -470,7 +502,7 @@
       </div>
     </div>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Limited spots · free for an indefinite period</span></div>
+  <div class="strip"><a href="https://app.aponia.ro/register" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Limited spots · free for an indefinite period</span></div>
 </section>
 
 <!-- FEATURE CARDS -->
@@ -608,7 +640,7 @@
         <li><span class="chk">✓</span> Data stored in EU · GDPR compliant</li>
         <li><span class="chk">✓</span> Direct support · we reply in 24h</li>
       </ul>
-      <div style="text-align:center;margin-top:1.5rem;"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a></div>
+      <div style="text-align:center;margin-top:1.5rem;"><a href="https://app.aponia.ro/register" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a></div>
       <p class="pnote">Beta therapists enter free, for an indefinite period. No card. No commitment. No surprises.</p>
     </div>
   </div>
@@ -679,7 +711,7 @@
       </div>
     </div>
   </div>
-  <div class="strip"><a href="https://tally.so/r/aQEp0v" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Or write to us at hello@aponia.ro with any other question</span></div>
+  <div class="strip"><a href="https://app.aponia.ro/register" class="btn btn-g">Get my evenings back <span aria-hidden="true">→</span></a><span class="strip-note">Or write to us at hello@aponia.ro with any other question</span></div>
 </section>
 
 <!-- BLOG -->
@@ -735,9 +767,9 @@
   <div class="wrap">
     <span class="eyebrow reveal" style="color:rgba(255,255,255,0.6);letter-spacing:0.25em;display:block;margin-bottom:1.5rem;">Start now</span>
     <h2 class="reveal" style="font-family:'Inter Tight',sans-serif;font-weight:900;font-size:3.5rem;line-height:1.0;letter-spacing:-0.02em;margin-bottom:1.2rem;">Want this evening<br>for yourself?</h2>
-    <p class="reveal" style="font-style:italic;font-size:1.1rem;opacity:0.82;margin-bottom:2.5rem;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.72;">Fill in the form. We set up your account within 24 hours, free. No 45-minute demos, no pitch.</p>
-    <a href="https://tally.so/r/aQEp0v" class="reveal" style="display:inline-flex;align-items:center;gap:0.4rem;background:white;color:var(--green);padding:1.1rem 3rem;min-height:52px;font-weight:700;font-family:'Inter Tight',sans-serif;font-size:1rem;border-radius:3px;margin-bottom:1rem;width:auto;">Get my evenings back <span aria-hidden="true">→</span></a>
-    <p class="eyebrow reveal" style="color:rgba(255,255,255,0.5);letter-spacing:0.12em;margin-top:1.5rem;">No card · no commitment · limited spots available</p>
+    <p class="reveal" style="font-style:italic;font-size:1.1rem;opacity:0.82;margin-bottom:2.5rem;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.72;">Set up your practice in 5 minutes, 14 days free. No lengthy demos, no credit card required to start.</p>
+    <a href="https://app.aponia.ro/register" class="reveal" style="display:inline-flex;align-items:center;gap:0.4rem;background:white;color:var(--green);padding:1.1rem 3rem;min-height:52px;font-weight:700;font-family:'Inter Tight',sans-serif;font-size:1rem;border-radius:3px;margin-bottom:1rem;width:auto;">Get my evenings back <span aria-hidden="true">→</span></a>
+    <p class="eyebrow reveal" style="color:rgba(255,255,255,0.5);letter-spacing:0.12em;margin-top:1.5rem;">No credit card required · 73 RON/mo after trial · cancel anytime</p>
   </div>
 </section>
 
