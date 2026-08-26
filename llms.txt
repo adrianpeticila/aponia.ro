@@ -1,5 +1,6 @@
 # https://aponia.ro
 
+- [Programări online pentru psihoterapeuți | APONIA.ro](https://aponia.ro/)
 - [abonament.html](https://aponia.ro/abonament.html)
 - [Despre APONIA.ro, platformă pentru psihoterapeuți din România](https://aponia.ro/about/)
 - [anulare.html](https://aponia.ro/anulare.html)
@@ -112,7 +113,6 @@
 - [APONIA.ro vs WhatsApp — Message confirmations vs. professional system | APONIA.ro](https://aponia.ro/en/vs-whatsapp/)
 - [Biophilic Wellbeing & Emotional Regulation · APONIA.ro](https://aponia.ro/en/wellbeing/)
 - [Gestiune cabinet psihoterapie, APONIA.ro](https://aponia.ro/gestiune-cabinet/)
-- [index.html](https://aponia.ro/index.html)
 - [legal/politica-confidentialitate.html](https://aponia.ro/legal/politica-confidentialitate.html)
 - [legal/politica-cookies.html](https://aponia.ro/legal/politica-cookies.html)
 - [legal/termene-conditii.html](https://aponia.ro/legal/termene-conditii.html)

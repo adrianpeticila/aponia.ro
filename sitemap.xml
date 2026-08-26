@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://aponia.ro/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aponia.ro/abonament.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -14,13 +20,13 @@
   </url>
   <url>
     <loc>https://aponia.ro/anulare.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aponia.ro/blog/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -494,7 +500,7 @@
   </url>
   <url>
     <loc>https://aponia.ro/book.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -614,7 +620,7 @@
   </url>
   <url>
     <loc>https://aponia.ro/en/pricing/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -673,26 +679,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aponia.ro/index.html</loc>
-    <lastmod>2026-08-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://aponia.ro/legal/politica-confidentialitate.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aponia.ro/legal/politica-cookies.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://aponia.ro/legal/termene-conditii.html</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
