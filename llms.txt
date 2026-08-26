@@ -1,5 +1,6 @@
 # https://aponia.ro
 
+- [Programări online pentru psihoterapeuți | APONIA.ro](https://aponia.ro)
 - [abonament.html](https://aponia.ro/abonament.html)
 - [Despre APONIA.ro, platformă pentru psihoterapeuți din România](https://aponia.ro/about/)
 - [anulare.html](https://aponia.ro/anulare.html)
