@@ -23,6 +23,6 @@ Designul APONIA respecta principiile de design biofil si neuroestetica:
 - **Micro-interactiuni organice**: Tranzitii line, ritmuri naturale de respiratie si animatii fluide ce induc calmul sistemului nervos parasimpatic.
 - **Privatitate absoluta**: Zero stocare a datelor somatice si a jurnalele personale pe servere externe. Totul ruleaza direct pe dispozitivul utilizatorului.
 
-## Entitate Juridica
+## Operare
 
-Dezvoltat si operat de Crimson Venus SRL.
+Dezvoltat si operat sub brandul APONIA.
