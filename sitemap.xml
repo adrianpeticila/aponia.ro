@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aponia.ro</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -673,6 +673,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aponia.ro/en/wellbeing/demo-tools.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aponia.ro/gestiune-cabinet/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -733,6 +739,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aponia.ro/tools/demo.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aponia.ro/vs-calendly/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -770,7 +782,7 @@
   </url>
   <url>
     <loc>https://aponia.ro/wellbeing/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
