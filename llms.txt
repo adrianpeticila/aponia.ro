@@ -129,3 +129,4 @@
 - [APONIA.ro vs SimplePractice, Alternativă europeană GDPR | APONIA.ro](https://aponia.ro/vs-simplepractice/)
 - [APONIA.ro vs WhatsApp, Confirmări prin mesaje vs. sistem profesional | APONIA.ro](https://aponia.ro/vs-whatsapp/)
 - [Wellbeing biofil și reglare emoțională · APONIA.ro](https://aponia.ro/wellbeing/)
+- [Unelte Clinice Interactive (Popas, Jupiter, Mars, Mercury) | APONIA.ro](https://aponia.ro/wellbeing/demo-unelte.html)
