@@ -524,3 +524,26 @@ body.aponia-theme {
     height: 95px;
   }
 }
+
+.floating-tihna-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #2e5c46;
+  color: #ffffff !important;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(46, 92, 70, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 9999;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.floating-tihna-btn:hover {
+  background: #234735;
+  transform: translateY(-2px);
+}

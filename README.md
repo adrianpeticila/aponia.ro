@@ -1,15 +1,28 @@
-# aponia.ro
+# APONIA.ro
 
-Scheduling software for Romanian psychotherapists.
+Ecosistem digital biofil dedicat cabinetelor de psihoterapie si spatiilor de reglare somatica personala.
 
-Patients book themselves. Therapists keep their prices, their hours, and their patients. No commission, no middleman, no WhatsApp archaeology at 11pm to figure out who comes on Thursday.
+## Unelte de Reglare Somatica (Spatiul de Tihna)
 
-Named after ἀπονία, the Epicurean idea of freedom from pain. The stated goal of therapy. Should be the stated goal of software too.
+Modulul de igiena emotionala si reglare neuro-somatica include 4 instrumente dedicate:
 
-This repo is the landing site: static HTML, a small build script, JSON-LD on every page, llms.txt for the machines that read the web now. The app itself lives in its own repo. Features the [Daemon](https://aponia.ro/daemon/) telemetry feed, the [MCP Protocol](https://aponia.ro/mcp/) triage server, and a free tool, [Rhea](https://aponia.ro/rhea/): find out in 30 seconds how visible you are as a therapist on Google — presence, your own website, reviews. All computed in your browser, no account. Romanian: `/rhea/` · English: `/en/rhea/`.
+- **Popas**: Coerenta cardiaca si reglare vagala prin respiratie ghidata cu ritm vizual si haptic 4s inspir / 4s expir.
+- **Jupiter**: Protocol de ancorare senzoriala 5-4-3-2-1 pentru disiparea starilor acute de anxietate si reconectare la prezent.
+- **Mars**: Matricea starilor emotionale bazata pe modelul Yale RULER pentru cartografierea energiei si a valentei afective.
+- **Mercury**: Jurnal de descarcare mentala si eliberare cognitiva, procesat 100% local in browser, fara salvare pe servere sau baze de date.
 
-**Stack:** HTML, CSS, vanilla JS, GitHub Pages, Cloudflare DNS.
+## Oferta Spatiul de Tihna
 
-Built and maintained with an AI pair, supervised by [Gorgona](https://github.com/adrianpeticila/gorgona), the operating system that runs all my brands.
+- **Abonament Unelte de Tihna**: 29 RON / luna via Stripe Checkout (`https://buy.stripe.com/28E4gsfxKbqK3FD8qCbV600`), oferind acces direct si complet la suita de reglare somatica.
+- **Ecosistemul Complet APONIA**: 73 RON / luna (3 luni gratuite in perioada beta), incluzand gestiunea cabinetului (programari, notificari automate, fise de sedinta) si integrarea uneltelor somatice pentru clienti.
 
-Live: [aponia.ro](https://aponia.ro)
+## Arhitectura Biofila
+
+Designul APONIA respecta principiile de design biofil si neuroestetica:
+- **Cromatica organica**: Tonuri de salvie, muschi de padure, pamant cald si accente de chihlimbar pentru reducerea incarcarii cognitive si a oboselii oculare.
+- **Micro-interactiuni organice**: Tranzitii line, ritmuri naturale de respiratie si animatii fluide ce induc calmul sistemului nervos parasimpatic.
+- **Privatitate absoluta**: Zero stocare a datelor somatice si a jurnalele personale pe servere externe. Totul ruleaza direct pe dispozitivul utilizatorului.
+
+## Entitate Juridica
+
+Dezvoltat si operat de Crimson Venus SRL.

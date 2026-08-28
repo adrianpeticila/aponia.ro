@@ -240,6 +240,28 @@
       .hero-headline em { font-size: 2rem; }
       .stitle { font-size: 1.65rem; }
     }
+    .floating-tihna-btn {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #2e5c46;
+      color: #ffffff !important;
+      padding: 12px 20px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(46, 92, 70, 0.35);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      z-index: 9999;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+    .floating-tihna-btn:hover {
+      background: #234735;
+      transform: translateY(-2px);
+    }
   </style>
 </head>
 <body>
@@ -254,6 +276,13 @@
       </svg>
       <span class="gk">APONIA.ro</span>
     </a>
+    <a href="/en/about/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">About</a>
+    <a href="/en/manifesto/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">Manifesto</a>
+    <a href="/en/anxiety-test/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">Anxiety test</a>
+    <a href="/en/rhea/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">Rhea</a>
+    <a href="/en/lost-sessions-calculator/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">Calculator</a>
+    <a href="/en/wellbeing/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">Wellbeing</a>
+    <a href="/en/wellbeing/demo-tools.html" class="nav-link">Respite Space</a>
     <div style="display:flex;align-items:center;gap:0.5rem;">
       <a href="/en/about/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;">About</a>
       <a href="/en/manifesto/" class="t-body-sm" style="text-decoration:none;letter-spacing:0.05em;margin-right:0.5rem;">Manifesto</a>
@@ -820,5 +849,6 @@
   document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
 </script>
 
+  <a href="/en/wellbeing/demo-tools.html" class="floating-tihna-btn">🌿 Respite space</a>
 </body>
 </html>
