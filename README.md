@@ -1,28 +1,78 @@
-# APONIA.ro
+# APONIA.ro: Independent Practice Management & Clinical Respite Architecture for Psychotherapists
 
-Ecosistem digital biofil dedicat cabinetelor de psihoterapie si spatiilor de reglare somatica personala.
+APONIA is a biophilic digital ecosystem and clinical infrastructure engineered specifically for independent psychotherapists, clinical psychologists, and their clients. It pairs commission-free practice management with on-device somatic regulation and evidence-based clinical diagnostics.
 
-## Unelte de Reglare Somatica (Spatiul de Tihna)
+---
 
-Modulul de igiena emotionala si reglare neuro-somatica include 4 instrumente dedicate:
+## Core Product Modules
 
-- **Popas**: Coerenta cardiaca si reglare vagala prin respiratie ghidata cu ritm vizual si haptic 4s inspir / 4s expir.
-- **Jupiter**: Protocol de ancorare senzoriala 5-4-3-2-1 pentru disiparea starilor acute de anxietate si reconectare la prezent.
-- **Mars**: Matricea starilor emotionale bazata pe modelul Yale RULER pentru cartografierea energiei si a valentei afective.
-- **Mercury**: Jurnal de descarcare mentala si eliberare cognitiva, procesat 100% local in browser, fara salvare pe servere sau baze de date.
+### 1. Respite Space (Spațiul de Tihnă)
+An interactive neuro-somatic regulation suite built to restore autonomic nervous system balance, reduce cognitive overload, and facilitate clinical inter-session grounding.
+- **Popas**: Coherence breathing calibrated at 6 breaths per minute (0.1 Hz vagal resonance frequency) with fluid visual and haptic pacing.
+- **Jupiter**: 5-4-3-2-1 multi-sensory grounding protocol designed for acute anxiety stabilization and rapid present-moment anchor retrieval.
+- **Mars**: Yale Center for Emotional Intelligence RULER 2D somatic matrix and burnout radar mapping emotional valence and physiological arousal.
+- **Mercury**: Cognitive unload journal and thought-defusion scratchpad processed purely in-memory.
+- **Pricing & Access**: Available as a standalone tier at 29 RON/month via Stripe ([Interactive Demo](https://aponia.ro/wellbeing/demo-unelte.html)).
 
-## Oferta Spatiul de Tihna
+### 2. Rhea Visibility Score
+A 30-second automated visibility and positioning audit for psychotherapists. It evaluates search footprint, local directory authority, booking friction, and digital positioning directly within the client browser without collecting personal data ([Audit Tool](https://aponia.ro/rhea/)).
 
-- **Abonament Unelte de Tihna**: 29 RON / luna via Stripe Checkout (`https://buy.stripe.com/28E4gsfxKbqK3FD8qCbV600`), oferind acces direct si complet la suita de reglare somatica.
-- **Ecosistemul Complet APONIA**: 73 RON / luna (3 luni gratuite in perioada beta), incluzand gestiunea cabinetului (programari, notificari automate, fise de sedinta) si integrarea uneltelor somatice pentru clienti.
+### 3. Anxiety Screening Tool (GAD-7)
+An evidence-based, interactive Generalized Anxiety Disorder 7-item clinical screening instrument. Features instant deterministic scoring, severity classification, and contextual clinical guidance ([Anxiety Test](https://aponia.ro/test-anxietate/)).
 
-## Arhitectura Biofila
+### 4. Lost Sessions Calculator
+An interactive financial diagnostic tool that quantifies lost revenue and unrecovered hours stemming from client cancellations, no-shows, and manual administrative overhead ([Lost Revenue Calculator](https://aponia.ro/calculator-programari-pierdute/)).
 
-Designul APONIA respecta principiile de design biofil si neuroestetica:
-- **Cromatica organica**: Tonuri de salvie, muschi de padure, pamant cald si accente de chihlimbar pentru reducerea incarcarii cognitive si a oboselii oculare.
-- **Micro-interactiuni organice**: Tranzitii line, ritmuri naturale de respiratie si animatii fluide ce induc calmul sistemului nervos parasimpatic.
-- **Privatitate absoluta**: Zero stocare a datelor somatice si a jurnalele personale pe servere externe. Totul ruleaza direct pe dispozitivul utilizatorului.
+### 5. Biofeedback Wellbeing Engine
+A 7-module biophilic sensory regulation protocol crafted for parasympathetic activation and clinical recovery ([Wellbeing Engine](https://aponia.ro/wellbeing/)):
+- **Popas**: Cardiac coherence and respiratory pacing.
+- **Mugur**: Progressive somatic tension release and gentle awakening.
+- **Rădăcină**: Tactile proprioceptive grounding and boundary awareness.
+- **Freamăt**: Acoustic natural white/pink noise atmospheric immersion.
+- **Tihnă**: Deep parasympathetic restorative cooldown.
+- **Adăpost**: Safe psychological boundary containerization.
+- **Florilegiu**: Curated neuro-aesthetic micro-reflections.
 
-## Operare
+### 6. Practice Management Platform
+A comprehensive clinical management suite engineered for modern independent therapy practices:
+- Direct, commission-free appointment scheduling with zero third-party platform markups.
+- Automated two-way calendar synchronization (Google Calendar, Apple Calendar, Outlook).
+- Encrypted, pre-session client intake forms and clinical notes.
+- Direct-to-therapist Stripe billing integration at 73 RON/month ([Web App](https://app.aponia.ro)).
 
-Dezvoltat si operat sub brandul APONIA.
+---
+
+## Technical Architecture & Privacy
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      Client Layer                           │
+│  - Static Multi-Language CDN Frontend (HTML5 / Vanilla JS)  │
+│  - Cross-Platform React Native / Expo Web PWA               │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│                Edge & Privacy Sandboxing                    │
+│  - 100% Local On-Device Somatic & Diagnostic Computation     │
+│  - Zero PII Tracking, No Third-Party Analytics Trackers     │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│                   Secure Clinical Core                      │
+│  - GDPR Art. 9 Compliant Encrypted Firestore Sub-Collections│
+│  - End-to-End Encrypted Pre-Session Clinical Intake Data    │
+│  - Direct Stripe Connect Payment Processing                 │
+└─────────────────────────────────────────────────────────────┘
+```
+
+- **Zero PII Tracking**: Somatic regulation data, journal entries, and diagnostic questionnaire responses are computed entirely in the browser memory and never persisted to external logging servers.
+- **GDPR Art. 9 Compliance**: Special category health data within practice management sub-collections utilizes strict client-level encryption and role-based Firebase Security Rules.
+- **Biophilic Neuroaesthetics**: Visual design language utilizing organic sage, forest moss, earth tones, and warm amber accents to minimize ocular fatigue and eliminate digital cognitive friction.
+
+---
+
+## License & Operations
+
+Operated under the APONIA brand. All rights reserved.
