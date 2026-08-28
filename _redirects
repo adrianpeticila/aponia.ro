@@ -8,3 +8,7 @@
 /despre/* /about/:splat 301
 /manifest /manifesto/ 301
 /manifest/* /manifesto/:splat 301
+
+/en/blog /en/blog/ 301
+/en/legal/termene-conditii /en/legal/termene-conditii.html 301
+/en/legal/politica-confidentialitate /en/legal/politica-confidentialitate.html 301
