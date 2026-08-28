@@ -254,11 +254,22 @@
 
   <main id="main">
 
-    <header style="margin-bottom:1.5rem;">
-      <p class="pg-tag">aponia / rhea</p>
-      <h1 class="pg-title">When a patient searches your name,<br>this is <em>what they see</em></h1>
-      <p class="pg-deck">Patients look you up online before they book. Most therapists are invisible where it matters. Find out in 30 seconds what patients find and where you get lost.</p>
-    </header>
+    <header class="header">
+  <div class="nav-container" style="display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:0 auto;padding:1rem 1.5rem;">
+    <a href="/en/" class="nav-brand" style="font-family:"Newsreader",serif;font-size:1.4rem;font-weight:600;color:#1a2e22;text-decoration:none;">APONIA<span style="color:#2e5c46;">.ro</span></a>
+    <nav class="nav-links" style="display:flex;align-items:center;gap:1.4rem;">
+      <a href="/en/about/" class="nav-link" style="color:#2d3748;text-decoration:none;font-size:0.92rem;font-weight:500;">About</a>
+      <a href="/en/anxiety-test/" class="nav-link" style="color:#2d3748;text-decoration:none;font-size:0.92rem;font-weight:500;">Anxiety Test</a>
+      <a href="/en/wellbeing/" class="nav-link" style="color:#2d3748;text-decoration:none;font-size:0.92rem;font-weight:500;">Wellbeing</a>
+      <a href="/en/lost-sessions-calculator/" class="nav-link" style="color:#2d3748;text-decoration:none;font-size:0.92rem;font-weight:500;">Calculator</a>
+      <a href="/en/wellbeing/demo-tools.html" class="nav-link" style="color:#2e5c46;text-decoration:none;font-size:0.92rem;font-weight:600;">Respite Space</a>
+    </nav>
+    <div class="nav-actions" style="display:flex;align-items:center;gap:1.2rem;">
+      <div class="lang-switch" style="font-size:0.85rem;color:#718096;"><a href="/" style="color:#718096;text-decoration:none;">RO</a> | <strong style="color:#1a2e22;">EN</strong></div>
+      <a href="https://app.aponia.ro/register" class="btn-cta-nav" style="background:#2e5c46;color:#ffffff;padding:0.55rem 1.1rem;border-radius:6px;text-decoration:none;font-size:0.88rem;font-weight:600;">Get my evenings back →</a>
+    </div>
+  </div>
+</header>
     <section class="m-section">
       <p class="m-label">how it works</p>
       <p>Rhea is a free orientation tool, not a full SEO audit. The score is an estimate based on public signals available. It does not replace a professional review of your online presence.</p>
@@ -287,28 +298,51 @@
     </div>
 </main>
 
-  <footer class="footer">
-    <div class="fsocial">
-      <a href="https://www.facebook.com/people/APONIAro/61590170232523/" target="_blank" rel="noopener" aria-label="Facebook">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-      </a>
-      <a href="https://www.linkedin.com/company/aponia-ro/" target="_blank" rel="noopener" aria-label="LinkedIn">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      </a>
+  <footer class="footer" style="background:#f9f8f5;border-top:1px solid #e2ded4;padding:3.5rem 1.5rem 2rem;margin-top:4rem;">
+  <div style="max-width:1200px;margin:0 auto;">
+    <div class="footer-grid-4">
+      <div>
+        <div style="font-family:"Newsreader",serif;font-size:1.3rem;font-weight:600;color:#1a2e22;margin-bottom:0.8rem;">APONIA<span style="color:#2e5c46;">.ro</span></div>
+        <p style="font-size:0.88rem;color:#4a5568;line-height:1.5;margin-bottom:1rem;">Scheduling & somatic respite tools for independent psychotherapists.</p>
+        <div style="font-size:0.82rem;font-weight:600;color:#2e5c46;margin-bottom:0.5rem;">73 RON / mo (Practice) · 29 RON / mo (Respite Tools)</div>
+        <a href="/en/daemon/" style="font-size:0.8rem;color:#718096;text-decoration:none;">Daemon Telemetry →</a>
+      </div>
+      <div>
+        <h4 style="font-size:0.95rem;font-weight:700;color:#1a2e22;margin-bottom:1rem;text-transform:uppercase;letter-spacing:0.05em;">Tools & Clinical</h4>
+        <ul style="list-style:none;padding:0;margin:0;font-size:0.88rem;line-height:2;">
+          <li><a href="/en/wellbeing/demo-tools.html" style="color:#4a5568;text-decoration:none;">Respite Space (Demo)</a></li>
+          <li><a href="/en/anxiety-test/" style="color:#4a5568;text-decoration:none;">Anxiety Test (GAD-7)</a></li>
+          <li><a href="/en/lost-sessions-calculator/" style="color:#4a5568;text-decoration:none;">Lost Sessions Calculator</a></li>
+          <li><a href="/en/rhea/" style="color:#4a5568;text-decoration:none;">Rhea Visibility Score</a></li>
+          <li><a href="/en/mcp/" style="color:#4a5568;text-decoration:none;">MCP Protocol</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="font-size:0.95rem;font-weight:700;color:#1a2e22;margin-bottom:1rem;text-transform:uppercase;letter-spacing:0.05em;">Comparisons</h4>
+        <ul style="list-style:none;padding:0;margin:0;font-size:0.88rem;line-height:2;">
+          <li><a href="/en/vs-whatsapp/" style="color:#4a5568;text-decoration:none;">vs. WhatsApp</a></li>
+          <li><a href="/en/vs-calendly/" style="color:#4a5568;text-decoration:none;">vs. Calendly</a></li>
+          <li><a href="/en/vs-simplepractice/" style="color:#4a5568;text-decoration:none;">vs. SimplePractice</a></li>
+          <li><a href="/en/vs-hedepy/" style="color:#4a5568;text-decoration:none;">vs. Hedepy</a></li>
+          <li><a href="/en/vs-google-calendar/" style="color:#4a5568;text-decoration:none;">vs. Google Calendar</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="font-size:0.95rem;font-weight:700;color:#1a2e22;margin-bottom:1rem;text-transform:uppercase;letter-spacing:0.05em;">Resources & Legal</h4>
+        <ul style="list-style:none;padding:0;margin:0;font-size:0.88rem;line-height:2;">
+          <li><a href="/en/about/" style="color:#4a5568;text-decoration:none;">About us</a></li>
+          <li><a href="/en/manifesto/" style="color:#4a5568;text-decoration:none;">Manifesto</a></li>
+          <li><a href="/en/blog/" style="color:#4a5568;text-decoration:none;">Blog & Articles</a></li>
+          <li><a href="/en/legal/politica-confidentialitate.html" style="color:#4a5568;text-decoration:none;">Privacy (GDPR)</a></li>
+          <li><a href="/en/legal/termene-conditii.html" style="color:#4a5568;text-decoration:none;">Terms of Service</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="flinks">
-      <a href="/legal/politica-confidentialitate.html">Politică de confidențialitate</a>
-      <a href="/legal/termene-conditii.html">Termene și condiții</a>
-      <a href="/legal/politica-cookies.html">Politică cookies</a>
-      <a href="mailto:hello@aponia.ro">hello@aponia.ro</a>
-      <a href="/about/">Despre APONIA.ro</a>
-      <a href="/manifesto/">Manifest</a>
-      <a href="/blog/">Blog</a>
-      <a href="/test-anxietate/">Test anxietate</a>
-    <a href="/wellbeing/">Wellbeing</a>
+    <div style="border-top:1px solid #e2ded4;padding-top:1.5rem;text-align:center;font-size:0.8rem;color:#718096;">
+      © 2026 APONIA.ro. All rights reserved.
+    </div>
   </div>
-    <p class="fcopy">© 2026 APONIA.ro · <time datetime="2026-07-01">actualizat iulie 2026</time> · toate drepturile rezervate</p>
-  </footer>
+</footer>
 
   <script>
 var specs=["Anxiety","Depression","Couples","Trauma","Children","Other"];
@@ -319,5 +353,6 @@ function rng(seed){return function(){seed|=0;seed=seed+0x6D2B79F5|0;var t=Math.i
 document.getElementById("calc").addEventListener("click",function(){var email=document.getElementById("email").value.trim();var name=document.getElementById("name").value.trim();if(!email||!name){alert("Enter your name and email.");return;}document.getElementById("out").style.display="none";var prog=document.getElementById("prog");prog.style.display="block";var msgs=["Checking your Google presence","Analyzing your site","Evaluating reviews","Calculating your score"];var bar=document.getElementById("progBar");var i=0;var iv=setInterval(function(){if(i<msgs.length){document.getElementById("progMsg").textContent=msgs[i];bar.style.width=((i+1)/msgs.length*100)+"%";i++;}else{clearInterval(iv);prog.style.display="none";showResult();}},900);});
 function showResult(){var email=document.getElementById("email").value.trim();var site=document.getElementById("site").value.trim();var phone=document.getElementById("phone").value.trim();var r=rng(hash(email));var google=Math.round(30+r()*40);var web=site?Math.round(50+r()*40):Math.round(10+r()*25);var social=Math.round(20+r()*50);if(phone)google+=9;google=Math.min(100,google);var total=Math.round((google+web+social)/3);var subs=[["Google Presence",google],["Your Website",web],["Social Proof",social]];var sc=document.getElementById("subs");sc.innerHTML="";subs.forEach(function(nv){var d=document.createElement("div");var h=document.createElement("h3");h.textContent=nv[0];h.style.cssText="font-family:'Inter Tight',sans-serif;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:.3rem;";var val=document.createElement("div");val.textContent=nv[1]+"/100";val.style.cssText="font-family:'Inter Tight',sans-serif;font-size:1.8rem;font-weight:700;color:var(--ink);";var bar=document.createElement("div");bar.style.cssText="height:6px;background:var(--border);border-radius:3px;margin-top:.3rem;overflow:hidden;";var span=document.createElement("span");span.style.cssText="display:block;height:100%;background:var(--green);border-radius:3px;width:"+nv[1]+"%;";bar.appendChild(span);d.appendChild(h);d.appendChild(val);d.appendChild(bar);sc.appendChild(d);});document.getElementById("scoreNum").textContent=total+"/100";var min=Math.min(google,web,social);var fix="";if(min===web&&!site)fix="You have no website of your own. Most patients check online before calling. A simple page with your specialties makes you findable.";else if(min===google)fix="Your Google presence is weak. List yourself on directories (Psychology Today, therapist directories) and verify your Google Business profile.";else fix="Reviews from former patients are limited. Ask for feedback after sessions. Reviews build trust with new patients.";document.getElementById("fix").textContent=fix;document.getElementById("out").style.display="block";document.getElementById("out").scrollIntoView({behavior:"smooth"});}
 </script>
+<a href="/en/wellbeing/demo-tools.html" class="floating-tihna-btn" aria-label="Respite space"><svg class="tihna-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12A10 10 0 0 1 12 2z"/><path d="M12 6v6l4 2"/></svg><span class="tihna-label">RESPITE<br>SPACE</span></a>
 </body>
 </html>

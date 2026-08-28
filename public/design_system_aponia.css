@@ -592,3 +592,69 @@ body.aponia-theme {
   color: #ffffff;
   display: block;
 }
+
+
+/* HYDRA FLOATING BUTTON 118PX */
+.floating-tihna-btn {
+  position: fixed !important;
+  bottom: 60px !important;
+  right: 40px !important;
+  width: 118px !important;
+  height: 118px !important;
+  border-radius: 50% !important;
+  background: radial-gradient(circle at 30% 30%, #34634b, #183325) !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  box-shadow: 0 14px 38px rgba(24, 51, 37, 0.55), 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 99999 !important;
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.25s ease !important;
+  text-align: center !important;
+  padding: 10px !important;
+  box-sizing: border-box !important;
+  border: 2.5px solid rgba(255, 255, 255, 0.25) !important;
+}
+.floating-tihna-btn:hover {
+  transform: scale(1.08) translateY(-4px) !important;
+  box-shadow: 0 20px 45px rgba(24, 51, 37, 0.7), 0 8px 18px rgba(0, 0, 0, 0.3) !important;
+  background: radial-gradient(circle at 30% 30%, #3d7358, #1f4230) !important;
+}
+.floating-tihna-btn .tihna-icon {
+  width: 32px !important;
+  height: 32px !important;
+  margin-bottom: 4px !important;
+  display: block !important;
+}
+.floating-tihna-btn .tihna-label {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif !important;
+  font-size: 10px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  line-height: 1.18 !important;
+  color: #ffffff !important;
+  display: block !important;
+}
+
+/* 4-COLUMN FOOTER */
+.footer-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 900px) {
+  .footer-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+@media (max-width: 540px) {
+  .footer-grid-4 {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

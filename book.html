@@ -350,7 +350,7 @@ function getWeekDates() {
 
 // ── Render therapist card using safe DOM methods ─────────────────────────────
 function renderTherapist() {
-  // Seeded profiles are the ones nobody has claimed yet — only those get the
+  // Seeded profiles are the ones nobody has claimed yet - only those get the
   // claim prompt. A therapist who already owns the page should never see it.
   if (therapist.seeded === true) {
     document.getElementById('claim-banner').style.display = 'block';
@@ -614,5 +614,6 @@ function showError() {
 
 init();
 </script>
+<a href="/wellbeing/demo-unelte.html" class="floating-tihna-btn" aria-label="Spațiu de tihnă"><svg class="tihna-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12A10 10 0 0 1 12 2z"/><path d="M12 6v6l4 2"/></svg><span class="tihna-label">SPAȚIU DE<br>TIHNĂ</span></a>
 </body>
 </html>
