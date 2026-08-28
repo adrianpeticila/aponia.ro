@@ -3,3 +3,8 @@
 /legal /legal/termene-conditii.html 301
 /legal/ /legal/termene-conditii.html 301
 /manifesto/legal/politica-cookies.html /legal/politica-cookies.html 301
+
+/despre /about/ 301
+/despre/* /about/:splat 301
+/manifest /manifesto/ 301
+/manifest/* /manifesto/:splat 301

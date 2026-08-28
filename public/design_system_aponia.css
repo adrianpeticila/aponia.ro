@@ -547,3 +547,48 @@ body.aponia-theme {
   background: #234735;
   transform: translateY(-2px);
 }
+
+
+.floating-tihna-btn {
+  position: fixed;
+  bottom: 45px;
+  right: 35px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #34634b, #1d3b2c);
+  color: #ffffff !important;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(29, 59, 44, 0.45), 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.25s ease;
+  text-align: center;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.floating-tihna-btn:hover {
+  transform: scale(1.08) translateY(-4px);
+  box-shadow: 0 16px 36px rgba(29, 59, 44, 0.6), 0 6px 14px rgba(0, 0, 0, 0.25);
+  background: radial-gradient(circle at 30% 30%, #3d7358, #244a37);
+}
+.floating-tihna-btn .tihna-icon {
+  width: 26px;
+  height: 26px;
+  margin-bottom: 2px;
+  display: block;
+}
+.floating-tihna-btn .tihna-label {
+  font-family: inherit;
+  font-size: 8.5px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.15;
+  color: #ffffff;
+  display: block;
+}
