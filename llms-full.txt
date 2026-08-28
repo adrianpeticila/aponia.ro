@@ -72,51 +72,47 @@ Programări online pentru psihoterapeuți | APONIA.ro
   
   
 
-Sari la conținut
-
   
 
     
-
-      
-
-        
-
-        
-
-      
-
-      
-APONIA.ro
+APONIA
+.ro
 
     
 
-    
+      
 Despre
 
-    
-Manifest
+      
+Test Anxietate
 
-    
-Test anxietate
-
-    
-Calculator
-
-    
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
+      
+Vreau seara mea înapoi →
+
     
-Vreau seara mea înapoi 
-→
 
   
+
+Sari la conținut
 
   
 APONIA.ro · programări și administrare pentru psihoterapeuți
@@ -1234,7 +1230,7 @@ Răspundem direct.
 
 "Pacienții mei nu vor folosi o aplicație nouă."
 
-Pacienții tăi nu instalează nimic și nu creează niciun
+Pacienții tăi nu instalează nimic și nu creează niciun con
 
 ## https://aponia.ro/abonament.html
 
@@ -1278,35 +1274,40 @@ Despre APONIA.ro, platformă pentru psihoterapeuți din România
   
 
     
-
-      
-
-        
-
-        
-
-      
-
-      
-APONIA.ro
+APONIA
+.ro
 
     
 
-    
-Test anxietate
+      
+Despre
 
-    
+      
+Test Anxietate
+
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
+      
+Vreau seara mea înapoi →
+
     
-Vreau seara mea înapoi 
-→
 
   
 
@@ -1419,9 +1420,124 @@ hello@aponia.ro
 
   
 
+SPAȚIU DE
+TIHNĂ
+
   
 
     
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
 
       
 
@@ -1429,36 +1545,7 @@ hello@aponia.ro
 
     
 
-      
-
-    
-
-  
-
-  
-
-    
-Politică de confidențialitate
-
-    
-Termene și condiții
-
-    
-hello@aponia.ro
-
-    
-Product Hunt
-
-    
-Test anxietate
-
-    
-Wellbeing
-
-  
-
-  
-© 2026 APONIA.ro · toate drepturile rezervate
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/anulare.html
 
@@ -1483,26 +1570,41 @@ Blog, APONIA.ro
 
 ">
 
+  
+
+    
+APONIA
+.ro
+
+    
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
     
 
       
 
-        
-
-        
-APONIA.ro
-
-      
+RO
+ | 
+EN
 
       
-
-        
-← Blog
-
-        
-Acces anticipat
-
-      
+Vreau seara mea înapoi →
 
     
 
@@ -2872,7 +2974,7 @@ Software
 Gratuit sau plătit? Ce să alegi când îți digitalizezi cabinetul de psihologie
 
           
-Există soluții gratuite și există soluții plătite. Întrebarea nu e care e mai bună în abstract, ci care e 
+Există soluții gratuite și
 
 ## https://aponia.ro/blog/accepta-clienti-online-terapeut.html
 
@@ -3225,32 +3327,42 @@ Software cabinet psiholog, APONIA.ro
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-Test anxietate
+APONIA
+.ro
 
     
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Acces anticipat
+Vreau seara mea înapoi →
 
     
+
+  
 
   
 
@@ -3413,6 +3525,139 @@ vs. Google Calendar
         
 vs. WhatsApp
 
+      
+
+    
+
+  
+
+SPAȚIU DE
+TIHNĂ
+
+  
+
+    
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
+
 ## https://aponia.ro/calculator-programari-pierdute/
 
 Calculator programări pierdute · Cât te costă anual? · APONIA.ro
@@ -3469,75 +3714,51 @@ Calculator programări pierdute · Cât te costă anual? · APONIA.ro
   
 
   
-Sari la conținut
 
-  
+    
+APONIA
+.ro
 
     
 
       
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
 Despre
 
-        
-Test anxietate
+      
+Test Anxietate
 
-        
-Calculator
-
-        
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-Vreau seara mea înapoi 
-→
-
       
+Vreau seara mea înapoi →
 
     
 
   
 
   
+Sari la conținut
 
-    
+  
 
-      
-calculator · programări pierdute
-
-      
-Cât te costă programările
-care 
-se pierd pe drum
-?
-
-      
-„Am uitat." „Putem muta pe joi?" „Mai vorbim." Fiecare ședință care nu se mai programează e o oră goală în calendar și încă o seară petrecută dând mesaje. Trage sliderele și vezi factura anuală.
-
-      
-Gratuit. Instant. Nimic nu pleacă din browser-ul tău.
+  
 
     
 
@@ -3737,60 +3958,134 @@ Cele mai frecvente cauze sunt confirmările manuale și reprogramările pe Whats
 
   
 
-    
+  
 
-      
-
-        
-
-      
-
-      
-
-        
-
-      
-
-    
-
-    
-
-      
-Politică de confidențialitate
-
-      
-Termene și condiții
-
-      
-Politică cookies
-
-      
-hello@aponia.ro
-
-      
-Despre APONIA.ro
-
-      
-Manifest
-
-      
-Blog
-
-      
-Test anxietate
-
-      
-Calculator programări
-
-      
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · 
-actualizat iulie 2026
- · toate drepturile rezervate
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/cat-costa-terapie-romania/
 
@@ -3846,60 +4141,51 @@ Cât costă o ședință la psiholog în România? Tarife 2026 · APONIA.ro
   
 
   
+
+    
+APONIA
+.ro
+
+    
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+Vreau seara mea înapoi →
+
+    
+
+  
+
+  
 Sari la conținut
 
   
 
-    
-
-      
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
-Despre
-
-        
-Manifest
-
-        
-Vreau seara mea înapoi 
-→
-
-      
-
-    
-
   
-
-  
-
-    
-
-      
-date · tarife terapie românia
-
-      
-Cât costă o ședință
-la 
-psiholog
- în România?
-
-      
-în iunie 2026, o ședință individuală de psihoterapie în românia costă median 250 ron, majoritatea tarifelor fiind între 200 și 350 ron. gama completă observată: 80-500 ron per ședință individuală. pentru cuplu sau familie, mediana urcă la 350 ron. mai jos, cifrele și de unde vin.
 
     
 
@@ -4197,54 +4483,132 @@ vreau seara mea înapoi →
 
   
 
-    
-
-      
-
-        
-
-      
-
-      
-
-        
-
-      
-
-    
-
-    
-
-      
-Politică de confidențialitate
-
-      
-Termene și condiții
-
-      
-Politică cookies
-
-      
-hello@aponia.ro
-
-      
-Despre APONIA.ro
-
-      
-Manifest
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · 
-actualizat iunie 2026
- · toate drepturile rezervate
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/daemon/
 
@@ -4265,25 +4629,38 @@ Aponia Daemon · Telemetrie Sistem & Retea Terapeuti
   
 
     
-
-      
-
-      
 APONIA
 .ro
 
     
 
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
     
 
       
-Daemon
+
+RO
+ | 
+EN
 
       
-MCP
-
-      
-Programare Terapeut
+Vreau seara mea înapoi →
 
     
 
@@ -4415,60 +4792,443 @@ Securitate zero-leak:
 
   
 
+SPAȚIU DE
+TIHNĂ
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
 
       
 
-    
+      
 
-  
+        
+Unelte & Clinic
 
-  
+        
 
-    
-Politică de confidențialitate
+          
 
-    
-Termene și condiții
+Spațiul de Tihnă (Demo)
 
-    
-Politică cookies
+          
 
-    
-hello@aponia.ro
+Test Anxietate (GAD-7)
 
-    
-Despre APONIA.ro
+          
 
-    
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
 Manifest
 
-    
-Presă
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
 
     
-Blog
 
     
-Daemon
 
-    
-MCP Protocol
+      © 2026 APONIA.ro. Toate drepturile rezervate.
+
+## https://aponia.ro/despre/
+
+Despre APONIA.ro, platformă pentru psihoterapeuți din România
 
   
 
   
-© 2026 APONIA.ro · 
-actualizat august 2026
- · toate drepturile rezervate
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+    
+APONIA
+.ro
+
+    
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+Vreau seara mea înapoi →
+
+    
+
+  
+
+  
+
+    
+
+      
+Despre noi
+
+      
+Ce este APONIA.ro
+
+      
+O platformă de programări construită pentru psihoterapeuți care vor să petreacă mai puțin timp cu administrarea și mai mult timp cu pacienții.
+
+    
+
+    
+
+      
+De unde am pornit
+
+      
+APONIA.ro s-a născut dintr-o frustrare reală: găsirea unui terapeut disponibil în România este inutil de complicată. Nu există vizibilitate în cine are locuri libere, când și la ce preț.
+
+      
+Dar înainte să rezolvăm problema pacientului, am vrut să înțelegem problema terapeutului. Și ce am găsit: WhatsApp transformat în recepție permanentă, programări confirmate pe foi volante, notițe pe telefon.
+
+      
+APONIA.ro rezolvă asta. Faza 1, instrument de administrare pentru terapeut. Faza 2, director cu disponibilitate în timp real pentru pacient.
+
+      
+Ce facem concret
+
+      
+
+        
+Programări online, pacienții rezervă fără să sune sau să trimită mesaje
+
+        
+Confirmări automate, reminder cu 24h și 1h înainte de sesiune
+
+        
+Calendar centralizat, toate programările într-un singur loc
+
+        
+Notițe de sesiune, securizate, accesibile doar terapeutului
+
+        
+Urmărire venituri, câți pacienți, câte sesiuni, cât a intrat
+
+      
+
+      
+
+        
+
+          
+73
+
+          
+RON / lună
+
+        
+
+        
+
+          
+15
+
+          
+Minute configurare
+
+        
+
+        
+
+          
+0
+
+          
+Instalări necesare pentru pacienți
+
+        
+
+      
+
+      
+Cine suntem
+
+      
+APONIA.ro este construită de o echipă mică, fără finanțare externă. Serverele sunt în Frankfurt, Germania. Datele sunt criptate în tranzit și la stocare. Conformitate GDPR nativă.
+
+      
+Nu suntem o companie mare de software medical. Suntem oameni care au vrut să facă un instrument simplu și cinstit pentru o profesie care merită mai mult respect administrativ.
+
+      
+Contact
+
+      
+
+        
+Pentru orice întrebare despre platformă, parteneriate sau colaborări: 
+hello@aponia.ro
+
+      
+
+    
+
+  
+
+SPAȚIU DE
+TIHNĂ
+
+  
+
+    
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/en/
 
@@ -4526,24 +5286,11 @@ Online scheduling for psychotherapists | APONIA.ro
   
   
 
-Skip to content
-
   
 
     
-
-      
-
-        
-
-        
-
-      
-
-      
-APONIA.ro
-
-    
+APONIA
+.ro
 
     
 
@@ -4551,27 +5298,35 @@ APONIA.ro
 About
 
       
-Manifesto
+Anxiety Test
 
       
-Anxiety Test
+Wellbeing
 
       
 Calculator
 
+      
+Respite Space
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Get my evenings back 
-→
+Get my evenings back →
 
     
 
   
+
+Skip to content
 
   
 APONIA.ro · scheduling and practice management for psychotherapists
@@ -5688,7 +6443,7 @@ We answer directly.
 
 "My patients won't use a new app."
 
-Your patients install nothing and create no account. They receive a link, open it in the browser, pick a slot. Under 90 seconds. In the beta with 14 psychotherapists, not a single patient refused to book onlin
+Your patients install nothing and create no account. They receive a link, open it in the browser, pick a slot. Under 90 seconds. In the beta with 14 psychotherapists, not a single patient refused to book online. It is simpl
 
 ## https://aponia.ro/en/about/
 
@@ -5728,34 +6483,38 @@ About APONIA.ro, scheduling platform for psychotherapists
   
 
     
-
-      
-
-        
-
-        
-
-      
-
-      
-APONIA.ro
+APONIA
+.ro
 
     
 
-    
+      
+About
 
       
 Anxiety Test
 
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Get my evenings back 
-→
+Get my evenings back →
 
     
 
@@ -5796,19 +6555,19 @@ What we do concretely
       
 
         
-Online scheduling — patients book without calling or texting
+Online scheduling - patients book without calling or texting
 
         
-Automatic confirmations — reminders sent 24h and 1h before each session
+Automatic confirmations - reminders sent 24h and 1h before each session
 
         
-Centralized calendar — all appointments in one place
+Centralized calendar - all appointments in one place
 
         
-Session notes — encrypted, accessible only to the therapist
+Session notes - encrypted, accessible only to the therapist
 
         
-Revenue tracking — number of clients, sessions, and income at a glance
+Revenue tracking - number of clients, sessions, and income at a glance
 
       
 
@@ -5870,9 +6629,124 @@ hello@aponia.ro
 
   
 
+RESPITE
+SPACE
+
   
 
     
+
+      
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
 
       
 
@@ -5880,33 +6754,7 @@ hello@aponia.ro
 
     
 
-      
-
-    
-
-  
-
-  
-
-    
-Privacy Policy
-
-    
-Terms & Conditions
-
-    
-hello@aponia.ro
-
-    
-Product Hunt
-
-    
-Anxiety Test
-
-  
-
-  
-© 2026 APONIA.ro · all rights reserved
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/anxiety-test/
 
@@ -5964,75 +6812,51 @@ Free Online Anxiety Test (GAD-7) · 2 Minutes, Anonymous · APONIA.ro
   
 
   
-Skip to content
 
-  
+    
+APONIA
+.ro
 
     
 
       
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
 About
 
-        
-Manifesto
-
-        
+      
 Anxiety Test
 
-        
+      
+Wellbeing
+
+      
 Calculator
 
-        
+      
+Respite Space
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-Get my evenings back 
-→
-
       
+Get my evenings back →
 
     
 
   
 
   
+Skip to content
 
-    
+  
 
-      
-quick test · anxiety (GAD-7)
-
-      
-Is it anxiety, or just
-a 
-rough week
-?
-
-      
-2 minutes. Free. Completely anonymous. You're not the only one wondering if what you're feeling is "just stress" or something more. The test doesn't ask for your name or email, and nothing is sent anywhere — your answers stay in your browser.
-
-      
-Based on GAD-7, the questionnaire used by therapists and researchers internationally for anxiety screening.
+  
 
     
 
@@ -6265,7 +7089,7 @@ Feeling afraid, as if something awful might happen
       
 
       
-The 3 questions below are informal, for context only — they don't count toward your score.
+The 3 questions below are informal, for context only - they don't count toward your score.
 
       
 
@@ -6351,10 +7175,10 @@ Your score:
  out of 21
 
         
-—
+-
 
         
-—
+-
 
       
 
@@ -6393,7 +7217,7 @@ Send me the guide
         
 
         
-Thanks — check your inbox.
+Thanks - check your inbox.
 
         
 No spam. One email, with the guide.
@@ -6570,9 +7394,93 @@ aponia.ro's analysis of 142 public rates
 
   
 
+  
+
+RESPITE
+SPACE
+
+  
+
     
 
       
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
 
         
 
@@ -6581,34 +7489,1464 @@ aponia.ro's analysis of 142 public rates
       
 
         
+Resources & Legal
 
-      
+        
 
-    
+          
 
-    
+About us
 
-      
-Pricing
+          
 
-      
-About APONIA.ro
-
-      
 Manifesto
 
-      
-Anxiety Test
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
 
       
-hello@aponia.ro
 
     
 
     
-© 2026 APONIA.ro · 
-updated July 2026
- · all rights reserved
+
+      © 2026 APONIA.ro. All rights reserved.
+
+## https://aponia.ro/en/blog/
+
+Blog, APONIA.ro
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+">
+
+  
+
+    
+APONIA
+.ro
+
+    
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+Vreau seara mea înapoi →
+
+    
+
+  
+
+  
+Blog pentru terapeuți independenți
+
+  
+Programări, GDPR, burnout administrativ, software cabinet, fără teorie, doar practic.
+
+      
+
+        
+
+          
+Wellbeing & Fiziologie
+
+          
+Reglarea vagală între două ședințe: de ce 6 respirații/minut contează
+
+          
+Trecerea de la un pacient la altul fără reglare fiziologică transferă cortizol și oboseală. Cum activează ritmul de 6 respirații/minut tonusul vagal.
+
+        
+
+        
+
+          
+4 min  ·  August 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Granițe & Digital
+
+          
+De ce haosul din WhatsApp crește cortizolul terapeutului: costul ascuns al micro-întreruperilor
+
+          
+Mesajele de reprogramare primite la ore nepotrivite mențin creierul în alertă permanentă. Cum elimini atenția reziduală și recapeți serile.
+
+        
+
+        
+
+          
+5 min  ·  August 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Comparație
+
+          
+Software pentru cabinet de psihoterapie în România: ghid comparativ (2026)
+
+          
+APONIA.ro, ePsihologie, eCabinet, CabinetFlow, PsihoManager și altele, comparate onest. Ce face fiecare și pentru cine e potrivită.
+
+        
+
+        
+
+          
+8 min  ·  Iunie 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Comunicare
+
+          
+Granița terapeutică și WhatsApp: cum separi cabinetul de viața personală
+
+          
+Când cabinetul tău e în telefonul personal, nu există un moment în care munca se termină. Cum îți recapeți controlul fără să pari inaccesibil.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Operațional
+
+          
+Câte ore pierzi pe administrativ ca terapeut independent (și nu știi)
+
+          
+Programările, confirmările, remindere, plățile, fiecare ia câteva minute. Suma anuală e surprinzătoare. Și evitabilă.
+
+        
+
+        
+
+          
+4 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+GDPR
+
+          
+GDPR pentru terapeut independent: ce trebuie să știi în 2025
+
+          
+Datele pacienților sunt date sensibile. Stocarea lor are reguli clare. Un ghid fără jargon juridic pentru cabinetul de psihologie.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+No-show
+
+          
+Cum reduci no-show-urile la cabinet fără să strici relația terapeutică
+
+          
+Un pacient care nu apare fără să anunțe nu e neapărat lipsit de respect. Dar costul pentru tine e real. Ce funcționează și ce nu.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Software
+
+          
+De ce terapeuții aleg o platformă dedicată în loc de Google Calendar
+
+          
+Google Calendar e gratuit și familiar. Dar nu a fost construit pentru cabinet de psihologie. Ce lipsește și ce contează cu adevărat.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Wellbeing
+
+          
+Burnout administrativ la terapeuți: semnele pe care le ignori
+
+          
+Nu burnout-ul clinic te epuizează primul. E cel administrativ, invizibil, zilnic, acumulat. Și e mult mai ușor de rezolvat decât crezi.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Programări
+
+          
+Cum îți organizezi programul de cabinet fără haos și fără recepționist
+
+          
+Fără un sistem clar, fiecare programare nouă e o negociere. Există o cale mai simplă, și nu implică să angajezi pe cineva.
+
+        
+
+        
+
+          
+4 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Obiecții
+
+          
+„Nu am nevoie de o aplicație de programări", Câte ore pierzi cu alternativa?
+
+          
+Dacă gestionezi programările manual și crezi că merge bine, articolul calculează câte ore pierzi de fapt pe an cu alternativa. Numărul surprinde de obicei.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Obiecții
+
+          
+Clienții tăi n-au nevoie de o aplicație. Tu da.
+
+          
+Clienții tăi nu trebuie să instaleze nimic. O aplicație de programări bine configurată funcționează dintr-un link trimis pe WhatsApp sau email. Articolul explică cum funcționează pentru clienți care nu sunt tehnici.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Obiecții
+
+          
+Frica de digital în psihologie: de ce e normală și ce o rezolvă în 10 minute
+
+          
+Frica de a trece la digital e normală și apare la mulți terapeuți. Articolul nu promite că e ușor, dar arată ce durează exact 10 minute și ce poate fi delegat sau amânat.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Obiecții
+
+          
+De ce WhatsApp „ajunge" până nu mai ajunge, și care e costul tăcut
+
+          
+WhatsApp ajunge, până nu mai ajunge. Articolul descrie momentul în care costul tăcut al acestei soluții depășește confortul de a nu schimba nimic.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Obiecții
+
+          
+Cât durează să înveți APONIA.ro? (Test real: 8 minute de la zero la primul link)
+
+          
+Test real: de la zero la primul link de programare activ în 8 minute. Articolul documentează fiecare pas cu timp real, nu estimat.
+
+        
+
+        
+
+          
+4 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Obiecții
+
+          
+„N-am timp", Exact de aceea ai nevoie de 20 de minute acum
+
+          
+Lipsa de timp e tocmai motivul pentru care digitalizarea are sens. Articolul arată că cele mai importante configurări se fac în 20 de minute și nu cer nicio întreținere ulterioară.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Obiecții
+
+          
+Pacienții tăi în vârstă nu vor folosi o aplicație? Ce fac terapeuții care au rezolvat asta
+
+          
+Pacienții în vârstă nu au nevoie de o aplicație. Au nevoie de un link. Articolul arată cum au rezolvat asta alți terapeuți cu clienți mai puțin tehnici și ce a funcționat.
+
+---
+
+## C11, Comparații
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Comparații
+
+          
+APONIA.ro vs Sesio.ro: ce e diferit pentru un terapeut independent
+
+          
+Sesio.ro și APONIA.ro rezolvă probleme diferite. Articolul compară ce e specific fiecăruia și pentru ce tip de terapeut are sens fiecare.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Comparații
+
+          
+De ce terapeuții migrează de la Calendly la o platformă specializată
+
+          
+Calendly nu e construit pentru terapie și asta se simte. Articolul explică de ce migrează terapeuții spre platforme specializate și ce câștigă concret în schimb.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Comparații
+
+          
+Pasul.ro vs APONIA.ro: marketplace vs tool propriu, care e pentru tine?
+
+          
+Pasul.ro e un marketplace: îți aduce clienți, dar nu ești tu cel care controlează relația. Articolul compară cele două modele și ajută să decizi care se potrivește cu cum vrei să-ți construiești cabinetul.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Comparații
+
+          
+Comparație completă: platforme de programări pentru terapeuți din România (2025)
+
+          
+Comparație completă a platformelor de programări disponibile pentru terapeuți în România în 2025. Prețuri, funcții, limitări și pentru ce tip de cabinet e potrivit fiecare.
+
+        
+
+        
+
+          
+7 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Comparații
+
+          
+Top 5 soluții de gestionare a cabinetului de psihologie în România (2025)
+
+          
+Cinci soluții de gestionare a cabinetului, comparate pe criterii care contează pentru un psiholog independent: ușurință de folosit, protecția datelor, prețul real și ce e inclus.
+
+---
+
+## C12, Documente & formulare
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Documente
+
+          
+Model contract de psihoterapie: ce trebuie să conțină + template
+
+          
+Model de contract de psihoterapie complet, cu explicații pentru fiecare secțiune. Descarcă, completează cu datele cabinetului tău și folosește de la primul client.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Documente
+
+          
+Consimțământ informat pentru minori în psihoterapie: cum e corect legal
+
+          
+Consimțământul informat pentru minori are cerințe diferite față de cel pentru adulți. Articolul explică ce trebuie să semneze părintele, ce semnează copilul și ce spune legea.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Documente
+
+          
+Nota de informare GDPR pentru cabinetul de psihologie: model complet
+
+          
+Nota de informare GDPR nu e opțională. Articolul oferă un model complet adaptat pentru cabinetul de psihologie, pe care îl poți folosi direct sau adapta cu datele tale.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Documente
+
+          
+Acord de confidențialitate terapeut-pacient: ce e obligatoriu și ce e opțional
+
+          
+Ce clauze sunt obligatorii într-un acord de confidențialitate și ce e opțional. Articolul clarifică și ce limitări legale are confidențialitatea în psihoterapie.
+
+        
+
+        
+
+          
+4 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Documente
+
+          
+Factură sau chitanță pentru ședințe de terapie? Ce e legal + ce preferă pacienții
+
+          
+Factură sau chitanță? Fiecare variantă are condiții fiscale și preferințe ale pacienților diferite. Articolul clarifică ce e legal și ce alege de obicei fiecare tip de client.
+
+---
+
+## C13, Gestionare cabinet
+
+        
+
+        
+
+          
+4 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Operațional
+
+          
+Cum îți setezi orarul de cabinet fără să epuizezi fiecare zi
+
+          
+Orarul ideal nu e cel mai plin. Articolul arată cum construiești un program care să țină pe termen lung, fără să ajungi epuizat la finalul fiecărei săptămâni.
+
+        
+
+        
+
+          
+4 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Operațional
+
+          
+Cum gestionezi lista de așteptare când ești complet ocupat
+
+          
+Dacă ești complet ocupat și vine cineva nou, ce faci? Articolul arată cum gestionezi o listă de așteptare fără să lași pe nimeni în incertitudine și fără să-ți creezi singur presiune.
+
+        
+
+        
+
+          
+4 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Operațional
+
+          
+Fișa de client în format digital: ce date ții și cum le protejezi
+
+          
+Ce date ții pe fiecare client, unde le stochezi și cum te asiguri că sunt protejate conform GDPR. Articolul acoperă și ce nu trebuie notat în fișa digitală.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Operațional
+
+          
+Note de sesiune: cum le scrii, unde le ții, cum le protejezi
+
+          
+Notele de sesiune nu sunt standardizate, dar există practici care funcționează mai bine decât altele. Articolul acoperă ce scrii, cât de detaliat, unde păstrezi și cum protejezi.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Operațional
+
+          
+Onboarding client nou: procesul complet de la primul mesaj la prima ședință
+
+          
+De la primul mesaj primit la prima ședință față în față, fiecare pas contează pentru cum începe relația terapeutică. Articolul descrie un flux complet de onboarding, pas cu pas.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Operațional
+
+          
+Cum primești plata online pentru ședințe, ghid practic fără complicații
+
+          
+Cum primești plata pentru ședințe fără să ceri viramento și fără să te complichezi cu POS fizic. Ghid practic pentru terapeuți care vor să accepte plăți online fără bătăi de cap.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Operațional
+
+          
+Cum comunici o creștere de preț fără să pierzi clienți
+
+          
+Creșterea prețului e o decizie care provoacă anxietate la mulți terapeuți. Articolul arată cum formulezi comunicarea, când e momentul potrivit și de ce cei mai mulți clienți rămân.
+
+---
+
+## C14, Marketing cabinet
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Promovare
+
+          
+Cum îți promovezi cabinetul de psihologie fără să simți că vinzi
+
+          
+Promovarea unui cabinet de psihologie nu trebuie să semene cu publicitatea unui produs. Articolul arată ce funcționează în 2025 pentru terapeuți care vor mai mulți clienți fără să simtă că vând ceva.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Promovare
+
+          
+Are nevoie un terapeut de un site web? Răspunsul sincer în 2025
+
+          
+Are nevoie un terapeut de un site web în 2025? Răspunsul sincer, cu argumente pentru și împotrivă, și ce alternativă funcționează dacă decizi că nu merită efortul acum.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Promovare
+
+          
+Instagram pentru terapeuți: ce să postezi fără să încalci etica
+
+          
+Instagram poate aduce clienți noi, dar granița etică e ușor de depășit fără să îți dai seama. Articolul arată ce poți posta, ce e riscant și cum construiești prezență online fără să compromiți confidențialitatea.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Promovare
+
+          
+Google Business Profile pentru terapeuți: setup complet în 15 minute
+
+          
+Google Business Profile e gratuit și apare înainte de site-ul tău în căutările locale. Setup complet în 15 minute, cu ce să completezi obligatoriu și ce să eviți.
+
+        
+
+        
+
+          
+4 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Promovare
+
+          
+Recenzii online pentru terapeut: etic sau nu? (Și cum le gestionezi)
+
+          
+Recenziile online pentru terapeuți sunt un subiect delicat din punct de vedere etic. Articolul răspunde la întrebarea dacă e corect să le soliciți și cum le gestionezi când apar fără să le ceri.
+
+---
+
+## C15, Wellbeing terapeut
+
+        
+
+        
+
+          
+4 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Wellbeing
+
+          
+Sănătatea mentală a terapeutului: cine are grijă de cel care are grijă de alții
+
+          
+Terapeuții se ocupă de sănătatea mentală a altora și rareori de a lor. Articolul vorbește despre ce se întâmplă când nu există o practică proprie de îngrijire și ce fac concret terapeuții care au rezolvat asta.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Wellbeing
+
+          
+Limite sănătoase la terapeut: nu e egoism, e profesionalism
+
+          
+A spune nu unui client nou sau a nu răspunde la 23:00 nu e egoism, e o condiție pentru a funcționa bine pe termen lung. Articolul arată unde apar limitele cel mai des și cum le stabilești fără vinovăție.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Wellbeing
+
+          
+7 semne că ești suprasolicitat ca terapeut (nu toate arată ca epuizare)
+
+          
+Suprasolicitarea nu arată întotdeauna ca epuizare clasică. Sunt 7 semne mai puțin evidente că lucrezi prea mult, dintre care unele par la prima vedere pozitive.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Programări
+
+          
+Cum îți organizezi programările când ai 15+ clienți activi
+
+          
+La 15 clienți activi, un calendar mental nu mai funcționează. Articolul arată cum pot fi gestionate toate programările dintr-un singur loc, fără Excel și fără conversații pe WhatsApp la 22:00.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Programări
+
+          
+Ghid complet: programări online pentru terapeuți în 2025
+
+          
+Tot ce trebuie să știe un terapeut care vrea să renunțe la programările telefonice: cum funcționează, ce să evite la început și cât durează până merge pe pilot automat. Ghid scris din experiența reală a platformelor folosite în România.
+
+        
+
+        
+
+          
+7 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Programări
+
+          
+7 avantaje concrete ale programării online pentru un terapeut independent
+
+          
+Nu e vorba de tehnologie de dragul tehnologiei. Sunt 7 lucruri concrete care se schimbă în cabinetul tău din ziua în care clienții se programează singuri, fără să te implici tu.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Programări
+
+          
+Cum funcționezi fără recepționist și fără haos în calendar
+
+          
+Fără angajat la recepție și fără haos în calendar se poate. Articolul explică ce instrumente acoperă ce face de obicei un recepționist și care e ordinea în care le introduci.
+
+---
+
+## C2, Software cabinet
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Software
+
+          
+Cel mai bun software pentru cabinet de psihologie în România (2025)
+
+          
+Există mai multe opțiuni pe piața din România, dar nu toate sunt potrivite pentru un cabinet solo. Comparație directă: ce oferă fiecare, cât costă și pentru ce tip de terapeut are sens.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Software
+
+          
+Ce aplicație folosesc terapeuții independenți în 2025
+
+          
+Terapeuții independenți au nevoi diferite față de clinici. Articolul răspunde la o întrebare simplă: ce folosesc concret cei care și-au organizat deja cabinetul în 2025.
+
+        
+
+        
+
+          
+5 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Software
+
+          
+Cum digitalizezi un cabinet de psihologie fără să pierzi 3 luni
+
+          
+Digitalizarea nu înseamnă 3 luni de configurări. Articolul arată ce pași contează și în ce ordine, ca să ai un cabinet funcțional digital în câteva zile, nu câteva luni.
+
+        
+
+        
+
+          
+6 min  ·  Mai 2026
+
+          
+Citește →
+
+        
+
+      
+
+      
+
+        
+
+          
+Software
+
+          
+Gratuit sau plătit? Ce să alegi când îți digitalizezi cabinetul de psihologie
+
+          
+Există soluții gratuite și
 
 ## https://aponia.ro/en/blog/admin-hours-lost.html
 
@@ -6636,7 +8974,7 @@ updated July 2026
 
 ## https://aponia.ro/en/booking/
 
-Online Booking for Therapists — No More Confirmation Chains — APONIA.ro
+Online Booking for Therapists - No More Confirmation Chains - APONIA.ro
 
   
 
@@ -6673,33 +9011,38 @@ Online Booking for Therapists — No More Confirmation Chains — APONIA.ro
   
 
     
-
-      
-
-      
-APONIA.ro
+APONIA
+.ro
 
     
 
-    
+      
+About
 
       
 Anxiety Test
 
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-About
-
-      
-Manifesto
-
-      
-Get early access
+Get my evenings back →
 
     
 
@@ -6762,7 +9105,7 @@ The problem
 The confirmation chain that eats your week
 
   
-"Are you free Thursday at 6?" — "Yes, Thursday at 6 works." — "OK, confirmed, see you then." Multiplied by every session, every patient, every week.
+"Are you free Thursday at 6?" - "Yes, Thursday at 6 works." - "OK, confirmed, see you then." Multiplied by every session, every patient, every week.
 
   
 At 10 sessions a week, that's 20-30 messages just for confirmations. Add rescheduling and cancellations, and you're spending a real chunk of your evenings on logistics you didn't plan for.
@@ -6776,7 +9119,7 @@ The deeper problem: the confirmation burden grows with every patient you add. It
 "I spent more time confirming sessions than I care to admit. It was always in the evening, always from my personal phone, always interrupting whatever else I was doing."
 
     
-Therapist, Bucharest — 12 active patients
+Therapist, Bucharest - 12 active patients
 
   
 
@@ -6869,7 +9212,7 @@ The patient gets a confirmation email immediately. You get a notification. No me
 Reminders go out automatically
 
           
-24 hours before and 1 hour before the session — reminders go out without you lifting a finger. Every session, every patient, without exception.
+24 hours before and 1 hour before the session - reminders go out without you lifting a finger. Every session, every patient, without exception.
 
         
 
@@ -6886,7 +9229,7 @@ On no-shows
 Reminders that never forget
 
   
-Research from the Journal of Health Psychology (2022) shows that automated appointment reminders reduce no-shows by up to 35%. The key word is automated — a system that sends the reminder before every session, not a mental note to "send that reminder tomorrow morning."
+Research from the Journal of Health Psychology (2022) shows that automated appointment reminders reduce no-shows by up to 35%. The key word is automated - a system that sends the reminder before every session, not a mental note to "send that reminder tomorrow morning."
 
   
 A missed session is lost income and a gap in someone's therapeutic process. A reliable reminder system costs less than one missed session.
@@ -6900,7 +9243,7 @@ Common questions
 Can I set different hours for different days?
 
     
-Yes. You define availability per day independently. Mondays 14:00-20:00, Thursdays 10:00-18:00, Fridays not available — whatever your schedule is. You can also adjust it week by week.
+Yes. You define availability per day independently. Mondays 14:00-20:00, Thursdays 10:00-18:00, Fridays not available - whatever your schedule is. You can also adjust it week by week.
 
   
 
@@ -6910,7 +9253,7 @@ Yes. You define availability per day independently. Mondays 14:00-20:00, Thursda
 Can I block vacation days or emergency closures?
 
     
-Yes. Block any date range with one click. Patients cannot book those days. Existing bookings are not affected — they stay in place unless you move them manually.
+Yes. Block any date range with one click. Patients cannot book those days. Existing bookings are not affected - they stay in place unless you move them manually.
 
   
 
@@ -6920,7 +9263,7 @@ Yes. Block any date range with one click. Patients cannot book those days. Exist
 What happens with last-minute cancellations?
 
     
-You set your own cancellation policy — for example, no cancellations under 24 hours before the session. Patients who try to cancel within that window see your policy automatically. How you handle late cancellations is your call; the system just enforces your rules.
+You set your own cancellation policy - for example, no cancellations under 24 hours before the session. Patients who try to cancel within that window see your policy automatically. How you handle late cancellations is your call; the system just enforces your rules.
 
   
 
@@ -6943,31 +9286,132 @@ Set up your booking link today
   
 Get early access →
 
+RESPITE
+SPACE
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
 
       
 
-    
+      
 
-  
+        
+Tools & Clinical
 
-  © 2026 APONIA.ro · 
-hello@aponia.ro
- · 
-About
- · 
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
 Manifesto
 
- · 
-Anxiety Test
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/daemon/
 
@@ -6994,25 +9438,38 @@ Aponia Daemon · System Telemetry & Network Health
   
 
     
-
-      
-
-      
 APONIA
 .ro
 
     
 
+      
+About
+
+      
+Anxiety Test
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
+    
+
     
 
       
-Daemon
+
+RO
+ | 
+EN
 
       
-MCP
-
-      
-Book Therapy
+Get my evenings back →
 
     
 
@@ -7144,63 +9601,140 @@ Zero-leak encryption:
 
   
 
+RESPITE
+SPACE
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
 
       
 
-    
+      
 
-  
+        
+Tools & Clinical
 
-  
+        
 
-    
-Pricing
+          
 
-    
-About APONIA.ro
+Respite Space (Demo)
 
-    
-Manifesto
+          
 
-    
-vs. WhatsApp
+Anxiety Test (GAD-7)
 
-    
-vs. Calendly
+          
 
-    
-vs. SimplePractice
-
-    
-hello@aponia.ro
-
-    
-Anxiety Test
-
-    
 Lost Sessions Calculator
 
-    
-Daemon
+          
 
-    
+Rhea Visibility Score
+
+          
+
 MCP Protocol
 
-  
+        
 
-  
-© 2026 APONIA.ro · 
-updated August 2026
- · all rights reserved
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
+
+## https://aponia.ro/en/legal/politica-confidentialitate.html
+
+
+
+## https://aponia.ro/en/legal/termene-conditii.html
+
+
 
 ## https://aponia.ro/en/lost-sessions-calculator/
 
@@ -7258,72 +9792,51 @@ Lost Sessions Calculator · What no-shows cost you yearly · APONIA.ro
   
 
   
-Skip to content
 
-  
+    
+APONIA
+.ro
 
     
 
       
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
 About
 
-        
+      
 Anxiety Test
 
-        
+      
+Wellbeing
+
+      
 Calculator
 
-        
+      
+Respite Space
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-Get my evenings back 
-→
-
       
+Get my evenings back →
 
     
 
   
 
   
+Skip to content
 
-    
+  
 
-      
-calculator · lost sessions
-
-      
-What do the sessions that
-
-never get rebooked
- cost you?
-
-      
-"I forgot." "Can we move it to Thursday?" "I'll get back to you." Every session that never gets rebooked is an empty hour in your calendar and one more evening spent texting. Drag the sliders and see the yearly bill.
-
-      
-Free. Instant. Nothing leaves your browser.
+  
 
     
 
@@ -7523,9 +10036,93 @@ The most common causes are manual confirmations and WhatsApp rescheduling. A dir
 
   
 
+  
+
+RESPITE
+SPACE
+
+  
+
     
 
       
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
 
         
 
@@ -7534,91 +10131,130 @@ The most common causes are manual confirmations and WhatsApp rescheduling. A dir
       
 
         
+Resources & Legal
 
-      
+        
 
-    
+          
 
-    
+About us
 
-      
-Privacy Policy
+          
 
-      
-Terms
-
-      
-hello@aponia.ro
-
-      
-About APONIA.ro
-
-      
 Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
+
+## https://aponia.ro/en/manifesto/
+
+Manifesto - Why APONIA.ro exists · Scheduling for psychotherapists
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+APONIA
+.ro
+
+    
+
+      
+About
 
       
 Anxiety Test
 
       
-Lost Sessions Calculator
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
 
     
 
     
-© 2026 APONIA.ro · 
-updated July 2026
- · all rights reserved
 
-## https://aponia.ro/en/manifesto/
+      
 
-Manifesto — Why APONIA.ro exists · Scheduling for psychotherapists
+RO
+ | 
+EN
 
-  
+      
+Get my evenings back →
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
+    
 
   
 
@@ -7627,65 +10263,7 @@ Skip to content
 
   
 
-    
-
-      
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
-About
-
-        
-Manifesto
-
-        
-Anxiety Test
-
-    
-
-RO
- | 
-EN
-
-        
-Get my evenings back 
-→
-
-      
-
-    
-
   
-
-  
-
-    
-
-      
-manifesto
-
-      
-Why
-
-APONIA.ro
- exists
-
-      
-therapeutic boundaries don't hold on whatsapp. here is what we understood, and what we built in response.
 
     
 
@@ -7711,7 +10289,7 @@ European Federation of Psychologists' Associations (EFPA, 2023)
 , psychologists in private practice spend an average of 6-8 hours per week on administrative tasks.
 
         
-"your evening is no longer yours — not because of your clients, but because of the logistics surrounding them."
+"your evening is no longer yours - not because of your clients, but because of the logistics surrounding them."
 
       
 
@@ -7729,7 +10307,7 @@ Therapeutic boundaries don't hold on WhatsApp.
 Not because the therapist lacks the necessary discipline. But because the platform doesn't allow for structure.
 
         
-An informal channel, always open, without clear context — one in which the client writes when anxiety strikes, and the therapist feels obligated to respond — is not a work tool. It is a continuous source of ambiguity for both parties.
+An informal channel, always open, without clear context - one in which the client writes when anxiety strikes, and the therapist feels obligated to respond - is not a work tool. It is a continuous source of ambiguity for both parties.
 
         
 Psychotherapy works within clear frameworks. When the framework is absent, the therapist constructs it manually, for every client, every time. This is not a technology problem. It is a clarity problem.
@@ -7798,54 +10376,132 @@ get my evenings back →
 
   
 
-    
-
-      
-
-        
-
-      
-
-      
-
-        
-
-      
-
-    
-
-    
-
-      
-Privacy Policy
-
-      
-Terms & Conditions
-
-      
-Cookie Policy
-
-      
-hello@aponia.ro
-
-      
-About APONIA.ro
-
-      
-Manifesto
-
-      
-Product Hunt
-
-      
-Anxiety Test
+RESPITE
+SPACE
 
   
 
     
-© 2026 APONIA.ro · 
-updated June 2026
- · all rights reserved
+
+      
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/mcp/
 
@@ -7872,25 +10528,38 @@ Aponia MCP Protocol · Triage Test Workbench
   
 
     
-
-      
-
-      
 APONIA
 .ro
 
     
 
+      
+About
+
+      
+Anxiety Test
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
+    
+
     
 
       
-Daemon
+
+RO
+ | 
+EN
 
       
-MCP
-
-      
-Book Therapy
+Get my evenings back →
 
     
 
@@ -7958,67 +10627,136 @@ Value for the Independent Accredited Therapist
 
   
 
+RESPITE
+SPACE
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
 
       
 
-    
+      
 
-  
+        
+Tools & Clinical
 
-  
+        
 
-    
-Pricing
+          
 
-    
-About APONIA.ro
+Respite Space (Demo)
 
-    
-Manifesto
+          
 
-    
-vs. WhatsApp
+Anxiety Test (GAD-7)
 
-    
-vs. Calendly
+          
 
-    
-vs. SimplePractice
-
-    
-hello@aponia.ro
-
-    
-Anxiety Test
-
-    
 Lost Sessions Calculator
 
-    
-Daemon
+          
 
-    
+Rhea Visibility Score
+
+          
+
 MCP Protocol
 
-  
+        
 
-  
-© 2026 APONIA.ro · 
-updated August 2026
- · all rights reserved
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/practice-management/
 
-Therapy Practice Management Software — APONIA.ro
+Therapy Practice Management Software - APONIA.ro
 
   
 
@@ -8055,33 +10793,38 @@ Therapy Practice Management Software — APONIA.ro
   
 
     
-
-      
-
-      
-APONIA.ro
+APONIA
+.ro
 
     
 
-    
+      
+About
 
       
 Anxiety Test
 
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-About
-
-      
-Manifesto
-
-      
-Get early access
+Get my evenings back →
 
     
 
@@ -8184,7 +10927,7 @@ Patients book from your link. You get a notification. No back-and-forth, no conf
 Automatic reminders
 
         
-24-hour and 1-hour reminders sent automatically to each patient. Written, scheduled, delivered — without you.
+24-hour and 1-hour reminders sent automatically to each patient. Written, scheduled, delivered - without you.
 
       
 
@@ -8210,7 +10953,7 @@ Private notes attached to each session. Open any patient's profile and see the f
 Patient profiles
 
         
-Complete history per patient: session dates, notes, payment status, contact details — one place, always findable.
+Complete history per patient: session dates, notes, payment status, contact details - one place, always findable.
 
       
 
@@ -8254,7 +10997,7 @@ Running in 15 minutes. From day one.
 Add your availability. Share your booking link with patients. Existing sessions can be imported by CSV or added manually.
 
   
-No training required. No IT setup. Patients need no account and no app — they get a link, they pick a slot, done.
+No training required. No IT setup. Patients need no account and no app - they get a link, they pick a slot, done.
 
   
 The admin work that used to fill your evenings moves into the background. It still happens. Just not by you.
@@ -8278,7 +11021,7 @@ Yes. CSV import is available for patient names, contact details, and basic sessi
 Can I see the full session history for each patient?
 
     
-Yes. Each patient profile shows the complete history: session dates, notes, payment status, and contact information — all in one view, with no digging required.
+Yes. Each patient profile shows the complete history: session dates, notes, payment status, and contact information - all in one view, with no digging required.
 
   
 
@@ -8311,35 +11054,136 @@ Try APONIA.ro. 73 RON/month. Cancel anytime.
   
 Get early access →
 
+RESPITE
+SPACE
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
 
       
 
-    
+      
 
-  
+        
+Tools & Clinical
 
-  © 2026 APONIA.ro · 
-hello@aponia.ro
- · 
-About
- · 
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
 Manifesto
 
- · 
-Anxiety Test
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/pricing/
 
-Pricing, APONIA.ro — scheduling for therapists
+Pricing, APONIA.ro - scheduling for therapists
 
   
 
@@ -8361,39 +11205,42 @@ Pricing, APONIA.ro — scheduling for therapists
   
 
     
-
-      
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
-Anxiety Test
+APONIA
+.ro
 
     
+
+      
+About
+
+      
+Anxiety Test
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
+      
 Get my evenings back →
 
-      
-
     
+
+  
 
   
 
@@ -8503,7 +11350,7 @@ APONIA.ro Pro
         Manage appointments, notifications, and session notes.
         
 73 RON / month
- — less than a single missed therapy session.
+ - less than a single missed therapy session.
       
 
       
@@ -8549,47 +11396,138 @@ Get my evenings back →
 
   
 
-    
+  
 
-      
-
-        
-
-      
-
-      
-
-        
-
-      
-
-    
-
-    
-
-      
-Privacy Policy
-
-      
-Terms & Conditions
-
-      
-Cookie Policy
-
-      
-hello@aponia.ro
-
-      
-Anxiety Test
+RESPITE
+SPACE
 
   
 
     
-© 2026 APONIA.ro · all rights reserved
+
+      
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/psychologist-cabinet/
 
-Software for Independent Psychologist Practice — APONIA.ro
+Software for Independent Psychologist Practice - APONIA.ro
 
   
 
@@ -8626,33 +11564,38 @@ Software for Independent Psychologist Practice — APONIA.ro
   
 
     
-
-      
-
-      
-APONIA.ro
+APONIA
+.ro
 
     
 
-    
+      
+About
 
       
 Anxiety Test
 
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-About
-
-      
-Manifesto
-
-      
-Get early access
+Get my evenings back →
 
     
 
@@ -8724,16 +11667,16 @@ What it looks like now
       
 
         
-"Are you free Thursday at 6?" — back and forth until both sides agree
+"Are you free Thursday at 6?" - back and forth until both sides agree
 
         
 WhatsApp doubles as your professional inbox, personal inbox, and 10pm patient channel
 
         
-Notes in a notebook, a Word file, or your memory — wherever you had time after the session
+Notes in a notebook, a Word file, or your memory - wherever you had time after the session
 
         
-"Did they pay last time?" — a question you answer from a spreadsheet or hope you remember
+"Did they pay last time?" - a question you answer from a spreadsheet or hope you remember
 
         
 Reminders sent manually, when you remember, from your personal phone
@@ -8750,7 +11693,7 @@ What it looks like with APONIA.ro
       
 
         
-Patient books from your link, you get a notification — no messages exchanged
+Patient books from your link, you get a notification - no messages exchanged
 
         
 Patient communication goes through a separate channel, not WhatsApp
@@ -8842,7 +11785,7 @@ Notes linked to each session, stored securely, visible only to you. Open the pat
 GDPR-compliant by design
 
           
-Health data stored in Frankfurt, EU. AES-256 encryption. Compliant with Article 9 of GDPR for sensitive health information — the highest protection level.
+Health data stored in Frankfurt, EU. AES-256 encryption. Compliant with Article 9 of GDPR for sensitive health information - the highest protection level.
 
         
 
@@ -8891,7 +11834,7 @@ After each session, you open the patient's profile in APONIA.ro and add your not
 How is patient data secured?
 
     
-Data is stored on servers in Frankfurt, Germany — within EU jurisdiction — with AES-256 encryption. APONIA.ro is designed to be compliant with GDPR Article 9, which covers sensitive health data at the highest protection level.
+Data is stored on servers in Frankfurt, Germany - within EU jurisdiction - with AES-256 encryption. APONIA.ro is designed to be compliant with GDPR Article 9, which covers sensitive health data at the highest protection level.
 
   
 
@@ -8904,31 +11847,132 @@ Set up in 15 minutes. No onboarding call. No IT team needed.
   
 Get early access →
 
+RESPITE
+SPACE
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
 
       
 
-    
+      
 
-  
+        
+Tools & Clinical
 
-  © 2026 APONIA.ro · 
-hello@aponia.ro
- · 
-About
- · 
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
 Manifesto
 
- · 
-Anxiety Test
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/rhea/
 
@@ -8986,59 +12030,53 @@ Rhea - how visible are you as a therapist online - APONIA.ro
   
 
   
-Sari la conținut
 
-  
+    
+APONIA
+.ro
 
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
+    
 
       
-
 About
 
-Manifesto
+      
+Anxiety Test
 
-Anxiety test
-
-Rhea
-
-Lost sessions
-
+      
 Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-Start free 
-→
+      
+Get my evenings back →
+
+    
+
+  
+
+  
+Sari la conținut
+
+  
 
   
 
     
-
-      
-aponia / rhea
-
-      
-When a patient searches your name,
-this is 
-what they see
-
-      
-Patients look you up online before they book. Most therapists are invisible where it matters. Find out in 30 seconds what patients find and where you get lost.
-
-    
-
     
 
       
@@ -9115,61 +12153,138 @@ Continue on aponia.ro
 
   
 
-    
+  
 
-      
-
-        
-
-      
-
-      
-
-        
-
-      
-
-    
-
-    
-
-      
-Politică de confidențialitate
-
-      
-Termene și condiții
-
-      
-Politică cookies
-
-      
-hello@aponia.ro
-
-      
-Despre APONIA.ro
-
-      
-Manifest
-
-      
-Blog
-
-      
-Test anxietate
-
-    
-Wellbeing
+RESPITE
+SPACE
 
   
 
     
-© 2026 APONIA.ro · 
-actualizat iulie 2026
- · toate drepturile rezervate
+
+      
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/vs-calendly/
 
-APONIA.ro vs Calendly — Generic tool vs. platform for psychotherapists | APONIA.ro
+APONIA.ro vs Calendly - Generic tool vs. platform for psychotherapists | APONIA.ro
 
   
 
@@ -9202,33 +12317,42 @@ APONIA.ro vs Calendly — Generic tool vs. platform for psychotherapists | APONI
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
-Anxiety Test
+APONIA
+.ro
 
     
+
+      
+About
+
+      
+Anxiety Test
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-Get early access
-
       
+Get my evenings back →
 
     
+
+  
 
   
 
@@ -9437,12 +12561,12 @@ A booking link is not a practice management system
 Calendly is built for sales calls and interviews. The model is simple: someone sees a link, picks a slot, receives a calendar invite. Elegant, fast, works well for that.
 
     
-Therapy does not work the same way. Your patient is not a prospect checking off a slot. They are a person you work with for weeks or months. You need to know what was discussed last time, send a discreet reminder the day before, note what's important after each session. Calendly does none of these things — and it never will, because they are not for its target audience.
+Therapy does not work the same way. Your patient is not a prospect checking off a slot. They are a person you work with for weeks or months. You need to know what was discussed last time, send a discreet reminder the day before, note what's important after each session. Calendly does none of these things - and it never will, because they are not for its target audience.
 
     
 
 APONIA.ro is built exclusively for therapists.
- Every product decision — how a patient profile looks, how notifications flow, how data is stored — is made with the context of therapy in mind.
+ Every product decision - how a patient profile looks, how notifications flow, how data is stored - is made with the context of therapy in mind.
 
   
 
@@ -9543,31 +12667,136 @@ vs. Hedepy
 
   
 
-    
-
-      
-Home
-
-      
-Pricing
-
-      
-About
-
-      
-hello@aponia.ro
-
-      
-Anxiety Test
+RESPITE
+SPACE
 
   
 
     
-© 2026 APONIA.ro · hello@aponia.ro
+
+      
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/vs-google-calendar/
 
-APONIA.ro vs Google Calendar — Practice Management vs a Calendar Tool
+APONIA.ro vs Google Calendar - Practice Management vs a Calendar Tool
 
   
 
@@ -9604,33 +12833,38 @@ APONIA.ro vs Google Calendar — Practice Management vs a Calendar Tool
   
 
     
-
-      
-
-      
-APONIA.ro
+APONIA
+.ro
 
     
 
-    
+      
+About
 
       
 Anxiety Test
 
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-About
-
-      
-Manifesto
-
-      
-Get early access
+Get my evenings back →
 
     
 
@@ -9644,7 +12878,7 @@ Google Calendar is great for scheduling.
 It's not a practice management system.
 
   
-The difference matters when you start adding patient notes, payment tracking, GDPR-compliant storage, and reminders that need to fire reliably — every session, not just when you remember.
+The difference matters when you start adding patient notes, payment tracking, GDPR-compliant storage, and reminders that need to fire reliably - every session, not just when you remember.
 
   
 
@@ -9668,7 +12902,7 @@ APONIA.ro
 Built specifically for therapy practices.
 
     
-73 RON/month. Handles booking, confirmations, reminders, session notes, patient profiles, and payment tracking — in one place, GDPR-compliant by design.
+73 RON/month. Handles booking, confirmations, reminders, session notes, patient profiles, and payment tracking - in one place, GDPR-compliant by design.
 
   
 
@@ -9715,7 +12949,7 @@ Patient self-booking link
 
         
 
-Partial — needs Calendly add-on
+Partial - needs Calendly add-on
 
         
 
@@ -9730,7 +12964,7 @@ Automatic appointment reminders
 
         
 
-Partial — Google account only
+Partial - Google account only
 
         
 
@@ -9805,7 +13039,7 @@ Built for therapy practices
 
         
 
-✗ — generic tool
+✗ - generic tool
 
         
 
@@ -9837,7 +13071,7 @@ The patchwork doesn't solve itself. It grows. APONIA.ro replaces it with one sys
     
 
 Can they work together?
- Yes. APONIA.ro has a Google Calendar integration. Your APONIA.ro bookings appear in Google Calendar automatically. You can use both — APONIA.ro as your practice system, Google Calendar as your personal view.
+ Yes. APONIA.ro has a Google Calendar integration. Your APONIA.ro bookings appear in Google Calendar automatically. You can use both - APONIA.ro as your practice system, Google Calendar as your personal view.
 
   
 
@@ -9848,10 +13082,10 @@ A note on GDPR
 Clinical data in a personal Google account is not the same as compliant storage
 
   
-Article 9 of the GDPR classifies health data as a special category — the highest protection level. Appointment notes, session details, patient names paired with session dates — these are health data.
+Article 9 of the GDPR classifies health data as a special category - the highest protection level. Appointment notes, session details, patient names paired with session dates - these are health data.
 
   
-Storing them in a personal Google Calendar account means they're governed by Google's consumer privacy policy, not a data processing agreement designed for health data processors. The difference is small until it matters — a data subject request, a breach, or an audit.
+Storing them in a personal Google Calendar account means they're governed by Google's consumer privacy policy, not a data processing agreement designed for health data processors. The difference is small until it matters - a data subject request, a breach, or an audit.
 
   
 APONIA.ro stores all data in Frankfurt, Germany, under EU jurisdiction, with AES-256 encryption and a data processing agreement built for Article 9 compliance.
@@ -9875,7 +13109,7 @@ Yes. Connect your Google account and your APONIA.ro bookings automatically appea
 I already use Google Calendar and it works fine. Is switching worth it?
 
     
-If you have fewer than 8 patients and admin feels manageable, probably not. The value of a dedicated practice system shows when patient volume grows and the patchwork — different apps for notes, payments, messages — gets harder to maintain manually.
+If you have fewer than 8 patients and admin feels manageable, probably not. The value of a dedicated practice system shows when patient volume grows and the patchwork - different apps for notes, payments, messages - gets harder to maintain manually.
 
   
 
@@ -9885,7 +13119,7 @@ If you have fewer than 8 patients and admin feels manageable, probably not. The 
 Is the GDPR risk actually real for a small practice?
 
     
-Yes. The regulation applies regardless of practice size. The practical risk is small for most therapists most of the time — until there's a data subject request, a complaint to the data protection authority, or a breach. At that point, "I was using my personal Google account" is not a compliant answer.
+Yes. The regulation applies regardless of practice size. The practical risk is small for most therapists most of the time - until there's a data subject request, a complaint to the data protection authority, or a breach. At that point, "I was using my personal Google account" is not a compliant answer.
 
   
 
@@ -9895,7 +13129,7 @@ Yes. The regulation applies regardless of practice size. The practical risk is s
 How long does migrating take?
 
     
-Under one hour. Import your patient list via CSV, set your availability, share your new booking link. Existing appointments can be entered manually or left in Google Calendar until they pass — there's no hard cutover required.
+Under one hour. Import your patient list via CSV, set your availability, share your new booking link. Existing appointments can be entered manually or left in Google Calendar until they pass - there's no hard cutover required.
 
   
 
@@ -9908,35 +13142,136 @@ Try a system built for therapy practices
   
 Get early access →
 
+RESPITE
+SPACE
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
 
       
 
-    
+      
 
-  
+        
+Tools & Clinical
 
-  © 2026 APONIA.ro · 
-hello@aponia.ro
- · 
-About
- · 
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
 Manifesto
 
- · 
-Anxiety Test
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/vs-hedepy/
 
-APONIA.ro vs Hedepy — Practice Management vs a Therapy Marketplace
+APONIA.ro vs Hedepy - Practice Management vs a Therapy Marketplace
 
   
 
@@ -9973,33 +13308,38 @@ APONIA.ro vs Hedepy — Practice Management vs a Therapy Marketplace
   
 
     
-
-      
-
-      
-APONIA.ro
+APONIA
+.ro
 
     
 
-    
+      
+About
 
       
 Anxiety Test
 
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-About
-
-      
-Manifesto
-
-      
-Get early access
+Get my evenings back →
 
     
 
@@ -10012,7 +13352,7 @@ Comparison
 Two different products solving two different problems.
 
   
-Hedepy connects patients to therapists — it's a marketplace. APONIA.ro helps therapists manage the practice once patients are there. They are not alternatives. Many therapists use both.
+Hedepy connects patients to therapists - it's a marketplace. APONIA.ro helps therapists manage the practice once patients are there. They are not alternatives. Many therapists use both.
 
   
 
@@ -10113,11 +13453,11 @@ Your own booking link
 
         
 
-✗ — within Hedepy only
+✗ - within Hedepy only
 
         
 
-✓ — your link, your brand
+✓ - your link, your brand
 
       
 
@@ -10207,15 +13547,15 @@ Who owns your patients?
 The question that matters as your practice grows
 
   
-When a patient finds you through Hedepy, they found you through Hedepy's search, Hedepy's algorithm, and they book through Hedepy's interface. That is a genuine service — they would not have found you otherwise. Hedepy earns its commission on that first contact.
+When a patient finds you through Hedepy, they found you through Hedepy's search, Hedepy's algorithm, and they book through Hedepy's interface. That is a genuine service - they would not have found you otherwise. Hedepy earns its commission on that first contact.
 
   
-The question that comes later: once a patient has been seeing you for six months and comes back through routine — not through a search — who are they seeing? You, or a therapist on the Hedepy platform?
+The question that comes later: once a patient has been seeing you for six months and comes back through routine - not through a search - who are they seeing? You, or a therapist on the Hedepy platform?
 
   
 With APONIA.ro, patients book through your link, see your page, and communicate through your system. When they refer someone, they refer 
 you
- — not a platform. The relationship is yours.
+ - not a platform. The relationship is yours.
 
   
 
@@ -10290,7 +13630,7 @@ Difference
   
 
   
-This math is not a reason to avoid Hedepy for new patient acquisition — it is a reason to use a different tool for managing established patients.
+This math is not a reason to avoid Hedepy for new patient acquisition - it is a reason to use a different tool for managing established patients.
 
   
 Common questions
@@ -10301,7 +13641,7 @@ Common questions
 Can I use both Hedepy and APONIA.ro at the same time?
 
     
-Yes. Use Hedepy to find new patients and APONIA.ro to manage your established practice. Many therapists run both in parallel — Hedepy for acquisition, APONIA.ro for day-to-day operations.
+Yes. Use Hedepy to find new patients and APONIA.ro to manage your established practice. Many therapists run both in parallel - Hedepy for acquisition, APONIA.ro for day-to-day operations.
 
   
 
@@ -10311,7 +13651,7 @@ Yes. Use Hedepy to find new patients and APONIA.ro to manage your established pr
 If I find a patient through Hedepy, can I manage them in APONIA.ro?
 
     
-You can add any patient to APONIA.ro. Whether you continue using Hedepy for their bookings or manage them directly through APONIA.ro depends on Hedepy's terms of service — read those carefully before making that decision.
+You can add any patient to APONIA.ro. Whether you continue using Hedepy for their bookings or manage them directly through APONIA.ro depends on Hedepy's terms of service - read those carefully before making that decision.
 
   
 
@@ -10331,7 +13671,7 @@ Yes. Full data export at any time, in CSV format. Your patient list, session his
 At what point does the cost comparison shift in favor of APONIA.ro?
 
     
-At roughly 2-3 sessions per month with established patients, the commission already exceeds 73 RON — what APONIA.ro costs for the entire month. Beyond that point, if those patients are returning on their own (not through a Hedepy search), the commission is a cost without a proportional return.
+At roughly 2-3 sessions per month with established patients, the commission already exceeds 73 RON - what APONIA.ro costs for the entire month. Beyond that point, if those patients are returning on their own (not through a Hedepy search), the commission is a cost without a proportional return.
 
   
 
@@ -10344,35 +13684,641 @@ Booking, confirmations, notes, patient profiles. No commissions.
   
 Get early access →
 
+RESPITE
+SPACE
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
 
       
 
-    
+      
 
-  
+        
+Tools & Clinical
 
-  © 2026 APONIA.ro · 
-hello@aponia.ro
- · 
-About
- · 
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
 Manifesto
 
- · 
-Anxiety Test
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
+
+## https://aponia.ro/en/vs-pasul/
+
+APONIA.ro vs Pasul.ro, Cabinet propriu vs. platformă de matching | APONIA.ro
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+">
+  
+  
+
+  
+
+    
+APONIA
+.ro
+
+    
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+Vreau seara mea înapoi →
+
+    
+
+  
+
+  
+
+  
+
+    
+
+APONIA.ro
+ › APONIA.ro vs Pasul.ro
+
+    
+Comparație
+
+    
+APONIA.ro vs.
+Pasul.ro
+
+    
+Pasul.ro rezolvă o problemă reală: cum găsesc pacienții un terapeut potrivit. APONIA.ro rezolvă altă problemă: cum gestionezi tu pacienții după ce îi ai.
+
+  
+
+  
+
+    
+Răspuns direct
+
+    
+Pasul.ro e o platformă de matching, conectează pacienți cu terapeuți COPSI-acreditați. Nu e un tool de management al cabinetului. APONIA.ro e tocmai asta: gestionezi programările, confirmările și notițele fără WhatsApp și fără foi volante.
+
+  
+
+  
+
+    
+Ce face fiecare
+
+    
+
+      
+
+        
+
+          
+
+          
+APONIA.ro
+
+          
+Pasul.ro
+
+        
+
+      
+
+      
+
+        
+
+          
+Aduce pacienți noi
+
+          
+
+✗
+ Nu e scopul
+
+          
+
+✓
+ Da, prin matching
+
+        
+
+        
+
+          
+Gestionează programările
+
+          
+
+✓
+ Core feature
+
+          
+
+✗
+ Nu oferă
+
+        
+
+        
+
+          
+Notificări automate pacienți
+
+          
+
+✓
+ SMS + email
+
+          
+
+✗
+ Nu oferă
+
+        
+
+        
+
+          
+Notițe de sesiune
+
+          
+
+✓
+ Private, structurate
+
+          
+
+✗
+ Nu oferă
+
+        
+
+        
+
+          
+Pacienții sunt ai tăi
+
+          
+
+✓
+ Complet
+
+          
+
+~
+ Prima consultație gratuită prin ei
+
+        
+
+        
+
+          
+Accreditare COPSI necesară
+
+          
+
+✓
+ Nu e condiție
+
+          
+
+✗
+ Obligatoriu pentru listing
+
+        
+
+        
+
+          
+Branding propriu
+
+          
+
+✓
+ Pagina ta
+
+          
+
+✗
+ Profil pe pasul.ro
+
+        
+
+        
+
+          
+Control complet GDPR
+
+          
+
+✓
+ Tu ești responsabilul
+
+          
+
+✗
+ Pasul.ro deține datele
+
+        
+
+      
+
+    
+
+  
+
+  
+
+    
+Două tool-uri pentru etape diferite
+
+    
+Pasul.ro are un rol clar și util: un pacient care nu știe unde să înceapă terapia intră pe platformă, completează un chestionar, și primește un terapeut recomandat. Procesul e curat, accesul la prima consultație e gratuit. E util pentru pacienți la debut.
+
+    
+Dar ce se întâmplă după? Pacientul devine al tău. Sesiunile continuă. Și brusc ești din nou cu WhatsApp, cu Google Calendar pe telefon, cu confirmări trimise manual luni dimineața. Pasul.ro nu gestionează asta pentru că nu e platforma lor.
+
+    
+
+APONIA.ro preia exact de unde se termină Pasul.ro.
+ Pacientul e la tine, tu gestionezi relația, programările, notificările și notițele fără să comutezi între trei aplicații.
+
+  
+
+  
+
+    
+Ai pacienți. Acum ai nevoie
+de un sistem.
+
+    
+Beta gratuit. Fără card, fără comisioane. Accesul anticipat e limitat.
+
+    
+
+      
+Vreau acces anticipat
+
+      
+Vezi cum funcționează
+
+    
+
+  
+
+  
+
+    
+Întrebări frecvente
+
+    
+
+      
+
+        
+Pot folosi APONIA.ro și Pasul.ro în același timp?
+
+        
+Da, și are sens să o faci. Pasul.ro aduce pacienți noi. APONIA.ro gestionează toți pacienții tăi, inclusiv cei veniți prin Pasul. Nu există conflict.
+
+      
+
+      
+
+        
+Pasul.ro oferă consultație gratuită, asta nu mă avantajează față de APONIA.ro?
+
+        
+Prima consultație gratuită e o facilitate pentru pacienți, nu pentru terapeut. Tu nu ești plătit pentru acea primă sesiune. Dacă pacientul continuă, relația devine directă. APONIA.ro gestionează tocmai această relație continuă.
+
+      
+
+      
+
+        
+Am nevoie de acreditare COPSI pentru APONIA.ro?
+
+        
+Nu. APONIA.ro e un tool de management, nu o platformă care verifică acreditări. Orice terapeut cu cabinet propriu poate folosi APONIA.ro.
+
+      
+
+      
+
+        
+Dacă sunt pe Pasul.ro, de ce aș mai avea nevoie de APONIA.ro?
+
+        
+Pasul.ro îți aduce pacientul prima dată. APONIA.ro preia după: programările lunare, confirmările automate, notițele de sesiune, istoricul relației. Fără APONIA.ro, toate astea sunt pe WhatsApp și în capul tău.
+
+      
+
+    
+
+  
+
+  
+
+    
+Compară și cu
+
+    
+
+      
+vs. Hedepy
+
+      
+vs. Calendly
+
+      
+vs. Google Calendar
+
+      
+vs. WhatsApp
+
+      
+vs. SimplePractice
+
+    
+
+  
+
+  
+
+SPAȚIU DE
+TIHNĂ
+
+  
+
+    
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+      
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/en/vs-simplepractice/
 
-APONIA.ro vs SimplePractice — European GDPR alternative | APONIA.ro
+APONIA.ro vs SimplePractice - European GDPR alternative | APONIA.ro
 
   
 
@@ -10405,33 +14351,42 @@ APONIA.ro vs SimplePractice — European GDPR alternative | APONIA.ro
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
-Anxiety Test
+APONIA
+.ro
 
     
+
+      
+About
+
+      
+Anxiety Test
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-Get early access
-
       
+Get my evenings back →
 
     
+
+  
 
   
 
@@ -10502,7 +14457,7 @@ Native GDPR compliance
           
 
 ✗
- HIPAA (USA) — GDPR not native
+ HIPAA (USA) - GDPR not native
 
         
 
@@ -10640,7 +14595,7 @@ Why an American product doesn't solve a European problem
 SimplePractice is built for a specific context: American therapist, American patients, American insurance, American laws. The product is mature and well-designed. But your context is different.
 
     
-As a therapist in Europe, you have clear GDPR obligations regarding your patients' data. SimplePractice is HIPAA-compliant, not GDPR-compliant. That doesn't mean it's illegal to use, but it means GDPR compliance responsibility stays entirely with you — with no native support from the platform you're paying $59 a month for.
+As a therapist in Europe, you have clear GDPR obligations regarding your patients' data. SimplePractice is HIPAA-compliant, not GDPR-compliant. That doesn't mean it's illegal to use, but it means GDPR compliance responsibility stays entirely with you - with no native support from the platform you're paying $59 a month for.
 
     
 Furthermore: you're paying for telehealth integrated with American insurers, for English-language forms, for a billing system adapted to US CPT codes. Features you simply cannot use in a European context.
@@ -10648,7 +14603,7 @@ Furthermore: you're paying for telehealth integrated with American insurers, for
     
 
 APONIA.ro is built exactly for your context
- — a practice in Europe, patients with European expectations, data that must stay in the EU. No excess, no paying for features you cannot access.
+ - a practice in Europe, patients with European expectations, data that must stay in the EU. No excess, no paying for features you cannot access.
 
   
 
@@ -10683,10 +14638,10 @@ Frequently asked questions
       
 
         
-SimplePractice has GDPR compliance — why do you say it doesn't?
+SimplePractice has GDPR compliance - why do you say it doesn't?
 
         
-SimplePractice offers a DPA (Data Processing Agreement) for European customers, which is a step. But the platform is built on AWS infrastructure in the USA, with internal processes designed for HIPAA. Real GDPR compliance — right to erasure, data portability, 72-hour breach notification — is not their core business.
+SimplePractice offers a DPA (Data Processing Agreement) for European customers, which is a step. But the platform is built on AWS infrastructure in the USA, with internal processes designed for HIPAA. Real GDPR compliance - right to erasure, data portability, 72-hour breach notification - is not their core business.
 
       
 
@@ -10696,7 +14651,7 @@ SimplePractice offers a DPA (Data Processing Agreement) for European customers, 
 SimplePractice has more features. Isn't it better?
 
         
-It depends on your practice. A solo therapist in Europe doesn't need insurance billing, e-prescribe, superbills, or multi-therapist group sessions. You pay for features you never use. APONIA.ro is exactly what you need — nothing more.
+It depends on your practice. A solo therapist in Europe doesn't need insurance billing, e-prescribe, superbills, or multi-therapist group sessions. You pay for features you never use. APONIA.ro is exactly what you need - nothing more.
 
       
 
@@ -10749,31 +14704,136 @@ vs. Hedepy
 
   
 
-    
-
-      
-Home
-
-      
-Pricing
-
-      
-About
-
-      
-hello@aponia.ro
-
-      
-Anxiety Test
+RESPITE
+SPACE
 
   
 
     
-© 2026 APONIA.ro · hello@aponia.ro
+
+      
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/vs-whatsapp/
 
-APONIA.ro vs WhatsApp — Message confirmations vs. professional system | APONIA.ro
+APONIA.ro vs WhatsApp - Message confirmations vs. professional system | APONIA.ro
 
   
 
@@ -10806,33 +14866,42 @@ APONIA.ro vs WhatsApp — Message confirmations vs. professional system | APONIA
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
-Anxiety Test
+APONIA
+.ro
 
     
+
+      
+About
+
+      
+Anxiety Test
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-Get early access
-
       
+Get my evenings back →
 
     
+
+  
 
   
 
@@ -10861,7 +14930,7 @@ If you run a small practice, WhatsApp seems sufficient. The client sends a messa
 Direct answer
 
     
-WhatsApp is a personal messaging app. Using it for confirmations means clinical patient data sits on Meta's servers, you have no system, and you are available whenever someone feels like writing. APONIA.ro moves confirmations to an automated, separate system — away from your personal life.
+WhatsApp is a personal messaging app. Using it for confirmations means clinical patient data sits on Meta's servers, you have no system, and you are available whenever someone feels like writing. APONIA.ro moves confirmations to an automated, separate system - away from your personal life.
 
   
 
@@ -10903,7 +14972,7 @@ Appointment confirmation
           
 
 ✗
- Manual — you reply to each one
+ Manual - you reply to each one
 
         
 
@@ -11000,7 +15069,7 @@ Available 24/7 for messages
           
 
 ✓
- System responds — you don't have to
+ System responds - you don't have to
 
           
 
@@ -11038,10 +15107,10 @@ Professional appearance
 The real cost of WhatsApp for your practice
 
     
-It's not about money. It's about energy. Every manually sent confirmation, every reminder written on a Sunday evening, every rescheduling negotiated through messages — that's energy taken from somewhere else. From a session, from a weekend, from actual downtime.
+It's not about money. It's about energy. Every manually sent confirmation, every reminder written on a Sunday evening, every rescheduling negotiated through messages - that's energy taken from somewhere else. From a session, from a weekend, from actual downtime.
 
     
-It's also a boundary problem. Patients who have your personal number can write at any time. And many do — not for emergencies, but for a quick question, a reschedule, a confirmation they could have sent on Thursday. When there is no system, the patient improvises. And you pay.
+It's also a boundary problem. Patients who have your personal number can write at any time. And many do - not for emergencies, but for a quick question, a reschedule, a confirmation they could have sent on Thursday. When there is no system, the patient improvises. And you pay.
 
     
 
@@ -11084,7 +15153,7 @@ Frequently asked questions
 My clients prefer WhatsApp. Will they use a new system?
 
         
-Experience shows patients adapt quickly when the system is simple. A booking link is easier than a conversation. And they receive confirmation instantly — not after you read the message.
+Experience shows patients adapt quickly when the system is simple. A booking link is easier than a conversation. And they receive confirmation instantly - not after you read the message.
 
       
 
@@ -11114,7 +15183,7 @@ Not strictly illegal, but concerning from a GDPR perspective. Meta processes met
 Does APONIA.ro send notifications via WhatsApp or SMS?
 
         
-APONIA.ro sends notifications via SMS and email. These come from the system's number/address — not from your personal number. Clients receive reminders without any manual involvement from you.
+APONIA.ro sends notifications via SMS and email. These come from the system's number/address - not from your personal number. Clients receive reminders without any manual involvement from you.
 
       
 
@@ -11147,27 +15216,132 @@ vs. Hedepy
 
   
 
-    
-
-      
-Home
-
-      
-Pricing
-
-      
-About
-
-      
-hello@aponia.ro
-
-      
-Anxiety Test
+RESPITE
+SPACE
 
   
 
     
-© 2026 APONIA.ro · hello@aponia.ro
+
+      
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/wellbeing/
 
@@ -11227,79 +15401,51 @@ Biophilic Wellbeing & Emotional Regulation · APONIA.ro
   
 
   
-Skip to content
 
-  
+    
+APONIA
+.ro
 
     
 
       
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
 About
 
-        
-Manifesto
-
-        
+      
 Anxiety Test
 
-        
+      
 Wellbeing
 
-        
+      
+Calculator
+
+      
+Respite Space
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-
-          
-Get my evenings back 
-→
-
-          
-Start free 
-→
-
-        
-
       
+Get my evenings back →
 
     
 
   
 
   
+Skip to content
 
-    
+  
 
-      
-biophilic regulation space
-
-      
-Your sanctuary of 
-calm
- and clarity
-
-      
-Lower your cortisol and reclaim your focus. No aggressive alerts or crowded dashboards. Seven tactile tools crafted to bring grounded stability to every practice day.
+  
 
     
 
@@ -11770,9 +15916,96 @@ Get My Evenings Back →
 
   
 
+  
+
+  
+  
+
+RESPITE
+SPACE
+
+  
+
     
 
       
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
 
         
 
@@ -11781,41 +16014,39 @@ Get My Evenings Back →
       
 
         
+Resources & Legal
 
-      
+        
 
-    
+          
 
-    
+About us
 
-      
-Privacy Policy
+          
 
-      
-Terms & Conditions
-
-      
-Cookies
-
-      
-hello@aponia.ro
-
-      
-About APONIA.ro
-
-      
 Manifesto
 
-      
-Anxiety Test
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
 
       
-Wellbeing
 
     
 
     
-© 2026 APONIA.ro · updated August 2026 · all rights reserved
+
+      © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/wellbeing/demo-tools.html
 
@@ -11856,32 +16087,42 @@ Gestiune cabinet psihoterapie, APONIA.ro
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-Test anxietate
+APONIA
+.ro
 
     
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Acces anticipat
+Vreau seara mea înapoi →
 
     
+
+  
 
   
 
@@ -12038,6 +16279,139 @@ Programare online
         
 vs. SimplePractice
 
+      
+
+    
+
+  
+
+SPAȚIU DE
+TIHNĂ
+
+  
+
+    
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
+
 ## https://aponia.ro/legal/politica-confidentialitate.html
 
 
@@ -12050,7 +16424,7 @@ vs. SimplePractice
 
 
 
-## https://aponia.ro/manifesto/
+## https://aponia.ro/manifest/
 
 Manifest, De ce există APONIA.ro · Programări pentru psihoterapeuți
 
@@ -12106,71 +16480,51 @@ Manifest, De ce există APONIA.ro · Programări pentru psihoterapeuți
   
 
   
-Sari la conținut
 
-  
+    
+APONIA
+.ro
 
     
 
       
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
 Despre
 
-        
-Manifest
+      
+Test Anxietate
 
-        
-Test anxietate
-
-    
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-Vreau seara mea înapoi 
-→
-
       
+Vreau seara mea înapoi →
 
     
 
   
 
   
+Sari la conținut
 
-    
+  
 
-      
-manifest
-
-      
-De ce există
-
-APONIA.ro
-
-      
-granița terapeutică nu se ține pe whatsapp. iată ce am înțeles, și ce am construit ca răspuns.
+  
 
     
 
@@ -12283,57 +16637,472 @@ vreau seara mea înapoi →
 
   
 
-    
-
-      
-
-        
-
-      
-
-      
-
-        
-
-      
-
-    
-
-    
-
-      
-Politică de confidențialitate
-
-      
-Termene și condiții
-
-      
-Politică cookies
-
-      
-hello@aponia.ro
-
-      
-Despre APONIA.ro
-
-      
-Manifest
-
-      
-Product Hunt
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · 
-actualizat iunie 2026
- · toate drepturile rezervate
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
+
+## https://aponia.ro/manifesto/
+
+Manifest, De ce există APONIA.ro · Programări pentru psihoterapeuți
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+APONIA
+.ro
+
+    
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+Vreau seara mea înapoi →
+
+    
+
+  
+
+  
+Sari la conținut
+
+  
+
+  
+
+    
+
+    
+
+      
+
+        
+punctul de plecare
+
+        
+Există o conversație care se întâmplă constant după ședințe.
+
+        
+mesaje pe whatsapp la 22:00. clientul care vrea să anuleze. altul care întreabă dacă mai ai loc joi. notița pe care ai uitat să o completezi pentru că ai sărit direct la următoarea ședință. programarea confirmată verbal pe care nu ai notat-o nicăieri.
+
+        
+nu e o criză. e zgomot de fond. dar se acumulează.
+
+        
+am vorbit direct cu 14 psihoterapeuți independenți înainte să scriem primul rând de cod. fiecare pierdea între 3 și 6 ore pe săptămână pe administrativ. fiecare gestiona programările prin whatsapp, sms sau apeluri telefonice. conform datelor 
+EFPA (2023)
+, psihologii din practica privată petrec în medie 6-8 ore pe săptămână pe sarcini administrative.
+
+        
+"seara ta nu mai e a ta, nu din cauza pacienților, ci din cauza logisticii din jurul lor."
+
+      
+
+      
+
+      
+
+        
+ce credem
+
+        
+Granița terapeutică nu se ține pe WhatsApp.
+
+        
+nu pentru că terapeutul nu are disciplina necesară. ci pentru că platforma nu permite structura.
+
+        
+un canal informal, mereu deschis, fără context clar, în care clientul scrie când îl cuprinde anxietatea, iar terapeutul se simte obligat să răspundă, nu este un instrument de lucru. este o sursă continuă de ambiguitate pentru ambii.
+
+        
+psihoterapia funcționează în cadre clare. atunci când cadrul lipsește, terapeutul îl construiește manual, la fiecare client, de fiecare dată. aceasta nu este o problemă de tehnologie. este o problemă de claritate.
+
+      
+
+      
+
+      
+
+        
+ce face aponia
+
+        
+Programări online construite exclusiv pentru psihoterapeuți independenți.
+
+        
+clientul tău primește un link. intră, alege un slot disponibil din calendarul tău, confirmă. primește reminder automat cu 24 de ore și cu o oră înainte. anulările se gestionează fără mesaje pe whatsapp. notițele de ședință rămân organizate per client, într-un singur loc.
+
+        
+tu nu mai ești coordonatorul logistic al propriei practici.
+
+        
+73 ron pe lună. fără comision per ședință. fără contracte pe termen lung. calendarul tău, regulile tale.
+
+      
+
+      
+
+      
+
+        
+ce nu suntem
+
+        
+Nu suntem un marketplace. Relația cu clienții tăi e a ta.
+
+        
+nu îți aducem clienți noi și nu îți publicăm profilul pentru ca pacienții să te găsească și să te compare cu alții. nu vrem comision din fiecare ședință.
+
+        
+nu construim o platformă pentru clinici sau cabinete cu 10 terapeuți. suntem un instrument pentru terapeutul independent care vrea să-și recupereze serile.
+
+        
+relația cu clienții tăi e a ta. noi gestionăm logistica din jurul ei. atât.
+
+      
+
+    
+
+    
+
+      
+Intră în beta gratuit.
+Fără card.
+
+      
+terapeuții din beta intră gratuit 3 luni. când ieșim din beta, prețul e 73 ron/lună. nicio altă condiție.
+
+      
+vreau seara mea înapoi →
+
+    
+
+  
+
+  
+
+SPAȚIU DE
+TIHNĂ
+
+  
+
+    
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/mcp/
 
@@ -12354,25 +17123,38 @@ Aponia MCP Protocol · Test Workbench
   
 
     
-
-      
-
-      
 APONIA
 .ro
 
     
 
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
     
 
       
-Daemon
+
+RO
+ | 
+EN
 
       
-MCP
-
-      
-Programare Terapeut
+Vreau seara mea înapoi →
 
     
 
@@ -12440,60 +17222,132 @@ Beneficiul Terapeutului Acreditat
 
   
 
+SPAȚIU DE
+TIHNĂ
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
 
       
 
-    
+      
 
-  
+        
+Unelte & Clinic
 
-  
+        
 
-    
-Politică de confidențialitate
+          
 
-    
-Termene și condiții
+Spațiul de Tihnă (Demo)
 
-    
-Politică cookies
+          
 
-    
-hello@aponia.ro
+Test Anxietate (GAD-7)
 
-    
-Despre APONIA.ro
+          
 
-    
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
 Manifest
 
-    
-Presă
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
 
     
-Blog
 
     
-Daemon
 
-    
-MCP Protocol
-
-  
-
-  
-© 2026 APONIA.ro · 
-actualizat august 2026
- · toate drepturile rezervate
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/presa/
 
@@ -12527,23 +17381,40 @@ Presă și media, APONIA.ro
   
 
     
+APONIA
+.ro
+
+    
 
       
-
-        
-
-        
+Despre
 
       
+Test Anxietate
 
       
-APONIA.ro
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
 
     
 
     
-Vreau seara mea înapoi 
-→
+
+      
+
+RO
+ | 
+EN
+
+      
+Vreau seara mea înapoi →
+
+    
 
   
 
@@ -12842,52 +17713,132 @@ Răspundem în 24-48 ore lucrătoare.
 
   
 
+SPAȚIU DE
+TIHNĂ
+
   
 
     
 
       
 
-    
+        
+APONIA
+.ro
 
-    
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
 
       
 
-    
+      
 
-  
+        
+Unelte & Clinic
 
-  
+        
 
-    
-Despre
+          
 
-    
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
 Manifest
 
-    
-Presă
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
 
     
-Politică de confidențialitate
 
     
-Termene și condiții
 
-    
-hello@aponia.ro
-
-    
-Test anxietate
-
-    
-Wellbeing
-
-  
-
-  
-© 2026 APONIA.ro · toate drepturile rezervate
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/programare-terapeut/
 
@@ -12924,32 +17875,42 @@ Programare online psihoterapeut, APONIA.ro
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-Test anxietate
+APONIA
+.ro
 
     
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Acces anticipat
+Vreau seara mea înapoi →
 
     
+
+  
 
   
 
@@ -13108,6 +18069,139 @@ Gestiune cabinet
         
 vs. Calendly
 
+      
+
+    
+
+  
+
+SPAȚIU DE
+TIHNĂ
+
+  
+
+    
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
+
 ## https://aponia.ro/rhea/
 
 Rhea - cat de vizibil esti ca psihoterapeut pe Google - APONIA.ro
@@ -13164,56 +18258,51 @@ Rhea - cat de vizibil esti ca psihoterapeut pe Google - APONIA.ro
   
 
   
-Sari la conținut
 
-  
+    
+APONIA
+.ro
 
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
+    
 
       
-
 Despre
 
-Manifest
+      
+Test Anxietate
 
-Test anxietate
+      
+Wellbeing
 
-Rhea
-
+      
 Calculator
 
-Wellbeing
+      
+Spațiul de Tihnă
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-Vreau seara mea înapoi 
-→
-
-  
+      
+Vreau seara mea înapoi →
 
     
 
-      
-aponia / rhea
+  
 
-      
-Cat de vizibil esti pe Google
-ca 
-psihoterapeut
+  
+Sari la conținut
 
-      
-Pacientii te cauta online inainte sa te sune. Majoritatea terapeutilor nu apar unde ar trebui. Afla in 30 de secunde unde te gasesc si unde te pierzi.
+  
+
+  
 
     
 
@@ -13293,57 +18382,134 @@ Continua pe aponia.ro
 
   
 
-    
+  
 
-      
-
-        
-
-      
-
-      
-
-        
-
-      
-
-    
-
-    
-
-      
-Politică de confidențialitate
-
-      
-Termene și condiții
-
-      
-Politică cookies
-
-      
-hello@aponia.ro
-
-      
-Despre APONIA.ro
-
-      
-Manifest
-
-      
-Blog
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · 
-actualizat iulie 2026
- · toate drepturile rezervate
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/test-anxietate/
 
@@ -13401,78 +18567,51 @@ Test anxietate online gratuit (GAD-7) · 2 minute, anonim · APONIA.ro
   
 
   
-Sari la conținut
 
-  
+    
+APONIA
+.ro
 
     
 
       
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
 Despre
 
-        
-Manifest
+      
+Test Anxietate
 
-        
-Test anxietate
-
-        
-Calculator
-
-        
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-Vreau seara mea înapoi 
-→
-
       
+Vreau seara mea înapoi →
 
     
 
   
 
   
+Sari la conținut
 
-    
+  
 
-      
-test rapid · anxietate (GAD-7)
-
-      
-Ai anxietate sau doar
-o 
-săptămână grea
-?
-
-      
-2 minute. Gratuit. Complet anonim. Nu ești singurul care se întreabă dacă ceea ce simte e „doar stres" sau ceva mai mult. Testul nu cere nume, nu cere email, nu trimite nimic nicăieri — răspunsurile tale rămân în browser-ul tău.
-
-      
-Bazat pe GAD-7, chestionarul folosit de terapeuți și cercetători la nivel internațional pentru screening de anxietate.
+  
 
     
 
@@ -13705,7 +18844,7 @@ Ai simțit frică, de parcă ceva rău urmează să se întâmple?
       
 
       
-Cele 3 întrebări de mai jos sunt informale, doar pentru context — nu intră în scor.
+Cele 3 întrebări de mai jos sunt informale, doar pentru context - nu intră în scor.
 
       
 
@@ -13791,10 +18930,10 @@ Scorul tău:
  din 21
 
         
-—
+-
 
         
-—
+-
 
       
 
@@ -13833,7 +18972,7 @@ Trimite-mi ghidul
         
 
         
-Mulțumim — verifică-ți emailul.
+Mulțumim - verifică-ți emailul.
 
         
 Fără spam. Un singur email, cu ghidul.
@@ -14010,57 +19149,134 @@ analiza aponia.ro a 142 de tarife publice
 
   
 
-    
+  
 
-      
-
-        
-
-      
-
-      
-
-        
-
-      
-
-    
-
-    
-
-      
-Politică de confidențialitate
-
-      
-Termene și condiții
-
-      
-Politică cookies
-
-      
-hello@aponia.ro
-
-      
-Despre APONIA.ro
-
-      
-Manifest
-
-      
-Blog
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · 
-actualizat iulie 2026
- · toate drepturile rezervate
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/tools/demo.html
 
@@ -14101,32 +19317,42 @@ APONIA.ro vs Calendly, Tool generic vs. platformă pentru psihoterapeuți | APON
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-Test anxietate
+APONIA
+.ro
 
     
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Acces anticipat
+Vreau seara mea înapoi →
 
     
+
+  
 
   
 
@@ -14461,30 +19687,132 @@ vs. SimplePractice
 
   
 
-    
-
-      
-Acasă
-
-      
-Prețuri
-
-      
-Blog
-
-      
-Legal
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · hello@aponia.ro
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/vs-google-calendar/
 
@@ -14521,32 +19849,42 @@ APONIA.ro vs Google Calendar, Agendă generică vs. sistem de cabinet | APONIA.r
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-Test anxietate
+APONIA
+.ro
 
     
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Acces anticipat
+Vreau seara mea înapoi →
 
     
+
+  
 
   
 
@@ -14864,30 +20202,132 @@ vs. SimplePractice
 
   
 
-    
-
-      
-Acasă
-
-      
-Prețuri
-
-      
-Blog
-
-      
-Legal
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · hello@aponia.ro
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/vs-hedepy/
 
@@ -14924,32 +20364,42 @@ APONIA.ro vs Hedepy, Tool propriu vs. platformă cu comision | APONIA.ro
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-Test anxietate
+APONIA
+.ro
 
     
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Acces anticipat
+Vreau seara mea înapoi →
 
     
+
+  
 
   
 
@@ -15284,30 +20734,132 @@ vs. SimplePractice
 
   
 
-    
-
-      
-Acasă
-
-      
-Prețuri
-
-      
-Blog
-
-      
-Legal
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · hello@aponia.ro
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/vs-pasul/
 
@@ -15338,20 +20890,42 @@ APONIA.ro vs Pasul.ro, Cabinet propriu vs. platformă de matching | APONIA.ro
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-Acces anticipat
+APONIA
+.ro
 
     
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+Vreau seara mea înapoi →
+
+    
+
+  
 
   
 
@@ -15669,30 +21243,132 @@ vs. SimplePractice
 
   
 
-    
-
-      
-Acasă
-
-      
-Prețuri
-
-      
-Blog
-
-      
-Legal
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · hello@aponia.ro
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/vs-simplepractice/
 
@@ -15729,32 +21405,42 @@ APONIA.ro vs SimplePractice, Alternativă europeană GDPR | APONIA.ro
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-Test anxietate
+APONIA
+.ro
 
     
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Acces anticipat
+Vreau seara mea înapoi →
 
     
+
+  
 
   
 
@@ -16092,30 +21778,132 @@ vs. WhatsApp
 
   
 
-    
-
-      
-Acasă
-
-      
-Prețuri
-
-      
-Blog
-
-      
-Legal
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · hello@aponia.ro
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/vs-whatsapp/
 
@@ -16152,32 +21940,42 @@ APONIA.ro vs WhatsApp, Confirmări prin mesaje vs. sistem profesional | APONIA.r
   
 
     
-
-      
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-Test anxietate
+APONIA
+.ro
 
     
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
 Wellbeing
 
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
     
+
+    
+
+      
 
 RO
  | 
 EN
 
       
-Acces anticipat
+Vreau seara mea înapoi →
 
     
+
+  
 
   
 
@@ -16495,30 +22293,132 @@ vs. SimplePractice
 
   
 
-    
-
-      
-Acasă
-
-      
-Prețuri
-
-      
-Blog
-
-      
-Legal
-
-      
-Test anxietate
-
-    
-Wellbeing
+SPAȚIU DE
+TIHNĂ
 
   
 
     
-© 2026 APONIA.ro · hello@aponia.ro
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/wellbeing/
 
@@ -16578,79 +22478,51 @@ Wellbeing biofil și reglare emoțională · APONIA.ro
   
 
   
-Sari la conținut
 
-  
+    
+APONIA
+.ro
 
     
 
       
-
-        
-
-          
-
-          
-
-        
-
-        
-APONIA.ro
-
-      
-
-      
-
-        
 Despre
 
-        
-Manifest
+      
+Test Anxietate
 
-        
-Test anxietate
-
-        
+      
 Wellbeing
 
-        
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
+    
+
+      
 
 RO
  | 
 EN
 
-        
-
-          
-Vreau seara mea înapoi 
-→
-
-          
-Începe gratuit 
-→
-
-        
-
       
+Vreau seara mea înapoi →
 
     
 
   
 
   
+Sari la conținut
 
-    
+  
 
-      
-spațiu biofil de reglare
-
-      
-Spațiul tău de 
-liniște
- și claritate
-
-      
-Redu cortizolul și recapătă-ți calmul. Fără alerte agresive sau interfețe aglomerate. Șapte instrumente tactile gândite să aducă stabilitate fiecărei zile.
+  
 
     
 
@@ -17132,9 +23004,96 @@ Intră în beta gratuit →
 
   
 
+  
+
+  
+  
+
+SPAȚIU DE
+TIHNĂ
+
+  
+
     
 
       
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
 
         
 
@@ -17143,41 +23102,39 @@ Intră în beta gratuit →
       
 
         
+Resurse & Legal
 
-      
+        
 
-    
+          
 
-    
+Despre noi
 
-      
-Politică de confidențialitate
+          
 
-      
-Termene și condiții
-
-      
-Politică cookies
-
-      
-hello@aponia.ro
-
-      
-Despre APONIA.ro
-
-      
 Manifest
 
-      
-Test anxietate
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
 
       
-Wellbeing
 
     
 
     
-© 2026 APONIA.ro · actualizat august 2026 · toate drepturile rezervate
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/wellbeing/demo-unelte.html
 
