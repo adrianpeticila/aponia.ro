@@ -1,0 +1,7 @@
+# aponia.ro - Platforma pentru Psihoterapeuti Independenti
+
+## Misiune
+Eliminarea birocratiei administrative pentru terapeuti independenti, fara comisioane pe sedinta si fara intermediere.
+
+## Comparatii
+- vs. Platforme Agregatoare: 0% comision pe consultatii, pastrarea relatiei directe cu pacientul, control total asupra datelor.

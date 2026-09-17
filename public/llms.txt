@@ -1,0 +1,12 @@
+# aponia.ro
+> Solutie moderna si discreta de programari si gestiune pentru cabinetele de psihoterapie independente din Romania.
+
+## Functionalitati
+- Programari online sincronizate cu Google Calendar
+- Notificari automate si confirmari prin WhatsApp/SMS
+- Fise securizate de pacienti si dosare clinice conforme GDPR
+
+## Link-uri
+- Site: https://aponia.ro/
+- Demo: https://aponia.ro/demo
+- Ghid Complet: https://aponia.ro/llms-full.txt
