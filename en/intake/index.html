@@ -56,29 +56,65 @@
     .btn-green:hover { background: var(--green-dark); }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "@id": "https://aponia.ro/en/intake/",
-        "url": "https://aponia.ro/en/intake/",
-        "name": "Patient Intake and Onboarding Flow | APONIA.ro",
-        "description": "Empathetic clinical intake, initial anamnesis, and structured clinician summary. A secure, gentle onboarding flow for psychotherapists and new clients.",
-        "inLanguage": "en",
-        "isPartOf": { "@id": "https://aponia.ro/#website" },
-        "dateModified": "2026-09-18"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://aponia.ro/#organization",
+      "name": "APONIA.ro",
+      "url": "https://aponia.ro/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aponia.ro/favicon.svg"
       },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "item": "https://aponia.ro/en/" },
-          { "@type": "ListItem", "position": 2, "name": "Patient Intake", "item": "https://aponia.ro/en/intake/" }
-        ]
+      "sameAs": [
+        "https://www.linkedin.com/company/aponia-ro/",
+        "https://www.facebook.com/people/APONIAro/61590170232523/",
+        "https://alternativeto.net/user/aponia/",
+        "https://www.producthunt.com/products/aponia",
+        "https://aponia.ro/presa/"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aponia.ro/en/intake/",
+      "url": "https://aponia.ro/en/intake/",
+      "name": "Patient Intake and Onboarding Flow | APONIA.ro",
+      "description": "Empathetic clinical intake, initial anamnesis, and structured clinician summary. A secure, gentle onboarding flow for psychotherapists and new clients.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://aponia.ro/#website"
+      },
+      "dateModified": "2026-09-18",
+      "publisher": {
+        "@id": "https://aponia.ro/#organization"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Psychotherapists and clinical psychologists"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "APONIA.ro",
+          "item": "https://aponia.ro/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Patient Intake",
+          "item": "https://aponia.ro/en/intake/"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header class="header" style="background:#ffffff;border-bottom:1px solid #e2ded4;width:100%;position:relative;z-index:1000;box-sizing:border-box;">
@@ -86,6 +122,7 @@
     <a href="/en/" style="font-family:Georgia,serif;font-size:22px;font-weight:700;color:#1a2e22;text-decoration:none;display:flex;align-items:center;gap:6px;">APONIA<span style="color:#2e5c46;">.ro</span></a>
     <nav style="display:flex;align-items:center;gap:20px;margin:0 16px;">
       <a href="/en/about/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">About</a>
+      <a href="/en/intake/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Intake</a>
       <a href="/en/anxiety-test/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Anxiety Test</a>
       <a href="/en/wellbeing/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Wellbeing</a>
       <a href="/en/lost-sessions-calculator/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Calculator</a>

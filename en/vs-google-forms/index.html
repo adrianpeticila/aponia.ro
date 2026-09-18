@@ -79,59 +79,113 @@
     .also-links a:hover { border-color: var(--green); color: var(--green); }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://aponia.ro/#app",
-        "name": "APONIA.ro",
-        "applicationCategory": "BusinessApplication",
-        "applicationSubCategory": "Therapy practice management software",
-        "operatingSystem": "Web",
-        "url": "https://aponia.ro/en/",
-        "description": "Secure practice management platform for independent psychotherapists. Empathetic clinical intake, encrypted notes, Article 9 GDPR compliance.",
-        "inLanguage": "en",
-        "offers": { "@type": "Offer", "price": "73", "priceCurrency": "RON", "description": "Monthly practice subscription with zero commission" },
-        "audience": { "@type": "Audience", "audienceType": "Psychotherapists, clinical psychologists, and counselors" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://aponia.ro/#organization",
+      "name": "APONIA.ro",
+      "url": "https://aponia.ro/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aponia.ro/favicon.svg"
       },
-      {
-        "@type": "SoftwareApplication",
-        "name": "Google Forms",
-        "applicationCategory": "BusinessApplication",
-        "applicationSubCategory": "Survey and questionnaire software",
-        "url": "https://www.google.com/forms/about/",
-        "description": "Generic online survey and questionnaire tool provided by Google."
+      "sameAs": [
+        "https://www.linkedin.com/company/aponia-ro/",
+        "https://www.facebook.com/people/APONIAro/61590170232523/",
+        "https://alternativeto.net/user/aponia/",
+        "https://www.producthunt.com/products/aponia",
+        "https://aponia.ro/presa/"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://aponia.ro/#app",
+      "name": "APONIA.ro",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Therapy practice management software",
+      "operatingSystem": "Web",
+      "url": "https://aponia.ro/en/",
+      "description": "Secure practice management platform for independent psychotherapists. Empathetic clinical intake, encrypted notes, Article 9 GDPR compliance.",
+      "inLanguage": "en",
+      "offers": {
+        "@type": "Offer",
+        "price": "73",
+        "priceCurrency": "RON",
+        "description": "Monthly practice subscription with zero commission"
       },
-      {
-        "@type": "ItemList",
-        "name": "Comparison APONIA.ro vs Google Forms",
-        "description": "APONIA.ro provides empathetic clinical intake, ready-made client anamnesis summaries, and GDPR protection for health data; Google Forms is an unspecialized generic survey tool.",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "url": "https://aponia.ro/en/" },
-          { "@type": "ListItem", "position": 2, "name": "Google Forms", "url": "https://www.google.com/forms/about/" }
-        ]
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://aponia.ro/en/vs-google-forms/",
-        "url": "https://aponia.ro/en/vs-google-forms/",
-        "name": "APONIA.ro vs Google Forms: Generic forms vs. GDPR medical system",
-        "description": "Google Forms gathers data into a spreadsheet. APONIA.ro delivers empathetic clinical intake, structured clinician summaries, and strict Article 9 GDPR compliance for mental health data.",
-        "inLanguage": "en",
-        "isPartOf": { "@id": "https://aponia.ro/#website" },
-        "dateModified": "2026-09-18"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "item": "https://aponia.ro/en/" },
-          { "@type": "ListItem", "position": 2, "name": "APONIA.ro vs Google Forms", "item": "https://aponia.ro/en/vs-google-forms/" }
-        ]
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Psychotherapists, clinical psychologists, and counselors"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Google Forms",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Survey and questionnaire software",
+      "url": "https://www.google.com/forms/about/",
+      "description": "Generic online survey and questionnaire tool provided by Google."
+    },
+    {
+      "@type": "ItemList",
+      "name": "Comparison APONIA.ro vs Google Forms",
+      "description": "APONIA.ro provides empathetic clinical intake, ready-made client anamnesis summaries, and GDPR protection for health data; Google Forms is an unspecialized generic survey tool.",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "APONIA.ro",
+          "url": "https://aponia.ro/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Google Forms",
+          "url": "https://www.google.com/forms/about/"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aponia.ro/en/vs-google-forms/",
+      "url": "https://aponia.ro/en/vs-google-forms/",
+      "name": "APONIA.ro vs Google Forms: Generic forms vs. GDPR medical system",
+      "description": "Google Forms gathers data into a spreadsheet. APONIA.ro delivers empathetic clinical intake, structured clinician summaries, and strict Article 9 GDPR compliance for mental health data.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://aponia.ro/#website"
+      },
+      "dateModified": "2026-09-18",
+      "publisher": {
+        "@id": "https://aponia.ro/#organization"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Psychotherapists and clinical psychologists"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "APONIA.ro",
+          "item": "https://aponia.ro/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "APONIA.ro vs Google Forms",
+          "item": "https://aponia.ro/en/vs-google-forms/"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header class="header" style="background:#ffffff;border-bottom:1px solid #e2ded4;width:100%;position:relative;z-index:1000;box-sizing:border-box;">
@@ -139,6 +193,7 @@
     <a href="/en/" style="font-family:Georgia,serif;font-size:22px;font-weight:700;color:#1a2e22;text-decoration:none;display:flex;align-items:center;gap:6px;">APONIA<span style="color:#2e5c46;">.ro</span></a>
     <nav style="display:flex;align-items:center;gap:20px;margin:0 16px;">
       <a href="/en/about/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">About</a>
+      <a href="/en/intake/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Intake</a>
       <a href="/en/anxiety-test/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Anxiety Test</a>
       <a href="/en/wellbeing/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Wellbeing</a>
       <a href="/en/lost-sessions-calculator/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Calculator</a>

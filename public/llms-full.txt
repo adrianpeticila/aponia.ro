@@ -3,5 +3,11 @@
 ## Misiune
 Eliminarea birocratiei administrative pentru terapeuti independenti, fara comisioane pe sedinta si fara intermediere.
 
+## Functionalitati Cheie
+- Intake Clinic si Triaj: Anamneza structurata, acord informat digital si detectie semnale de criza fara cont necesar pentru pacient.
+- Securitate si Confidentialitate GDPR: Protectie speciala pentru date de sanatate mintala (GDPR Art. 9), servere exclusiv UE (Frankfurt), criptare end-to-end la nivel de cabinet.
+
 ## Comparatii
 - vs. Platforme Agregatoare: 0% comision pe consultatii, pastrarea relatiei directe cu pacientul, control total asupra datelor.
+- vs. Google Forms: Fisa clinica securizata, stocare conforma GDPR Art. 9, fara riscul scurgerii datelor in Google Sheets partajate.
+- vs. WhatsApp: Separarea vietii personale de cabinet, eliminarea haosului mesajelor de confirmare.

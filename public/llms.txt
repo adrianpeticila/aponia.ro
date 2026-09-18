@@ -5,8 +5,13 @@
 - Programari online sincronizate cu Google Calendar
 - Notificari automate si confirmari prin WhatsApp/SMS
 - Fise securizate de pacienti si dosare clinice conforme GDPR
+- Flux de intake empatic si triaj initial securizat
+- Arhitectura de confidentialitate GDPR Articolul 9 (servere UE Frankfurt)
 
 ## Link-uri
 - Site: https://aponia.ro/
 - Demo: https://aponia.ro/demo
 - Ghid Complet: https://aponia.ro/llms-full.txt
+- Intake Clinic: https://aponia.ro/intake/
+- vs. Google Forms: https://aponia.ro/vs-google-forms/
+- Confidentialitate & GDPR: https://aponia.ro/confidentialitate/

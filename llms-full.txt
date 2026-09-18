@@ -23138,4 +23138,318 @@ Termeni și Condiții
 
 ## https://aponia.ro/wellbeing/demo-unelte.html
 
+## https://aponia.ro/intake/
+
+# Fluxul de Intake și Preluare Pacienți | APONIA.ro
+
+Triajul clinic și preluarea pacienților în psihoterapie nu trebuie să semene cu un formular birocratic sau o serie de mesaje obositoare pe WhatsApp. APONIA.ro oferă un flux conceput pentru respect, reținere clinică și siguranță terapeutică.
+
+De ce contează primul contact
+
+Primele momente în care un pacient solicită ajutor psihologic definesc alianța terapeutică. Când este întâmpinat cu un formular rece sau trebuie să aștepte ore în șir un răspuns pe chat, anxietatea crește, iar rata de abandon înainte de prima ședință depășește adesea 30%.
+
+Protocolul de intake APONIA.ro rezolvă trei provocări esențiale:
+
+1. Spațiu calmant pentru pacient: Întrebări formulate delicat, ritm negrăbit, design biofil și posibilitatea de a completa în liniște, fără cont de utilizator.
+2. Fișă structurată pentru clinician: Sinteză automată a motivului solicitării, istoricului relevant și disponibilității orare, direct în dosarul securizat.
+3. Detecție automată a semnalelor de criză: Identificarea situațiilor de urgență psihiatrică și ghidarea imediată către liniile de urgență și sprijin specializat.
+
+## Etapele fluxului de intake
+
+### Pasul 1: Invitație securizată
+Clinicianul trimite linkul personalizat de intake direct după prima intenție de programare sau îl integrează în pagina proprie de prezentare. Pacientul deschide linkul pe telefon sau computer, într-o sesiune protejată prin criptare SSL și stocare conformă GDPR Articolul 9.
+
+### Pasul 2: Evaluare inițială și triaj empatic
+Chestionarul ghidează pacientul prin câteva puncte cheie:
+- Ce îl aduce la terapie în acest moment
+- Dacă a mai fost într-un proces terapeutic anterior
+- Simptome predominante (somn, anxietate, dispoziție afectivă)
+- Preferințe de programare (online sau în cabinet fizic)
+
+### Pasul 3: Triaj de siguranță
+Dacă pacientul raportează intenții autolitice, stări de disociere severă sau urgențe medicale, sistemul afișează numerele de telefon de urgență (112, TelVerde Antisuicid) și notifică terapeutul cu privire la caracterul sensibil al cazului.
+
+### Pasul 4: Generarea fișei clinicianului
+Înainte ca pacientul să pășească în cabinet sau să intre în apelul video, terapeutul are deja pe ecran o fișă de sinteză clară:
+- Date de contact verificate
+- Rezumat anamnezic în 3 paragrafe esențiale
+- Consimțământul informat semnat digital conform legii
+
+## Conformitate și protecție legală
+
+Toate răspunsurile sunt stocate pe servere din Uniunea Europeană, izolate prin chei de criptare per cabinet. Niciun intermediar sau terț comercial nu are acces la datele de sănătate ale pacienților tăi.
+
+- [Activează cabinetul tău](https://app.aponia.ro/register)
+- [Vezi politica de confidențialitate](https://aponia.ro/confidentialitate/)
+
+---
+
+Source: https://aponia.ro/intake/
+
+
+## https://aponia.ro/vs-google-forms/
+
+# APONIA.ro vs Google Forms, Formulare generice vs. sistem medical GDPR | APONIA.ro
+
+Google Forms poate colecta răspunsuri într-un tabel. Dar Google Forms nu oferă acord de prelucrare conform Art. 9 GDPR pentru date sensibile de sănătate mintală, nu triază empatic pacientul aflat în criză și nu generează fișa clinicianului cu sinteză anamnezică înainte de prima sesiune.
+
+Răspuns direct
+
+Google Forms este un instrument excelent pentru sondaje, înscrieri la ateliere sau colectare de feedback anonim. Însă când un pacient completează detalii despre anxietate, traume sau tentative autolitice, folosirea unui formular generic expune cabinetul la riscuri juridice majore și transmite lipsă de reținere clinică. APONIA.ro este construit de la zero pentru psihoterapie: triaj clinic structurat, criptare dedicată, găzduire europeană și fișă de triaj gata sintetizată pentru terapeut.
+
+Ce lipsește din Google Forms pentru cabinetele de psihoterapie
+
+| Funcționalitate | APONIA.ro | Google Forms |
+|---|---|---|
+| Conformitate Art. 9 GDPR (date medicale/psihologice) | ✓ Găzduire UE, DPA dedicat sănătății | ✗ Consimțământ generic, date în cloud public |
+| Criptare la nivel de câmp (Zero-Knowledge) | ✓ Doar clinicianul deține cheia | ✗ Text salvat în Google Sheets/Drive |
+| Triaj clinic adaptiv și empatic | ✓ Flux ghidat cu scală vizuală | ✗ Câmpuri rigide de formular generic |
+| Sinteză automată a fișei de intake (anamneză) | ✓ Format structurat pentru clinician | ✗ Rânduri brute într-un tabel Excel/Sheets |
+| Detecție automată indicatori de criză/urgență | ✓ Resurse telefonice de urgență afișate instant | ✗ Formularul trimite date fără avertizări |
+| Legătură automată cu dosarul și programarea | ✓ Dosar pacient integrat | ✗ Izolat complet, necesită copiere manuală |
+| Aspect primitor și design biofil pentru pacient | ✓ Calmant, fără fricțiune cognitivă | ✗ Interfață rece de sondaj corporativ |
+| Cost lunar | ✓ Inclus în abonament cabinet | ~ Gratuit (Google Workspace plătit pentru companii) |
+
+## Un tabel de calcul nu este un dosar clinic securizat
+
+Când un potențial pacient își deschide sufletul pentru prima dată, modul în care îi ceri informațiile contează enorm. Un link de Google Forms trimis pe WhatsApp creează o barieră rece: arată ca un test de evaluare la birou sau un chestionar de satisfacție clienți.
+
+Mai grav este aspectul securității. Răspunsurile trimise într-un Google Form ajung în Google Sheets sau pe serverele Google Workspace fără un Acord de Prelucrare a Datelor (DPA) specific categoriei speciale de date privind sănătatea (Articolul 9 din Regulamentul General privind Protecția Datelor). În cazul unui control sau al unei breșe de securitate pe contul Google personal, clinicianul poartă întreaga răspundere legală.
+
+**APONIA.ro transformă primul contact într-o experiență clinică sigură.** Pacientul completează un formular empatic, conceput cu ritm lent și întrebări relevante. Clinicianul primește o fișă de triaj organizată clar, cu motivele solicitării, istoricul relevant și semnalele de atenție evidențiate înainte de prima ședință.
+
+Un spațiu sigur de la primul contact
+------------------------------------
+
+Construit exclusiv pentru psihoterapie și consiliere psihologică. Fără riscuri GDPR, fără tabele împrăștiate.
+
+- [Vreau acces anticipat](https://aponia.ro/#early-access)
+- [Vezi cum funcționează](https://aponia.ro/)
+
+## Întrebări frecvente
+
+### Google Forms este gratuit. De ce aș alege un sistem dedicat precum APONIA.ro?
+
+Google Forms este gratuit pentru uz personal, dar nu respectă cerințele specifice pentru date medicale și psihologice reglementate de Colegiul Psihologilor și GDPR. Datele colectate în tabele necriptate pot fi accesate dacă partajezi din greșeală un link sau dacă sincronizezi contul Google pe un dispozitiv neprotejat. APONIA.ro oferă siguranță juridică, profesionalism în ochii pacientului și economie de timp prin generarea automată a fișei de sesiune.
+
+### Ce se întâmplă dacă un pacient menționează gânduri suicidare în formular?
+
+Google Forms nu are inteligență contextuală: va salva răspunsul într-un rând de tabel, iar tu îl vei vedea poate doar peste două zile. APONIA.ro include un protocol empatic de siguranță: dacă sunt bifați anumiți indicatori de criză, pacientului i se afișează imediat numerele verzi naționale de urgență și sprijin psihologic, iar clinicianul primește un marcaj vizual prioritar pe fișa de triaj.
+
+### Pacienții au nevoie de cont Google pentru a completa formularul de intake?
+
+Nu. În Google Forms, limitarea la un singur răspuns sau încărcarea de fișiere obligă adesea pacientul să se autentifice cu un cont Google, ceea ce creează confuzie și fricțiune. În APONIA.ro, pacientul accesează direct linkul securizat trimis de tine, completează datele de pe orice telefon sau laptop, fără să își creeze cont.
+
+### Pot exporta datele pacienților dacă doresc să le arhivez?
+
+Da. APONIA.ro îți permite să descarci fișa fiecărui pacient în format PDF securizat sau arhivă clinică conformă, astfel încât să păstrezi documentația conform cerințelor de arhivare profesională din România.
+
+Compară și cu
+
+- [vs. Calendly](https://aponia.ro/vs-calendly/)
+- [vs. WhatsApp](https://aponia.ro/vs-whatsapp/)
+- [vs. Google Calendar](https://aponia.ro/vs-google-calendar/)
+- [vs. SimplePractice](https://aponia.ro/vs-simplepractice/)
+- [vs. Pasul.ro](https://aponia.ro/vs-pasul/)
+
+---
+
+Source: https://aponia.ro/vs-google-forms/
+
+
+## https://aponia.ro/confidentialitate/
+
+# Confidențialitate și Securitate GDPR pentru Date de Sănătate Mintală | APONIA.ro
+
+Protecția datelor în psihoterapie nu este o simplă bifă pe un formular. Este o extensie directă a secretului profesional și a relației terapeutice de încredere.
+
+De ce datele de psihoterapie sunt diferite
+
+În practica psihologică, datele colectate nu se rezumă la un nume și un număr de telefon. Ele conțin istoricul emoțional, traume, dinamici de cuplu sau familie, medicație psihiatrică și vulnerabilități intime.
+
+Conform Regulamentului General privind Protecția Datelor (GDPR), aceste informații se încadrează la Articolul 9: Categorii speciale de date cu caracter personal. Prelucrarea lor este interzisă prin lege, cu excepția cazului în care există o bază legală explicită și măsuri tehnice consolidate de securitate.
+
+Pilonii arhitecturii de securitate APONIA.ro
+
+### 1. Găzduire exclusivă în Uniunea Europeană
+Toate bazele de date și copiile de rezervă sunt stocate pe servere localizate în interiorul Uniunii Europene. Datele pacienților tăi nu tranzitează și nu sunt stocate în jurisdicții terțe (precum SUA), eliminând riscurile asociate transferurilor internaționale de date.
+
+### 2. Criptare per cabinet (Zero-Knowledge)
+Notițele de sesiune, evaluările anamnezice și datele de intake sunt criptate la nivel de câmp. Cheia de decriptare aparține exclusiv clinicianului. Niciun angajat, administrator sau proces automatizat APONIA.ro nu poate citi conținutul notițelor tale clinice.
+
+### 3. Acord de Prelucrare a Datelor (DPA) conform legislației din România
+Fiecare cabinet individual de psihologie sau societate profesională beneficiază de un contract bilateral de prelucrare a datelor (Data Processing Agreement) adaptat specificului Colegiului Psihologilor din România (CPR) și normelor naționale de sănătate.
+
+### 4. Zero tracking publicitar și zero profilare
+Spre deosebire de marile platforme de programări sau servicii de mesagerie comercială, APONIA.ro nu include trackere de la terți (fără pixeli Meta, fără scripturi de publicitate comportamentală). Nu vindem date, nu analizăm convorbirile și nu creăm profile de consum.
+
+### 5. Dreptul la ștergere și portabilitate simplificată
+Clinicianul și pacientul își păstrează controlul total. La încheierea relației terapeutice sau la cererea justificată a titularului, dosarele pot fi exportate integral într-un format clinic securizat sau eliminate definitiv, cu respectarea termenelor legale de arhivare a actelor medicale/psihologice.
+
+## Ce înseamnă asta în practica de zi cu zi?
+
+- Pacienții tăi au certitudinea că răspunsurile de la triaj sau evaluările inițiale nu ajung în mâini străine.
+- Cabinetul tău este protejat în fața amenzilor ANSPDCP și a controalelor profesionale.
+- Comunici un standard înalt de etică profesională care consolidează alianța terapeutică din prima zi.
+
+- [Află mai multe despre platformă](https://aponia.ro/about/)
+- [Vezi comparația cu alte instrumente](https://aponia.ro/vs-google-forms/)
+
+---
+
+Source: https://aponia.ro/confidentialitate/
+
+
+## https://aponia.ro/en/intake/
+
+# Patient Intake and Onboarding Flow | APONIA.ro
+
+Clinical triage and patient onboarding in psychotherapy should never feel like a bureaucratic form or an exhausting series of WhatsApp exchanges. APONIA.ro delivers a flow designed for respect, clinical holding, and therapeutic safety.
+
+Why the first contact matters
+
+The earliest moments when a client asks for psychological help shape the therapeutic alliance. When greeted by a cold form or forced to wait hours for a chat response, anxiety increases, and pre-session drop-off rates often exceed 30%.
+
+The APONIA.ro intake protocol solves three vital challenges:
+
+1. A calming space for the patient: Gently phrased questions, unhurried pacing, biophilic design, and seamless completion without requiring a user account.
+2. Structured summary for the clinician: Automated synthesis of presenting complaints, relevant history, and availability, delivered directly into the secure client file.
+3. Automated crisis detection: Recognition of psychiatric emergencies and immediate guidance toward specialized crisis helplines.
+
+## Stages of the intake flow
+
+### Step 1: Secure invitation
+The clinician shares a personalized intake link following the initial booking request or embeds it into their website. The client opens the link on mobile or desktop within an SSL-encrypted, Article 9 GDPR-compliant session.
+
+### Step 2: Initial assessment and empathetic intake
+The questionnaire guides the client across core therapeutic checkpoints:
+- What brings them to therapy at this moment
+- Previous therapeutic history and expectations
+- Predominant symptoms (sleep disturbance, anxiety, mood changes)
+- Scheduling preferences (in-person office or online video)
+
+### Step 3: Safety filter
+If the client indicates suicidal ideation, severe dissociation, or medical emergency, the system immediately presents national crisis phone numbers and notifies the therapist regarding the case sensitivity.
+
+### Step 4: Clinician summary generation
+Before the client walks through the practice door or joins the video session, the therapist has a clean anamnesis brief ready on screen:
+- Verified contact details
+- Three-paragraph clinical summary
+- Digitally signed informed consent complying with legal standards
+
+## Compliance and legal protection
+
+All responses are hosted in European Union data centers, isolated with practice-specific encryption keys. No commercial third parties or advertisers ever have access to your clients' sensitive health information.
+
+- [Activate your practice](https://app.aponia.ro/register)
+- [Read the privacy policy](https://aponia.ro/en/confidentialitate/)
+
+---
+
+Source: https://aponia.ro/en/intake/
+
+
+## https://aponia.ro/en/vs-google-forms/
+
+# APONIA.ro vs Google Forms: Generic forms vs. GDPR medical system | APONIA.ro
+
+Google Forms can gather responses in a spreadsheet. But Google Forms does not provide an Article 9 GDPR data processing agreement for sensitive mental health information, does not empathetically triage clients in distress, and does not produce a clinician intake sheet with an anamnesis summary before the first session.
+
+Direct answer
+
+Google Forms is an excellent tool for surveys, workshop sign-ups, or collecting anonymous feedback. But when a client discloses anxiety, trauma, or self-harm ideation, relying on a generic form exposes the practice to serious legal liabilities and signals a lack of clinical holding. APONIA.ro was built from the ground up for psychotherapy: structured clinical intake, dedicated field-level encryption, European hosting, and an intake brief synthesized for the therapist.
+
+What Google Forms lacks for psychotherapy practices
+
+| Feature | APONIA.ro | Google Forms |
+|---|---|---|
+| GDPR Article 9 compliance (sensitive health data) | Native (EU data centers, compliant DPA) | Legal liability (generic public cloud) |
+| Client record encryption per practice | Zero-Knowledge | Plaintext in Google Sheets |
+| Automated intake summary sheet | Structured clinical format | Raw unorganized table rows |
+| Crisis detection and emergency safety protocol | Instant emergency hotline display | None |
+| Frictionless client onboarding | Direct access without account | Often requires Google account login |
+| Direct sync with appointments and calendar | Automatic on booking confirmation | Manual copy-paste required |
+| Calming, biophilic interface | Designed to lower client anxiety | Cold corporate survey design |
+| Practice pricing | 73 RON / month (zero commission) | Free basic / Google Workspace tier |
+
+A spreadsheet is not a clinical record
+
+When a client reaches out for psychological help, they are experiencing significant vulnerability. Sending a Google Forms link conveys a transactional, bureaucratic impression: the client feels as though they are filling out a corporate satisfaction survey.
+
+Additionally, data collected through Google Forms resides in Google Sheets or Google Drive, where it can be accidentally shared via open links, downloaded to personal hardware, or synchronized across unmanaged devices. Under European regulations regarding health data, storing psychological information in unencrypted generic systems is a critical compliance failure.
+
+APONIA.ro turns onboarding into clinical care. Questions are framed with therapeutic delicacy, the pacing is unhurried, and information is structured into a clean anamnesis brief accessible on the clinician dashboard in one click.
+
+Frequently asked questions
+
+### Why is it risky to use Google Forms for therapy client intake?
+
+Article 9 of the GDPR classifies health information, including psychological status and psychiatric history, as special category personal data. Standard Google accounts do not offer a compliant healthcare Data Processing Agreement (DPA), and spreadsheets stored on shared cloud drives create significant breach liabilities. APONIA.ro is strictly architected for European medical and mental health data requirements.
+
+### What happens if a client indicates suicidal thoughts or crisis in the form?
+
+Google Forms has no clinical awareness: it simply inserts another row into a spreadsheet that you might not review for days. APONIA.ro features an empathetic safety protocol: if critical crisis flags are triggered, the client is immediately presented with national emergency numbers and support hotlines, while the clinician receives a prominent priority notification on the intake record.
+
+### Do clients need a Google account to complete the intake form?
+
+No. In Google Forms, features like one-response limits or file attachments frequently demand a Google sign-in, causing friction and confusion. With APONIA.ro, clients open a secure link on any smartphone or computer and complete the intake without creating an account or remembering passwords.
+
+### Can I export client records if I need to archive them?
+
+Yes. APONIA.ro allows you to export each client record as a secure PDF or standardized clinical archive, ensuring full compliance with national professional archiving guidelines.
+
+Compare with
+
+- [vs. Calendly](https://aponia.ro/en/vs-calendly/)
+- [vs. WhatsApp](https://aponia.ro/en/vs-whatsapp/)
+- [vs. Google Calendar](https://aponia.ro/en/vs-google-calendar/)
+- [vs. SimplePractice](https://aponia.ro/en/vs-simplepractice/)
+- [vs. Pasul.ro](https://aponia.ro/en/vs-pasul/)
+
+---
+
+Source: https://aponia.ro/en/vs-google-forms/
+
+
+## https://aponia.ro/en/confidentialitate/
+
+# Mental Health Data Privacy and GDPR Security | APONIA.ro
+
+Data protection in psychotherapy is not a mere checkbox on a form. It is a direct extension of professional secrecy and the therapeutic trust relationship.
+
+Why mental health data is different
+
+In clinical practice, collected data extends far beyond names and phone numbers. It encompasses emotional history, trauma, family dynamics, psychiatric medication, and intimate vulnerabilities.
+
+Under the General Data Protection Regulation (GDPR), this information falls under Article 9: Special categories of personal data. Processing is legally prohibited unless grounded in an explicit legal basis and reinforced with technical security safeguards.
+
+Core pillars of the APONIA.ro security architecture
+
+### 1. Exclusive European Union hosting
+All databases and backups reside on servers located within the European Union. Your client data never transits or rests in third-country jurisdictions (such as the US), eliminating risks tied to international data transfers.
+
+### 2. Practice-level encryption (Zero-Knowledge)
+Session notes, intake evaluations, and anamnesis records are encrypted at the field level. The decryption key belongs solely to the clinician. No APONIA.ro staff member, administrator, or automated background task can inspect your clinical notes.
+
+### 3. Data Processing Agreement (DPA) aligned with Romanian and EU regulations
+Every individual psychology practice or professional partnership receives a bilateral Data Processing Agreement tailored to the College of Psychologists guidelines and national healthcare standards.
+
+### 4. Zero ad tracking and zero profiling
+Unlike generic scheduling tools or commercial messaging apps, APONIA.ro never includes third-party trackers (no Meta pixels, no behavioral ad scripts). We do not sell data, analyze private conversations, or generate consumer profiles.
+
+### 5. Seamless right to erasure and portability
+Both clinician and patient retain complete control. Upon concluding the therapeutic relationship or upon verified request, records can be exported in full into a secure clinical format or permanently deleted, respecting statutory medical archiving terms.
+
+## What this means in your daily practice
+
+- Your clients enjoy complete certainty that their intake responses and notes remain confidential.
+- Your practice is shielded against regulatory penalties and professional compliance audits.
+- You demonstrate a gold standard of professional ethics that strengthens the therapeutic bond from day one.
+
+- [Learn more about the platform](https://aponia.ro/en/about/)
+- [Compare with other tools](https://aponia.ro/en/vs-google-forms/)
+
+---
+
+Source: https://aponia.ro/en/confidentialitate/
 

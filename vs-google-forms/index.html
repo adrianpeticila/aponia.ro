@@ -78,59 +78,113 @@
     @media (max-width: 640px) { .page-hero h1 { font-size: 2rem; } .comp-table { font-size: 0.85rem; } .comp-table th, .comp-table td { padding: 0.7rem 0.8rem; } .cta-dark h2 { font-size: 1.65rem; } .narrative { padding: 2rem 1rem; } }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "SoftwareApplication",
-        "@id": "https://aponia.ro/#app",
-        "name": "APONIA.ro",
-        "applicationCategory": "BusinessApplication",
-        "applicationSubCategory": "Therapy practice management software",
-        "operatingSystem": "Web",
-        "url": "https://aponia.ro/",
-        "description": "Platformă securizată pentru gestionarea cabinetelor de psihoterapie din România. Triaj clinic empatic, notițe criptate, conformitate GDPR Articolul 9.",
-        "inLanguage": "ro",
-        "offers": { "@type": "Offer", "price": "73", "priceCurrency": "RON", "description": "Abonament lunar cabinet fără comision" },
-        "audience": { "@type": "Audience", "audienceType": "Psihoterapeuți, psihologi clinicieni și consilieri din România" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://aponia.ro/#organization",
+      "name": "APONIA.ro",
+      "url": "https://aponia.ro/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aponia.ro/favicon.svg"
       },
-      {
-        "@type": "SoftwareApplication",
-        "name": "Google Forms",
-        "applicationCategory": "BusinessApplication",
-        "applicationSubCategory": "Survey and questionnaire software",
-        "url": "https://www.google.com/forms/about/",
-        "description": "Instrument generic de realizare de chestionare și sondaje online oferit de Google."
+      "sameAs": [
+        "https://www.linkedin.com/company/aponia-ro/",
+        "https://www.facebook.com/people/APONIAro/61590170232523/",
+        "https://alternativeto.net/user/aponia/",
+        "https://www.producthunt.com/products/aponia",
+        "https://aponia.ro/presa/"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://aponia.ro/#app",
+      "name": "APONIA.ro",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Therapy practice management software",
+      "operatingSystem": "Web",
+      "url": "https://aponia.ro/",
+      "description": "Platformă securizată pentru gestionarea cabinetelor de psihoterapie din România. Triaj clinic empatic, notițe criptate, conformitate GDPR Articolul 9.",
+      "inLanguage": "ro",
+      "offers": {
+        "@type": "Offer",
+        "price": "73",
+        "priceCurrency": "RON",
+        "description": "Abonament lunar cabinet fără comision"
       },
-      {
-        "@type": "ItemList",
-        "name": "Comparație APONIA.ro vs Google Forms",
-        "description": "APONIA.ro oferă triaj clinic empatic, fișă de intake gata sintetizată și protecție GDPR pentru date de sănătate; Google Forms este un instrument generic nespecificat pentru date clinice.",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "url": "https://aponia.ro/" },
-          { "@type": "ListItem", "position": 2, "name": "Google Forms", "url": "https://www.google.com/forms/about/" }
-        ]
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://aponia.ro/vs-google-forms/",
-        "url": "https://aponia.ro/vs-google-forms/",
-        "name": "APONIA.ro vs Google Forms, Formulare generice vs. sistem medical GDPR",
-        "description": "Google Forms adună date într-un tabel. APONIA.ro oferă triaj clinic empatic, fișă structurată pentru clinician și protecție GDPR strictă pentru date de sănătate mintală.",
-        "inLanguage": "ro",
-        "isPartOf": { "@id": "https://aponia.ro/#website" },
-        "dateModified": "2026-09-17"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "item": "https://aponia.ro/" },
-          { "@type": "ListItem", "position": 2, "name": "APONIA.ro vs Google Forms", "item": "https://aponia.ro/vs-google-forms/" }
-        ]
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Psihoterapeuți, psihologi clinicieni și consilieri din România"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Google Forms",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Survey and questionnaire software",
+      "url": "https://www.google.com/forms/about/",
+      "description": "Instrument generic de realizare de chestionare și sondaje online oferit de Google."
+    },
+    {
+      "@type": "ItemList",
+      "name": "Comparație APONIA.ro vs Google Forms",
+      "description": "APONIA.ro oferă triaj clinic empatic, fișă de intake gata sintetizată și protecție GDPR pentru date de sănătate; Google Forms este un instrument generic nespecificat pentru date clinice.",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "APONIA.ro",
+          "url": "https://aponia.ro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Google Forms",
+          "url": "https://www.google.com/forms/about/"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aponia.ro/vs-google-forms/",
+      "url": "https://aponia.ro/vs-google-forms/",
+      "name": "APONIA.ro vs Google Forms, Formulare generice vs. sistem medical GDPR",
+      "description": "Google Forms adună date într-un tabel. APONIA.ro oferă triaj clinic empatic, fișă structurată pentru clinician și protecție GDPR strictă pentru date de sănătate mintală.",
+      "inLanguage": "ro",
+      "isPartOf": {
+        "@id": "https://aponia.ro/#website"
+      },
+      "dateModified": "2026-09-17",
+      "publisher": {
+        "@id": "https://aponia.ro/#organization"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Psihoterapeuți și psihologi clinicieni"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "APONIA.ro",
+          "item": "https://aponia.ro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "APONIA.ro vs Google Forms",
+          "item": "https://aponia.ro/vs-google-forms/"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header class="header" style="background:#ffffff;border-bottom:1px solid #e2ded4;width:100%;position:relative;z-index:1000;box-sizing:border-box;">
@@ -138,6 +192,7 @@
     <a href="/" style="font-family:Georgia,serif;font-size:22px;font-weight:700;color:#1a2e22;text-decoration:none;display:flex;align-items:center;gap:6px;">APONIA<span style="color:#2e5c46;">.ro</span></a>
     <nav style="display:flex;align-items:center;gap:20px;margin:0 16px;">
       <a href="/about/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Despre</a>
+      <a href="/intake/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Intake</a>
       <a href="/test-anxietate/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Test Anxietate</a>
       <a href="/wellbeing/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Wellbeing</a>
       <a href="/calculator-programari-pierdute/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Calculator</a>
@@ -282,6 +337,7 @@
         <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Unelte & Clinic</h4>
         <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
           <li style="text-align:left!important;"><a href="/wellbeing/demo-unelte.html" style="color:#4a5568;text-decoration:none;">Spațiul de Tihnă (Demo)</a></li>
+          <li style="text-align:left!important;"><a href="/intake/" style="color:#4a5568;text-decoration:none;">Flux de Intake</a></li>
           <li style="text-align:left!important;"><a href="/test-anxietate/" style="color:#4a5568;text-decoration:none;">Test Anxietate (GAD-7)</a></li>
           <li style="text-align:left!important;"><a href="/calculator-programari-pierdute/" style="color:#4a5568;text-decoration:none;">Calculator Pierderi</a></li>
           <li style="text-align:left!important;"><a href="/rhea/" style="color:#4a5568;text-decoration:none;">Scor Vizibilitate Rhea</a></li>

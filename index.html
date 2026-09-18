@@ -293,11 +293,12 @@
           "@type": "ImageObject",
           "url": "https://aponia.ro/favicon.svg"
         },
-        "knowsAbout": ["psihoterapie", "programări online", "management cabinet psihologic", "sănătate mentală", "platforme medicale"],
+        "knowsAbout": ["psihoterapie", "programări online", "management cabinet psihologic", "sănătate mentală", "platforme medicale", "GDPR", "intake clinic"],
         "sameAs": [
           "https://www.linkedin.com/company/aponia-ro/",
           "https://www.facebook.com/people/APONIAro/61590170232523/",
           "https://alternativeto.net/user/aponia/",
+          "https://www.producthunt.com/products/aponia",
           "https://aponia.ro/presa/"
         ],
         "email": "hello@aponia.ro",
@@ -694,7 +695,7 @@
     <span class="eyebrow reveal">Funcționalități</span>
     <h2 class="reveal stitle" style="margin-bottom:1rem;">Tot ce face APONIA.ro,<br>în detaliu.</h2>
     <p class="reveal ssub" style="margin-bottom:3.5rem;">Alege ce vrei să înțelegi mai bine. 5 module integrate, zero install pentru pacienți.</p>
-    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;" class="fwg">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:1.5rem;" class="fwg">
       <a href="/cabinet-psiholog/" style="display:block;background:white;border:1px solid var(--border);border-radius:4px;padding:2rem;text-decoration:none;transition:border-color 0.2s;" class="reveal">
         <div style="width:40px;height:40px;background:rgba(91,140,106,0.1);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5b8c6a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
@@ -719,6 +720,22 @@
         <p class="t-body-sm" style="line-height:1.7; margin-bottom:1rem">Întregul flux al cabinetului tău, organizat. De la primul contact până la nota de sesiune.</p>
         <span class="t-link">Detalii →</span>
       </a>
+      <a href="/intake/" style="display:block;background:white;border:1px solid var(--border);border-radius:4px;padding:2rem;text-decoration:none;transition:border-color 0.2s;" class="reveal">
+        <div style="width:40px;height:40px;background:rgba(91,140,106,0.1);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5b8c6a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        </div>
+        <div class="ftit" style="margin-bottom:0.6rem;">Flux de intake digital</div>
+        <p class="t-body-sm" style="line-height:1.7; margin-bottom:1rem">Chestionar inițial empatic, acord informat și anamneză fără cont pentru pacient. Triaj clinic organizat direct în fișa pacientului.</p>
+        <span class="t-link">Detalii →</span>
+      </a>
+      <a href="/confidentialitate/" style="display:block;background:white;border:1px solid var(--border);border-radius:4px;padding:2rem;text-decoration:none;transition:border-color 0.2s;" class="reveal">
+        <div style="width:40px;height:40px;background:rgba(91,140,106,0.1);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5b8c6a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <div class="ftit" style="margin-bottom:0.6rem;">Confidențialitate & GDPR</div>
+        <p class="t-body-sm" style="line-height:1.7; margin-bottom:1rem">Protecție consolidată pentru date de sănătate mintală (GDPR Art. 9). Servere exclusiv în Frankfurt (UE), criptare AES-256 și secret profesional.</p>
+        <span class="t-link">Detalii →</span>
+      </a>
     </div>
   </div>
 </section>
@@ -728,7 +745,7 @@
   <div class="wrap">
     <span class="eyebrow reveal">Ce spun terapeuții</span>
     <h2 class="reveal stitle" style="margin-bottom:3rem;">Din 14 conversații cu<br>psihoterapeuți din România.</h2>
-    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;" class="fwg">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));gap:1.5rem;" class="fwg">
       <figure class="reveal" style="margin:0;background:white;border-radius:4px;padding:2rem;border:1px solid #e8e4dc;display:flex;flex-direction:column;justify-content:space-between;">
         <blockquote class="t-quote">"Am petrecut mai bine de o oră pe săptămână să confirm programări, să răspund la întrebări despre disponibilitate, să gestionez reprogramările. O oră care nu e terapie și care nu e nici măcar plătită."</blockquote>
         <figcaption class="t-link">Dr. A.M. <span style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;">· București</span></figcaption>
@@ -888,7 +905,7 @@
         <div class="faqitem"><h3 class="faqq">"Datele pacienților mei sunt extrem de sensibile."</h3><p class="faqa">Server în Frankfurt, Germania. Criptare AES-256 în tranzit și la stocare. Acces exclusiv ție, zero acces al echipei APONIA.ro la datele pacienților tăi. Conformitate GDPR nativă, fără să citești vreun document legal. Datele pacienților tăi nu sunt vândute, nu sunt folosite pentru reclame, nu sunt vizibile altor terapeuți.</p></div>
         <div class="faqitem"><h3 class="faqq">"Cât durează să configurez totul?"</h3><p class="faqa">15 minute pentru profilul complet: disponibilitate, tarif, link de rezervare. Primul pacient poate rezerva în aceeași zi. Fără tutorial, fără onboarding în pași, fără apel cu un consultant. Dacă ai 15 minute libere între sesiuni azi, poți fi live azi.</p></div>
         <div class="faqitem"><h3 class="faqq">"Și dacă nu funcționează pentru mine?"</h3><p class="faqa">Anulezi oricând din cont, singur, fără să trimiți niciun email. Fără perioadă minimă, fără taxă de anulare, fără telefon cu cineva. Un click. Dacă APONIA.ro nu îți returnează cel puțin 3 ore/săptămână din admin, nu merită cei 73 de lei.</p></div>
-        <div class="faqitem"><h3 class="faqq">"Folosesc deja Google Calendar. De ce aș schimba?"</h3><p class="faqa">Google Calendar nu trimite notificări automate pacienților tăi. Nu blochează orele ocupate pentru alți pacienți. Nu stochează notițele din sesiuni în siguranță. Nu separă comunicarea cu pacienții de WhatsApp personal. Terapeuții care l-au folosit înainte de APONIA.ro raportau 6-8 ore pe săptămână pe admin, cel puțin jumătate pe confirmări manuale. Face un lucru: ține un calendar. APONIA.ro face tot restul.</p></div>
+        <div class="faqitem"><h3 class="faqq">"Folosesc deja Google Calendar sau Google Forms. De ce aș schimba?"</h3><p class="faqa">Google Calendar și Google Forms nu sunt proiectate pentru date clinice de sănătate mintală (GDPR Articolul 9). Tabelele Google Sheets necriptate expun cabinetul la breșe de securitate. APONIA.ro oferă programări, notificări automate și intake clinic securizat într-un singur sistem. Vezi comparațiile detaliate: <a href="/vs-google-calendar/" style="color:var(--green);font-weight:600;text-decoration:underline;">APONIA vs Google Calendar</a> și <a href="/vs-google-forms/" style="color:var(--green);font-weight:600;text-decoration:underline;">APONIA vs Google Forms</a>.</p></div>
         <div class="faqitem"><h3 class="faqq">"APONIA.ro e pentru psihologi sau psihoterapeuți?"</h3><p class="faqa">Ambele. APONIA.ro e o platformă de programări și administrare pentru orice specialist cu sesiuni individuale programate în avans: psiholog, psihoterapeut, consilier, coach clinic. Terapeuții din beta au în medie 10-15 clienți activi. Condiția unică: un singur specialist per sesiune. Nu funcționează pentru grupuri sau sesiuni de tip drop-in.</p></div>
         <div class="faqitem"><h3 class="faqq">"Cum mă asigur că datele mele nu ajung la alte platforme sau marketplace-uri?"</h3><p class="faqa">APONIA.ro nu e un marketplace și nu trăiește din date: venitul vine din abonamentul tău de 73 de lei pe lună, nu din pacienții tăi. Datele stau criptate AES-256 pe servere în Frankfurt, Germania, sub GDPR. Pacienții tăi nu sunt vizibili altor terapeuți, nu sunt recomandați, nu primesc reclame. Nicio dată nu e partajată cu terți. Relația cu pacientul rămâne a ta; APONIA.ro e doar infrastructura de programare.</p></div>
       </div>
