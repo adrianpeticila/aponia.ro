@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Confidențialitate și Securitate GDPR pentru Date de Sănătate Mintală | APONIA.ro</title>
+  <meta name="description" content="Arhitectura de securitate APONIA.ro: conformitate strictă GDPR Articolul 9, servere în UE, criptare la nivel de cabinet și secret profesional garantat.">
+  <link rel="canonical" href="https://aponia.ro/confidentialitate/">
+  <link rel="alternate" hreflang="ro" href="https://aponia.ro/confidentialitate/">
+  <link rel="alternate" hreflang="en" href="https://aponia.ro/en/confidentialitate/">
+  <link rel="alternate" hreflang="x-default" href="https://aponia.ro/confidentialitate/">
+  <meta property="og:title" content="Confidențialitate și Securitate GDPR pentru Date de Sănătate Mintală | APONIA.ro">
+  <meta property="og:description" content="Arhitectura de securitate APONIA.ro: conformitate strictă GDPR Articolul 9, servere în UE, criptare la nivel de cabinet și secret profesional garantat.">
+  <meta property="og:url" content="https://aponia.ro/confidentialitate/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ro_RO">
+  <meta name="theme-color" content="#5b8c6a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%235b8c6a'/><path fill='white' d='M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z'/></svg>">
+  <link rel="stylesheet" href="/public/design_system_aponia.css">
+  <style>
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/InterTight-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/InterTight-700-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-normal.woff2?v=2') format('woff2');}
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --cream: #faf8f5; --cream2: #f4eee6; --green: #5b8c6a; --green-dark: #2e5c46;
+      --dark: #242c25; --ink: #1a2e22; --muted: #5e6b60; --border: #e2ded4;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.65; }
+    a { color: inherit; text-decoration: none; }
+    .legal-hero { padding: 4.5rem 1.5rem 3rem; text-align: center; max-width: 860px; margin: 0 auto; }
+    .breadcrumb { font-family: 'Inter Tight', monospace; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; color: #8a968c; margin-bottom: 1.2rem; }
+    .breadcrumb a { color: var(--green); }
+    .eyebrow { font-family: 'Inter Tight', monospace; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase; color: var(--green); display: block; margin-bottom: 1rem; }
+    .legal-hero h1 { font-family: 'Newsreader', serif; font-weight: 600; font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.15; color: var(--ink); margin-bottom: 1.2rem; }
+    .legal-hero .lead { font-style: italic; font-size: 1.15rem; color: var(--muted); max-width: 640px; margin: 0 auto 2rem; line-height: 1.8; }
+    .content-container { max-width: 800px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+    .pillar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin: 2.5rem 0; }
+    .pillar-card { background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 1.8rem; box-shadow: 0 4px 18px rgba(0,0,0,0.03); }
+    .pillar-card h3 { font-family: 'Inter Tight', sans-serif; font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-bottom: 0.6rem; }
+    .pillar-card p { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; color: #4a5568; line-height: 1.7; }
+    .article-box { background: var(--cream2); border-left: 4px solid var(--green); padding: 1.5rem 1.8rem; border-radius: 4px; margin: 2rem 0; }
+    .article-box h4 { font-family: 'Inter Tight', sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--ink); margin-bottom: 0.4rem; }
+    .article-box p { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; color: #4a5568; line-height: 1.7; }
+    .cta-box { background: var(--dark); border-radius: 14px; padding: 3.5rem 2rem; text-align: center; color: #fdfbf7; margin-top: 3rem; }
+    .cta-box h2 { font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 2rem; margin-bottom: 0.8rem; }
+    .cta-box p { font-family: 'Inter Tight', sans-serif; font-size: 1rem; color: #d2ded3; max-width: 520px; margin: 0 auto 1.8rem; line-height: 1.7; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.95rem; border-radius: 6px; padding: 0.85rem 1.8rem; min-height: 48px; }
+    .btn-green { background: var(--green); color: #ffffff; }
+    .btn-green:hover { background: var(--green-dark); }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://aponia.ro/confidentialitate/",
+        "url": "https://aponia.ro/confidentialitate/",
+        "name": "Confidențialitate și Securitate GDPR pentru Date de Sănătate Mintală | APONIA.ro",
+        "description": "Arhitectura de securitate APONIA.ro: conformitate strictă GDPR Articolul 9, servere în UE, criptare la nivel de cabinet și secret profesional garantat.",
+        "inLanguage": "ro",
+        "isPartOf": { "@id": "https://aponia.ro/#website" },
+        "dateModified": "2026-09-17"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "item": "https://aponia.ro/" },
+          { "@type": "ListItem", "position": 2, "name": "Confidențialitate și Securitate", "item": "https://aponia.ro/confidentialitate/" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<header class="header" style="background:#ffffff;border-bottom:1px solid #e2ded4;width:100%;position:relative;z-index:1000;box-sizing:border-box;">
+  <div style="max-width:1200px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;box-sizing:border-box;">
+    <a href="/" style="font-family:Georgia,serif;font-size:22px;font-weight:700;color:#1a2e22;text-decoration:none;display:flex;align-items:center;gap:6px;">APONIA<span style="color:#2e5c46;">.ro</span></a>
+    <nav style="display:flex;align-items:center;gap:20px;margin:0 16px;">
+      <a href="/about/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Despre</a>
+      <a href="/test-anxietate/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Test Anxietate</a>
+      <a href="/wellbeing/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Wellbeing</a>
+      <a href="/calculator-programari-pierdute/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Calculator</a>
+      <a href="/wellbeing/demo-unelte.html" style="color:#2e5c46;text-decoration:none;font-size:14px;font-weight:600;">Spațiul de Tihnă</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:18px;">
+      <div style="font-size:13px;color:#718096;white-space:nowrap;"><strong style="color:#1a2e22;">RO</strong> | <a href="/en/confidentialitate/" style="color:#718096;text-decoration:none;">EN</a></div>
+      <a href="https://app.aponia.ro/register" style="background:#2e5c46;color:#ffffff;padding:9px 16px;border-radius:6px;text-decoration:none;font-size:13.5px;font-weight:600;white-space:nowrap;display:inline-block;">Vreau seara mea înapoi →</a>
+    </div>
+  </div>
+</header>
+
+<div class="legal-hero">
+  <p class="breadcrumb"><a href="/">APONIA.ro</a> &rsaquo; Confidențialitate și Securitate</p>
+  <span class="eyebrow">Standarde Clinice & GDPR</span>
+  <h1>Confidențialitate strictă pentru date de sănătate mintală</h1>
+  <p class="lead">În psihoterapie, intimitatea este fundamentul vindecării. Arhitectura tehnică APONIA.ro este proiectată în jurul secretului profesional și al Articolului 9 din GDPR.</p>
+</div>
+
+<main class="content-container">
+  <div class="article-box">
+    <h4>Articolul 9 GDPR: Categorii speciale de date</h4>
+    <p>Datele privind sănătatea mintală, diagnosticele, terapiile urmate și trăirile emoționale nu sunt date personale obișnuite. Legislația europeană interzice prelucrarea lor fără garanții tehnice avansate și un temei juridic explicit.</p>
+  </div>
+
+  <div class="pillar-grid">
+    <div class="pillar-card">
+      <h3>1. Servere exclusive în UE</h3>
+      <p>Infrastructura și bazele noastre de date sunt localizate exclusiv în centre de date din Uniunea Europeană. Fără transferuri transfrontaliere vulnerabile și fără stocare pe cloud comercial din afara jurisdicției europene.</p>
+    </div>
+
+    <div class="pillar-card">
+      <h3>2. Criptare per cabinet</h3>
+      <p>Notițele de sesiune și detaliile de anamneză sunt criptate folosind chei dedicate. Administratorii de sistem nu pot citi sau accesa conținutul sensibil al dosarelor pacienților.</p>
+    </div>
+
+    <div class="pillar-card">
+      <h3>3. DPA adaptat Colegiului Psihologilor</h3>
+      <p>Punem la dispoziție un Acord de Prelucrare a Datelor (DPA) adaptat practicii psihologice din România, oferind cabinetului tău acoperire juridică completă în fața oricărui control.</p>
+    </div>
+
+    <div class="pillar-card">
+      <h3>4. Zero trackere publicitare</h3>
+      <p>Nu folosim pixeli de tracking de la Meta, Google Ads sau rețele de brokeraj de date. Confidențialitatea pacienților este protejată de orice intruziune comercială.</p>
+    </div>
+  </div>
+
+  <div class="cta-box">
+    <h2>Protejează-ți cabinetul și pacienții</h2>
+    <p>Alege o platformă care înțelege responsabilitatea etică și juridică a muncii tale de zi cu zi.</p>
+    <a href="https://app.aponia.ro/register" class="btn btn-green">Creează cont securizat →</a>
+  </div>
+</main>
+
+<a href="/wellbeing/demo-unelte.html" class="floating-tihna-btn" aria-label="Spațiu de tihnă" style="position:fixed!important;bottom:60px!important;right:40px!important;width:118px!important;height:118px!important;border-radius:50%!important;background:radial-gradient(circle at 30% 30%, #34634b, #183325)!important;color:#ffffff!important;text-decoration:none!important;box-shadow:0 14px 38px rgba(24,51,37,0.55),0 4px 12px rgba(0,0,0,0.25)!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;z-index:999999!important;text-align:center!important;padding:8px!important;box-sizing:border-box!important;border:2.5px solid rgba(255,255,255,0.25)!important;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:32px!important;height:32px!important;max-width:32px!important;max-height:32px!important;display:block!important;margin:0 auto 4px!important;"><path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12A10 10 0 0 1 12 2z"/><path d="M8 12h8"/><path d="M12 8v8"/></svg><span style="font-family:-apple-system,BlinkMacSystemFont,'Inter',sans-serif!important;font-size:10px!important;font-weight:800!important;letter-spacing:0.08em!important;text-transform:uppercase!important;line-height:1.18!important;color:#ffffff!important;display:block!important;">SPAȚIU DE<br>TIHNĂ</span></a>
+
+<footer class="footer" style="background:#f9f8f5;border-top:1px solid #e2ded4;padding:50px 24px 30px;margin-top:60px;width:100%;box-sizing:border-box;text-align:left!important;">
+  <div style="max-width:1200px;margin:0 auto;text-align:left!important;">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px;margin-bottom:40px;text-align:left!important;">
+      <div style="flex:1 1 240px;min-width:220px;text-align:left!important;">
+        <div style="font-family:Georgia,serif;font-size:20px;font-weight:700;color:#1a2e22;margin-bottom:12px;text-align:left!important;">APONIA<span style="color:#2e5c46;">.ro</span></div>
+        <p style="font-size:13.5px;color:#4a5568;line-height:1.6;margin-bottom:14px;text-align:left!important;">Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.</p>
+        <div style="font-size:13px;font-weight:600;color:#2e5c46;margin-bottom:8px;text-align:left!important;">73 RON/lună (Cabinet) · 29 RON/lună (Unelte)</div>
+        <a href="/daemon/" style="font-size:12.5px;color:#718096;text-decoration:none;text-align:left!important;display:inline-block;">Telemetrie Daemon →</a>
+      </div>
+      <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
+        <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Unelte & Clinic</h4>
+        <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
+          <li style="text-align:left!important;"><a href="/wellbeing/demo-unelte.html" style="color:#4a5568;text-decoration:none;">Spațiul de Tihnă (Demo)</a></li>
+          <li style="text-align:left!important;"><a href="/intake/" style="color:#4a5568;text-decoration:none;">Flux de Intake</a></li>
+          <li style="text-align:left!important;"><a href="/test-anxietate/" style="color:#4a5568;text-decoration:none;">Test Anxietate (GAD-7)</a></li>
+          <li style="text-align:left!important;"><a href="/calculator-programari-pierdute/" style="color:#4a5568;text-decoration:none;">Calculator Pierderi</a></li>
+          <li style="text-align:left!important;"><a href="/rhea/" style="color:#4a5568;text-decoration:none;">Scor Vizibilitate Rhea</a></li>
+        </ul>
+      </div>
+      <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
+        <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Comparații</h4>
+        <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
+          <li style="text-align:left!important;"><a href="/vs-whatsapp/" style="color:#4a5568;text-decoration:none;">vs. WhatsApp</a></li>
+          <li style="text-align:left!important;"><a href="/vs-calendly/" style="color:#4a5568;text-decoration:none;">vs. Calendly</a></li>
+          <li style="text-align:left!important;"><a href="/vs-google-forms/" style="color:#4a5568;text-decoration:none;">vs. Google Forms</a></li>
+          <li style="text-align:left!important;"><a href="/vs-simplepractice/" style="color:#4a5568;text-decoration:none;">vs. SimplePractice</a></li>
+          <li style="text-align:left!important;"><a href="/vs-hedepy/" style="color:#4a5568;text-decoration:none;">vs. Hedepy</a></li>
+          <li style="text-align:left!important;"><a href="/vs-pasul/" style="color:#4a5568;text-decoration:none;">vs. Pasul.ro</a></li>
+        </ul>
+      </div>
+      <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
+        <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Resurse & Legal</h4>
+        <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
+          <li style="text-align:left!important;"><a href="/about/" style="color:#4a5568;text-decoration:none;">Despre noi</a></li>
+          <li style="text-align:left!important;"><a href="/manifesto/" style="color:#4a5568;text-decoration:none;">Manifest</a></li>
+          <li style="text-align:left!important;"><a href="/blog/" style="color:#4a5568;text-decoration:none;">Blog & Ghiduri</a></li>
+          <li style="text-align:left!important;"><a href="/confidentialitate/" style="color:#4a5568;text-decoration:none;">Confidențialitate (GDPR)</a></li>
+          <li style="text-align:left!important;"><a href="/legal/termene-conditii.html" style="color:#4a5568;text-decoration:none;">Termeni și Condiții</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="border-top:1px solid #e2ded4;padding-top:20px;text-align:center;font-size:12.5px;color:#718096;">
+      © 2026 APONIA.ro. Toate drepturile rezervate.
+    </div>
+  </div>
+</footer>
+</body>
+</html>

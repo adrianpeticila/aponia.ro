@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>APONIA.ro vs Google Forms, Formulare generice vs. sistem medical GDPR | APONIA.ro</title>
+  <meta name="description" content="Google Forms adună date într-un tabel. APONIA.ro oferă triaj clinic empatic, fișă structurată pentru clinician și protecție GDPR strictă pentru date de sănătate mintală.">
+  <link rel="canonical" href="https://aponia.ro/vs-google-forms/">
+  <link rel="alternate" hreflang="ro" href="https://aponia.ro/vs-google-forms/">
+  <link rel="alternate" hreflang="en" href="https://aponia.ro/en/vs-google-forms/">
+  <link rel="alternate" hreflang="x-default" href="https://aponia.ro/vs-google-forms/">
+  <meta property="og:title" content="APONIA.ro vs Google Forms, Formular generic vs. triaj clinic securizat">
+  <meta property="og:description" content="Google Forms adună date într-un tabel. APONIA.ro oferă triaj clinic empatic, fișă structurată pentru clinician și protecție GDPR strictă pentru date de sănătate mintală.">
+  <meta property="og:url" content="https://aponia.ro/vs-google-forms/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ro_RO">
+  <meta name="theme-color" content="#5b8c6a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%235b8c6a'/><path fill='white' d='M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z'/></svg>">
+  <style>
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/InterTight-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/InterTight-700-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:800;font-display:swap;src:url('/fonts/InterTight-800-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:900;font-display:swap;src:url('/fonts/InterTight-900-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-italic.woff2?v=2') format('woff2');}
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --cream: #f7f5f0; --cream2: #f0ede6; --green: #5b8c6a; --amber: #e8b86d; --dark: #3a4258; --ink: #1a1a1a; --muted: #666; --border: #e0dbd2; --red: #c0392b; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; overflow-x: hidden; }
+    a { color: inherit; text-decoration: none; }
+    .page-hero { padding: 4rem 1.5rem 3rem; text-align: center; max-width: 900px; margin: 0 auto; }
+    .breadcrumb { font-family: 'Inter Tight', monospace; font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: #aaa; margin-bottom: 1.5rem; }
+    .breadcrumb a { color: var(--green); }
+    .eyebrow { font-family: 'Inter Tight', monospace; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase; color: var(--green); display: block; margin-bottom: 1rem; }
+    .page-hero h1 { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 2.8rem; line-height: 1.05; letter-spacing: -0.04em; color: var(--ink); margin-bottom: 1.2rem; }
+    .page-hero .lead { font-style: italic; font-size: 1.1rem; color: #555; max-width: 620px; margin: 0 auto 2rem; line-height: 1.75; }
+    .verdict { background: white; border: 1.5px solid var(--border); border-left: 4px solid var(--green); border-radius: 4px; padding: 1.5rem 2rem; max-width: 680px; margin: 0 auto 3rem; text-align: left; }
+    .verdict-label { font-family: 'Inter Tight', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--green); margin-bottom: 0.6rem; }
+    .verdict p { font-family: 'Inter Tight', sans-serif; font-size: 1rem; color: #444; line-height: 1.7; }
+    .comp-section { padding: 3rem 1.5rem; }
+    .comp-title { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 1.65rem; letter-spacing: -0.02em; text-align: center; margin-bottom: 2rem; color: var(--ink); }
+    .comp-table { width: 100%; max-width: 860px; margin: 0 auto; border-collapse: collapse; font-family: 'Inter Tight', sans-serif; font-size: 1rem; }
+    .comp-table th { padding: 1rem 1.5rem; text-align: center; font-weight: 800; font-size: 0.85rem; border-bottom: 2px solid var(--border); }
+    .comp-table th:first-child { text-align: left; color: var(--muted); font-weight: 600; }
+    .comp-table th.col-aponia { background: rgba(91,140,106,0.08); color: var(--green); border-bottom-color: var(--green); }
+    .comp-table th.col-other { color: #888; }
+    .comp-table td { padding: 0.85rem 1.5rem; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    .comp-table td:first-child { color: var(--muted); font-size: 0.85rem; }
+    .comp-table td.col-aponia { background: rgba(91,140,106,0.05); text-align: center; font-weight: 700; color: var(--ink); }
+    .comp-table td.col-other { text-align: center; color: #888; }
+    .yes { color: var(--green); } .no { color: var(--red); } .partial { color: var(--amber); }
+    .narrative { padding: 3rem 1.5rem; max-width: 680px; margin: 0 auto; }
+    .narrative h2 { font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.35rem; color: var(--ink); margin-bottom: 1rem; }
+    .narrative p { font-size: 1rem; color: #444; line-height: 1.8; margin-bottom: 1.2rem; }
+    .narrative strong { color: var(--ink); font-weight: 600; }
+    .cta-dark { background: var(--dark); padding: 4rem 1.5rem; text-align: center; }
+    .cta-dark h2 { font-family: 'Inter Tight', sans-serif; font-weight: 900; font-size: 2rem; letter-spacing: -0.03em; color: #f7f5f0; margin-bottom: 0.8rem; line-height: 1.1; }
+    .cta-dark p { font-style: italic; color: rgba(247,245,240,0.65); font-size: 1rem; margin-bottom: 2rem; max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 1rem; border-radius: 3px; padding: 0.9rem 2rem; min-height: 48px; }
+    .btn-g { background: var(--green); color: white; }
+    .btn-row { display: flex; gap: 0.9rem; flex-wrap: wrap; justify-content: center; }
+    .btn-ghost { border: 1.5px solid rgba(247,245,240,0.3); color: rgba(247,245,240,0.7); background: transparent; }
+    .faq-section { padding: 3rem 1.5rem; max-width: 760px; margin: 0 auto; }
+    .faq-section h2 { font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.35rem; margin-bottom: 1.5rem; text-align: center; }
+    .faqlist { border: 1px solid var(--border); border-radius: 4px; overflow: hidden; }
+    .faqitem { padding: 1.8rem 2rem; border-bottom: 1px solid var(--border); background: white; }
+    .faqitem:last-child { border-bottom: none; }
+    .faqq { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 1rem; color: var(--ink); margin-bottom: 0.6rem; }
+    .faqa { font-family: 'Inter Tight', sans-serif; font-size: 1rem; color: #555; line-height: 1.72; }
+    .also-see { padding: 2rem 1.5rem 3rem; max-width: 900px; margin: 0 auto; text-align: center; }
+    .also-see p { font-family: 'Inter Tight', monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.18em; color: #aaa; margin-bottom: 1rem; }
+    .also-links { display: flex; gap: 0.8rem; flex-wrap: wrap; justify-content: center; }
+    .also-links a { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--green); border: 1px solid rgba(91,140,106,0.3); padding: 0.45rem 1rem; border-radius: 3px; }
+    @media (max-width: 640px) { .page-hero h1 { font-size: 2rem; } .comp-table { font-size: 0.85rem; } .comp-table th, .comp-table td { padding: 0.7rem 0.8rem; } .cta-dark h2 { font-size: 1.65rem; } .narrative { padding: 2rem 1rem; } }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://aponia.ro/#app",
+        "name": "APONIA.ro",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Therapy practice management software",
+        "operatingSystem": "Web",
+        "url": "https://aponia.ro/",
+        "description": "Platformă securizată pentru gestionarea cabinetelor de psihoterapie din România. Triaj clinic empatic, notițe criptate, conformitate GDPR Articolul 9.",
+        "inLanguage": "ro",
+        "offers": { "@type": "Offer", "price": "73", "priceCurrency": "RON", "description": "Abonament lunar cabinet fără comision" },
+        "audience": { "@type": "Audience", "audienceType": "Psihoterapeuți, psihologi clinicieni și consilieri din România" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Google Forms",
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "Survey and questionnaire software",
+        "url": "https://www.google.com/forms/about/",
+        "description": "Instrument generic de realizare de chestionare și sondaje online oferit de Google."
+      },
+      {
+        "@type": "ItemList",
+        "name": "Comparație APONIA.ro vs Google Forms",
+        "description": "APONIA.ro oferă triaj clinic empatic, fișă de intake gata sintetizată și protecție GDPR pentru date de sănătate; Google Forms este un instrument generic nespecificat pentru date clinice.",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "url": "https://aponia.ro/" },
+          { "@type": "ListItem", "position": 2, "name": "Google Forms", "url": "https://www.google.com/forms/about/" }
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://aponia.ro/vs-google-forms/",
+        "url": "https://aponia.ro/vs-google-forms/",
+        "name": "APONIA.ro vs Google Forms, Formulare generice vs. sistem medical GDPR",
+        "description": "Google Forms adună date într-un tabel. APONIA.ro oferă triaj clinic empatic, fișă structurată pentru clinician și protecție GDPR strictă pentru date de sănătate mintală.",
+        "inLanguage": "ro",
+        "isPartOf": { "@id": "https://aponia.ro/#website" },
+        "dateModified": "2026-09-17"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "APONIA.ro", "item": "https://aponia.ro/" },
+          { "@type": "ListItem", "position": 2, "name": "APONIA.ro vs Google Forms", "item": "https://aponia.ro/vs-google-forms/" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+<header class="header" style="background:#ffffff;border-bottom:1px solid #e2ded4;width:100%;position:relative;z-index:1000;box-sizing:border-box;">
+  <div style="max-width:1200px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;box-sizing:border-box;">
+    <a href="/" style="font-family:Georgia,serif;font-size:22px;font-weight:700;color:#1a2e22;text-decoration:none;display:flex;align-items:center;gap:6px;">APONIA<span style="color:#2e5c46;">.ro</span></a>
+    <nav style="display:flex;align-items:center;gap:20px;margin:0 16px;">
+      <a href="/about/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Despre</a>
+      <a href="/test-anxietate/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Test Anxietate</a>
+      <a href="/wellbeing/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Wellbeing</a>
+      <a href="/calculator-programari-pierdute/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Calculator</a>
+      <a href="/wellbeing/demo-unelte.html" style="color:#2e5c46;text-decoration:none;font-size:14px;font-weight:600;">Spațiul de Tihnă</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:18px;">
+      <div style="font-size:13px;color:#718096;white-space:nowrap;"><strong style="color:#1a2e22;">RO</strong> | <a href="/en/vs-google-forms/" style="color:#718096;text-decoration:none;">EN</a></div>
+      <a href="https://app.aponia.ro/register" style="background:#2e5c46;color:#ffffff;padding:9px 16px;border-radius:6px;text-decoration:none;font-size:13.5px;font-weight:600;white-space:nowrap;display:inline-block;">Vreau seara mea înapoi →</a>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero">
+  <p class="breadcrumb"><a href="/">APONIA.ro</a> &rsaquo; APONIA.ro vs Google Forms</p>
+  <span class="eyebrow">Comparație</span>
+  <h1>APONIA.ro vs.<br>Google Forms</h1>
+  <p class="lead">Google Forms adună răspunsuri într-un tabel rece de calcul. APONIA.ro creează o punte de încredere: triaj clinic empatic, fișă anamnezică gata sintetizată și protecție strictă GDPR pentru date de sănătate mintală.</p>
+</div>
+
+<div class="verdict">
+  <p class="verdict-label">Răspuns direct</p>
+  <p>Google Forms este util pentru sondaje și înscrieri rapide la evenimente. Când pacientul tău descrie traume, anxietate severă sau crize existențiale, trimiterea unui chestionar generic de la Google ridică probleme etice și legale majore (Art. 9 GDPR). APONIA.ro asigură protecție juridică completă, criptare la nivel de câmp și generează direct dosarul de pacient înainte de prima ședință.</p>
+</div>
+
+<section class="comp-section">
+  <p class="comp-title">Ce lipsește din Google Forms pentru psihoterapeuți</p>
+  <table class="comp-table">
+    <thead>
+      <tr>
+        <th>Criteriu clinic și legal</th>
+        <th class="col-aponia">APONIA.ro</th>
+        <th class="col-other">Google Forms</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Conformitate GDPR Articolul 9 (date sensibile)</td>
+        <td class="col-aponia"><span class="yes">✓</span> Nativ (servere UE, acord DPA)</td>
+        <td class="col-other"><span class="no">✗</span> Risc legal (cloud public nespecializat)</td>
+      </tr>
+      <tr>
+        <td>Criptare dosar la nivel de clinician</td>
+        <td class="col-aponia"><span class="yes">✓</span> Zero-Knowledge</td>
+        <td class="col-other"><span class="no">✗</span> Date stocate în clar în Google Sheets</td>
+      </tr>
+      <tr>
+        <td>Fișă de intake sintetizată automat</td>
+        <td class="col-aponia"><span class="yes">✓</span> Format clinic clar</td>
+        <td class="col-other"><span class="no">✗</span> Doar rânduri brute de tabel</td>
+      </tr>
+      <tr>
+        <td>Detecție semnale de alarmă și criză</td>
+        <td class="col-aponia"><span class="yes">✓</span> Numere de urgență afișate pe loc</td>
+        <td class="col-other"><span class="no">✗</span> Lipsește complet</td>
+      </tr>
+      <tr>
+        <td>Experiență fără fricțiune (fără cont necesar)</td>
+        <td class="col-aponia"><span class="yes">✓</span> Acces instant de pe telefon</td>
+        <td class="col-other"><span class="partial">~</span> Frecvent forțează login Google</td>
+      </tr>
+      <tr>
+        <td>Conectare directă cu programarea și calendarul</td>
+        <td class="col-aponia"><span class="yes">✓</span> Automat la confirmarea ședinței</td>
+        <td class="col-other"><span class="no">✗</span> Necesită copiere manuală</td>
+      </tr>
+      <tr>
+        <td>Design biofil, primitor și calmant</td>
+        <td class="col-aponia"><span class="yes">✓</span> Reduce cortizolul pacientului</td>
+        <td class="col-other"><span class="no">✗</span> Interfață corporativă de sondaj</td>
+      </tr>
+      <tr>
+        <td>Preț pentru cabinet</td>
+        <td class="col-aponia"><span class="yes">✓</span> 73 RON/lună (fără comision)</td>
+        <td class="col-other"><span class="partial">~</span> Gratuit de bază / Google Workspace</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="narrative">
+  <h2>Un tabel de calcul nu este o fișă clinică</h2>
+  <p>Când un pacient decide să caute ajutor psihologic, el trăiește o stare de vulnerabilitate ridicată. Trimiterea unui link de Google Forms induce o senzație birocratică: pacientul se simte ca și cum ar completa un chestionar de satisfacție sau o evaluare internă de corporație.</p>
+  <p>În plus, datele transmise prin Google Forms ajung într-un Google Sheet sau pe Google Drive, de unde pot fi descărcate accidental, partajate prin linkuri deschise sau accesate de pe telefoane personale sincronizate. Conform normelor europene privind datele cu caracter sensibil (categoria de sănătate mintală), colectarea prin instrumente generice fără măsuri speciale de criptare constituie o abatere gravă.</p>
+  <p><strong>APONIA.ro transformă preluarea într-un act de grijă clinică.</strong> Întrebările sunt concepute cu sensibilitate, ritmul de completare este neintruziv, iar informațiile sunt structurate imediat într-o fișă anamnezică clară, disponibilă pe ecranul clinicianului la un clic distanță.</p>
+</section>
+
+<div class="cta-dark">
+  <h2>Preluare profesională din prima secundă</h2>
+  <p>Fără riscuri legale, fără tabele împrăștiate în Google Drive. Construit cu respect pentru demnitatea pacientului și timpul terapeutului.</p>
+  <div class="btn-row">
+    <a href="https://app.aponia.ro/register" class="btn btn-g">Activează cabinetul tău →</a>
+    <a href="/intake/" class="btn btn-ghost">Vezi fluxul de intake</a>
+  </div>
+</div>
+
+<section class="faq-section">
+  <h2>Întrebări frecvente</h2>
+  <div class="faqlist">
+    <div class="faqitem">
+      <div class="faqq">De ce este riscant să folosesc Google Forms pentru date de terapie?</div>
+      <div class="faqa">Articolul 9 din GDPR clasifică datele privind starea de sănătate, inclusiv starea psihologică și istoricul psihiatric, ca date de categorie specială. Google nu oferă în mod implicit un acord DPA conform pentru date medicale pe conturile gratuite, iar datele colectate în tabele necriptate pot fi expuse ușor. APONIA.ro este configurat conform cerințelor UE pentru securitatea datelor de sănătate.</div>
+    </div>
+    <div class="faqitem">
+      <div class="faqq">Cum ajută fișa generată automat clinicianul?</div>
+      <div class="faqa">În loc să citești zeci de coloane într-un tabel Excel sau răspunsuri lungi nestructurate, APONIA.ro generează o fișă concisă: motivul principal, simptomele prioritare, istoricul de tratament și eventualele contraindicații sau alerte de urgență. Astfel economisești 15-20 de minute de lectură brută înainte de fiecare pacient nou.</div>
+    </div>
+    <div class="faqitem">
+      <div class="faqq">Pacienții trebuie să se autentifice sau să aibă cont de Google?</div>
+      <div class="faqa">Nu. Google Forms solicită adesea logare când sunt activate anumite restricții de securitate. În APONIA.ro, pacientul apasă pe linkul securizat primit prin SMS sau email și completează direct de pe telefon sau calculator, într-un mediu securizat SSL și criptat.</div>
+    </div>
+    <div class="faqitem">
+      <div class="faqq">Ce se întâmplă dacă pacientul indică o criză sau risc iminent?</div>
+      <div class="faqa">APONIA.ro include un filtru clinic discret de siguranță. Dacă răspunsurile indică risc de autovătămare sau urgență psihiatrică, sistemul oferă pacientului numerele de telefon de urgență și liniile naționale de sprijin în criză, alertând totodată clinicianul cu privire la profilul urgent.</div>
+    </div>
+  </div>
+</section>
+
+<div class="also-see">
+  <p>Compară și cu alte soluții</p>
+  <div class="also-links">
+    <a href="/vs-calendly/">vs. Calendly</a>
+    <a href="/vs-whatsapp/">vs. WhatsApp</a>
+    <a href="/vs-google-calendar/">vs. Google Calendar</a>
+    <a href="/vs-simplepractice/">vs. SimplePractice</a>
+    <a href="/vs-hedepy/">vs. Hedepy</a>
+    <a href="/vs-pasul/">vs. Pasul.ro</a>
+  </div>
+</div>
+
+<a href="/wellbeing/demo-unelte.html" class="floating-tihna-btn" aria-label="Spațiu de tihnă" style="position:fixed!important;bottom:60px!important;right:40px!important;width:118px!important;height:118px!important;border-radius:50%!important;background:radial-gradient(circle at 30% 30%, #34634b, #183325)!important;color:#ffffff!important;text-decoration:none!important;box-shadow:0 14px 38px rgba(24,51,37,0.55),0 4px 12px rgba(0,0,0,0.25)!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;z-index:999999!important;text-align:center!important;padding:8px!important;box-sizing:border-box!important;border:2.5px solid rgba(255,255,255,0.25)!important;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:32px!important;height:32px!important;max-width:32px!important;max-height:32px!important;display:block!important;margin:0 auto 4px!important;"><path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12A10 10 0 0 1 12 2z"/><path d="M8 12h8"/><path d="M12 8v8"/></svg><span style="font-family:-apple-system,BlinkMacSystemFont,'Inter',sans-serif!important;font-size:10px!important;font-weight:800!important;letter-spacing:0.08em!important;text-transform:uppercase!important;line-height:1.18!important;color:#ffffff!important;display:block!important;">SPAȚIU DE<br>TIHNĂ</span></a>
+
+<footer class="footer" style="background:#f9f8f5;border-top:1px solid #e2ded4;padding:50px 24px 30px;margin-top:60px;width:100%;box-sizing:border-box;text-align:left!important;">
+  <div style="max-width:1200px;margin:0 auto;text-align:left!important;">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px;margin-bottom:40px;text-align:left!important;">
+      <div style="flex:1 1 240px;min-width:220px;text-align:left!important;">
+        <div style="font-family:Georgia,serif;font-size:20px;font-weight:700;color:#1a2e22;margin-bottom:12px;text-align:left!important;">APONIA<span style="color:#2e5c46;">.ro</span></div>
+        <p style="font-size:13.5px;color:#4a5568;line-height:1.6;margin-bottom:14px;text-align:left!important;">Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.</p>
+        <div style="font-size:13px;font-weight:600;color:#2e5c46;margin-bottom:8px;text-align:left!important;">73 RON/lună (Cabinet) · 29 RON/lună (Unelte)</div>
+        <a href="/daemon/" style="font-size:12.5px;color:#718096;text-decoration:none;text-align:left!important;display:inline-block;">Telemetrie Daemon →</a>
+      </div>
+      <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
+        <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Unelte & Clinic</h4>
+        <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
+          <li style="text-align:left!important;"><a href="/wellbeing/demo-unelte.html" style="color:#4a5568;text-decoration:none;">Spațiul de Tihnă (Demo)</a></li>
+          <li style="text-align:left!important;"><a href="/test-anxietate/" style="color:#4a5568;text-decoration:none;">Test Anxietate (GAD-7)</a></li>
+          <li style="text-align:left!important;"><a href="/calculator-programari-pierdute/" style="color:#4a5568;text-decoration:none;">Calculator Pierderi</a></li>
+          <li style="text-align:left!important;"><a href="/rhea/" style="color:#4a5568;text-decoration:none;">Scor Vizibilitate Rhea</a></li>
+          <li style="text-align:left!important;"><a href="/mcp/" style="color:#4a5568;text-decoration:none;">Protocol MCP Triaj</a></li>
+        </ul>
+      </div>
+      <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
+        <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Comparații</h4>
+        <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
+          <li style="text-align:left!important;"><a href="/vs-whatsapp/" style="color:#4a5568;text-decoration:none;">vs. WhatsApp</a></li>
+          <li style="text-align:left!important;"><a href="/vs-calendly/" style="color:#4a5568;text-decoration:none;">vs. Calendly</a></li>
+          <li style="text-align:left!important;"><a href="/vs-google-forms/" style="color:#4a5568;text-decoration:none;">vs. Google Forms</a></li>
+          <li style="text-align:left!important;"><a href="/vs-simplepractice/" style="color:#4a5568;text-decoration:none;">vs. SimplePractice</a></li>
+          <li style="text-align:left!important;"><a href="/vs-hedepy/" style="color:#4a5568;text-decoration:none;">vs. Hedepy</a></li>
+          <li style="text-align:left!important;"><a href="/vs-google-calendar/" style="color:#4a5568;text-decoration:none;">vs. Google Calendar</a></li>
+          <li style="text-align:left!important;"><a href="/vs-pasul/" style="color:#4a5568;text-decoration:none;">vs. Pasul.ro</a></li>
+        </ul>
+      </div>
+      <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
+        <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Resurse & Legal</h4>
+        <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
+          <li style="text-align:left!important;"><a href="/about/" style="color:#4a5568;text-decoration:none;">Despre noi</a></li>
+          <li style="text-align:left!important;"><a href="/manifesto/" style="color:#4a5568;text-decoration:none;">Manifest</a></li>
+          <li style="text-align:left!important;"><a href="/blog/" style="color:#4a5568;text-decoration:none;">Blog & Ghiduri</a></li>
+          <li style="text-align:left!important;"><a href="/confidentialitate/" style="color:#4a5568;text-decoration:none;">Confidențialitate (GDPR)</a></li>
+          <li style="text-align:left!important;"><a href="/legal/termene-conditii.html" style="color:#4a5568;text-decoration:none;">Termeni și Condiții</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="border-top:1px solid #e2ded4;padding-top:20px;text-align:center;font-size:12.5px;color:#718096;">
+      © 2026 APONIA.ro. Toate drepturile rezervate.
+    </div>
+  </div>
+</footer>
+</body>
+</html>
