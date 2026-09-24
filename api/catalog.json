@@ -1,0 +1,29 @@
+[
+  {
+    "id": "therapist-onboarding-kit",
+    "name": "Independent Therapist Onboarding Kit",
+    "price_cents": 14900,
+    "currency": "RON",
+    "description": "Complete independent therapist onboarding framework: client intake contracts, GDPR consent documentation, boundary policies, and practice setup checklists.",
+    "sample_output_url": "https://aponia.ro/samples/therapist-onboarding-kit-sample.md",
+    "checkout_type": "stripe_hosted"
+  },
+  {
+    "id": "practice-protocol-templates",
+    "name": "Private Practice Protocol & Clinical Templates",
+    "price_cents": 9900,
+    "currency": "RON",
+    "description": "Clinical protocols and documentation toolkit: standard operational procedures, inter-session crisis response framework, attendance and cancellation policies, and practice management templates.",
+    "sample_output_url": "https://aponia.ro/samples/practice-protocol-templates-sample.md",
+    "checkout_type": "stripe_hosted"
+  },
+  {
+    "id": "session-notes-prompt-pack",
+    "name": "Automated Session Note Prompt Pack",
+    "price_cents": 4900,
+    "currency": "RON",
+    "description": "Deterministic prompt engineering suite for automated clinical documentation: structured SOAP and DAP session note generators with strict patient privacy guardrails.",
+    "sample_output_url": "https://aponia.ro/samples/session-notes-prompt-pack-sample.md",
+    "checkout_type": "x402"
+  }
+]

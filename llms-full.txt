@@ -23453,3 +23453,43 @@ Both clinician and patient retain complete control. Upon concluding the therapeu
 
 Source: https://aponia.ro/en/confidentialitate/
 
+
+## Machine-to-Machine Commerce (M2M)
+
+APONIA.ro exposes an autonomous Machine-to-Machine agentic commerce interface.
+
+### Endpoints
+- Catalog: `GET https://aponia.ro/api/catalog.json`
+- Purchase: `POST https://aponia.ro/api/agent/buy`
+- Settlement Webhook: `POST https://aponia.ro/api/agent/payments/webhook`
+- Deliveries: `GET https://aponia.ro/api/agent/deliveries/{order_token}`
+
+### Catalog Schema (Strict 7-key Contract)
+- `id` (string)
+- `name` (string)
+- `price_cents` (integer)
+- `currency` (string, RON)
+- `description` (string)
+- `sample_output_url` (uri)
+- `checkout_type` (stripe_hosted | x402)
+
+### Products
+1. Independent Therapist Onboarding Kit:
+   - ID: therapist-onboarding-kit
+   - Price: 14900 RON cents (149 RON)
+   - Checkout: stripe_hosted
+   - Sample: https://aponia.ro/samples/therapist-onboarding-kit-sample.md
+
+2. Private Practice Protocol & Clinical Templates:
+   - ID: practice-protocol-templates
+   - Price: 9900 RON cents (99 RON)
+   - Checkout: stripe_hosted
+   - Sample: https://aponia.ro/samples/practice-protocol-templates-sample.md
+
+3. Automated Session Note Prompt Pack:
+   - ID: session-notes-prompt-pack
+   - Price: 4900 RON cents (49 RON)
+   - Checkout: x402
+   - Sample: https://aponia.ro/samples/session-notes-prompt-pack-sample.md
+
+

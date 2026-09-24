@@ -144,3 +144,11 @@
 - [APONIA.ro vs WhatsApp, Confirmări prin mesaje vs. sistem profesional | APONIA.ro](https://aponia.ro/vs-whatsapp/)
 - [Wellbeing biofil și reglare emoțională · APONIA.ro](https://aponia.ro/wellbeing/)
 - [wellbeing/demo-unelte.html](https://aponia.ro/wellbeing/demo-unelte.html)
+
+## Machine-to-Machine Commerce (M2M)
+
+- Catalog: `GET https://aponia.ro/api/catalog.json` (strict 7-key schema, currency RON)
+- Purchase Entrypoint: `POST https://aponia.ro/api/agent/buy` (Stripe checkout and x402 payment rails)
+- Settlement Webhook: `POST https://aponia.ro/api/agent/payments/webhook` (HMAC-SHA256 authenticated)
+- Deliveries: `GET https://aponia.ro/api/agent/deliveries/{order_token}` (JSON or Markdown via Accept: text/markdown)
+

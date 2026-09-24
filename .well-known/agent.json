@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "name": "APONIA.ro",
+  "description": "Agent entrypoint for Aponia psychotherapy practice infrastructure. Enables autonomous AI agents to discover the product catalog, initiate purchases over HTTP 402 or Stripe, and retrieve paid deliverables machine-readably.",
+  "brand_url": "https://aponia.ro/",
+  "operator": {
+    "name": "Adrian Peticila",
+    "url": "https://aponia.ro/",
+    "contact": "hello@aponia.ro"
+  },
+  "endpoints": {
+    "catalog": "https://aponia.ro/api/catalog.json",
+    "buy": "https://aponia.ro/api/agent/buy",
+    "deliveries": "https://aponia.ro/api/agent/deliveries/{token}",
+    "payments_webhook": "https://aponia.ro/api/agent/payments/webhook",
+    "llms": "https://aponia.ro/llms.txt",
+    "llms_full": "https://aponia.ro/llms-full.txt"
+  },
+  "payment_rails": ["stripe_hosted", "x402", "zeroclick", "1f916_base"],
+  "schemas": {
+    "catalog_item": {
+      "type": "object",
+      "required": ["checkout_type", "currency", "description", "id", "name", "price_cents", "sample_output_url"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "price_cents": { "type": "integer", "minimum": 0 },
+        "currency": { "type": "string", "enum": ["RON"] },
+        "description": { "type": "string" },
+        "sample_output_url": { "type": "string", "format": "uri" },
+        "checkout_type": { "type": "string", "enum": ["stripe_hosted", "x402"] }
+      }
+    },
+    "buy_request": {
+      "type": "object",
+      "required": ["product_id"],
+      "properties": {
+        "product_id": { "type": "string" },
+        "agent_id": { "type": "string", "description": "Agent identifier; agent_id or email is required." },
+        "email": { "type": "string" },
+        "rail": { "type": "string", "enum": ["stripe_hosted", "x402", "zeroclick", "1f916_base"] }
+      }
+    },
+    "webhook_payload": {
+      "type": "object",
+      "required": ["order_token", "status"],
+      "description": "Posted to payments_webhook. Authenticated with X-Signature: sha256=<hex HMAC-SHA256 of raw body> using PAYMENT_WEBHOOK_SECRET.",
+      "properties": {
+        "order_token": { "type": "string" },
+        "status": { "type": "string", "enum": ["succeeded"] },
+        "provider": { "type": "string" },
+        "reference": { "type": "string" }
+      }
+    }
+  },
+  "checkout": {
+    "protocol": "POST /api/agent/buy returns HTTP 402 Payment Required for x402 programmatic settlement, or HTTP 200 with hosted Stripe checkout URL",
+    "idempotency_header": "Idempotency-Key",
+    "buyer_fields": ["agent_id", "email"]
+  },
+  "guardrails": {
+    "daily_programmatic_cap_ron": 100,
+    "rate_limit": "max 3 buy attempts per agent_id+IP per 10 minutes (HTTP 429)",
+    "currency_note": "Product prices are fixed in RON. Programmatic settlement over x402 is subject to the daily cap; Stripe checkout is exempt."
+  },
+  "version": "2026-09-24"
+}
