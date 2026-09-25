@@ -50,7 +50,7 @@ No card.
 
 Beta therapists join for free, indefinitely. When we exit beta, the price is 73 RON/month. No other conditions.
 
-[get my evenings back →](https://tally.so/r/aQEp0v)
+[get my evenings back →](https://app.aponia.ro/register)
 
 ---
 

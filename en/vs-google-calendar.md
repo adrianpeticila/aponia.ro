@@ -69,7 +69,7 @@ Under one hour. Import your patient list via CSV, set your availability, share y
 
 73 RON/month. Cancel anytime. 15-minute setup.
 
-[Get early access →](https://tally.so/r/aQEp0v)
+[Get early access →](https://app.aponia.ro/register)
 
 ---
 

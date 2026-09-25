@@ -11,7 +11,7 @@ Mesaje pe WhatsApp. Programări confirmate manual. Notificări la miezul nopții
 
 Nicio confirmare manuală. Niciun WhatsApp. Nicio ședință pierdută. Clientul tău nu instalează nimic. Tu trimiți un link. El rezervă.
 
-- [Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)
+- [Vreau seara mea înapoi →](https://app.aponia.ro/register)
 - [▶ Demo 90s](#demo)
 
 Beta gratuit · fără card · fără angajament · locuri limitate · selectăm manual
@@ -58,7 +58,7 @@ Nu trebuie să fie așa. APONIA.ro nu îți rezolvă pacienții dificili. Dar î
 
 Controlul asupra timpului tău înseamnă, de fapt, un lucru simplu: **seara ta înapoi.**
 
-[Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)Beta gratuit · fără card · răspundem în 24h
+[Vreau seara mea înapoi →](https://app.aponia.ro/register)Beta gratuit · fără card · răspundem în 24h
 
 Situații cunoscute
 
@@ -106,7 +106,7 @@ Nu ai avut un weekend liber în ultimele două luni.
 
 Nu pentru că ai prea mulți pacienți. **Ci pentru că administrativul a ocupat tot spațiul** care ar fi trebuit să fie al tău.
 
-[Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)locuri limitate · gratuit pe perioadă nedeterminată
+[Vreau seara mea înapoi →](https://app.aponia.ro/register)locuri limitate · gratuit pe perioadă nedeterminată
 
 Ἀπονία
 
@@ -143,7 +143,7 @@ APONIA.ro  =  **73 de lei / lună**  ·  mai puțin decât o singură oră d
 
 Costul nu e financiar. **Sunt orele pe care le dai administrativului în loc să le dai terapiei, sau ție.**
 
-[Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)Anulezi oricând · fără perioadă minimă
+[Vreau seara mea înapoi →](https://app.aponia.ro/register)Anulezi oricând · fără perioadă minimă
 
 Cum funcționează
 
@@ -185,7 +185,7 @@ Cum arată în practică.\
 
 Nu descrieri. Nu promisiuni. De la primul mesaj al pacientului până la notița din sesiune.
 
-[Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)
+[Vreau seara mea înapoi →](https://app.aponia.ro/register)
 
 Ce face APONIA.ro
 
@@ -243,7 +243,7 @@ Toate sesiunile, notițele, comunicările organizate per pacient. Dacă cineva r
 
 Continuitate terapeutică reală.
 
-[Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)hello@aponia.ro · răspundem în 24h
+[Vreau seara mea înapoi →](https://app.aponia.ro/register)hello@aponia.ro · răspundem în 24h
 
 Transformarea
 
@@ -275,7 +275,7 @@ Cu APONIA.ro, clientul rezervă singur printr-un link în sub 90 de secunde, fă
 - [x]  Weekendul e al tău. Fără negociere.
 - [x]  Seara e a ta. Sau a familiei. Sau a ta.
 
-[Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)locuri limitate · gratuit pe perioadă nedeterminată
+[Vreau seara mea înapoi →](https://app.aponia.ro/register)locuri limitate · gratuit pe perioadă nedeterminată
 
 Funcționalități
 
@@ -408,7 +408,7 @@ per lună · facturat lunar · anulezi oricând
 - ✓ Date stocate în UE · conformitate GDPR
 - ✓ Suport direct · răspundem în 24h
 
-[Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)
+[Vreau seara mea înapoi →](https://app.aponia.ro/register)
 
 Terapeuții beta intră gratuit, pe perioadă nedeterminată. Fără card. Fără angajament. Fără surprize.
 
@@ -464,7 +464,7 @@ Ambele. APONIA.ro e o platformă de programări și administrare pentru orice sp
 
 APONIA.ro nu e un marketplace și nu trăiește din date: venitul vine din abonamentul tău de 73 de lei pe lună, nu din pacienții tăi. Datele stau criptate AES-256 pe servere în Frankfurt, Germania, sub GDPR. Pacienții tăi nu sunt vizibili altor terapeuți, nu sunt recomandați, nu primesc reclame. Nicio dată nu e partajată cu terți. Relația cu pacientul rămâne a ta; APONIA.ro e doar infrastructura de programare.
 
-[Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)Sau scrie-ne la hello@aponia.ro cu orice altă întrebare
+[Vreau seara mea înapoi →](https://app.aponia.ro/register)Sau scrie-ne la hello@aponia.ro cu orice altă întrebare
 
 De pe blog
 
@@ -508,7 +508,7 @@ pentru tine?
 
 Completează formularul. Îți configurăm contul în 24 de ore, gratuit. Fără demonstrații de 45 de minute, fără pitch.
 
-[Vreau seara mea înapoi →](https://tally.so/r/aQEp0v)
+[Vreau seara mea înapoi →](https://app.aponia.ro/register)
 
 Fără card · fără angajament · locuri limitate disponibile
 

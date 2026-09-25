@@ -65,7 +65,7 @@ Recuperează-ți serile.
 
 APONIA.ro e platforma de programări construită exclusiv pentru psihoterapeuții independenți din românia. calendar, reminder-e automate, notițe per client. 73 ron/lună, fără comision per ședință.
 
-[vreau seara mea înapoi →](https://tally.so/r/aQEp0v)
+[vreau seara mea înapoi →](https://app.aponia.ro/register)
 
 ---
 

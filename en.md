@@ -11,7 +11,7 @@ WhatsApp messages. Manually confirmed appointments. Midnight notifications. APON
 
 No manual confirmations. No WhatsApp. No missed sessions. Your patient installs nothing. You send a link. They book.
 
-- [Get my evenings back →](https://tally.so/r/aQEp0v)
+- [Get my evenings back →](https://app.aponia.ro/register)
 - [▶ Demo 90s](#demo)
 
 Free beta · no card · no commitment · limited spots · manually selected
@@ -58,7 +58,7 @@ It does not have to be this way. APONIA.ro does not fix your difficult patients.
 
 Control over your time means, in practice, one simple thing: **your evening back.**
 
-[Get my evenings back →](https://tally.so/r/aQEp0v)Free beta · no card · we reply in 24h
+[Get my evenings back →](https://app.aponia.ro/register)Free beta · no card · we reply in 24h
 
 Familiar situations
 
@@ -106,7 +106,7 @@ You have not had a free weekend in the last two months.
 
 Not because you have too many patients. **But because admin has taken up all the space** that was supposed to be yours.
 
-[Get my evenings back →](https://tally.so/r/aQEp0v)Limited spots · free for an indefinite period
+[Get my evenings back →](https://app.aponia.ro/register)Limited spots · free for an indefinite period
 
 Ἀπονία
 
@@ -143,7 +143,7 @@ APONIA.ro  =  **73 RON / month**  ·  less than a single therapy session
 
 The cost is not financial. **It is the hours you give to admin instead of giving them to therapy, or to yourself.**
 
-[Get my evenings back →](https://tally.so/r/aQEp0v)Cancel anytime · no minimum period
+[Get my evenings back →](https://app.aponia.ro/register)Cancel anytime · no minimum period
 
 How it works
 
@@ -185,7 +185,7 @@ How it looks in practice.\
 
 No descriptions. No promises. From the patient's first message to the session note.
 
-[Get my evenings back →](https://tally.so/r/aQEp0v)
+[Get my evenings back →](https://app.aponia.ro/register)
 
 What APONIA.ro does
 
@@ -243,7 +243,7 @@ All sessions, notes and communications organized per patient. If someone returns
 
 Real therapeutic continuity.
 
-[Get my evenings back →](https://tally.so/r/aQEp0v)hello@aponia.ro · we reply in 24h
+[Get my evenings back →](https://app.aponia.ro/register)hello@aponia.ro · we reply in 24h
 
 The transformation
 
@@ -275,7 +275,7 @@ With APONIA.ro, the patient books themselves through a link in under 90 seconds,
 - [x]  Weekend is yours. No negotiation.
 - [x]  The evening is yours. Or your family's. Or yours.
 
-[Get my evenings back →](https://tally.so/r/aQEp0v)Limited spots · free for an indefinite period
+[Get my evenings back →](https://app.aponia.ro/register)Limited spots · free for an indefinite period
 
 Features
 
@@ -408,7 +408,7 @@ per month · billed monthly · cancel anytime
 - ✓ Data stored in EU · GDPR compliant
 - ✓ Direct support · we reply in 24h
 
-[Get my evenings back →](https://tally.so/r/aQEp0v)
+[Get my evenings back →](https://app.aponia.ro/register)
 
 Beta therapists enter free, for an indefinite period. No card. No commitment. No surprises.
 
@@ -464,7 +464,7 @@ Both. APONIA.ro is a scheduling and practice management platform for any special
 
 APONIA.ro is not a marketplace and does not live off data: revenue comes from your 73 RON monthly subscription, not from your patients. Data is stored AES-256 encrypted on servers in Frankfurt, Germany, under GDPR. Your patients are not visible to other therapists, not recommended, not receiving ads. No data is shared with third parties. The relationship with the patient remains yours; APONIA.ro is only the scheduling infrastructure.
 
-[Get my evenings back →](https://tally.so/r/aQEp0v)Or write to us at hello@aponia.ro with any other question
+[Get my evenings back →](https://app.aponia.ro/register)Or write to us at hello@aponia.ro with any other question
 
 From the blog
 
@@ -506,7 +506,7 @@ for yourself?
 
 Fill in the form. We set up your account within 24 hours, free. No 45-minute demos, no pitch.
 
-[Get my evenings back →](https://tally.so/r/aQEp0v)
+[Get my evenings back →](https://app.aponia.ro/register)
 
 No card · no commitment · limited spots available
 

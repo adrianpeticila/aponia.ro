@@ -33,7 +33,7 @@ what you do
 
 Free beta. No card, no commissions. Built for a practice, not for sales calls.
 
-- [Get early access](https://tally.so/r/aQEp0v)
+- [Get early access](https://app.aponia.ro/register)
 - [See how it works](https://aponia.ro/en/)
 
 ## Frequently asked questions

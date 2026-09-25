@@ -34,7 +34,7 @@ din ședințe care nu se mai programează
 
 Pacientul tău nu instalează nimic. Tu trimiți un link, el rezervă direct, tu primești notificare. Fără mesaje dus-întors, fără „am uitat". 73 RON/lună, iar acum intri gratuit în beta, fără card.
 
-[Vreau să opresc pierderile →](https://tally.so/r/aQEp0v)
+[Vreau să opresc pierderile →](https://app.aponia.ro/register)
 
 Preferi întâi o analiză pe cifra ta? [Trimite-ne rezultatul pe email](#) și primești un singur răspuns cu 3 pași concreți. Fără newsletter, fără follow-up automat.
 

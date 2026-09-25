@@ -33,7 +33,7 @@ from therapy
 
 Free beta. No card. Your clients no longer need to wait for your reply to reschedule.
 
-- [Get early access](https://tally.so/r/aQEp0v)
+- [Get early access](https://app.aponia.ro/register)
 - [See how it works](https://aponia.ro/en/)
 
 ## Frequently asked questions

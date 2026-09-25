@@ -2,7 +2,7 @@
 
 Centralise scheduling, session notes, patient profiles, and payment tracking. Stop losing 6-8 hours a week to admin that doesn't need you.
 
-[Get early access →](https://tally.so/r/aQEp0v)
+[Get early access →](https://app.aponia.ro/register)
 
 6-8h
 
@@ -101,7 +101,7 @@ You can export all your data at any time in CSV format. After cancellation, you 
 
 Try APONIA.ro. 73 RON/month. Cancel anytime.
 
-[Get early access →](https://tally.so/r/aQEp0v)
+[Get early access →](https://app.aponia.ro/register)
 
 ---
 

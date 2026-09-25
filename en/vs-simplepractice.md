@@ -35,7 +35,7 @@ not for California
 
 Free beta. No card. Native GDPR, EU data, accessible pricing.
 
-- [Get early access](https://tally.so/r/aQEp0v)
+- [Get early access](https://app.aponia.ro/register)
 - [See how it works](https://aponia.ro/en/)
 
 ## Frequently asked questions

@@ -78,7 +78,7 @@ At roughly 2-3 sessions per month with established patients, the commission alre
 
 Booking, confirmations, notes, patient profiles. No commissions.
 
-[Get early access →](https://tally.so/r/aQEp0v)
+[Get early access →](https://app.aponia.ro/register)
 
 ---
 

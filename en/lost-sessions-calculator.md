@@ -34,7 +34,7 @@ from sessions that never get rebooked
 
 Your client installs nothing. You send a link, they book directly, you get notified. No back-and-forth messages, no "I forgot". 73 RON/month, and right now you can join the beta for free, no card required.
 
-[I want to stop the losses →](https://tally.so/r/aQEp0v)
+[I want to stop the losses →](https://app.aponia.ro/register)
 
 Want an analysis of your number first? [Email us your result](#) and you get a single reply with 3 concrete steps. No newsletter, no automated follow-up.
 

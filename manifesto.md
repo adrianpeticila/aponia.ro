@@ -50,7 +50,7 @@ Fără card.
 
 terapeuții din beta intră gratuit, pe perioadă nedeterminată. când ieșim din beta, prețul e 73 ron/lună. nicio altă condiție.
 
-[vreau seara mea înapoi →](https://tally.so/r/aQEp0v)
+[vreau seara mea înapoi →](https://app.aponia.ro/register)
 
 ---
 

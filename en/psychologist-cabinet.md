@@ -2,7 +2,7 @@
 
 The average independent psychologist spends 3-4 hours per week on scheduling, confirmations, and patient tracking. APONIA.ro handles all of it. For 73 RON a month.
 
-[Get early access →](https://tally.so/r/aQEp0v)
+[Get early access →](https://app.aponia.ro/register)
 
 3-4h
 
@@ -89,7 +89,7 @@ Data is stored on servers in Frankfurt, Germany — within EU jurisdiction — w
 
 Set up in 15 minutes. No onboarding call. No IT team needed.
 
-[Get early access →](https://tally.so/r/aQEp0v)
+[Get early access →](https://app.aponia.ro/register)
 
 ---
 

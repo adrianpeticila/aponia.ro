@@ -2,7 +2,7 @@
 
 The average therapist sends 24-36 confirmation messages per week. APONIA.ro makes that zero. Your patients book from your link, get confirmed automatically, and receive reminders before each session.
 
-[Get early access →](https://tally.so/r/aQEp0v)
+[Get early access →](https://app.aponia.ro/register)
 
 24-36
 
@@ -97,7 +97,7 @@ The patient flow is: click your link, pick a slot, enter name and email, done. N
 
 15 minutes of setup. Zero confirmation messages after that.
 
-[Get early access →](https://tally.so/r/aQEp0v)
+[Get early access →](https://app.aponia.ro/register)
 
 ---
 
