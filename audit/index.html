@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Diagnostic Cabinet Psihoterapie · Eficiență & Pierderi Administrative · APONIA.ro</title>
+  <meta name="description" content="Evaluează în 2 minute pierderile de venit și orele consumate cu administrarea cabinetului tău de psihoterapie. Analiză personalizată.">
+  <link rel="canonical" href="https://aponia.ro/audit/">
+  <link rel="alternate" hreflang="ro" href="https://aponia.ro/audit/">
+  <link rel="alternate" hreflang="en" href="https://aponia.ro/en/audit/">
+  <link rel="alternate" hreflang="x-default" href="https://aponia.ro/audit/">
+  <meta property="og:title" content="Diagnostic Cabinet Psihoterapie · APONIA.ro">
+  <meta property="og:description" content="Află cât te costă mesajele de WhatsApp, reprogramările și timpul administrativ din cabinet.">
+  <meta name="theme-color" content="#5b8c6a">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://aponia.ro/#website",
+        "url": "https://aponia.ro/",
+        "name": "APONIA.ro",
+        "inLanguage": "ro",
+        "publisher": { "@id": "https://aponia.ro/#organization" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://aponia.ro/#organization",
+        "name": "APONIA.ro",
+        "url": "https://aponia.ro/",
+        "about": "https://aponia.ro/about/",
+        "logo": "https://aponia.ro/favicon.svg",
+        "sameAs": [
+          "https://www.linkedin.com/company/aponia-ro/",
+          "https://www.facebook.com/people/APONIAro/61590170232523/",
+          "https://alternativeto.net/user/aponia/",
+          "https://www.producthunt.com/products/aponia",
+          "https://aponia.ro/presa/"
+        ],
+        "email": "hello@aponia.ro"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://aponia.ro/audit/#webpage",
+        "url": "https://aponia.ro/audit/",
+        "name": "Diagnostic Cabinet Psihoterapie · Eficiență & Pierderi Administrative · APONIA.ro",
+        "description": "Evaluează în 2 minute pierderile de venit și orele consumate cu administrarea cabinetului tău de psihoterapie.",
+        "inLanguage": "ro",
+        "isPartOf": { "@id": "https://aponia.ro/#website" },
+        "publisher": { "@id": "https://aponia.ro/#organization" },
+        "dateModified": "2026-09-29"
+      }
+    ]
+  }
+  </script>
+  <style>
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/InterTight-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/InterTight-700-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-italic.woff2?v=2') format('woff2');}
+    
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --cream: #f7f5f0; --cream2: #f0ede6; --green: #5b8c6a;
+      --green-dark: #2e5c46; --dark: #1a2e22; --ink: #1a1a1a;
+      --muted: #555555; --border: #e0dbd2; --red: #c0392b;
+    }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+    a { color: inherit; text-decoration: none; }
+    
+    .header { background: #ffffff; border-bottom: 1px solid #e2ded4; width: 100%; position: relative; z-index: 1000; }
+    .header-inner { max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: Georgia, serif; font-size: 22px; font-weight: 700; color: #1a2e22; text-decoration: none; }
+    .logo span { color: #2e5c46; }
+
+    main { flex: 1; max-width: 680px; margin: 0 auto; padding: 3rem 1.5rem 5rem; width: 100%; }
+    
+    /* PROGRESS BAR */
+    .progress-bar-wrap { width: 100%; background: #e2ded4; height: 6px; border-radius: 3px; margin-bottom: 2.5rem; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--green); width: 20%; transition: width 0.3s ease; }
+    
+    /* QUESTION CARDS */
+    .step-card { display: none; background: #ffffff; border: 1px solid var(--border); border-radius: 8px; padding: 2.5rem 2rem; box-shadow: 0 4px 20px rgba(0,0,0,0.04); }
+    .step-card.active { display: block; }
+    
+    .step-kicker { font-family: 'Inter Tight', monospace; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--green); margin-bottom: 0.5rem; }
+    .step-title { font-family: 'Inter Tight', sans-serif; font-size: 1.45rem; font-weight: 800; color: var(--dark); line-height: 1.3; margin-bottom: 1.5rem; }
+    
+    .options-grid { display: flex; flex-direction: column; gap: 0.85rem; margin-bottom: 2rem; }
+    .option-btn { font-family: 'Inter Tight', sans-serif; font-size: 1rem; font-weight: 600; text-align: left; padding: 1rem 1.25rem; border: 1.5px solid var(--border); border-radius: 6px; background: #fff; cursor: pointer; transition: all 0.2s ease; display: flex; align-items: center; justify-content: space-between; }
+    .option-btn:hover { border-color: var(--green); background: #f9fbf9; }
+    .option-btn.selected { border-color: var(--green); background: rgba(91,140,106,0.1); color: var(--green-dark); }
+    
+    .step-actions { display: flex; justify-content: space-between; align-items: center; }
+    .btn-next { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.95rem; background: var(--green); color: #fff; border: none; padding: 0.85rem 1.8rem; border-radius: 4px; cursor: pointer; }
+    .btn-prev { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 0.9rem; color: #777; background: transparent; border: none; cursor: pointer; }
+
+    /* PAYWALL & DIAGNOSTIC RESULT */
+    .result-box { display: none; background: #ffffff; border: 2px solid var(--green); border-radius: 8px; padding: 2.5rem 2rem; text-align: center; box-shadow: 0 6px 24px rgba(0,0,0,0.06); }
+    .result-box.active { display: block; }
+    .loss-highlight { font-family: 'Inter Tight', sans-serif; font-size: 2.5rem; font-weight: 900; color: var(--red); margin: 1rem 0 0.5rem; line-height: 1; }
+    .loss-label { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; color: #666; margin-bottom: 2rem; }
+    
+    .teaser-details { text-align: left; background: var(--cream); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem; margin-bottom: 2rem; }
+    .teaser-item { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.75rem; font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; }
+    .teaser-item:last-child { margin-bottom: 0; }
+    .teaser-blur { filter: blur(4px); user-select: none; }
+    
+    .btn-paywall { display: block; width: 100%; font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.15rem; background: var(--green); color: #fff; padding: 1.1rem; border-radius: 6px; text-decoration: none; margin-bottom: 1rem; transition: background 0.2s; }
+    .btn-paywall:hover { background: var(--green-dark); }
+    .guarantee-note { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; color: #777; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">APONIA<span>.ro</span></a>
+      <div style="display:flex;align-items:center;gap:18px;">
+        <div style="font-size:13px;color:#718096;white-space:nowrap;"><strong style="color:#1a2e22;">RO</strong> | <a href="/en/audit/" style="color:#718096;text-decoration:none;">EN</a></div>
+        <a href="/calculator-programari-pierdute/" style="font-family:'Inter Tight',sans-serif; font-size:14px; font-weight:600; color:#2e5c46;">Calculator Clasic →</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="progress-bar-wrap" id="progress-container">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+
+    <!-- PASUL 1: Volum Sesiuni -->
+    <div class="step-card active" data-step="1">
+      <p class="step-kicker">Pasul 1 din 5 · Dimensiunea practicii</p>
+      <h2 class="step-title">Câte ședințe de psihoterapie susții într-o săptămână obișnuită?</h2>
+      <div class="options-grid">
+        <button class="option-btn" onclick="selectOption(1, 10, 'Sub 15 ședințe')">Sub 15 ședințe pe săptămână <span>→</span></button>
+        <button class="option-btn" onclick="selectOption(1, 20, '15 - 25 ședințe')">15 - 25 ședințe pe săptămână <span>→</span></button>
+        <button class="option-btn" onclick="selectOption(1, 30, 'Peste 25 ședințe')">Peste 25 ședințe pe săptămână <span>→</span></button>
+      </div>
+    </div>
+
+    <!-- PASUL 2: Frecvența Anulărilor -->
+    <div class="step-card" data-step="2">
+      <p class="step-kicker">Pasul 2 din 5 · Scurgeri de program</p>
+      <h2 class="step-title">Câte reprogramări târzii sau ore uitate ai într-o lună?</h2>
+      <div class="options-grid">
+        <button class="option-btn" onclick="selectOption(2, 2, 'Rar (1-2 ședințe)')">1 - 2 ședințe pe lună <span>→</span></button>
+        <button class="option-btn" onclick="selectOption(2, 5, 'Moderat (3-6 ședințe)')">3 - 6 ședințe pe lună <span>→</span></button>
+        <button class="option-btn" onclick="selectOption(2, 10, 'Frecvent (peste 7 ședințe)')">Peste 7 ședințe pe lună <span>→</span></button>
+      </div>
+      <div class="step-actions">
+        <button class="btn-prev" onclick="prevStep(2)">← Înapoi</button>
+      </div>
+    </div>
+
+    <!-- PASUL 3: Canalul de comunicare -->
+    <div class="step-card" data-step="3">
+      <p class="step-kicker">Pasul 3 din 5 · Fricțiune operațională</p>
+      <h2 class="step-title">Cum gestionezi în prezent mesajele de programare?</h2>
+      <div class="options-grid">
+        <button class="option-btn" onclick="selectOption(3, 'whatsapp', 'WhatsApp și SMS personal')">WhatsApp și SMS personal (răspund seara) <span>→</span></button>
+        <button class="option-btn" onclick="selectOption(3, 'calendar', 'Google Calendar manual + mesaje')">Google Calendar manual + mesaje <span>→</span></button>
+        <button class="option-btn" onclick="selectOption(3, 'agenda', 'Agendă clasică pe hârtie')">Agendă clasică pe hârtie <span>→</span></button>
+      </div>
+      <div class="step-actions">
+        <button class="btn-prev" onclick="prevStep(3)">← Înapoi</button>
+      </div>
+    </div>
+
+    <!-- PASUL 4: Tariful mediu -->
+    <div class="step-card" data-step="4">
+      <p class="step-kicker">Pasul 4 din 5 · Unitatea economică</p>
+      <h2 class="step-title">Care este tariful tău mediu pentru o ședință individuală?</h2>
+      <div class="options-grid">
+        <button class="option-btn" onclick="selectOption(4, 200, '200 RON')">200 RON <span>→</span></button>
+        <button class="option-btn" onclick="selectOption(4, 250, '250 RON (Media națională)')">250 RON (Media pieței) <span>→</span></button>
+        <button class="option-btn" onclick="selectOption(4, 300, '300 RON')">300 RON <span>→</span></button>
+        <button class="option-btn" onclick="selectOption(4, 350, 'Peste 350 RON')">Peste 350 RON <span>→</span></button>
+      </div>
+      <div class="step-actions">
+        <button class="btn-prev" onclick="prevStep(4)">← Înapoi</button>
+      </div>
+    </div>
+
+    <!-- PASUL 5: Durerea principală -->
+    <div class="step-card" data-step="5">
+      <p class="step-kicker">Pasul 5 din 5 · Obiectivul tău de tihnă</p>
+      <h2 class="step-title">Ce ai vrea să elimini cel mai mult în următoarele 30 de zile?</h2>
+      <div class="options-grid">
+        <button class="option-btn" onclick="finishAudit('ping-pong')">Mesajele de la pacienți trimise la ore târzii <span>→</span></button>
+        <button class="option-btn" onclick="finishAudit('pierderi')">Banii pierduți din orele anulate în scurt <span>→</span></button>
+        <button class="option-btn" onclick="finishAudit('haos')">Notițele împrăștiate și timpul administrativ <span>→</span></button>
+      </div>
+      <div class="step-actions">
+        <button class="btn-prev" onclick="prevStep(5)">← Înapoi</button>
+      </div>
+    </div>
+
+    <!-- REZULTAT + HARD PAYWALL / CHECKOUT -->
+    <div class="result-box" id="result-box">
+      <p class="step-kicker" style="color:var(--red);">Diagnostic Finalizat</p>
+      <h2 style="font-family:'Inter Tight',sans-serif; font-size:1.8rem; font-weight:800; color:var(--dark);">Scurgerea estimată din cabinetul tău:</h2>
+      <div class="loss-highlight" id="total-loss-display">24.000 RON / an</div>
+      <p class="loss-label">bani pierduți și peste <strong id="hours-lost-display">120 ore</strong> consumate în WhatsApp și sarcini manuale.</p>
+
+      <div class="teaser-details">
+        <div class="teaser-item">
+          <strong style="color:var(--green);">✓</strong>
+          <div><strong>Sursa #1:</strong> Confirmările manuale fără depozit de siguranță sau link automat.</div>
+        </div>
+        <div class="teaser-item">
+          <strong style="color:var(--green);">✓</strong>
+          <div><strong>Raport Personalizat Tihnă & Protocol Anti-No-Show:</strong> <span class="teaser-blur">Ghidul de recuperare a 4 ore/săptămână și template-ul de mesaj contractual pentru WhatsApp.</span></div>
+        </div>
+        <div class="teaser-item">
+          <strong style="color:var(--green);">✓</strong>
+          <div><strong>Pachet Unelte Clinice Aponia:</strong> Jupiter, Mars Yale 2D & Modulul Popas activate instant.</div>
+        </div>
+      </div>
+
+      <a href="https://buy.stripe.com/28E4gsfxKbqK3FD8qCbV600" class="btn-paywall">Deblochează Raportul & Uneltele de Tihnă (29 RON) →</a>
+      <p class="guarantee-note">Plată securizată Stripe · Acces instant · Include pachetul complet de protecție a serilor libere</p>
+    </div>
+  </main>
+
+  <footer class="footer" style="background:#f9f8f5;border-top:1px solid #e2ded4;padding:50px 24px 30px;margin-top:60px;width:100%;box-sizing:border-box;text-align:left!important;">
+    <div style="max-width:1200px;margin:0 auto;text-align:left!important;">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px;margin-bottom:40px;text-align:left!important;">
+        <div style="flex:1 1 240px;min-width:220px;text-align:left!important;">
+          <div style="font-family:Georgia,serif;font-size:20px;font-weight:700;color:#1a2e22;margin-bottom:12px;text-align:left!important;">APONIA<span style="color:#2e5c46;">.ro</span></div>
+          <p style="font-size:13.5px;color:#4a5568;line-height:1.6;margin-bottom:14px;text-align:left!important;">Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.</p>
+          <div style="font-size:13px;font-weight:600;color:#2e5c46;margin-bottom:8px;text-align:left!important;">73 RON/lună (Cabinet) · 29 RON/lună (Unelte)</div>
+          <a href="/daemon/" style="font-size:12.5px;color:#718096;text-decoration:none;text-align:left!important;display:inline-block;">Telemetrie Daemon →</a>
+        </div>
+        <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
+          <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Unelte & Clinic</h4>
+          <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
+            <li style="text-align:left!important;"><a href="/wellbeing/demo-unelte.html" style="color:#4a5568;text-decoration:none;">Spațiul de Tihnă (Demo)</a></li>
+            <li style="text-align:left!important;"><a href="/audit/" style="color:#2e5c46;font-weight:600;text-decoration:none;">Diagnostic Cabinet (Audit)</a></li>
+            <li style="text-align:left!important;"><a href="/intake/" style="color:#4a5568;text-decoration:none;">Flux de Intake</a></li>
+            <li style="text-align:left!important;"><a href="/test-anxietate/" style="color:#4a5568;text-decoration:none;">Test Anxietate (GAD-7)</a></li>
+            <li style="text-align:left!important;"><a href="/calculator-programari-pierdute/" style="color:#4a5568;text-decoration:none;">Calculator Pierderi</a></li>
+            <li style="text-align:left!important;"><a href="/rhea/" style="color:#4a5568;text-decoration:none;">Scor Vizibilitate Rhea</a></li>
+            <li style="text-align:left!important;"><a href="/mcp/" style="color:#4a5568;text-decoration:none;">Protocol MCP Triaj</a></li>
+          </ul>
+        </div>
+        <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
+          <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Comparații</h4>
+          <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
+            <li style="text-align:left!important;"><a href="/vs-whatsapp/" style="color:#4a5568;text-decoration:none;">vs. WhatsApp</a></li>
+            <li style="text-align:left!important;"><a href="/vs-calendly/" style="color:#4a5568;text-decoration:none;">vs. Calendly</a></li>
+            <li style="text-align:left!important;"><a href="/vs-google-forms/" style="color:#4a5568;text-decoration:none;">vs. Google Forms</a></li>
+            <li style="text-align:left!important;"><a href="/vs-simplepractice/" style="color:#4a5568;text-decoration:none;">vs. SimplePractice</a></li>
+            <li style="text-align:left!important;"><a href="/vs-hedepy/" style="color:#4a5568;text-decoration:none;">vs. Hedepy</a></li>
+            <li style="text-align:left!important;"><a href="/vs-google-calendar/" style="color:#4a5568;text-decoration:none;">vs. Google Calendar</a></li>
+            <li style="text-align:left!important;"><a href="/vs-pasul/" style="color:#4a5568;text-decoration:none;">vs. Pasul.ro</a></li>
+          </ul>
+        </div>
+        <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
+          <h4 style="font-size:13px;font-weight:700;color:#1a2e22;margin-bottom:14px;text-transform:uppercase;letter-spacing:0.06em;text-align:left!important;">Resurse & Legal</h4>
+          <ul style="list-style:none;padding:0;margin:0;font-size:13.5px;line-height:2.1;text-align:left!important;">
+            <li style="text-align:left!important;"><a href="/about/" style="color:#4a5568;text-decoration:none;">Despre noi</a></li>
+            <li style="text-align:left!important;"><a href="/manifesto/" style="color:#4a5568;text-decoration:none;">Manifest</a></li>
+            <li style="text-align:left!important;"><a href="/blog/" style="color:#4a5568;text-decoration:none;">Blog & Ghiduri</a></li>
+            <li style="text-align:left!important;"><a href="/confidentialitate/" style="color:#4a5568;text-decoration:none;">Confidențialitate (GDPR)</a></li>
+            <li style="text-align:left!important;"><a href="/legal/termene-conditii.html" style="color:#4a5568;text-decoration:none;">Termeni și Condiții</a></li>
+          </ul>
+        </div>
+      </div>
+      <div style="border-top:1px solid #e2ded4;padding-top:20px;text-align:center;font-size:12.5px;color:#718096;">
+        © 2026 APONIA.ro. Toate drepturile rezervate.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var answers = { sessions: 20, cancellations: 5, tool: 'whatsapp', price: 250, goal: '' };
+
+    function selectOption(step, value, label) {
+      if (step === 1) answers.sessions = value;
+      if (step === 2) answers.cancellations = value;
+      if (step === 3) answers.tool = value;
+      if (step === 4) answers.price = value;
+
+      var current = document.querySelector('.step-card[data-step="' + step + '"]');
+      current.classList.remove('active');
+      var next = document.querySelector('.step-card[data-step="' + (step + 1) + '"]');
+      if (next) {
+        next.classList.add('active');
+        document.getElementById('progress-fill').style.width = ((step + 1) * 20) + '%';
+      }
+    }
+
+    function prevStep(currentStep) {
+      if (document.getElementById('result-box').classList.contains('active')) return;
+      var current = document.querySelector('.step-card[data-step="' + currentStep + '"]');
+      current.classList.remove('active');
+      var prev = document.querySelector('.step-card[data-step="' + (currentStep - 1) + '"]');
+      if (prev) {
+        prev.classList.add('active');
+        document.getElementById('progress-fill').style.width = ((currentStep - 1) * 20) + '%';
+      }
+    }
+
+    function finishAudit(goal) {
+      answers.goal = goal;
+      document.querySelector('.step-card[data-step="5"]').classList.remove('active');
+      document.getElementById('progress-container').style.display = 'none';
+
+      // Calcul pierdere
+      var annualLoss = answers.cancellations * 12 * answers.price;
+      var hoursLoss = Math.round(answers.sessions * 0.4 * 46); // ~24 minute per client mesaje pe an
+
+      document.getElementById('total-loss-display').textContent = new Intl.NumberFormat('ro-RO').format(annualLoss) + ' RON / an';
+      document.getElementById('hours-lost-display').textContent = hoursLoss + ' ore/an';
+
+      var resBox = document.getElementById('result-box');
+      resBox.classList.add('active');
+    }
+  </script>
+</body>
+</html>

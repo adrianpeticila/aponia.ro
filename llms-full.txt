@@ -84,6 +84,9 @@ APONIA
 Despre
 
       
+Diagnostic Cabinet
+
+      
 Test Anxietate
 
       
@@ -1208,10 +1211,7 @@ Timp administrativ economisit per săptămână
         
 
           
-Timp pentru a configura disponibilitatea
-
-          
-
+Timp pentru a configura di
 
 ## https://aponia.ro/abonament.html
 
@@ -1531,6 +1531,441 @@ Termeni și Condiții
 ## https://aponia.ro/anulare.html
 
 
+
+## https://aponia.ro/audit/
+
+Diagnostic Cabinet Psihoterapie · Eficiență & Pierderi Administrative · APONIA.ro
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+    
+
+      
+APONIA
+.ro
+
+      
+
+        
+
+RO
+ | 
+EN
+
+        
+Calculator Clasic →
+
+      
+
+    
+
+  
+
+  
+
+    
+
+      
+
+    
+
+    
+
+    
+
+      
+Pasul 1 din 5 · Dimensiunea practicii
+
+      
+Câte ședințe de psihoterapie susții într-o săptămână obișnuită?
+
+      
+
+        
+Sub 15 ședințe pe săptămână 
+→
+
+        
+15 - 25 ședințe pe săptămână 
+→
+
+        
+Peste 25 ședințe pe săptămână 
+→
+
+      
+
+    
+
+    
+
+    
+
+      
+Pasul 2 din 5 · Scurgeri de program
+
+      
+Câte reprogramări târzii sau ore uitate ai într-o lună?
+
+      
+
+        
+1 - 2 ședințe pe lună 
+→
+
+        
+3 - 6 ședințe pe lună 
+→
+
+        
+Peste 7 ședințe pe lună 
+→
+
+      
+
+      
+
+        
+← Înapoi
+
+      
+
+    
+
+    
+
+    
+
+      
+Pasul 3 din 5 · Fricțiune operațională
+
+      
+Cum gestionezi în prezent mesajele de programare?
+
+      
+
+        
+WhatsApp și SMS personal (răspund seara) 
+→
+
+        
+Google Calendar manual + mesaje 
+→
+
+        
+Agendă clasică pe hârtie 
+→
+
+      
+
+      
+
+        
+← Înapoi
+
+      
+
+    
+
+    
+
+    
+
+      
+Pasul 4 din 5 · Unitatea economică
+
+      
+Care este tariful tău mediu pentru o ședință individuală?
+
+      
+
+        
+200 RON 
+→
+
+        
+250 RON (Media pieței) 
+→
+
+        
+300 RON 
+→
+
+        
+Peste 350 RON 
+→
+
+      
+
+      
+
+        
+← Înapoi
+
+      
+
+    
+
+    
+
+    
+
+      
+Pasul 5 din 5 · Obiectivul tău de tihnă
+
+      
+Ce ai vrea să elimini cel mai mult în următoarele 30 de zile?
+
+      
+
+        
+Mesajele de la pacienți trimise la ore târzii 
+→
+
+        
+Banii pierduți din orele anulate în scurt 
+→
+
+        
+Notițele împrăștiate și timpul administrativ 
+→
+
+      
+
+      
+
+        
+← Înapoi
+
+      
+
+    
+
+    
+
+    
+
+      
+Diagnostic Finalizat
+
+      
+Scurgerea estimată din cabinetul tău:
+
+      
+24.000 RON / an
+
+      
+bani pierduți și peste 
+120 ore
+ consumate în WhatsApp și sarcini manuale.
+
+      
+
+        
+
+          
+✓
+
+          
+
+Sursa #1:
+ Confirmările manuale fără depozit de siguranță sau link automat.
+
+        
+
+        
+
+          
+✓
+
+          
+
+Raport Personalizat Tihnă & Protocol Anti-No-Show:
+ 
+Ghidul de recuperare a 4 ore/săptămână și template-ul de mesaj contractual pentru WhatsApp.
+
+        
+
+        
+
+          
+✓
+
+          
+
+Pachet Unelte Clinice Aponia:
+ Jupiter, Mars Yale 2D & Modulul Popas activate instant.
+
+        
+
+      
+
+      
+Deblochează Raportul & Uneltele de Tihnă (29 RON) →
+
+      
+Plată securizată Stripe · Acces instant · Include pachetul complet de protecție a serilor libere
+
+    
+
+  
+
+  
+
+    
+
+      
+
+        
+
+          
+APONIA
+.ro
+
+          
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+          
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+          
+Telemetrie Daemon →
+
+        
+
+        
+
+          
+Unelte & Clinic
+
+          
+
+            
+
+Spațiul de Tihnă (Demo)
+
+            
+
+Diagnostic Cabinet (Audit)
+
+            
+
+Flux de Intake
+
+            
+
+Test Anxietate (GAD-7)
+
+            
+
+Calculator Pierderi
+
+            
+
+Scor Vizibilitate Rhea
+
+            
+
+Protocol MCP Triaj
+
+          
+
+        
+
+        
+
+          
+Comparații
+
+          
+
+            
+
+vs. WhatsApp
+
+            
+
+vs. Calendly
+
+            
+
+vs. Google Forms
+
+            
+
+vs. SimplePractice
+
+            
+
+vs. Hedepy
+
+            
+
+vs. Google Calendar
+
+            
+
+vs. Pasul.ro
+
+          
+
+        
+
+        
+
+          
+Resurse & Legal
+
+          
+
+            
+
+Despre noi
+
+            
+
+Manifest
+
+            
+
+Blog & Ghiduri
+
+            
+
+Confidențialitate (GDPR)
+
+            
+
+Termeni și Condiții
+
+          
+
+        
+
+      
+
+      
+
+        © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/blog/
 
@@ -30888,6 +31323,9 @@ APONIA
 About
 
       
+Practice Diagnostic
+
+      
 Intake
 
       
@@ -32036,7 +32474,7 @@ We answer directly.
 
 "My patients won't use a new app."
 
-Your patients install nothing and create no account. They receive a link, open it in the browser, pick a slot. Under 90 seconds. In the beta with 14 psychotherapists, not a single patient refused to book onli
+Your patients install nothing and create no account. They receive a link, open it in the browser, pick a slot. Under 90 seconds. In the beta with 14 psychotherapists, not a single 
 
 ## https://aponia.ro/en/about/
 
@@ -33115,6 +33553,437 @@ Terms of Service
     
 
       © 2026 APONIA.ro. All rights reserved.
+
+## https://aponia.ro/en/audit/
+
+Practice Diagnostic for Psychotherapists · Admin Waste & Lost Hours · APONIA.ro
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+    
+
+      
+APONIA
+.ro
+
+      
+
+        
+
+RO
+ | 
+EN
+
+        
+Calculator →
+
+      
+
+    
+
+  
+
+  
+
+    
+
+      
+
+    
+
+    
+
+    
+
+      
+Step 1 of 5 · Practice Volume
+
+      
+How many therapy sessions do you typically conduct per week?
+
+      
+
+        
+Under 15 sessions per week 
+→
+
+        
+15 - 25 sessions per week 
+→
+
+        
+Over 25 sessions per week 
+→
+
+      
+
+    
+
+    
+
+    
+
+      
+Step 2 of 5 · Schedule Leaks
+
+      
+How many late cancellations or forgotten slots occur each month?
+
+      
+
+        
+1 - 2 sessions per month 
+→
+
+        
+3 - 6 sessions per month 
+→
+
+        
+7+ sessions per month 
+→
+
+      
+
+      
+
+        
+← Back
+
+      
+
+    
+
+    
+
+    
+
+      
+Step 3 of 5 · Operational Friction
+
+      
+How do you currently handle booking messages from patients?
+
+      
+
+        
+WhatsApp and personal SMS (replying in evenings) 
+→
+
+        
+Manual Google Calendar + text back-and-forth 
+→
+
+        
+Paper diary or Notes app 
+→
+
+      
+
+      
+
+        
+← Back
+
+      
+
+    
+
+    
+
+    
+
+      
+Step 4 of 5 · Economic Unit
+
+      
+What is your average fee for an individual therapy session?
+
+      
+
+        
+€50 / ~$55 (or ~250 RON) 
+→
+
+        
+€70 / ~$75 (or ~350 RON) 
+→
+
+        
+€100 / ~$110+ 
+→
+
+      
+
+      
+
+        
+← Back
+
+      
+
+    
+
+    
+
+    
+
+      
+Step 5 of 5 · Your Respite Goal
+
+      
+What would you eliminate first in the next 30 days?
+
+      
+
+        
+Late-night patient texts creeping into my evenings 
+→
+
+        
+Lost income from unconfirmed or late cancellations 
+→
+
+        
+Scattered clinical notes and administrative fatigue 
+→
+
+      
+
+      
+
+        
+← Back
+
+      
+
+    
+
+    
+
+    
+
+      
+Diagnostic Completed
+
+      
+Estimated leakage in your practice:
+
+      
+€4,200 / year
+
+      
+in lost income and over 
+120 hours
+ consumed by manual admin tasks.
+
+      
+
+        
+
+          
+✓
+
+          
+
+Primary Leak:
+ Manual confirmation ping-pong without automated booking limits.
+
+        
+
+        
+
+          
+✓
+
+          
+
+Personalized Respite Report & Anti-No-Show Playbook:
+ 
+Step-by-step roadmap to reclaim 4 evenings per week with proven WhatsApp boundary templates.
+
+        
+
+        
+
+          
+✓
+
+          
+
+Clinical Respite Toolkit:
+ Immediate access to somatic grounding modules (Jupiter, Mars, Popas).
+
+        
+
+      
+
+      
+Unlock Full Diagnostic & Respite Toolkit (29 RON / ~€6) →
+
+      
+Secure Stripe Checkout · Instant Access · Includes complete practice boundary playbook
+
+    
+
+  
+
+  
+
+    
+
+      
+
+        
+
+          
+APONIA
+.ro
+
+          
+Online scheduling and somatic respite tools for independent psychotherapists.
+
+          
+73 RON/mo (Practice) · 29 RON/mo (Tools)
+
+          
+Daemon Telemetry →
+
+        
+
+        
+
+          
+Tools & Clinical
+
+          
+
+            
+
+Respite Space (Demo)
+
+            
+
+Practice Diagnostic (Audit)
+
+            
+
+Intake Flow
+
+            
+
+Anxiety Test (GAD-7)
+
+            
+
+Lost Sessions Calculator
+
+            
+
+Rhea Visibility Score
+
+            
+
+MCP Protocol
+
+          
+
+        
+
+        
+
+          
+Comparisons
+
+          
+
+            
+
+vs. WhatsApp
+
+            
+
+vs. Calendly
+
+            
+
+vs. Google Forms
+
+            
+
+vs. SimplePractice
+
+            
+
+vs. Hedepy
+
+            
+
+vs. Google Calendar
+
+            
+
+vs. Pasul.ro
+
+          
+
+        
+
+        
+
+          
+Resources & Legal
+
+          
+
+            
+
+About us
+
+            
+
+Manifesto
+
+            
+
+Blog & Articles
+
+            
+
+Privacy & Security
+
+            
+
+Terms of Service
+
+          
+
+        
+
+      
+
+      
+
+        © 2026 APONIA.ro. All rights reserved.
 
 ## https://aponia.ro/en/blog/
 
