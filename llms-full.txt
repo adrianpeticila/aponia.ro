@@ -1820,10 +1820,43 @@ Pachet Unelte Clinice Aponia:
       
 
       
-Deblochează Raportul & Uneltele de Tihnă (29 RON) →
+Activează Uneltele de Tihnă & Raportul (29 RON/lună) →
 
       
-Plată securizată Stripe · Acces instant · Include pachetul complet de protecție a serilor libere
+Abonament lunar recurent · Plată securizată Stripe · Acces instant la unelte și raport · Anulezi oricând
+
+      
+
+        
+După plată, activează accesul în 30 de secunde:
+
+        
+
+1
+ Deschide 
+app.aponia.ro/register
+ și creează-ți contul de terapeut.
+
+        
+
+2
+ Folosește 
+exact aceeași adresă de email
+ folosită la plata Stripe.
+
+        
+
+3
+ Abonamentul se atașează automat contului la prima autentificare. Dacă ai plătit înainte să-ți faci cont, plata e păstrată și se activează la register.
+
+        
+
+4
+ Preferi să vezi mai întâi panoul cabinetului? 
+Creează contul și intră în aplicație
+, apoi revino aici pentru plată.
+
+      
 
     
 
@@ -33838,10 +33871,43 @@ Clinical Respite Toolkit:
       
 
       
-Unlock Full Diagnostic & Respite Toolkit (29 RON / ~€6) →
+Unlock Respite Tools & Full Diagnostic (29 RON / ~€6 / mo) →
 
       
-Secure Stripe Checkout · Instant Access · Includes complete practice boundary playbook
+Monthly recurring subscription · Secure Stripe Checkout · Instant access to tools and full report · Cancel anytime
+
+      
+
+        
+After paying, activate your access in 30 seconds:
+
+        
+
+1
+ Open 
+app.aponia.ro/register
+ and create your therapist account.
+
+        
+
+2
+ Use 
+the exact same email address
+ you used for the Stripe payment.
+
+        
+
+3
+ The subscription attaches to your account on first sign in. If you paid before creating an account, the purchase is kept and activates at register.
+
+        
+
+4
+ Want to see the practice dashboard first? 
+Create an account and sign in
+, then come back here to pay.
+
+      
 
     
 
