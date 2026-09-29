@@ -111,6 +111,12 @@
     .btn-paywall { display: block; width: 100%; font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.15rem; background: var(--green); color: #fff; padding: 1.1rem; border-radius: 6px; text-decoration: none; margin-bottom: 1rem; transition: background 0.2s; }
     .btn-paywall:hover { background: var(--green-dark); }
     .guarantee-note { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; color: #777; }
+    .postpay-note { margin-top: 1.75rem; padding: 1.5rem; background: #f9f8f5; border: 1px solid var(--border); border-radius: 8px; text-align: left; }
+    .postpay-title { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; font-weight: 700; color: var(--dark); margin-bottom: 0.9rem; }
+    .postpay-step { display: flex; gap: 0.7rem; align-items: flex-start; font-size: 0.88rem; line-height: 1.55; color: #4a5568; margin-bottom: 0.6rem; }
+    .postpay-step:last-child { margin-bottom: 0; }
+    .postpay-num { flex: 0 0 20px; height: 20px; border-radius: 50%; background: var(--green); color: #fff; font-size: 0.7rem; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; margin-top: 1px; }
+    .postpay-link { color: var(--green); font-weight: 600; text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -220,6 +226,14 @@
 
       <a href="https://buy.stripe.com/28E4gsfxKbqK3FD8qCbV600" class="btn-paywall">Unlock Respite Tools & Full Diagnostic (29 RON / ~€6 / mo) →</a>
       <p class="guarantee-note">Monthly recurring subscription · Secure Stripe Checkout · Instant access to tools and full report · Cancel anytime</p>
+
+      <div class="postpay-note">
+        <p class="postpay-title">After paying, activate your access in 30 seconds:</p>
+        <p class="postpay-step"><span class="postpay-num">1</span> Open <a href="https://app.aponia.ro/register" class="postpay-link">app.aponia.ro/register</a> and create your therapist account.</p>
+        <p class="postpay-step"><span class="postpay-num">2</span> Use <strong>the exact same email address</strong> you used for the Stripe payment.</p>
+        <p class="postpay-step"><span class="postpay-num">3</span> The subscription attaches to your account on first sign in. If you paid before creating an account, the purchase is kept and activates at register.</p>
+        <p class="postpay-step"><span class="postpay-num">4</span> Want to see the practice dashboard first? <a href="https://app.aponia.ro/register" class="postpay-link">Create an account and sign in</a>, then come back here to pay.</p>
+      </div>
     </div>
   </main>
 
