@@ -89,6 +89,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="/css/header.css">
   <style>
     @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
     @font-face{font-family:'Inter Tight';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-italic.woff2?v=2') format('woff2');}
@@ -194,23 +195,49 @@
   </style>
 </head>
 <body>
-<header class="header" style="background:#ffffff;border-bottom:1px solid #e2ded4;width:100%;position:relative;z-index:1000;box-sizing:border-box;">
-  <div style="max-width:1200px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;box-sizing:border-box;">
-    <a href="/" style="font-family:Georgia,serif;font-size:22px;font-weight:700;color:#1a2e22;text-decoration:none;display:flex;align-items:center;gap:6px;">APONIA<span style="color:#2e5c46;">.ro</span></a>
-    <nav style="display:flex;align-items:center;gap:20px;margin:0 16px;">
-      <a href="/about/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Despre</a>
-      <a href="/test-anxietate/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Test Anxietate</a>
-      <a href="/wellbeing/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Wellbeing</a>
-      <a href="/calculator-programari-pierdute/" style="color:#2d3748;text-decoration:none;font-size:14px;font-weight:500;">Calculator</a>
-      <a href="/wellbeing/demo-unelte.html" style="color:#2e5c46;text-decoration:none;font-size:14px;font-weight:600;">Spațiul de Tihnă</a>
+<header class="aponia-header">
+  <div class="aponia-header-inner">
+    <a href="/" class="aponia-logo">APONIA<span>.ro</span></a>
+    
+    <nav class="aponia-desktop-nav" aria-label="Navigație principală">
+      <a href="/about/">Despre</a>
+      <a href="/audit/">Diagnostic Cabinet</a>
+      <a href="/test-anxietate/">Test Anxietate</a>
+      <a href="/wellbeing/">Wellbeing</a>
+      <a href="/calculator-programari-pierdute/" class="highlight">Calculator</a>
+      <a href="/wellbeing/demo-unelte.html" class="highlight">Spațiul de Tihnă</a>
     </nav>
-    <div style="display:flex;align-items:center;gap:18px;">
-      <div style="font-size:13px;color:#718096;white-space:nowrap;"><strong style="color:#1a2e22;">RO</strong> | <a href="/en/" style="color:#718096;text-decoration:none;">EN</a></div>
-      <a href="https://app.aponia.ro/register" style="background:#2e5c46;color:#ffffff;padding:9px 16px;border-radius:6px;text-decoration:none;font-size:13.5px;font-weight:600;white-space:nowrap;display:inline-block;">Vreau seara mea înapoi →</a>
+    
+    <div class="aponia-header-actions">
+      <div class="aponia-lang-switch"><strong>RO</strong> | <a href="/en/lost-sessions-calculator/">EN</a></div>
+      <a href="https://app.aponia.ro/register" class="aponia-header-cta">Vreau seara mea înapoi →</a>
+    </div>
+
+    <div class="aponia-mobile-controls">
+      <div class="aponia-lang-switch"><strong>RO</strong> | <a href="/en/lost-sessions-calculator/">EN</a></div>
+      <button class="aponia-hamburger-btn" type="button" aria-label="Meniu navigație" aria-expanded="false" aria-controls="aponia-mobile-menu-calc">
+        <span class="aponia-hamburger-icon">
+          <span class="aponia-hamburger-line"></span>
+          <span class="aponia-hamburger-line"></span>
+          <span class="aponia-hamburger-line"></span>
+        </span>
+      </button>
     </div>
   </div>
+
+  <div id="aponia-mobile-menu-calc" class="aponia-mobile-drawer" aria-label="Meniu mobil">
+    <ul class="aponia-mobile-menu-list">
+      <li><a href="/about/" class="aponia-mobile-menu-link">Despre</a></li>
+      <li><a href="/audit/" class="aponia-mobile-menu-link">Diagnostic Cabinet</a></li>
+      <li><a href="/test-anxietate/" class="aponia-mobile-menu-link">Test Anxietate</a></li>
+      <li><a href="/wellbeing/" class="aponia-mobile-menu-link">Wellbeing</a></li>
+      <li><a href="/calculator-programari-pierdute/" class="aponia-mobile-menu-link highlight">Calculator Programări</a></li>
+      <li><a href="/wellbeing/demo-unelte.html" class="aponia-mobile-menu-link highlight">Spațiul de Tihnă</a></li>
+    </ul>
+    <a href="https://app.aponia.ro/register" class="aponia-mobile-drawer-cta">Vreau seara mea înapoi →</a>
+  </div>
 </header>
-  <a href="#main" class="skip-link">Sari la conținut</a>
+<a href="#main" class="skip-link">Sari la conținut</a>
 
   
 
@@ -383,5 +410,6 @@
     </div>
   </div>
 </footer>
+<script src="/js/nav.js"></script>
 </body>
 </html>
