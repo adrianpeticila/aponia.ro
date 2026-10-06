@@ -68,6 +68,8 @@ Programări online pentru psihoterapeuți | APONIA.ro
 
   
 
+  
+
 ">
   
   
@@ -78,6 +80,7 @@ Programări online pentru psihoterapeuți | APONIA.ro
 APONIA
 .ro
 
+    
     
 
       
@@ -101,6 +104,7 @@ Spațiul de Tihnă
     
 
     
+    
 
       
 
@@ -112,6 +116,65 @@ EN
 Vreau seara mea înapoi →
 
     
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+
+        
+
+          
+
+          
+
+          
+
+        
+
+      
+
+    
+
+  
+
+  
+
+    
+
+      
+
+Despre
+
+      
+
+Diagnostic Cabinet
+
+      
+
+Test Anxietate
+
+      
+
+Wellbeing
+
+      
+
+Calculator Programări
+
+      
+
+Spațiul de Tihnă
+
+    
+
+    
+Vreau seara mea înapoi →
 
   
 
@@ -1178,40 +1241,7 @@ Valoare
 
       
 
-        
-
-          
-Psihoterapeuți consultați la construirea platformei
-
-          
-14
-
-        
-
-        
-
-          
-Terapeuți invitați în beta
-
-          
-517+
-
-        
-
-        
-
-          
-Timp administrativ economisit per săptămână
-
-          
-~3 ore
-
-        
-
-        
-
-          
-Timp pentru a configura di
+     
 
 ## https://aponia.ro/abonament.html
 
@@ -1254,14 +1284,20 @@ Despre APONIA.ro, platformă pentru psihoterapeuți din România
 
   
 
+  
+
     
 APONIA
 .ro
 
     
+    
 
       
 Despre
+
+      
+Diagnostic Cabinet
 
       
 Test Anxietate
@@ -1278,6 +1314,7 @@ Spațiul de Tihnă
     
 
     
+    
 
       
 
@@ -1289,6 +1326,65 @@ EN
 Vreau seara mea înapoi →
 
     
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+
+        
+
+          
+
+          
+
+          
+
+        
+
+      
+
+    
+
+  
+
+  
+
+    
+
+      
+
+Despre
+
+      
+
+Diagnostic Cabinet
+
+      
+
+Test Anxietate
+
+      
+
+Wellbeing
+
+      
+
+Calculator Programări
+
+      
+
+Spațiul de Tihnă
+
+    
+
+    
+Vreau seara mea înapoi →
 
   
 
@@ -4164,14 +4260,20 @@ Calculator programări pierdute · Cât te costă anual? · APONIA.ro
 
   
 
+  
+
     
 APONIA
 .ro
 
     
+    
 
       
 Despre
+
+      
+Diagnostic Cabinet
 
       
 Test Anxietate
@@ -4188,6 +4290,7 @@ Spațiul de Tihnă
     
 
     
+    
 
       
 
@@ -4200,9 +4303,67 @@ Vreau seara mea înapoi →
 
     
 
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+
+        
+
+          
+
+          
+
+          
+
+        
+
+      
+
+    
+
   
 
   
+
+    
+
+      
+
+Despre
+
+      
+
+Diagnostic Cabinet
+
+      
+
+Test Anxietate
+
+      
+
+Wellbeing
+
+      
+
+Calculator Programări
+
+      
+
+Spațiul de Tihnă
+
+    
+
+    
+Vreau seara mea înapoi →
+
+  
+
 Sari la conținut
 
   
@@ -31342,6 +31503,8 @@ Online scheduling for psychotherapists | APONIA.ro
 
 ">
   
+
+  
   
 
   
@@ -31350,6 +31513,7 @@ Online scheduling for psychotherapists | APONIA.ro
 APONIA
 .ro
 
+    
     
 
       
@@ -31376,6 +31540,7 @@ Respite Space
     
 
     
+    
 
       
 
@@ -31387,6 +31552,69 @@ EN
 Get my evenings back →
 
     
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+
+        
+
+          
+
+          
+
+          
+
+        
+
+      
+
+    
+
+  
+
+  
+
+    
+
+      
+
+About
+
+      
+
+Practice Diagnostic
+
+      
+
+Intake
+
+      
+
+Anxiety Test
+
+      
+
+Wellbeing
+
+      
+
+Calculator
+
+      
+
+Respite Space
+
+    
+
+    
+Get my evenings back →
 
   
 
@@ -32494,20 +32722,7 @@ Price after free period
 
     
 
-      
-Real questions
-
-      
-You are thinking about this.
-We answer directly.
-
-      
-
-        
-
-"My patients won't use a new app."
-
-Your patients install nothing and create no account. They receive a link, open it in the browser, pick a slot. Under 90 seconds. In the beta with 14 psychotherapists, not a single 
+    
 
 ## https://aponia.ro/en/about/
 
@@ -46504,14 +46719,20 @@ Test anxietate online gratuit (GAD-7) · 2 minute, anonim · APONIA.ro
 
   
 
+  
+
     
 APONIA
 .ro
 
     
+    
 
       
 Despre
+
+      
+Diagnostic Cabinet
 
       
 Test Anxietate
@@ -46528,6 +46749,7 @@ Spațiul de Tihnă
     
 
     
+    
 
       
 
@@ -46540,9 +46762,67 @@ Vreau seara mea înapoi →
 
     
 
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+
+        
+
+          
+
+          
+
+          
+
+        
+
+      
+
+    
+
   
 
   
+
+    
+
+      
+
+Despre
+
+      
+
+Diagnostic Cabinet
+
+      
+
+Test Anxietate
+
+      
+
+Wellbeing
+
+      
+
+Calculator Programări
+
+      
+
+Spațiul de Tihnă
+
+    
+
+    
+Vreau seara mea înapoi →
+
+  
+
 Sari la conținut
 
   
@@ -51014,14 +51294,20 @@ Wellbeing biofil și reglare emoțională · APONIA.ro
 
   
 
+  
+
     
 APONIA
 .ro
 
     
+    
 
       
 Despre
+
+      
+Diagnostic Cabinet
 
       
 Test Anxietate
@@ -51038,6 +51324,7 @@ Spațiul de Tihnă
     
 
     
+    
 
       
 
@@ -51050,9 +51337,67 @@ Vreau seara mea înapoi →
 
     
 
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+
+        
+
+          
+
+          
+
+          
+
+        
+
+      
+
+    
+
   
 
   
+
+    
+
+      
+
+Despre
+
+      
+
+Diagnostic Cabinet
+
+      
+
+Test Anxietate
+
+      
+
+Wellbeing
+
+      
+
+Calculator Programări
+
+      
+
+Spațiul de Tihnă
+
+    
+
+    
+Vreau seara mea înapoi →
+
+  
+
 Sari la conținut
 
   
