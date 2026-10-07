@@ -12,7 +12,7 @@ APONIA.ro introduces a biophilic digital sanctuary designed specifically for ind
 3. **Rădăcină (Root)**: Sensory 5-4-3-2-1 somatic anchor for rapid clinical grounding.
 4. **Freamăt (Rustle)**: Ambient natural acoustic soundscapes replacing jarring notification alarms.
 5. **Tihnă (Tranquility)**: Automated booking buffers and evening protection, eliminating weekend WhatsApp logistics.
-6. **Adăpost (Shelter)**: Zero-knowledge AES-256 client clinical note encryption under GDPR.
+6. **Adăpost (Shelter)**: AES-256 clinical note encryption with strict role isolation under GDPR.
 7. **Florilegiu (Somatic Anchors)**: Curated pre-session mindfulness cards to restore presence before opening the therapy room.
 
 ## Scientific Grounding

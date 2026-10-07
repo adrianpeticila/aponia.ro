@@ -11,7 +11,7 @@ Ce lipsește din Google Forms pentru cabinetele de psihoterapie
 | Funcționalitate | APONIA.ro | Google Forms |
 |---|---|---|
 | Conformitate Art. 9 GDPR (date medicale/psihologice) | ✓ Găzduire UE, DPA dedicat sănătății | ✗ Consimțământ generic, date în cloud public |
-| Criptare la nivel de câmp (Zero-Knowledge) | ✓ Doar clinicianul deține cheia | ✗ Text salvat în Google Sheets/Drive |
+| Criptare la nivel de câmp (AES-256) | ✓ Acces restricționat exclusiv clinicianului | ✗ Text salvat în Google Sheets/Drive |
 | Triaj clinic adaptiv și empatic | ✓ Flux ghidat cu scală vizuală | ✗ Câmpuri rigide de formular generic |
 | Sinteză automată a fișei de intake (anamneză) | ✓ Format structurat pentru clinician | ✗ Rânduri brute într-un tabel Excel/Sheets |
 | Detecție automată indicatori de criză/urgență | ✓ Resurse telefonice de urgență afișate instant | ✗ Formularul trimite date fără avertizări |
@@ -30,7 +30,7 @@ Mai grav este aspectul securității. Răspunsurile trimise într-un Google Form
 Un spațiu sigur de la primul contact
 ------------------------------------
 
-Construit exclusiv pentru psihoterapie și consiliere psihologică. Fără riscuri GDPR, fără tabele împrăștiate.
+Construit exclusiv pentru psihoterapie și consiliere psihologică. Flux securizat pentru date clinice, fără tabele împrăștiate.
 
 - [Vreau acces anticipat](https://aponia.ro/#early-access)
 - [Vezi cum funcționează](https://aponia.ro/)

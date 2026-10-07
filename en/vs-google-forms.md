@@ -11,7 +11,7 @@ What Google Forms lacks for psychotherapy practices
 | Feature | APONIA.ro | Google Forms |
 |---|---|---|
 | GDPR Article 9 compliance (sensitive health data) | Native (EU data centers, compliant DPA) | Legal liability (generic public cloud) |
-| Client record encryption per practice | Zero-Knowledge | Plaintext in Google Sheets |
+| Client record encryption per practice | AES-256 (Role-isolated) | Plaintext in Google Sheets |
 | Automated intake summary sheet | Structured clinical format | Raw unorganized table rows |
 | Crisis detection and emergency safety protocol | Instant emergency hotline display | None |
 | Frictionless client onboarding | Direct access without account | Often requires Google account login |

@@ -1,6 +1,6 @@
 # Test anxietate online gratuit (GAD-7) · 2 minute, anonim · APONIA.ro
 
-2 minute. Gratuit. Complet anonim. Nu ești singurul care se întreabă dacă ceea ce simte e „doar stres" sau ceva mai mult. Testul nu cere nume, nu cere email, nu trimite nimic nicăieri — răspunsurile tale rămân în browser-ul tău.
+2 minute. Gratuit. Complet anonim. Nu ești singurul care se întreabă dacă ceea ce simte e „doar stres" sau ceva mai mult. Testul nu cere nume, nu cere email, nu trimite nimic nicăieri - răspunsurile tale rămân în browser-ul tău.
 
 Bazat pe GAD-7, chestionarul folosit de terapeuți și cercetători la nivel internațional pentru screening de anxietate.
 
@@ -52,7 +52,7 @@ Ai simțit frică, de parcă ceva rău urmează să se întâmple?
 
 Deloc Câteva zile Mai mult de jumătate din zile Aproape în fiecare zi
 
-Cele 3 întrebări de mai jos sunt informale, doar pentru context — nu intră în scor.
+Cele 3 întrebări de mai jos sunt informale, doar pentru context - nu intră în scor.
 
 Context (nescorat)
 
@@ -90,7 +90,7 @@ Ai primit rezultatul complet, gratuit, fără nimic în schimb. Dacă vrei să m
 
 Trimite-mi ghidul
 
-Mulțumim — verifică-ți emailul.
+Mulțumim - verifică-ți emailul.
 
 Fără spam. Un singur email, cu ghidul.
 

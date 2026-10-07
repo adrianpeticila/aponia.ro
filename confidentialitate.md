@@ -13,8 +13,8 @@ Pilonii arhitecturii de securitate APONIA.ro
 ### 1. Găzduire exclusivă în Uniunea Europeană
 Toate bazele de date și copiile de rezervă sunt stocate pe servere localizate în interiorul Uniunii Europene. Datele pacienților tăi nu tranzitează și nu sunt stocate în jurisdicții terțe (precum SUA), eliminând riscurile asociate transferurilor internaționale de date.
 
-### 2. Criptare per cabinet (Zero-Knowledge)
-Notițele de sesiune, evaluările anamnezice și datele de intake sunt criptate la nivel de câmp. Cheia de decriptare aparține exclusiv clinicianului. Niciun angajat, administrator sau proces automatizat APONIA.ro nu poate citi conținutul notițelor tale clinice.
+### 2. Criptare per cabinet (Izolare strictă & AES-256)
+Notițele de sesiune, evaluările anamnezice și datele de intake sunt criptate la nivel de câmp (AES-256). Accesul este restricționat strict pe roluri; personalul tehnic APONIA.ro nu are acces la conținutul clinic în operare normală.
 
 ### 3. Acord de Prelucrare a Datelor (DPA) conform legislației din România
 Fiecare cabinet individual de psihologie sau societate profesională beneficiază de un contract bilateral de prelucrare a datelor (Data Processing Agreement) adaptat specificului Colegiului Psihologilor din România (CPR) și normelor naționale de sănătate.

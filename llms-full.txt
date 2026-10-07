@@ -5349,7 +5349,7 @@ Notițele de sesiune și detaliile de anamneză sunt criptate folosind chei dedi
 3. DPA adaptat Colegiului Psihologilor
 
       
-Punem la dispoziție un Acord de Prelucrare a Datelor (DPA) adaptat practicii psihologice din România, oferind cabinetului tău acoperire juridică completă în fața oricărui control.
+Punem la dispoziție un Acord de Prelucrare a Datelor (DPA) adaptat practicii psihologice din România, sprijinind cabinetul tău în asigurarea conformității riguroase conform normelor GDPR.
 
     
 
@@ -33436,6 +33436,9 @@ Do you feel anxiety is affecting your work or relationships?
 
       
 
+        Your answers are processed locally on this device solely to calculate your GAD-7 score. Data is never stored, sold, or tied to advertising profiles, in full compliance with Article 9(2)(a) GDPR.
+      
+
       
 See my result →
 
@@ -36285,7 +36288,7 @@ Session notes and anamnesis records are encrypted using dedicated per-practice k
 3. Healthcare-adapted DPA
 
       
-We supply a comprehensive Data Processing Agreement (DPA) tailored to psychology practice regulations, giving your clinic complete legal coverage during compliance audits.
+We supply a comprehensive Data Processing Agreement (DPA) tailored to psychology practice regulations, supporting your clinic in maintaining rigorous GDPR compliance.
 
     
 
@@ -40764,7 +40767,7 @@ Client record encryption per clinician
         
 
 ✓
- Zero-Knowledge
+ AES-256 (Role-isolated)
 
         
 
@@ -40897,7 +40900,7 @@ APONIA.ro transforms onboarding into an act of clinical care.
 Professional intake from the very first second
 
   
-No legal liabilities, no scattered Google Drive sheets. Engineered with respect for client dignity and therapist peace of mind.
+No security improvisations, no scattered spreadsheets in Google Drive. Built for strict GDPR compliance and patient dignity.
 
   
 
@@ -47128,6 +47131,9 @@ Ai simțit că anxietatea îți afectează munca sau relațiile din jur?
 
       
 
+        Răspunsurile tale sunt procesate local pe acest dispozitiv exclusiv pentru calcularea scorului GAD-7. Datele nu sunt stocate, vândute sau corelate cu profiluri de marketing, în deplină conformitate cu Art. 9(2)(a) GDPR.
+      
+
       
 Vezi rezultatul →
 
@@ -48792,7 +48798,7 @@ Criptare dosar la nivel de clinician
         
 
 ✓
- Zero-Knowledge
+ Criptare AES-256
 
         
 
@@ -48925,7 +48931,7 @@ APONIA.ro transformă preluarea într-un act de grijă clinică.
 Preluare profesională din prima secundă
 
   
-Fără riscuri legale, fără tabele împrăștiate în Google Drive. Construit cu respect pentru demnitatea pacientului și timpul terapeutului.
+Fără improvizații de securitate, fără tabele împrăștiate în Google Drive. Construit pentru cerințele stricte GDPR și respectul demnității pacientului.
 
   
 

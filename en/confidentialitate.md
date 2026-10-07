@@ -13,8 +13,8 @@ Core pillars of the APONIA.ro security architecture
 ### 1. Exclusive European Union hosting
 All databases and backups reside on servers located within the European Union. Your client data never transits or rests in third-country jurisdictions (such as the US), eliminating risks tied to international data transfers.
 
-### 2. Practice-level encryption (Zero-Knowledge)
-Session notes, intake evaluations, and anamnesis records are encrypted at the field level. The decryption key belongs solely to the clinician. No APONIA.ro staff member, administrator, or automated background task can inspect your clinical notes.
+### 2. Practice-level encryption (Strict isolation & AES-256)
+Session notes, intake evaluations, and anamnesis records are encrypted at rest using AES-256. Access is strictly compartmentalized; APONIA.ro staff cannot access clinical text during normal operations.
 
 ### 3. Data Processing Agreement (DPA) aligned with Romanian and EU regulations
 Every individual psychology practice or professional partnership receives a bilateral Data Processing Agreement tailored to the College of Psychologists guidelines and national healthcare standards.
