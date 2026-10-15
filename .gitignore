@@ -9,3 +9,4 @@ dist/
 .cursor/
 verify_deploy.sh
 *_audit_v1.html
+workers/
