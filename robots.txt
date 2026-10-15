@@ -1,4 +1,21 @@
 User-agent: *
 Allow: /
 
+# FAQ - open for classic + AI crawlers
+User-agent: Googlebot
+Allow: /faq/
+Allow: /en/faq/
+
+User-agent: GPTBot
+Allow: /faq/
+Allow: /en/faq/
+
+User-agent: ClaudeBot
+Allow: /faq/
+Allow: /en/faq/
+
+User-agent: PerplexityBot
+Allow: /faq/
+Allow: /en/faq/
+
 Sitemap: https://aponia.ro/sitemap.xml
