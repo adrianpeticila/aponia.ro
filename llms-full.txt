@@ -36767,6 +36767,336 @@ Terms of Service
 
       © 2026 APONIA.ro. All rights reserved.
 
+## https://aponia.ro/en/faq/
+
+Frequently Asked Questions - APONIA.ro
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+APONIA
+.ro
+
+    
+
+      
+About
+
+      
+Anxiety Test
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Respite Space
+
+    
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+Get my evenings back →
+
+    
+
+  
+
+  
+For Independent Therapists
+
+  
+Questions, answered.
+
+  
+For solo therapy practices. Cloud, zero-install. 73 RON/month with a deductible invoice. 14 days free.
+
+  
+The questions we actually get
+
+  
+
+    
+Is APONIA.ro for solo practices or large clinics?
+
+    
+APONIA.ro is built for solo practices and independent therapists: own booking link, automated confirmations, session notes. Not clinic software with reception shifts. See 
+About
+ and 
+Practice Diagnostic
+.
+
+  
+
+  
+
+    
+Do I need to install anything?
+
+    
+No. APONIA.ro is cloud, zero-install. You work in the browser; the patient books from a link, no account and no app.
+
+  
+
+  
+
+    
+How much does it cost and do I get a VAT invoice?
+
+    
+Cabinet 73 RON/month, Tools 29 RON/month, with deductible fiscal invoice. No commission per session.
+
+  
+
+  
+
+    
+Where is patient data stored and how is GDPR handled?
+
+    
+Data is hosted in the EU (Frankfurt), encrypted in transit and at rest, with strict role-based access. See 
+Confidentiality (GDPR)
+.
+
+  
+
+  
+
+    
+Does it sync two-way with Google Calendar?
+
+    
+Yes, 2-way Google Calendar sync: personal blocks close the public link, and new APONIA.ro bookings appear in Google Calendar. Full comparison on 
+vs. Google Calendar
+.
+
+  
+
+  
+
+    
+How do cancellations under 24h work?
+
+    
+Free cancellation until 24h before; under 24h it is marked as a late cancellation under your practice policy. Automatic 24h reminder reduces no-shows.
+
+  
+
+  
+
+    
+Must the patient pay online by card?
+
+    
+Not required. Online payment is optional; you can collect in person or by transfer. APONIA.ro takes no commission.
+
+  
+
+  
+
+    
+How do I stop manual WhatsApp confirmations?
+
+    
+Automatic confirmation at booking plus 24h email reminder; confirmations visible in the dashboard. Compare 
+vs. WhatsApp
+.
+
+  
+
+  
+
+    
+Is there a free trial?
+
+    
+Yes, 14 days free, no card. Setup in about 5 minutes, link sent the same day.
+
+  
+
+  
+
+    
+How do I cancel if it is not a fit?
+
+    
+One click in your account, anytime, no minimum term and no cancellation fee, with data export before closing.
+
+  
+
+  
+Your evenings back. For 73 RON a month.
+
+  
+Set up in 15 minutes. No onboarding call. No IT team needed.
+
+  
+Activate your practice →
+
+RESPITE
+SPACE
+
+  
+
+    
+
+      
+
+        
+APONIA
+.ro
+
+        
+Scheduling & somatic respite tools for independent psychotherapists.
+
+        
+73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+
+        
+Daemon Telemetry →
+
+      
+
+      
+
+        
+Tools & Clinical
+
+        
+
+          
+
+Respite Space (Demo)
+
+          
+
+Anxiety Test (GAD-7)
+
+          
+
+Lost Sessions Calculator
+
+          
+
+Rhea Visibility Score
+
+          
+
+MCP Protocol
+
+        
+
+      
+
+            
+
+        
+Comparisons
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resources & Legal
+
+        
+
+          
+
+About us
+
+          
+
+Manifesto
+
+          
+
+Blog & Articles
+
+          
+
+Privacy (GDPR)
+
+          
+
+Terms of Service
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. All rights reserved.
+
 ## https://aponia.ro/en/intake/
 
 Patient Intake and Onboarding Flow | APONIA.ro
@@ -43901,6 +44231,310 @@ Terms of Service
 ## https://aponia.ro/en/wellbeing/demo-tools.html
 
 
+
+## https://aponia.ro/faq/
+
+Întrebări frecvente · Gestiune cabinet psihoterapeut · APONIA.ro
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+APONIA
+.ro
+
+    
+
+      
+Despre
+
+      
+Test Anxietate
+
+      
+Wellbeing
+
+      
+Calculator
+
+      
+Spațiul de Tihnă
+
+    
+
+    
+
+      
+
+RO
+ | 
+EN
+
+      
+Vreau seara mea înapoi →
+
+    
+
+  
+
+  
+Sari la conținut
+
+  
+
+  
+
+cabinet individual
+
+Intrebari frecvente
+
+Pentru psihoterapeuti independenti. Cloud, zero instalare. 73 RON/luna cu factura fiscala.
+
+q01
+
+Este APONIA.ro pentru cabinete individuale sau clinici mari?
+
+Pentru cabinete individuale si practici independente: link propriu de programare, confirmari automate, notite de sesiune. Nu este soft de clinica cu receptie.
+
+q02
+
+Trebuie sa instalez ceva?
+
+Nu. Cloud, zero instalare. Lucrezi din browser, pacientul rezerva dintr-un link, fara cont si fara aplicatie.
+
+q03
+
+Cat costa si primesc factura fiscala?
+
+Cabinet 73 RON/luna, Unelte 29 RON/luna, cu factura fiscala deductibila. Fara comision pe sedinte.
+
+q04
+
+Unde sunt datele si cum sta treaba cu GDPR?
+
+Gazduire in UE (Frankfurt), criptare in tranzit si la stocare, acces strict pe roluri, drepturi GDPR complete.
+
+q05
+
+Se sincronizeaza 2-way cu Google Calendar?
+
+Da. Blocajele personale inchid linkul public, iar programarile noi apar in Google Calendar.
+
+q06
+
+Cum functioneaza anularile sub 24h?
+
+Gratuit pana la 24h inainte; sub 24h se marcheaza anulare tarzie cu politica ta de cabinet. Memento automat la 24h.
+
+q07
+
+Pacientul trebuie sa plateasca online?
+
+Nu obligatoriu. Plata online optionala; poti incasa in cabinet sau prin transfer. Fara comision.
+
+q08
+
+Cum scap de confirmarile pe WhatsApp?
+
+Confirmare automata la rezervare plus memento la 24h pe email; vezi confirmarile in dashboard.
+
+q09
+
+Exista proba gratuita?
+
+Da, 14 zile gratuit fara card. Configurare in circa 5 minute.
+
+q10
+
+Cum anulez abonamentul?
+
+Cu un click din cont, oricand, fara perioada minima si fara taxa de reziliere, cu export de date.
+
+Intra in beta gratuit.
+Fara card.
+
+14 zile gratuit, fara card bancar.
+
+vreau seara mea inapoi ->
+
+  
+
+SPAȚIU DE
+TIHNĂ
+
+  
+
+    
+
+      
+
+        
+APONIA
+.ro
+
+        
+Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
+
+        
+73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+
+        
+Telemetrie Daemon →
+
+      
+
+      
+
+        
+Unelte & Clinic
+
+        
+
+          
+
+Spațiul de Tihnă (Demo)
+
+          
+
+Test Anxietate (GAD-7)
+
+          
+
+Calculator Pierderi
+
+          
+
+Scor Vizibilitate Rhea
+
+          
+
+Protocol MCP Triaj
+
+        
+
+      
+
+            
+
+        
+Comparații
+
+        
+
+          
+
+vs. WhatsApp
+
+          
+
+vs. Calendly
+
+          
+
+vs. SimplePractice
+
+          
+
+vs. Hedepy
+
+          
+
+vs. Google Calendar
+
+          
+
+vs. Pasul.ro
+
+        
+
+      
+
+      
+
+        
+Resurse & Legal
+
+        
+
+          
+
+Despre noi
+
+          
+
+Manifest
+
+          
+
+Blog & Ghiduri
+
+          
+
+Confidențialitate (GDPR)
+
+          
+
+Termeni și Condiții
+
+        
+
+      
+
+    
+
+    
+
+      © 2026 APONIA.ro. Toate drepturile rezervate.
 
 ## https://aponia.ro/gestiune-cabinet/
 
@@ -52024,75 +52658,4 @@ Termeni și Condiții
 
 ## https://aponia.ro/wellbeing/demo-unelte.html
 
----
-
-## FAQ - APONIA.ro (RO)
-
-> Canonical: https://aponia.ro/faq/ | Last updated: 2026-10-14
-
-### 1. Este APONIA.ro pentru cabinete individuale sau clinici mari?
-Pentru cabinete individuale si practici independente: link propriu de programare, confirmari automate, notite de sesiune. Nu este soft de clinica cu receptie.
-
-### 2. Trebuie sa instalez ceva?
-Nu. Cloud, zero instalare. Lucrezi din browser, pacientul rezerva dintr-un link, fara cont si fara aplicatie.
-
-### 3. Cat costa si primesc factura fiscala?
-Cabinet 73 RON/luna, Unelte 29 RON/luna, cu factura fiscala deductibila. Fara comision pe sedinte.
-
-### 4. Unde sunt datele si cum sta treaba cu GDPR?
-Gazduire in UE (Frankfurt), criptare in tranzit si la stocare, acces strict pe roluri, drepturi GDPR complete.
-
-### 5. Se sincronizeaza 2-way cu Google Calendar?
-Da. Blocajele personale inchid linkul public, iar programarile noi apar in Google Calendar.
-
-### 6. Cum functioneaza anularile sub 24h?
-Gratuit pana la 24h inainte; sub 24h se marcheaza anulare tarzie cu politica ta de cabinet. Memento automat la 24h.
-
-### 7. Pacientul trebuie sa plateasca online?
-Nu obligatoriu. Plata online optionala; poti incasa in cabinet sau prin transfer. Fara comision.
-
-### 8. Cum scap de confirmarile pe WhatsApp?
-Confirmare automata la rezervare plus memento la 24h pe email; vezi confirmarile in dashboard.
-
-### 9. Exista proba gratuita?
-Da, 14 zile gratuit fara card. Configurare in circa 5 minute.
-
-### 10. Cum anulez abonamentul?
-Cu un click din cont, oricand, fara perioada minima si fara taxa de reziliere, cu export de date.
-
----
-
-## FAQ - APONIA.ro (EN)
-
-> Canonical: https://aponia.ro/en/faq/ | Last updated: 2026-10-14
-
-### 1. Is APONIA.ro for solo practices or large clinics?
-APONIA.ro is built for solo practices and independent therapists: own booking link, automated confirmations, session notes. Not clinic software with reception shifts. See /en/about/ About and /en/audit/ Practice Diagnostic.
-
-### 2. Do I need to install anything?
-No. APONIA.ro is cloud, zero-install. You work in the browser; the patient books from a link, no account and no app.
-
-### 3. How much does it cost and do I get a VAT invoice?
-Cabinet 73 RON/month, Tools 29 RON/month, with deductible fiscal invoice. No commission per session.
-
-### 4. Where is patient data stored and how is GDPR handled?
-Data is hosted in the EU (Frankfurt), encrypted in transit and at rest, with strict role-based access. See /en/confidentialitate/ Confidentiality (GDPR).
-
-### 5. Does it sync two-way with Google Calendar?
-Yes, 2-way Google Calendar sync: personal blocks close the public link, and new APONIA.ro bookings appear in Google Calendar. Full comparison on /en/vs-google-calendar/ vs. Google Calendar.
-
-### 6. How do cancellations under 24h work?
-Free cancellation until 24h before; under 24h it is marked as a late cancellation under your practice policy. Automatic 24h reminder reduces no-shows.
-
-### 7. Must the patient pay online by card?
-Not required. Online payment is optional; you can collect in person or by transfer. APONIA.ro takes no commission.
-
-### 8. How do I stop manual WhatsApp confirmations?
-Automatic confirmation at booking plus 24h email reminder; confirmations visible in the dashboard. Compare /en/vs-whatsapp/ vs. WhatsApp.
-
-### 9. Is there a free trial?
-Yes, 14 days free, no card. Setup in about 5 minutes, link sent the same day.
-
-### 10. How do I cancel if it is not a fit?
-One click in your account, anytime, no minimum term and no cancellation fee, with data export before closing.
 

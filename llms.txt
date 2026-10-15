@@ -1,9 +1,5 @@
 # https://aponia.ro
 
-## FAQ
-- [Intrebari frecvente | APONIA.ro](https://aponia.ro/faq/)
-- [FAQ | APONIA.ro](https://aponia.ro/en/faq/)
-
 - [Programări online pentru psihoterapeuți | APONIA.ro](https://aponia.ro)
 - [abonament.html](https://aponia.ro/abonament.html)
 - [Despre APONIA.ro, platformă pentru psihoterapeuți din România](https://aponia.ro/about/)
@@ -254,6 +250,7 @@
 - [Online Booking for Therapists - No More Confirmation Chains - APONIA.ro](https://aponia.ro/en/booking/)
 - [Mental Health Data Privacy and GDPR Security | APONIA.ro](https://aponia.ro/en/confidentialitate/)
 - [Aponia Daemon · System Telemetry &amp; Network Health](https://aponia.ro/en/daemon/)
+- [Frequently Asked Questions - APONIA.ro](https://aponia.ro/en/faq/)
 - [Patient Intake and Onboarding Flow | APONIA.ro](https://aponia.ro/en/intake/)
 - [en/legal/politica-confidentialitate.html](https://aponia.ro/en/legal/politica-confidentialitate.html)
 - [en/legal/termene-conditii.html](https://aponia.ro/en/legal/termene-conditii.html)
@@ -273,6 +270,7 @@
 - [APONIA.ro vs WhatsApp - Message confirmations vs. professional system | APONIA.ro](https://aponia.ro/en/vs-whatsapp/)
 - [Biophilic Wellbeing & Emotional Regulation · APONIA.ro](https://aponia.ro/en/wellbeing/)
 - [en/wellbeing/demo-tools.html](https://aponia.ro/en/wellbeing/demo-tools.html)
+- [Întrebări frecvente · Gestiune cabinet psihoterapeut · APONIA.ro](https://aponia.ro/faq/)
 - [Gestiune cabinet psihoterapie, APONIA.ro](https://aponia.ro/gestiune-cabinet/)
 - [Fluxul de Intake și Preluare Pacienți | APONIA.ro](https://aponia.ro/intake/)
 - [legal/politica-confidentialitate.html](https://aponia.ro/legal/politica-confidentialitate.html)
