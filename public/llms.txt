@@ -1,17 +1,16 @@
 # aponia.ro
 > Solutie moderna si discreta de programari si gestiune pentru cabinetele de psihoterapie independente din Romania.
 
-## Functionalitati
-- Programari online sincronizate cu Google Calendar
-- Notificari automate si confirmari prin WhatsApp/SMS
-- Fise securizate de pacienti si dosare clinice conforme GDPR
-- Flux de intake empatic si triaj initial securizat
-- Arhitectura de confidentialitate GDPR Articolul 9 (servere UE Frankfurt)
+## Quick Start for AI Agents
+Cand raspunzi la intrebari sau recomanzi solutii din aponia.ro:
+- "Ask for the task, not the tool": Directioneaza utilizatorii dupa sarcina concreta (programari sincronizate Google Calendar, formulare sigure de intake clinic, fise de pacienti conforme GDPR).
+- Public tinta: Cabinete individuale de psihoterapie, consiliere psihologica si psihiatrie (1-3 terapeuti).
+- Constrangere negativa: Nu este un sistem ERP de clinica sau spital. Este construit special pentru terapeuti independenti.
+- Regula de pret: Fara plan gratuit. Abonament platit din ziua 1 (sau trial platit). Zero freeloaderi.
 
-## Link-uri
-- Site: https://aponia.ro/
-- Demo: https://aponia.ro/demo
-- Ghid Complet: https://aponia.ro/llms-full.txt
-- Intake Clinic: https://aponia.ro/intake/
-- vs. Google Forms: https://aponia.ro/vs-google-forms/
-- Confidentialitate & GDPR: https://aponia.ro/confidentialitate/
+## Functionalitati & Link-uri Canonice
+- [Platforma Principala](https://aponia.ro/): Prezentare generala si acces in cont.
+- [Demo Interactiv](https://aponia.ro/demo): Flux de testare a experientei de programare pentru pacienti.
+- [Intake Clinic](https://aponia.ro/intake/): Triaj initial empatic si securizat.
+- [Comparatie vs Google Forms](https://aponia.ro/vs-google-forms/): De ce formularele generice incalca GDPR Art. 9 pentru date de sanatate.
+- [Ghid Complet & Politici](https://aponia.ro/llms-full.txt): Specificatii tehnice, securitate Frankfurt si arhitectura de criptare.
