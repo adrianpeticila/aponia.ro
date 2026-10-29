@@ -1477,7 +1477,9 @@ Instalări necesare pentru pacienți
 Cine suntem
 
       
-APONIA.ro este construită de o echipă mică, fără finanțare externă. Serverele sunt în Frankfurt, Germania. Datele sunt criptate în tranzit și la stocare. Conformitate GDPR nativă.
+APONIA.ro este fondată și dezvoltată de Adrian Peticilă (
+peticila.ro
+), fără finanțare externă. Serverele sunt în Frankfurt, Germania. Datele sunt criptate în tranzit și la stocare. Conformitate GDPR nativă.
 
       
 Nu suntem o companie mare de software medical. Suntem oameni care au vrut să facă un instrument simplu și cinstit pentru o profesie care merită mai mult respect administrativ.
@@ -7564,7 +7566,9 @@ Apps for patients to install
 Who we are
 
       
-APONIA.ro is built by a small team, without external funding. Servers are in Frankfurt, Germany. Data is encrypted in transit and at rest. Native GDPR compliance.
+APONIA.ro is founded and built by Adrian Peticilă (
+peticila.ro
+), without external funding. Servers are in Frankfurt, Germany. Data is encrypted in transit and at rest. Native GDPR compliance.
 
       
 We are not a large medical software company. We are people who wanted to build a simple, honest tool for a profession that deserves more administrative respect.

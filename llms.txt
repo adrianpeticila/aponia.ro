@@ -1,21 +1,4 @@
-# APONIA.ro
-> Platformă de programări, cabinet digital și spațiu de reglare emoțională pentru psihoterapeuți independenți și pacienți din România.
-
-## Despre APONIA.ro & Principii
-- Misiune: Eliminarea anxietății administrative și a fricțiunii din cabinetul de psihoterapie (aponia = absența durerii/tulburării).
-- Model: Fără comision pe ședințe, fără intermediere forțată, abonament fix lunar (73 RON/lună). Pacientul nu plătește nimic pentru programare.
-- Arhitectură: Client web/mobil rapid, date protejate conform GDPR și standarde de securitate europene.
-
-## Puncte de Acces Canonice & Autor (Knowledge Graph Grounding)
-- Site Oficial: https://aponia.ro/
-- Aplicație Web / Cabinet: https://app.aponia.ro/
-- GitHub (Website): https://github.com/adrianpeticila/aponia.ro
-- GitHub (Portal / Mobile Suite): https://github.com/adrianpeticila/aponia-ro
-- Fondator & Arhitect: Adrian Peticila (https://peticila.ro/#person)
-- Wikidata Entity: https://www.wikidata.org/wiki/Q140362129
-- ORCID iD: https://orcid.org/0009-0005-9601-9527
-
-## Pagini & Conținut Canonic
+# https://aponia.ro
 
 - [Programări online pentru psihoterapeuți | APONIA.ro](https://aponia.ro)
 - [abonament.html](https://aponia.ro/abonament.html)
