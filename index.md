@@ -26,7 +26,7 @@ Ce este APONIA.ro?
 
 APONIA.ro este o platformă românească de programări și administrare pentru psihoterapeuți. Înlocuiește munca manuală din agendă și mesajele împrăștiate pe WhatsApp cu un sistem clar pentru programări, confirmări, notificări automate și notițe de sesiune. Psihoterapeutul plătește pentru APONIA.ro, pacientul rezervă gratuit, fără să instaleze nimic.
 
-Am vorbit direct cu 14 psihoterapeuți independenți din România. Problema nu e lipsa pacienților. E timpul irosit pe logistică. Conform European Federation of Psychologists' Associations (2023), un psiholog cu cabinet privat petrece în medie 6-8 ore pe săptămână pe administrativ. APONIA.ro reduce cifra la sub 2 ore. Contact: hello@aponia.ro · Actualizat iunie 2026.
+Am vorbit direct cu 14 psihoterapeuți independenți din România. Problema nu e lipsa pacienților. E timpul irosit pe logistică. Conform European Federation of Psychologists' Associations (2023), un psiholog cu cabinet privat petrece în medie 6-8 ore pe săptămână pe administrativ. APONIA.ro reduce cifra la sub 2 ore. Contact: hello@aponia.ro · Actualizat octombrie 2026.
 
 Joi, 23:12
 

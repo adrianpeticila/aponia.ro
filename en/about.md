@@ -26,7 +26,7 @@ APONIA.ro solves this. Phase 1: practice management tool for the therapist. Phas
 
 ## Who we are
 
-APONIA.ro is built by a small team, without external funding. Servers are in Frankfurt, Germany. Data is encrypted in transit and at rest. Native GDPR compliance.
+APONIA.ro is founded and built by Adrian Peticilă ([peticila.ro](https://peticila.ro/)), without external funding. Servers are in Frankfurt, Germany. Data is encrypted in transit and at rest. Native GDPR compliance.
 
 We are not a large medical software company. We are people who wanted to build a simple, honest tool for a profession that deserves more administrative respect.
 

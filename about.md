@@ -26,7 +26,7 @@ APONIA.ro rezolvă asta. Faza 1, instrument de administrare pentru terapeut. Faz
 
 ## Cine suntem
 
-APONIA.ro este construită de o echipă mică, fără finanțare externă. Serverele sunt în Frankfurt, Germania. Datele sunt criptate în tranzit și la stocare. Conformitate GDPR nativă.
+APONIA.ro este fondată și dezvoltată de Adrian Peticilă ([peticila.ro](https://peticila.ro/)), fără finanțare externă. Serverele sunt în Frankfurt, Germania. Datele sunt criptate în tranzit și la stocare. Conformitate GDPR nativă.
 
 Nu suntem o companie mare de software medical. Suntem oameni care au vrut să facă un instrument simplu și cinstit pentru o profesie care merită mai mult respect administrativ.
 
