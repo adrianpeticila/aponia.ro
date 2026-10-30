@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Confirmare Programare · Cabinet Terapie · APONIA.ro</title>
+  <meta name="description" content="Confirmă ședința ta de psihoterapie și autorizează depozitul de rezervare. Securizat prin Stripe.">
+  <meta name="theme-color" content="#5b8c6a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%235b8c6a'/><path fill='white' d='M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z'/></svg>">
+  <style>
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/InterTight-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/InterTight-700-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-normal.woff2?v=2') format('woff2');}
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --cream: #f7f5f0; --cream2: #f0ede6; --green: #5b8c6a; --green-dark: #3f684c;
+      --amber: #e8b86d; --dark: #3a4258; --ink: #1a1a1a;
+      --muted: #666; --border: #e0dbd2;
+    }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+    a { color: inherit; text-decoration: none; }
+
+    .nav { border-bottom: 1px solid var(--border); background: rgba(247,245,240,0.96); }
+    .nav-inner { max-width: 600px; margin: 0 auto; padding: 0 1.5rem; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.25rem; font-weight: 600; }
+    .nav-logo .gk { color: var(--green); }
+
+    .main { flex: 1; max-width: 520px; width: 100%; margin: 0 auto; padding: 2.5rem 1.5rem; }
+    
+    .status-pill { display: inline-flex; align-items: center; gap: 0.4rem; font-family: 'Inter Tight', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; background: #e8f5e9; color: var(--green); padding: 3px 10px; border-radius: 999px; font-weight: 700; margin-bottom: 1rem; }
+    .status-pill .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); }
+
+    h1 { font-family: 'Newsreader', serif; font-size: 2.2rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 0.6rem; }
+    .client-greeting { font-size: 1.1rem; color: var(--muted); margin-bottom: 1.8rem; }
+
+    .card { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 1.8rem; box-shadow: 0 2px 12px rgba(0,0,0,0.04); margin-bottom: 1.5rem; }
+    
+    .booking-detail { display: flex; justify-content: space-between; align-items: baseline; padding-block: 0.75rem; border-bottom: 1px solid var(--border); }
+    .booking-detail:last-of-type { border-bottom: none; }
+    .detail-label { font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .detail-val { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 1.05rem; color: var(--ink); text-align: right; }
+
+    .deposit-highlight { background: var(--cream2); border: 1px solid var(--border); border-radius: 6px; padding: 1rem 1.2rem; margin: 1.4rem 0 1.8rem; display: flex; justify-content: space-between; align-items: center; }
+    .deposit-label { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.9rem; color: var(--green-dark); }
+    .deposit-price { font-family: 'Inter Tight', monospace; font-size: 1.5rem; font-weight: 800; color: var(--ink); }
+
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 1rem; border-radius: 4px; padding: 0.95rem 1.8rem; cursor: pointer; border: none; text-decoration: none; width: 100%; transition: background 0.15s ease; }
+    .btn-green { background: var(--green); color: white; }
+    .btn-green:hover { background: var(--green-dark); }
+
+    .notice { font-size: 0.85rem; color: var(--muted); line-height: 1.55; margin-top: 1.4rem; padding-left: 0.8rem; border-left: 2px solid var(--green); }
+
+    footer.site-foot { border-top: 1px solid var(--border); padding: 1.5rem; text-align: center; font-family: 'Inter Tight', sans-serif; font-size: 0.75rem; color: var(--muted); }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Confirmare Programare Cabinet Terapie",
+    "url": "https://aponia.ro/confirma.html",
+    "isPartOf": { "@id": "https://aponia.ro/" }
+  }
+  </script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <svg width="22" height="22" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#5b8c6a"/><path fill="white" d="M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z"/></svg>
+        <span class="gk">ἀπονία</span>
+      </div>
+      <span style="font-family:'Inter Tight',sans-serif;font-size:0.75rem;color:var(--muted);text-transform:uppercase;">Plată Securizată</span>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="status-pill">
+      <span class="dot"></span>Interval Rezervat
+    </div>
+
+    <h1>Confirmă ședința ta</h1>
+    <p class="client-greeting" id="greetingText">Bună. Detaliile programării tale sunt pregătite mai jos.</p>
+
+    <div class="card">
+      <div class="booking-detail">
+        <span class="detail-label">Beneficiar</span>
+        <span class="detail-val" id="displayClient">Client</span>
+      </div>
+      <div class="booking-detail">
+        <span class="detail-label">Data și Ora</span>
+        <span class="detail-val" id="displaySlot">În așteptare</span>
+      </div>
+      <div class="booking-detail">
+        <span class="detail-label">Politica</span>
+        <span class="detail-val" style="color: var(--green);">Anulare gratuită 24h</span>
+      </div>
+
+      <div class="deposit-highlight">
+        <span class="deposit-label">Depozit de Confirmare</span>
+        <span class="deposit-price" id="displayAmount">50 RON</span>
+      </div>
+
+      <button type="button" class="btn btn-green" id="btnPay" onclick="window.processConfirmation()">
+        <span>Autorizează Cardul &amp; Confirmă &rarr;</span>
+      </button>
+
+      <div class="notice">
+        Suma de depozit se deduce integral din costul final al ședinței. În cazul unei reprogramări sau anulări anunțate cu minimum 24 de ore înainte, depozitul este restituit instant.
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-foot">
+    APONIA.ro &middot; Programări fără anxietate &middot; Procesare card securizată
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const client = params.get("c") || "Client";
+    const slot = params.get("d") || "Programare stabilită";
+    const amount = params.get("s") || "50";
+
+    document.getElementById("greetingText").innerText = "Bună, " + client + ". Detaliile programării tale sunt pregătite mai jos.";
+    document.getElementById("displayClient").innerText = client;
+    document.getElementById("displaySlot").innerText = slot;
+    document.getElementById("displayAmount").innerText = amount + " RON";
+    document.getElementById("btnPay").innerHTML = "<span>Autorizează Depozitul (" + amount + " RON) &rarr;</span>";
+
+    window.processConfirmation = function() {
+      // In production, redirects to Stripe Checkout setup intent or Netopia session
+      const checkoutUrl = "https://buy.stripe.com/5kQ7sE47F6A43370wW5AQ01";
+      window.location.href = checkoutUrl;
+    };
+  </script>
+</body>
+</html>

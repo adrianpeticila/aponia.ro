@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Link Depozit Anti-Neprezentare · Protecție Programări · APONIA.ro</title>
+  <meta name="description" content="Generează în 30 de secunde un link de WhatsApp pentru confirmarea ședinței de terapie cu depozit de 50 sau 100 RON. Zero programări pierdute.">
+  <meta name="theme-color" content="#5b8c6a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='9' fill='%235b8c6a'/><path fill='white' d='M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z'/></svg>">
+  <style>
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/InterTight-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/InterTight-600-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Inter Tight';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/InterTight-700-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-normal.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/Newsreader-400-italic.woff2?v=2') format('woff2');}
+    @font-face{font-family:'Newsreader';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/Newsreader-600-normal.woff2?v=2') format('woff2');}
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --cream: #f7f5f0; --cream2: #f0ede6; --green: #5b8c6a; --green-dark: #3f684c;
+      --amber: #e8b86d; --dark: #3a4258; --ink: #1a1a1a;
+      --muted: #666; --border: #e0dbd2;
+    }
+    body { font-family: 'Newsreader', Georgia, serif; background: var(--cream); color: var(--ink); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+    a { color: inherit; text-decoration: none; }
+
+    .nav { position: sticky; top: 0; z-index: 100; background: rgba(247,245,240,0.96); border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
+    .nav-inner { max-width: 900px; margin: 0 auto; padding: 0 1.5rem; height: 60px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 0.5rem; font-family: 'Newsreader', serif; font-size: 1.35rem; font-weight: 600; }
+    .nav-logo .gk { color: var(--green); letter-spacing: 0.05em; }
+    .nav-tag { font-family: 'Inter Tight', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; background: #e8f5e9; color: var(--green); padding: 3px 8px; border-radius: 4px; font-weight: 700; }
+
+    .main { flex: 1; max-width: 720px; width: 100%; margin: 0 auto; padding: 3rem 1.5rem; }
+    
+    .badge-top { display: inline-block; font-family: 'Inter Tight', sans-serif; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green-dark); margin-bottom: 0.75rem; }
+    h1 { font-family: 'Newsreader', serif; font-size: clamp(2.1rem, 4.5vw, 2.9rem); font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 1rem; }
+    .subtitle { font-size: 1.15rem; color: var(--muted); margin-bottom: 2rem; line-height: 1.6; }
+
+    .card { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 2rem; box-shadow: 0 2px 12px rgba(0,0,0,0.04); margin-bottom: 2rem; }
+    
+    .form-group { margin-bottom: 1.4rem; }
+    label { display: block; font-family: 'Inter Tight', sans-serif; font-size: 0.85rem; font-weight: 700; color: var(--ink); margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .hint { font-size: 0.85rem; color: var(--muted); margin-bottom: 0.4rem; }
+    
+    input[type="text"], input[type="datetime-local"], select {
+      width: 100%; padding: 0.8rem 1rem; border: 1px solid var(--border); border-radius: 4px;
+      font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; background: var(--cream); color: var(--ink);
+      outline: none; transition: border-color 0.15s ease;
+    }
+    input:focus, select:focus { border-color: var(--green); background: white; }
+
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 1rem; border-radius: 4px; padding: 0.9rem 1.8rem; cursor: pointer; border: none; text-decoration: none; width: 100%; }
+    .btn-green { background: var(--green); color: white; transition: background 0.15s ease; }
+    .btn-green:hover { background: var(--green-dark); }
+    .btn-wa { background: #25D366; color: white; margin-top: 0.8rem; }
+    .btn-wa:hover { background: #1ebd59; }
+
+    .result-box { display: none; margin-top: 2rem; border-top: 1px dashed var(--border); padding-top: 1.8rem; }
+    .link-display { background: var(--cream2); padding: 0.8rem 1rem; border-radius: 4px; font-family: 'Inter Tight', monospace; font-size: 0.9rem; word-break: break-all; margin: 0.6rem 0 1rem; border: 1px solid var(--border); }
+    .copy-preview { background: #fcfbf9; border-left: 3px solid var(--green); padding: 1rem; font-size: 0.95rem; margin-bottom: 1.2rem; color: var(--ink); line-height: 1.6; }
+
+    .guarantee-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .g-item { background: white; border: 1px solid var(--border); border-radius: 6px; padding: 1.2rem; }
+    .g-title { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.9rem; color: var(--green-dark); margin-bottom: 0.3rem; }
+    .g-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
+
+    footer.site-foot { border-top: 1px solid var(--border); padding: 2rem 1.5rem; text-align: center; font-family: 'Inter Tight', sans-serif; font-size: 0.78rem; color: var(--muted); }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Link Depozit Anti-Neprezentare APONIA",
+    "url": "https://aponia.ro/depozit.html",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "All",
+    "description": "Generator de linkuri de confirmare și depozit pentru ședințele de psihoterapie. Oprește neprezentările și orele pierdute în cabinet.",
+    "creator": {
+      "@type": "Person",
+      "@id": "https://peticila.ro/#person",
+      "name": "Adrian M. Peticila",
+      "url": "https://peticila.ro/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="/">
+        <svg width="24" height="24" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#5b8c6a"/><path fill="white" d="M26.28,14.94 C23.67,18.06 21.22,20.46 17.31,21.52 L16.07,17.97 C15.33,15.85 6.41,18.97 7.15,21.08 L9.09,26.63 C9.83,28.74 12.61,29.73 15.15,28.98 C17.16,28.39 22.14,26.67 28.02,18.12 C29.94,15.33 32.41,13.57 34.34,12.98 L33.46,10.46 C33.46,10.46 29.57,11.00 26.28,14.94 Z"/></svg>
+        <span class="gk">ἀπονία</span>
+      </a>
+      <span class="nav-tag">Micro-Utilitar</span>
+    </div>
+  </nav>
+
+  <main class="main">
+    <span class="badge-top">Protecție Cabinet Solo</span>
+    <h1>Oprește ședințele pierdute cu un singur link.</h1>
+    <p class="subtitle">Când pacientul nu se prezintă, pierzi între 200 și 350 RON. Completează detaliile ședinței și trimite-i un link scurt pe WhatsApp: clientul lasă cardul și confirmă depozitul.</p>
+
+    <div class="card">
+      <form id="depositForm" onsubmit="event.preventDefault(); window.generateDepositLink();">
+        <div class="form-group">
+          <label for="clientName">Prenume sau Inițiale Client</label>
+          <div class="hint">Numele care va apărea pe ecranul de confirmare al pacientului.</div>
+          <input type="text" id="clientName" placeholder="ex: Andreea M." required autocomplete="off">
+        </div>
+
+        <div class="form-group">
+          <label for="sessionSlot">Data și Ora Ședinței</label>
+          <div class="hint">Exemplu: Miercuri, 16:00 sau selectează data.</div>
+          <input type="text" id="sessionSlot" placeholder="ex: Miercuri, 4 Noiembrie ora 16:00" required autocomplete="off">
+        </div>
+
+        <div class="form-group">
+          <label for="depositAmount">Valoare Depozit de Confirmare</label>
+          <div class="hint">Suma se deduce direct din costul ședinței sau acoperă ora în caz de absență.</div>
+          <select id="depositAmount">
+            <option value="50" selected>50 RON (Recomandat)</option>
+            <option value="100">100 RON</option>
+            <option value="150">150 RON (Jumătate din tarif)</option>
+            <option value="250">250 RON (Plată integrală în avans)</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-green">
+          <span>Generează Link de Confirmare &rarr;</span>
+        </button>
+      </form>
+
+      <div id="resultBlock" class="result-box">
+        <label>Mesaj Gata de Trimis pe WhatsApp</label>
+        <div class="copy-preview" id="messagePreview">...</div>
+
+        <a id="btnWhatsApp" href="#" target="_blank" rel="noopener" class="btn btn-wa">
+          <span>Deschide direct în WhatsApp &rarr;</span>
+        </a>
+
+        <div style="margin-top: 1.2rem;">
+          <div class="hint">Sau copiază doar linkul direct:</div>
+          <div class="link-display" id="linkDisplay">...</div>
+          <button type="button" class="btn" style="background: white; border: 1px solid var(--border); color: var(--ink);" onclick="window.copyGeneratedLink()">Copiază Linkul</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="guarantee-grid">
+      <div class="g-item">
+        <div class="g-title">Fără Aplicație Instalată</div>
+        <div class="g-desc">Pacientul deschide linkul pe telefon, vede cabinetul tău și confirmă în 30 de secunde cu Apple Pay sau card.</div>
+      </div>
+      <div class="g-item">
+        <div class="g-title">Politica de 24h</div>
+        <div class="g-desc">Anulările făcute cu peste 24h înainte eliberează depozitul automat. Neprezentările neanunțate îți achită ora.</div>
+      </div>
+      <div class="g-item">
+        <div class="g-title">Zero Fricțiune Tehnică</div>
+        <div class="g-desc">Nu instalezi sisteme greoaie. Folosești WhatsApp exact așa cum vorbești deja cu pacienții tăi.</div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-foot">
+    APONIA.ro &middot; Practică privată fără anxietate administrativă &middot; București, 2026
+  </footer>
+
+  <script>
+    let generatedUrl = "";
+
+    window.generateDepositLink = function() {
+      const name = document.getElementById("clientName").value.trim();
+      const slot = document.getElementById("sessionSlot").value.trim();
+      const amount = document.getElementById("depositAmount").value;
+
+      if (!name || !slot) return;
+
+      const params = new URLSearchParams({
+        c: name,
+        d: slot,
+        s: amount
+      });
+
+      generatedUrl = window.location.origin + "/confirma.html?" + params.toString();
+
+      const messageText = "Bună " + name + "! Pentru a rezerva ora stabilită în calendar (" + slot + "), te rog să confirmi programarea și depozitul de " + amount + " RON aici: " + generatedUrl + "\n\nSuma se deduce direct din costul ședinței.";
+
+      document.getElementById("messagePreview").innerText = messageText;
+      document.getElementById("linkDisplay").innerText = generatedUrl;
+
+      const waUrl = "https://api.whatsapp.com/send?text=" + encodeURIComponent(messageText);
+      document.getElementById("btnWhatsApp").href = waUrl;
+
+      const resBox = document.getElementById("resultBlock");
+      resBox.style.display = "block";
+      resBox.scrollIntoView({ behavior: "smooth" });
+    };
+
+    window.copyGeneratedLink = function() {
+      if (!generatedUrl) return;
+      navigator.clipboard.writeText(generatedUrl).then(() => {
+        alert("Linkul a fost copiat în clipboard!");
+      }).catch(() => {
+        prompt("Copiază linkul manual:", generatedUrl);
+      });
+    };
+  </script>
+</body>
+</html>
