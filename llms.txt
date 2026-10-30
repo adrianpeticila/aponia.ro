@@ -149,3 +149,8 @@
 - [APONIA.ro vs WhatsApp, Confirmări prin mesaje vs. sistem profesional | APONIA.ro](https://aponia.ro/vs-whatsapp/)
 - [Wellbeing biofil și reglare emoțională · APONIA.ro](https://aponia.ro/wellbeing/)
 - [wellbeing/demo-unelte.html](https://aponia.ro/wellbeing/demo-unelte.html)
+
+## Related
+- [grai: local-first voice workbench](https://grai.page)
+- [grai free cadence test](https://grai.page/#test)
+- [grai comparisons](https://grai.page/vs/)
