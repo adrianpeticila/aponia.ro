@@ -535,8 +535,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aponia.ro/confirma.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aponia.ro/daemon/</loc>
     <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aponia.ro/depozit.html</loc>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -5507,6 +5507,10 @@ Termeni și Condiții
 
       © 2026 APONIA.ro. Toate drepturile rezervate.
 
+## https://aponia.ro/confirma.html
+
+
+
 ## https://aponia.ro/daemon/
 
 Aponia Daemon · Telemetrie Sistem & Retea Terapeuti
@@ -5815,6 +5819,10 @@ Termeni și Condiții
     
 
       © 2026 APONIA.ro. Toate drepturile rezervate.
+
+## https://aponia.ro/depozit.html
+
+
 
 ## https://aponia.ro/despre/
 
