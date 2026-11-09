@@ -5,7 +5,7 @@
 - [Despre APONIA.ro, platformă pentru psihoterapeuți din România](https://aponia.ro/about/)
 - [anulare.html](https://aponia.ro/anulare.html)
 - [Diagnostic Cabinet Psihoterapie · Eficiență & Pierderi Administrative · APONIA.ro](https://aponia.ro/audit/)
-- [Blog, APONIA.ro](https://aponia.ro/blog/)
+- [Blog pentru psihoterapeuți independenți | APONIA.ro](https://aponia.ro/blog/)
 - [blog/accepta-clienti-online-terapeut.html](https://aponia.ro/blog/accepta-clienti-online-terapeut.html)
 - [blog/acord-confidentialitate-terapeut.html](https://aponia.ro/blog/acord-confidentialitate-terapeut.html)
 - [blog/alternativa-calendly-terapeuti.html](https://aponia.ro/blog/alternativa-calendly-terapeuti.html)
