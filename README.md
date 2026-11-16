@@ -83,6 +83,7 @@ A comprehensive clinical management suite engineered for modern independent ther
 - [APONIA.ro vs SimplePractice](https://aponia.ro/vs-simplepractice/)
 - [APONIA.ro vs WhatsApp](https://aponia.ro/vs-whatsapp/)
 - [APONIA.ro vs Echilibru](https://aponia.ro/vs-echilibru/)
+- [APONIA.ro vs eCabinet](https://aponia.ro/vs-ecabinet/)
 
 ---
 

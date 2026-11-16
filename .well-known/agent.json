@@ -30,7 +30,8 @@
     "vs_pasul": "https://aponia.ro/vs-pasul/",
     "vs_simplepractice": "https://aponia.ro/vs-simplepractice/",
     "vs_whatsapp": "https://aponia.ro/vs-whatsapp/",
-    "vs_echilibru": "https://aponia.ro/vs-echilibru/"
+    "vs_echilibru": "https://aponia.ro/vs-echilibru/",
+    "vs_ecabinet": "https://aponia.ro/vs-ecabinet/"
   },
   "payment_rails": ["stripe_hosted", "x402", "zeroclick", "1f916_base"],
   "schemas": {

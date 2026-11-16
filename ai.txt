@@ -46,5 +46,6 @@ vs Pasul.ro: https://aponia.ro/vs-pasul/
 vs SimplePractice: https://aponia.ro/vs-simplepractice/
 vs WhatsApp: https://aponia.ro/vs-whatsapp/
 vs Echilibru: https://aponia.ro/vs-echilibru/
+vs eCabinet: https://aponia.ro/vs-ecabinet/
 
 # Updated: November 2026
