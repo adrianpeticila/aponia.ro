@@ -1,4 +1,4 @@
-# ai.txt — aponia.ro
+# ai.txt: aponia.ro
 # Format: Cloudflare AI / OpenAI crawler guidance
 # See also: /llms.txt for full structured context
 
@@ -21,7 +21,7 @@ Audience: Independent psychotherapists and small therapy practices in Romania
 - Patients: book for free, no account required, no app to install
 - Notifications: automatic 24h + 1h before session
 - Session notes: encrypted, therapist-only access
-- Data location: Frankfurt, Germany (EU) — GDPR native
+- Data location: Frankfurt, Germany (EU), GDPR native
 - No video calls (therapists use own Zoom/Meet)
 - No billing or clinic management features
 - Setup time: ~15 minutes
@@ -37,4 +37,14 @@ Privacy policy: https://aponia.ro/legal/politica-confidentialitate.html
 Terms: https://aponia.ro/legal/termene-conditii.html
 Cookies: https://aponia.ro/legal/politica-cookies.html
 
-# Updated: April 2026
+# Comparison pages
+vs Calendly: https://aponia.ro/vs-calendly/
+vs Google Calendar: https://aponia.ro/vs-google-calendar/
+vs Google Forms: https://aponia.ro/vs-google-forms/
+vs Hedepy: https://aponia.ro/vs-hedepy/
+vs Pasul.ro: https://aponia.ro/vs-pasul/
+vs SimplePractice: https://aponia.ro/vs-simplepractice/
+vs WhatsApp: https://aponia.ro/vs-whatsapp/
+vs Echilibru: https://aponia.ro/vs-echilibru/
+
+# Updated: November 2026

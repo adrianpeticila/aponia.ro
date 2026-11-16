@@ -73,6 +73,19 @@ A comprehensive clinical management suite engineered for modern independent ther
 
 ---
 
+## Comparison pages
+
+- [APONIA.ro vs Calendly](https://aponia.ro/vs-calendly/)
+- [APONIA.ro vs Google Calendar](https://aponia.ro/vs-google-calendar/)
+- [APONIA.ro vs Google Forms](https://aponia.ro/vs-google-forms/)
+- [APONIA.ro vs Hedepy](https://aponia.ro/vs-hedepy/)
+- [APONIA.ro vs Pasul.ro](https://aponia.ro/vs-pasul/)
+- [APONIA.ro vs SimplePractice](https://aponia.ro/vs-simplepractice/)
+- [APONIA.ro vs WhatsApp](https://aponia.ro/vs-whatsapp/)
+- [APONIA.ro vs Echilibru](https://aponia.ro/vs-echilibru/)
+
+---
+
 ## License & Operations
 
 Operated under the APONIA brand. All rights reserved.
