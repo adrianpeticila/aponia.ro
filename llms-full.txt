@@ -250,6 +250,9 @@ Mai puțin de o treime din valoarea unei singure ședințe salvate pe lună.
 Preț standard: 99 RON / lună
 
       
+sau 590 RON/an, adică 49 RON/lună facturat anual
+
+      
 
         
 ✓ 
@@ -475,7 +478,7 @@ Ci pentru că administrativul a ocupat tot spațiul
 Activează Cabinetul 
 →
 
-locuri limitate · 3 luni gratuit, fără card
+locuri limitate · 14 zile gratuit, fără card
 
   
 
@@ -825,7 +828,7 @@ Cu APONIA.ro, clientul rezervă singur printr-un link în sub 90 de secunde, fă
 Activează Cabinetul 
 →
 
-locuri limitate · 3 luni gratuit, fără card
+locuri limitate · 14 zile gratuit, fără card
 
   
 
@@ -1203,7 +1206,7 @@ Activează Cabinetul
 →
 
       
-Terapeuții beta intră gratuit 3 luni. Fără card. Fără angajament. După 3 luni, 73 RON/lună.
+Terapeuții beta intră gratuit 14 zile. Fără card. Fără angajament. După 14 zile, 73 RON/lună.
 
     
 
@@ -1229,19 +1232,7 @@ Date și statistici despre platforma APONIA.ro pentru psihoterapeuți
 
         
 
-          
-Metric
-
-          
-Valoare
-
-        
-
-      
-
-      
-
-     
+         
 
 ## https://aponia.ro/abonament.html
 
@@ -1516,7 +1507,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -1839,7 +1830,7 @@ Peste 350 RON
 Pasul 5 din 5 · Obiectivul tău de tihnă
 
       
-Ce ai vrea să elimini cel mai mult în următoarele 30 de zile?
+Ce ai vrea să scoți din cabinet în următoarele 30 de zile?
 
       
 
@@ -1871,7 +1862,7 @@ Notițele împrăștiate și timpul administrativ
     
 
       
-Diagnostic Finalizat
+Diagnostic finalizat
 
       
 Scurgerea estimată din cabinetul tău:
@@ -1885,82 +1876,126 @@ bani pierduți și peste
  consumate în WhatsApp și sarcini manuale.
 
       
+Scurgerea nu vine din lipsă de clienți. Vine din confirmări trimise manual și din ore blocate pe care nimeni nu le mai anunță.
+
+      
+
+        
+Ce oprește scurgerea
 
         
 
           
-✓
+
+Programări automate.
+ Pacientul primește un link, alege ora liberă și rezervă singur.
 
           
 
-Sursa #1:
- Confirmările manuale fără depozit de siguranță sau link automat.
-
-        
-
-        
-
-          
-✓
+Confirmări trimise de sistem.
+ Memento automat înainte de ședință, nu scris de tine la 22:00.
 
           
 
-Raport Personalizat Tihnă & Protocol Anti-No-Show:
- 
-Ghidul de recuperare a 4 ore/săptămână și template-ul de mesaj contractual pentru WhatsApp.
-
-        
-
-        
-
-          
-✓
-
-          
-
-Pachet Unelte Clinice Aponia:
- Jupiter, Mars Yale 2D & Modulul Popas activate instant.
+Regulă de anulare.
+ O stabilești o dată, iar pacientul o vede când rezervă.
 
         
 
       
 
       
-Activează Uneltele de Tihnă & Raportul (29 RON/lună) →
-
-      
-Abonament lunar recurent · Plată securizată Stripe · Acces instant la unelte și raport · Anulezi oricând
+Planul anual costă 590 RON. Scurgerea ta estimată: 24.000 RON pe an.
 
       
 
         
-După plată, activează accesul în 30 de secunde:
+
+          
+Cabinet complet
+
+          
+Plan anual
+
+          
+590 RON 
+/ an
+
+          
+11,3 RON pe săptămână. Echivalentul a 49 RON pe lună, facturat anual.
+
+          
+Activează planul anual
+
+          
+O singură factură pe an. Anulezi oricând din cont.
+
+        
+
+      
+
+      
+O singură ședință salvată acoperă 5 luni din abonamentul anual.
+
+      
+
+        
+
+          
+Pasul 1
+
+          
+Astăzi
+
+          
+Acces instant după plată.
+
+        
+
+        
+
+          
+Pasul 2
+
+          
+Oricând
+
+          
+Anulezi din cont, într-un click.
+
+        
+
+        
+
+          
+Pasul 3
+
+          
+Fără risc
+
+          
+Zero perioadă minimă. Zero cost de anulare.
+
+        
+
+      
+
+      
+
+        
+După plată, doi pași:
 
         
 
 1
- Deschide 
+ Intră pe 
 app.aponia.ro/register
- și creează-ți contul de terapeut.
+ și creează contul cu exact aceeași adresă de email folosită la plată.
 
         
 
 2
- Folosește 
-exact aceeași adresă de email
- folosită la plata Stripe.
-
-        
-
-3
- Abonamentul se atașează automat contului la prima autentificare. Dacă ai plătit înainte să-ți faci cont, plata e păstrată și se activează la register.
-
-        
-
-4
- Preferi să vezi mai întâi panoul cabinetului? 
-Creează contul și intră în aplicație
-, apoi revino aici pentru plată.
+ Gata. Abonamentul se atașează automat la prima autentificare.
 
       
 
@@ -1984,7 +2019,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
           
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+590 RON/an (11,3 RON/săptămână)
 
           
 Telemetrie Daemon →
@@ -4111,7 +4146,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -4613,7 +4648,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -5144,7 +5179,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -5437,7 +5472,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -5758,7 +5793,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -6081,7 +6116,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -6438,6 +6473,9 @@ Less than one third of a single saved session per month.
 
       
 Standard price: 99 RON / month
+
+      
+or 590 RON/year (~€118), equivalent to 49 RON/month billed annually
 
       
 
@@ -7448,31 +7486,14 @@ AES-256
 Free beta period
 
           
-3 months, no card
+14 days, no card
 
         
 
         
 
           
-Price after free period
-
-          
-73 RON/month
-
-        
-
-      
-
-    
-
-  
-
-  
-
-    
-
-    
+Price after free 
 
 ## https://aponia.ro/en/about/
 
@@ -7677,7 +7698,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -8447,7 +8468,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -8786,7 +8807,7 @@ Scattered clinical notes and administrative fatigue
     
 
       
-Diagnostic Completed
+Diagnostic completed
 
       
 Estimated leakage in your practice:
@@ -8795,87 +8816,131 @@ Estimated leakage in your practice:
 €4,200 / year
 
       
-in lost income and over 
+in lost revenue and over 
 120 hours
- consumed by manual admin tasks.
+ consumed by WhatsApp and manual tasks.
+
+      
+The leak is not a lack of patients. It comes from manual confirmations and blocked slots that nobody cancels in time.
 
       
 
         
-
-          
-✓
-
-          
-
-Primary Leak:
- Manual confirmation ping-pong without automated booking limits.
-
-        
+What stops the leak
 
         
 
           
-✓
+
+Automated scheduling.
+ Your patient gets one link, picks a free slot, and books without texting.
 
           
 
-Personalized Respite Report & Anti-No-Show Playbook:
- 
-Step-by-step roadmap to reclaim 4 evenings per week with proven WhatsApp boundary templates.
-
-        
-
-        
-
-          
-✓
+System confirmations.
+ Automatic reminders go out before each session, not typed by you at 10 PM.
 
           
 
-Clinical Respite Toolkit:
- Immediate access to somatic grounding modules (Jupiter, Mars, Popas).
+Clear cancellation rule.
+ Set it once, and every patient sees it before confirming.
 
         
 
       
 
       
-Unlock Respite Tools & Full Diagnostic (29 RON / ~€6 / mo) →
-
-      
-Monthly recurring subscription · Secure Stripe Checkout · Instant access to tools and full report · Cancel anytime
+The annual plan costs 590 RON (~€118). Your estimated leak: €4,200 per year.
 
       
 
         
-After paying, activate your access in 30 seconds:
+
+          
+Full practice
+
+          
+Annual plan
+
+          
+590 RON 
+/ year
+
+          
+11.3 RON per week (~€2.25/wk). Equivalent to 49 RON/month, billed annually.
+
+          
+Activate annual plan
+
+          
+Charged in RON. Your bank converts at its own rate, usually close to €118. One invoice per year. Cancel anytime from your account.
+
+        
+
+      
+
+      
+One saved session covers 7 months of the annual plan.
+
+      
+
+        
+
+          
+Step 1
+
+          
+Today
+
+          
+Instant access right after payment.
+
+        
+
+        
+
+          
+Step 2
+
+          
+Anytime
+
+          
+Cancel from your account in one click.
+
+        
+
+        
+
+          
+Step 3
+
+          
+Zero risk
+
+          
+No minimum lock-in. No cancellation fee.
+
+        
+
+      
+
+      
+
+        
+After payment, two steps:
 
         
 
 1
  Open 
 app.aponia.ro/register
- and create your therapist account.
+ and create your account using the exact same email address used at checkout.
 
         
 
 2
- Use 
-the exact same email address
- you used for the Stripe payment.
-
-        
-
-3
- The subscription attaches to your account on first sign in. If you paid before creating an account, the purchase is kept and activates at register.
-
-        
-
-4
- Want to see the practice dashboard first? 
-Create an account and sign in
-, then come back here to pay.
+ Done. Your subscription attaches automatically on first sign-in.
 
       
 
@@ -8899,7 +8964,7 @@ APONIA
 Online scheduling and somatic respite tools for independent psychotherapists.
 
           
-73 RON/mo (Practice) · 29 RON/mo (Tools)
+590 RON/yr (11.3 RON/week)
 
           
 Daemon Telemetry →
@@ -10801,7 +10866,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -11086,7 +11151,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -11409,7 +11474,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -11633,7 +11698,7 @@ No. APONIA.ro is cloud, zero-install. You work in the browser; the patient books
 How much does it cost and do I get a VAT invoice?
 
     
-Cabinet 73 RON/month, Tools 29 RON/month, with deductible fiscal invoice. No commission per session.
+Cabinet 73 RON/month or 590 RON/year, Tools 29 RON/month, with deductible fiscal invoice. No commission per session.
 
   
 
@@ -11739,7 +11804,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -12043,7 +12108,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -12488,7 +12553,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -12826,7 +12891,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -13077,7 +13142,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -13504,7 +13569,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -13749,7 +13814,7 @@ Payment canceled
       
 
         No payment was made. You can return at any time to activate your subscription. 
-The first 30 days are free
+The first 14 days are free
 , no card required.
       
 
@@ -13848,7 +13913,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -14297,7 +14362,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -14605,7 +14670,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -15117,7 +15182,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -15592,7 +15657,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -16083,7 +16148,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -16633,7 +16698,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -17142,7 +17207,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -17431,7 +17496,7 @@ European currency pricing
           
 
 ✗
- USD ($29–$99/month)
+ USD ($29-$99/month)
 
         
 
@@ -17516,7 +17581,7 @@ Monthly cost
           
 
 ✗
- $29–$99/month + conversion fees
+ $29-$99/month + conversion fees
 
         
 
@@ -17661,7 +17726,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -18173,7 +18238,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -18878,7 +18943,7 @@ APONIA
 Scheduling & somatic respite tools for independent psychotherapists.
 
         
-73 RON / mo (Practice) · 29 RON / mo (Respite Tools)
+Practice 73 RON/mo or 590 RON/yr · Respite Tools 29 RON/mo
 
         
 Daemon Telemetry →
@@ -19116,7 +19181,7 @@ q03
 
 Cat costa si primesc factura fiscala?
 
-Cabinet 73 RON/luna, Unelte 29 RON/luna, cu factura fiscala deductibila. Fara comision pe sedinte.
+Cabinet 73 RON/luna sau 590 RON/an, Unelte 29 RON/luna, cu factura fiscala deductibila. Fara comision pe sedinte.
 
 q04
 
@@ -19186,7 +19251,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -19554,7 +19619,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -19866,7 +19931,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -20226,7 +20291,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -20574,7 +20639,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -20827,7 +20892,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -21106,7 +21171,7 @@ Preț
 
 Perioadă gratuită beta
 
-3 luni, fără card
+14 zile, fără card
 
         
 
@@ -21326,7 +21391,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -21696,7 +21761,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -22013,7 +22078,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -22856,7 +22921,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -23505,7 +23570,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -24278,7 +24343,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -25077,7 +25142,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -25607,7 +25672,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -26107,7 +26172,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -26658,7 +26723,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -27178,7 +27243,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -27724,7 +27789,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -28250,7 +28315,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
@@ -29039,7 +29104,7 @@ APONIA
 Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.
 
         
-73 RON/lună (Cabinet) · 29 RON/lună (Unelte)
+Cabinet 73 RON/lună sau 590 RON/an · Unelte 29 RON/lună
 
         
 Telemetrie Daemon →
