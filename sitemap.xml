@@ -823,6 +823,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aponia.ro/preturi/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aponia.ro/programare-terapeut/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -890,6 +896,12 @@
   </url>
   <url>
     <loc>https://aponia.ro/vs-pasul/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aponia.ro/vs-sesio/</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

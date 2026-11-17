@@ -129,6 +129,7 @@ https://aponia.ro/manifest/
 https://aponia.ro/manifesto/
 https://aponia.ro/mcp/
 https://aponia.ro/presa/
+https://aponia.ro/preturi/
 https://aponia.ro/programare-terapeut/
 https://aponia.ro/rhea/
 https://aponia.ro/test-anxietate/
@@ -139,6 +140,7 @@ https://aponia.ro/vs-google-calendar/
 https://aponia.ro/vs-google-forms/
 https://aponia.ro/vs-hedepy/
 https://aponia.ro/vs-pasul/
+https://aponia.ro/vs-sesio/
 https://aponia.ro/vs-simplepractice/
 https://aponia.ro/vs-whatsapp/
 https://aponia.ro/wellbeing/
