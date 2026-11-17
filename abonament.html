@@ -74,6 +74,13 @@
     /* hidden by default, shown by JS */
     .state { display: none; }
     .state.active { display: block; }
+
+    @media (max-width: 640px) {
+      header > div { padding: 10px 12px !important; gap: 8px !important; }
+      header nav { display: none !important; }
+      header > div > div { gap: 8px !important; }
+      header a[href="https://app.aponia.ro/register"] { font-size: 12px !important; padding: 7px 10px !important; }
+    }
   </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"Abonament, APONIA.ro","url":"https://aponia.ro/abonament.html","isPartOf":{"@id":"https://aponia.ro/"}}

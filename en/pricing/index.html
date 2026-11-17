@@ -77,9 +77,16 @@
 
     .state { display: none; }
     .state.active { display: block; }
+
+    @media (max-width: 640px) {
+      header > div { padding: 10px 12px !important; gap: 8px !important; }
+      header nav { display: none !important; }
+      header > div > div { gap: 8px !important; }
+      header a[href="https://app.aponia.ro/register"] { font-size: 12px !important; padding: 7px 10px !important; }
+    }
   </style>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Pricing, APONIA.ro \u2014 scheduling for therapists","url":"https://aponia.ro/en/pricing/index/","isPartOf":{"@id":"https://aponia.ro/"}}
+{"@context":"https://schema.org","@type":"WebPage","name":"Pricing, APONIA.ro - scheduling for therapists","url":"https://aponia.ro/en/pricing/index/","isPartOf":{"@id":"https://aponia.ro/"}}
 </script>
 </head>
 <body>
