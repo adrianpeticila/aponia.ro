@@ -97,20 +97,44 @@
     .btn-next { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.95rem; background: var(--green); color: #fff; border: none; padding: 0.85rem 1.8rem; border-radius: 4px; cursor: pointer; }
     .btn-prev { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 0.9rem; color: #777; background: transparent; border: none; cursor: pointer; }
 
-    /* PAYWALL & DIAGNOSTIC RESULT */
+    /* REZULTAT & OFERTA */
     .result-box { display: none; background: #ffffff; border: 2px solid var(--green); border-radius: 8px; padding: 2.5rem 2rem; text-align: center; box-shadow: 0 6px 24px rgba(0,0,0,0.06); }
     .result-box.active { display: block; }
+    .result-title { font-family: 'Inter Tight', sans-serif; font-size: 1.75rem; font-weight: 800; color: var(--dark); line-height: 1.25; }
     .loss-highlight { font-family: 'Inter Tight', sans-serif; font-size: 2.5rem; font-weight: 900; color: var(--red); margin: 1rem 0 0.5rem; line-height: 1; }
-    .loss-label { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; color: #666; margin-bottom: 2rem; }
-    
-    .teaser-details { text-align: left; background: var(--cream); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem; margin-bottom: 2rem; }
-    .teaser-item { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.75rem; font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; }
-    .teaser-item:last-child { margin-bottom: 0; }
-    .teaser-blur { filter: blur(4px); user-select: none; }
-    
-    .btn-paywall { display: block; width: 100%; font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.15rem; background: var(--green); color: #fff; padding: 1.1rem; border-radius: 6px; text-decoration: none; margin-bottom: 1rem; transition: background 0.2s; }
-    .btn-paywall:hover { background: var(--green-dark); }
-    .guarantee-note { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; color: #777; }
+    .loss-label { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; color: #666; margin-bottom: 1.75rem; }
+    .result-lead { text-align: left; font-size: 1.05rem; color: #333333; margin: 0 auto 2rem; max-width: 54ch; }
+
+    .fix-block { text-align: left; background: var(--cream); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem; margin-bottom: 2rem; }
+    .fix-kicker { font-family: 'Inter Tight', sans-serif; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em; color: var(--green-dark); margin-bottom: 1rem; }
+    .fix-list { list-style: none; display: flex; flex-direction: column; gap: 0.9rem; }
+    .fix-item { display: flex; gap: 0.7rem; align-items: flex-start; font-family: 'Inter Tight', sans-serif; font-size: 0.92rem; line-height: 1.5; color: #3d4a42; }
+    .fix-check { flex: 0 0 18px; height: 18px; margin-top: 2px; color: var(--green); }
+    .fix-item strong { color: var(--dark); }
+
+    .plans-anchor { font-family: 'Inter Tight', sans-serif; font-size: 1rem; font-weight: 700; color: var(--dark); margin-bottom: 1.25rem; }
+    .plans { display: grid; grid-template-columns: 1fr; max-width: 440px; margin: 0 auto 1rem; gap: 1rem; text-align: left; }
+    .plan { display: flex; flex-direction: column; background: #ffffff; border: 1px solid var(--border); border-radius: 8px; padding: 1.4rem 1.25rem; }
+    .plan-primary { border: 2px solid var(--green); box-shadow: 0 8px 20px rgba(91,140,106,0.16); }
+    .plan-badge { align-self: flex-start; font-family: 'Inter Tight', sans-serif; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; background: var(--green); color: #ffffff; padding: 0.25rem 0.55rem; border-radius: 3px; margin-bottom: 0.7rem; }
+    .plan-name { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; font-weight: 700; color: var(--green-dark); margin-bottom: 0.5rem; }
+    .plan-price { font-family: 'Inter Tight', sans-serif; font-size: 1.9rem; font-weight: 900; color: var(--dark); line-height: 1.05; }
+    .plan-price span { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
+    .plan-sub { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; color: var(--muted); margin: 0.5rem 0 1.1rem; }
+    .plan-cta { display: block; margin-top: auto; text-align: center; font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 0.95rem; padding: 0.85rem 1rem; border-radius: 5px; }
+    .plan-cta-primary { background: var(--green); color: #ffffff; }
+    .plan-cta-primary:hover { background: var(--green-dark); }
+    .plan-cta-secondary { background: #ffffff; color: var(--green-dark); border: 1.5px solid var(--green); }
+    .plan-cta-secondary:hover { background: rgba(91,140,106,0.08); }
+    .plan-note { font-family: 'Inter Tight', sans-serif; font-size: 0.72rem; color: #777777; margin-top: 0.6rem; }
+    .session-anchor { font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; color: var(--green-dark); margin-bottom: 1.75rem; }
+
+    .timeline { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; text-align: left; margin-bottom: 1.75rem; }
+    .timeline-step { border-top: 2px solid var(--green); padding-top: 0.7rem; }
+    .timeline-num { font-family: 'Inter Tight', sans-serif; font-size: 0.7rem; font-weight: 700; color: var(--green); letter-spacing: 0.1em; text-transform: uppercase; }
+    .timeline-title { font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; font-weight: 700; color: var(--dark); margin: 0.25rem 0 0.2rem; }
+    .timeline-text { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
+
     .postpay-note { margin-top: 1.75rem; padding: 1.5rem; background: #f9f8f5; border: 1px solid var(--border); border-radius: 8px; text-align: left; }
     .postpay-title { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; font-weight: 700; color: var(--dark); margin-bottom: 0.9rem; }
     .postpay-step { display: flex; gap: 0.7rem; align-items: flex-start; font-size: 0.88rem; line-height: 1.55; color: #4a5568; margin-bottom: 0.6rem; }
@@ -192,7 +216,7 @@
     <!-- PASUL 5: Durerea principală -->
     <div class="step-card" data-step="5">
       <p class="step-kicker">Pasul 5 din 5 · Obiectivul tău de tihnă</p>
-      <h2 class="step-title">Ce ai vrea să elimini cel mai mult în următoarele 30 de zile?</h2>
+      <h2 class="step-title">Ce ai vrea să scoți din cabinet în următoarele 30 de zile?</h2>
       <div class="options-grid">
         <button class="option-btn" onclick="finishAudit('ping-pong')">Mesajele de la pacienți trimise la ore târzii <span>→</span></button>
         <button class="option-btn" onclick="finishAudit('pierderi')">Banii pierduți din orele anulate în scurt <span>→</span></button>
@@ -203,37 +227,82 @@
       </div>
     </div>
 
-    <!-- REZULTAT + HARD PAYWALL / CHECKOUT -->
+    <!-- REZULTAT + OFERTA -->
     <div class="result-box" id="result-box">
-      <p class="step-kicker" style="color:var(--red);">Diagnostic Finalizat</p>
-      <h2 style="font-family:'Inter Tight',sans-serif; font-size:1.8rem; font-weight:800; color:var(--dark);">Scurgerea estimată din cabinetul tău:</h2>
+      <p class="step-kicker" style="color:var(--red);">Diagnostic finalizat</p>
+
+      <h2 class="result-title">Scurgerea estimată din cabinetul tău:</h2>
+
       <div class="loss-highlight" id="total-loss-display">24.000 RON / an</div>
+
       <p class="loss-label">bani pierduți și peste <strong id="hours-lost-display">120 ore</strong> consumate în WhatsApp și sarcini manuale.</p>
 
-      <div class="teaser-details">
-        <div class="teaser-item">
-          <strong style="color:var(--green);">✓</strong>
-          <div><strong>Sursa #1:</strong> Confirmările manuale fără depozit de siguranță sau link automat.</div>
-        </div>
-        <div class="teaser-item">
-          <strong style="color:var(--green);">✓</strong>
-          <div><strong>Raport Personalizat Tihnă & Protocol Anti-No-Show:</strong> <span class="teaser-blur">Ghidul de recuperare a 4 ore/săptămână și template-ul de mesaj contractual pentru WhatsApp.</span></div>
-        </div>
-        <div class="teaser-item">
-          <strong style="color:var(--green);">✓</strong>
-          <div><strong>Pachet Unelte Clinice Aponia:</strong> Jupiter, Mars Yale 2D & Modulul Popas activate instant.</div>
+      <p class="result-lead">Scurgerea nu vine din lipsă de clienți. Vine din confirmări trimise manual și din ore blocate pe care nimeni nu le mai anunță.</p>
+
+      <div class="fix-block">
+        <p class="fix-kicker">Ce oprește scurgerea</p>
+
+        <ul class="fix-list">
+          <li class="fix-item"><svg class="fix-check" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10.5l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Programări automate.</strong> Pacientul primește un link, alege ora liberă și rezervă singur.</div></li>
+
+          <li class="fix-item"><svg class="fix-check" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10.5l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Confirmări trimise de sistem.</strong> Memento automat înainte de ședință, nu scris de tine la 22:00.</div></li>
+
+          <li class="fix-item"><svg class="fix-check" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10.5l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Regulă de anulare.</strong> O stabilești o dată, iar pacientul o vede când rezervă.</div></li>
+        </ul>
+      </div>
+
+      <p class="plans-anchor" id="plans-anchor">Planul anual costă 590 RON. Scurgerea ta estimată: 24.000 RON pe an.</p>
+
+      <div class="plans">
+        <div class="plan plan-primary">
+          <span class="plan-badge">Cabinet complet</span>
+
+          <p class="plan-name">Plan anual</p>
+
+          <p class="plan-price">590 RON <span>/ an</span></p>
+
+          <p class="plan-sub">11,3 RON pe săptămână. Echivalentul a 49 RON pe lună, facturat anual.</p>
+
+          <a href="https://buy.stripe.com/8x23co3P2gL4ekh22ebV601" class="plan-cta plan-cta-primary">Activează planul anual</a>
+
+          <p class="plan-note">O singură factură pe an. Anulezi oricând din cont.</p>
         </div>
       </div>
 
-      <a href="https://buy.stripe.com/28E4gsfxKbqK3FD8qCbV600" class="btn-paywall">Activează Uneltele de Tihnă & Raportul (29 RON/lună) →</a>
-      <p class="guarantee-note">Abonament lunar recurent · Plată securizată Stripe · Acces instant la unelte și raport · Anulezi oricând</p>
+      <p class="session-anchor" id="session-anchor">O singură ședință salvată acoperă 5 luni din abonamentul anual.</p>
+
+      <div class="timeline">
+        <div class="timeline-step">
+          <p class="timeline-num">Pasul 1</p>
+
+          <p class="timeline-title">Astăzi</p>
+
+          <p class="timeline-text">Acces instant după plată.</p>
+        </div>
+
+        <div class="timeline-step">
+          <p class="timeline-num">Pasul 2</p>
+
+          <p class="timeline-title">Oricând</p>
+
+          <p class="timeline-text">Anulezi din cont, într-un click.</p>
+        </div>
+
+        <div class="timeline-step">
+          <p class="timeline-num">Pasul 3</p>
+
+          <p class="timeline-title">Fără risc</p>
+
+          <p class="timeline-text">Zero perioadă minimă. Zero cost de anulare.</p>
+        </div>
+      </div>
 
       <div class="postpay-note">
-        <p class="postpay-title">După plată, activează accesul în 30 de secunde:</p>
-        <p class="postpay-step"><span class="postpay-num">1</span> Deschide <a href="https://app.aponia.ro/register" class="postpay-link">app.aponia.ro/register</a> și creează-ți contul de terapeut.</p>
-        <p class="postpay-step"><span class="postpay-num">2</span> Folosește <strong>exact aceeași adresă de email</strong> folosită la plata Stripe.</p>
-        <p class="postpay-step"><span class="postpay-num">3</span> Abonamentul se atașează automat contului la prima autentificare. Dacă ai plătit înainte să-ți faci cont, plata e păstrată și se activează la register.</p>
-        <p class="postpay-step"><span class="postpay-num">4</span> Preferi să vezi mai întâi panoul cabinetului? <a href="https://app.aponia.ro/register" class="postpay-link">Creează contul și intră în aplicație</a>, apoi revino aici pentru plată.</p>
+        <p class="postpay-title">După plată, doi pași:</p>
+
+        <p class="postpay-step"><span class="postpay-num">1</span> Intră pe <a href="https://app.aponia.ro/register" class="postpay-link">app.aponia.ro/register</a> și creează contul cu exact aceeași adresă de email folosită la plată.</p>
+
+        <p class="postpay-step"><span class="postpay-num">2</span> Gata. Abonamentul se atașează automat la prima autentificare.</p>
       </div>
     </div>
   </main>
@@ -244,7 +313,7 @@
         <div style="flex:1 1 240px;min-width:220px;text-align:left!important;">
           <div style="font-family:Georgia,serif;font-size:20px;font-weight:700;color:#1a2e22;margin-bottom:12px;text-align:left!important;">APONIA<span style="color:#2e5c46;">.ro</span></div>
           <p style="font-size:13.5px;color:#4a5568;line-height:1.6;margin-bottom:14px;text-align:left!important;">Programări și unelte somatice de tihnă pentru psihoterapeuți independenți.</p>
-          <div style="font-size:13px;font-weight:600;color:#2e5c46;margin-bottom:8px;text-align:left!important;">73 RON/lună (Cabinet) · 29 RON/lună (Unelte)</div>
+          <div style="font-size:13px;font-weight:600;color:#2e5c46;margin-bottom:8px;text-align:left!important;">590 RON/an (11,3 RON/săptămână)</div>
           <a href="/daemon/" style="font-size:12.5px;color:#718096;text-decoration:none;text-align:left!important;display:inline-block;">Telemetrie Daemon →</a>
         </div>
         <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
@@ -330,6 +399,11 @@
 
       document.getElementById('total-loss-display').textContent = new Intl.NumberFormat('ro-RO').format(annualLoss) + ' RON / an';
       document.getElementById('hours-lost-display').textContent = hoursLoss + ' ore/an';
+
+      document.getElementById('plans-anchor').textContent = 'Planul anual costă 590 RON. Scurgerea ta estimată: ' + new Intl.NumberFormat('ro-RO').format(annualLoss) + ' RON pe an.';
+
+      var monthsCovered = Math.max(1, Math.round((answers.price / 590) * 12));
+      document.getElementById('session-anchor').textContent = 'O singură ședință salvată acoperă ' + (monthsCovered === 1 ? 'o lună' : monthsCovered + ' luni') + ' din abonamentul anual.';
 
       var resBox = document.getElementById('result-box');
       resBox.classList.add('active');
