@@ -187,7 +187,9 @@ APONIA.ro · programări și administrare pentru psihoterapeuți
 Ca să fii terapeut, nu administrator de cabinet.
 
   
-21:14. Ultima ședință se termină.
+21:14.
+
+  Ultima ședință se termină.
 
 Seara ta nu mai e a ta.
 
@@ -195,7 +197,17 @@ Seara ta nu mai e a ta.
 Software-ul care preia munca administrativă din cabinet.
 
   
-Nicio confirmare manuală. Niciun WhatsApp. Nicio ședință pierdută. Clientul tău nu instalează nimic. Tu trimiți un link. El rezervă.
+Nicio confirmare manuală.
+
+  Niciun WhatsApp.
+
+  Nicio ședință pierdută.
+
+  Clientul tău nu instalează nimic.
+
+  Tu trimiți un link.
+
+  El rezervă.
 
   
 
@@ -227,7 +239,9 @@ Activează cabinetul tău (14 zile gratuit) →
 Abonament Cabinet
 
     
-Un singur preț. Zero bătăi de cap.
+Un singur preț.
+
+    Zero bătăi de cap.
 
     
 Mai puțin de o treime din valoarea unei singure ședințe salvate pe lună.
@@ -255,22 +269,26 @@ sau 590 RON/an, adică 49 RON/lună facturat anual
       
 
         
-✓ 
+
+ 
 Link propriu de programare
  pentru pacienții tăi
 
         
-✓ 
+
+ 
 Confirmări & remindere automate
  (SMS / Email)
 
         
-✓ 
+
+ 
 Notițe de sesiune criptate
  conform GDPR
 
         
-✓ 
+
+ 
 Anulezi oricând
  din panoul de control
 
@@ -292,10 +310,14 @@ Configurare în 10 minute · Fără card bancar la înregistrare
 Cabinetul tău începe cu linkul de programare.
 
     
-Prima impresie nu e în cabinet. E în felul în care pacientul rezervă prima ședință.
+Prima impresie nu e în cabinet.
+
+    E în felul în care pacientul rezervă prima ședință.
 
     
-Pacienții nu știu să evalueze terapia. Știu să evalueze cât de ușor a fost să rezerve.
+Pacienții nu știu să evalueze terapia.
+
+    Știu să evalueze cât de ușor a fost să rezerve.
 
   
 
@@ -305,10 +327,24 @@ Pacienții nu știu să evalueze terapia. Știu să evalueze cât de ușor a fos
 Ce este APONIA.ro?
 
     
-APONIA.ro este o platformă românească de programări și administrare pentru psihoterapeuți. Înlocuiește munca manuală din agendă și mesajele împrăștiate pe WhatsApp cu un sistem clar pentru programări, confirmări, notificări automate și notițe de sesiune. Psihoterapeutul plătește pentru APONIA.ro, pacientul rezervă gratuit, fără să instaleze nimic.
+APONIA.ro este o platformă românească de programări și administrare pentru psihoterapeuți.
+
+    Înlocuiește munca manuală din agendă și mesajele împrăștiate pe WhatsApp cu un sistem clar pentru programări, confirmări, notificări automate și notițe de sesiune.
+
+    Psihoterapeutul plătește pentru APONIA.ro, pacientul rezervă gratuit, fără să instaleze nimic.
 
     
-Am vorbit direct cu 14 psihoterapeuți independenți din România. Problema nu e lipsa pacienților. E timpul irosit pe logistică. Conform European Federation of Psychologists' Associations (2023), un psiholog cu cabinet privat petrece în medie 6-8 ore pe săptămână pe administrativ. APONIA.ro reduce cifra la sub 2 ore. Contact: hello@aponia.ro · 
+Am vorbit direct cu 14 psihoterapeuți independenți din România.
+
+    Problema nu e lipsa pacienților.
+
+    E timpul irosit pe logistică.
+
+    Conform European Federation of Psychologists' Associations (2023), un psiholog cu cabinet privat petrece în medie 6-8 ore pe săptămână pe administrativ.
+
+    APONIA.ro reduce cifra la sub 2 ore.
+
+    Contact: hello@aponia.ro · 
 Actualizat iunie 2026.
 
   
@@ -321,24 +357,62 @@ Actualizat iunie 2026.
 Joi, 23:12
 
       
-"Bună ziua, mai aveți ore libere săptămâna asta? Sau poate vineri după 18?"
+"Bună ziua, mai aveți ore libere săptămâna asta?
+
+      Sau poate vineri după 18?"
 
       
-Al patrulea mesaj în seara asta. Deschizi agenda și numeri orele libere. Răspunzi. Confirmi. Adaugi în calendar. Trimiți notificare manuală.
+Al patrulea mesaj în seara asta.
 
-E 23:31 când termini. Mâine ai prima sesiune la 8:30.
+      Deschizi agenda și numeri orele libere.
+
+      Răspunzi.
+
+      Confirmi.
+
+      Adaugi în calendar.
+
+      Trimiți notificare manuală.
+
+E 23:31 când termini.
+
+      Mâine ai prima sesiune la 8:30.
 
       
-Între mesajul de confirmat și cel de mâine dimineață, mai e unul: un pacient care a stat mai mult decât ora lui și a tăiat din timpul celui următor. Pe care l-ai reprogramat. Din nou. Pe care l-ai sunat. Din nou. Care a plecat nemulțumit. Din nou.
+Între mesajul de confirmat și cel de mâine dimineață, mai e unul: un pacient care a depășit ora alocată și a tăiat din timpul celui următor.
+
+      Pe care l-ai reprogramat.
+
+      Din nou.
+
+      Pe care l-ai sunat.
+
+      Din nou.
+
+      Care a plecat nemulțumit.
+
+      Din nou.
 
       
-Nu e prima dată. Nu va fi ultima. Și undeva, în spatele oboselii, e o întrebare pe care nu ți-o pui cu voce tare:
+Nu e prima dată.
+
+      Nu va fi ultima.
+
+      Și undeva, în spatele oboselii, e o întrebare pe care nu ți-o pui cu voce tare:
 
       
 
         
 De ce fac asta pe cheltuiala mea?
-Nu a cabinetului. A mea. A timpului meu. A odihnei mele. A familiei mele.
+Nu a cabinetului.
+
+        A mea.
+
+        A timpului meu.
+
+        A odihnei mele.
+
+        A familiei mele.
 
       
 
@@ -347,9 +421,13 @@ Nu a cabinetului. A mea. A timpului meu. A odihnei mele. A familiei mele.
         
 Cel mai rău a fost miercuri, când ai chemat un pacient în cabinet și ai realizat, în primele 30 de secunde, că 
 nu era cel pe care îl așteptai.
- Celălalt era în sala de așteptare. Amândoi se uitau la tine.
+ Celălalt era în sala de așteptare.
 
-Ai petrecut ani construind încredere cu pacienții tăi. Un sistem prost poate s-o submineze într-o secundă.
+        Amândoi se uitau la tine.
+
+Ai petrecut ani construind încredere cu pacienții tăi.
+
+        Un sistem prost poate s-o submineze într-o secundă.
 
       
 
@@ -363,21 +441,41 @@ Ai petrecut ani construind încredere cu pacienții tăi. Un sistem prost poate 
 Ce nu îți spune nimeni
 
     
-Ai studiat ani de zile granițele terapeutice. Știi teoria pe de rost. Și totuși, în propriul tău cabinet, granița dintre muncă și viața personală 
+Ai studiat ani de zile granițele terapeutice.
+
+    Știi teoria pe de rost.
+
+    Și totuși, în propriul tău cabinet, granița dintre muncă și viața personală 
 s-a dizolvat complet.
 
     
-Nu ești neorganizat. Nu ești neglijent. 
+Nu ești neorganizat.
+
+    Nu ești neglijent.
+
+    
 Pur și simplu nu ai un sistem care să susțină granița aia.
  Fără sistem, totul ajunge la tine direct, la orice oră, pe orice canal, cu orice urgență percepută.
 
     
-Și tu continui. Pentru că ești dedicat. Pentru că îți pasă. Pentru că asta faci. 
+Și tu continui.
+
+    Pentru că ești dedicat.
+
+    Pentru că îți pasă.
+
+    Pentru că asta faci.
+
+    
 Mănânci din timpul tău ca să servești pacienții, contra propriului tău interes.
  Și ai normalizat asta ca parte din job.
 
     
-Nu trebuie să fie așa. APONIA.ro nu îți rezolvă pacienții dificili. Dar îți dă înapoi ceva fundamental: 
+Nu trebuie să fie așa.
+
+    APONIA.ro nu îți rezolvă pacienții dificili.
+
+    Dar îți dă înapoi ceva fundamental: 
 controlul asupra timpului tău.
 
     
@@ -403,10 +501,18 @@ Recunoști
 vreuna din astea?
 
     
-Nimeni nu te-a învățat să conduci un cabinet. Ai învățat să fii terapeut.
+Nimeni nu te-a învățat să conduci un cabinet.
+
+    Ai învățat să fii terapeut.
 
     
-Nu sunt probleme de caracter. Sunt consecințele firești ale unui cabinet fără sistem. Se întâmplă tuturor. Nu trebuie să se mai întâmple.
+Nu sunt probleme de caracter.
+
+    Sunt consecințele firești ale unui cabinet fără sistem.
+
+    Se întâmplă tuturor.
+
+    Nu trebuie să se mai întâmple.
 
   
 
@@ -418,7 +524,11 @@ Situația 01
 
 Îți verifici agenda de două ori înainte de fiecare sesiune.
 
-Nu pentru că ești distrat. Ci pentru că ai adăugat programarea manual și nu poți fi complet sigur. 
+Nu pentru că ești distrat.
+
+    Ci pentru că ai adăugat programarea manual și nu poți fi complet sigur.
+
+    
 Incertitudinea asta consumă energie înainte că pacientul să fi intrat pe ușă.
 
     
@@ -427,7 +537,11 @@ Situația 02
 
 Te-ai pierdut cu un pacient și ai tăiat din ora celui următor.
 
-Nu ai cine să bată la ușă. Nu ai ceas vizibil. 
+Nu ai cine să bată la ușă.
+
+    Nu ai ceas vizibil.
+
+    
 Al doilea pacient a așteptat în hol
  în timp ce tu erai în mijlocul unui moment important cu primul.
 
@@ -435,11 +549,19 @@ Al doilea pacient a așteptat în hol
 
 Situația 03
 
-Pacientul nu apare. Nu sună. Nu scrie.
+Pacientul nu apare.
 
-Ora de 17:00 e pierdută. 
+    Nu sună.
+
+    Nu scrie.
+
+Ora de 17:00 e pierdută.
+
+    
 300 de lei evaporați
- plus îngrijorarea că poate nu e bine. Fără confirmare automată, se va repeta.
+ plus îngrijorarea că poate nu e bine.
+
+    Fără confirmare automată, se va repeta.
 
     
 
@@ -447,7 +569,9 @@ Situația 04
 
 WhatsApp personal a devenit linie directă de cabinet.
 
-Mesaje sâmbătă dimineața, duminică seara, în concediu. 
+Mesaje sâmbătă dimineața, duminică seara, în concediu.
+
+    
 Granița dintre viața ta și cabinet
  nu mai există în practică, chiar dacă există în teorie.
 
@@ -455,9 +579,17 @@ Granița dintre viața ta și cabinet
 
 Situația 05
 
-Trimiți notificări manual. Sau uiți. Ambele sunt rele.
+Trimiți notificări manual.
 
-Dacă trimiți, e timp pierdut din seara ta. Dacă uiți, pacientul nu apare. 
+    Sau uiți.
+
+    Ambele sunt rele.
+
+Dacă trimiți, e timp pierdut din seara ta.
+
+    Dacă uiți, pacientul nu apare.
+
+    
 Ai ajuns secretarul propriului cabinet.
  Asta nu era în niciun plan de carieră.
 
@@ -467,7 +599,9 @@ Situația 06
 
 Nu ai avut un weekend liber în ultimele două luni.
 
-Nu pentru că ai prea mulți pacienți. 
+Nu pentru că ai prea mulți pacienți.
+
+    
 Ci pentru că administrativul a ocupat tot spațiul
  care ar fi trebuit să fie al tău.
 
@@ -496,17 +630,23 @@ greacă veche  ·  absența suferinței
 scopul declarat al psihoterapiei
 
       
-Știi deja ce înseamnă. E ceea ce cauți pentru pacienții tăi în fiecare sesiune.
+Știi deja ce înseamnă.
+
+      E ceea ce cauți pentru pacienții tăi în fiecare sesiune.
 
 Am ales numele ăsta pentru că 
 și tu meriți ce le oferi lor.
 
-Un cabinet organizat nu e un avantaj competitiv. E condiția minimă în care poți face terapie bună fără să te consumi pe tine însuți în proces.
+Un cabinet organizat nu e un avantaj competitiv.
+
+      E condiția minimă în care poți face terapie bună fără să te consumi pe tine însuți în proces.
 
       
 
       
-APONIA.ro nu e doar un instrument de programări. E spațiul mental în care poți fi, de fapt, prezent.
+APONIA.ro nu e doar un instrument de programări.
+
+      E spațiul mental în care poți fi, de fapt, prezent.
 
     
 
@@ -540,7 +680,9 @@ Weekenduri și seri ocupate cu lucruri care nu sunt terapie  = 
 timp care nu se recuperează
 
       
-Total / lună  =  câteva ore bune în care nu ești terapeut. Ești organizator.
+Total / lună  =  câteva ore bune în care nu ești terapeut.
+
+      Ești organizator.
 
       
 APONIA.ro  =  
@@ -550,7 +692,9 @@ APONIA.ro  = 
     
 
     
-Costul nu e financiar. 
+Costul nu e financiar.
+
+    
 Sunt orele pe care le dai administrativului în loc să le dai terapiei, sau ție.
 
   
@@ -572,7 +716,13 @@ De la primul mesaj
 la cabinet organizat: 15 minute.
 
     
-Nu există pregătire tehnică. Nu există tutorial de o oră. Îți setezi cabinetul o dată. APONIA.ro se ocupă de restul de acolo înainte.
+Nu există pregătire tehnică.
+
+    Nu există tutorial de o oră.
+
+    Îți setezi cabinetul o dată.
+
+    APONIA.ro se ocupă de restul de acolo înainte.
 
   
 
@@ -584,7 +734,11 @@ Nu există pregătire tehnică. Nu există tutorial de o oră. Îți setezi cabi
 
 Îți creezi profilul de cabinet
 
-Disponibilitatea săptămânală, durata sesiunii, tipul de terapie. O singură dată. Dacă se schimbă ceva, modifici în 2 minute.
+Disponibilitatea săptămânală, durata sesiunii, tipul de terapie.
+
+    O singură dată.
+
+    Dacă se schimbă ceva, modifici în 2 minute.
 
 Cabinetul tău, digitalizat.
 
@@ -594,7 +748,13 @@ Cabinetul tău, digitalizat.
 
 Pacienții rezervă singuri din link-ul tău
 
-Trimiți un link. Ei văd orele libere, aleg, confirmă. Tu primești o notificare. Fără mesaje, fără telefoane, fără negociat la 23:00.
+Trimiți un link.
+
+    Ei văd orele libere, aleg, confirmă.
+
+    Tu primești o notificare.
+
+    Fără mesaje, fără telefoane, fără negociat la 23:00.
 
 Programările se fac fără tine.
 
@@ -602,11 +762,19 @@ Programările se fac fără tine.
 
 3
 
-APONIA.ro ține evidența. Tu faci terapie.
+APONIA.ro ține evidența.
 
-Notificări automate cu 24h și 1h înainte. Istoricul sesiunilor, stocat în siguranță. Totul despre fiecare pacient, la un click distanță.
+    Tu faci terapie.
 
-Efort administrativ zero. Prezență la maximum.
+Notificări automate cu 24h și 1h înainte.
+
+    Istoricul sesiunilor, stocat în siguranță.
+
+    Totul despre fiecare pacient, la un click distanță.
+
+Efort administrativ zero.
+
+    Prezență la maximum.
 
   
 
@@ -621,7 +789,11 @@ Cum arată în practică.
 90 de secunde.
 
     
-Nu descrieri. Nu promisiuni. De la primul mesaj al pacientului până la notița din sesiune.
+Nu descrieri.
+
+    Nu promisiuni.
+
+    De la primul mesaj al pacientului până la notița din sesiune.
 
     
 
@@ -659,69 +831,99 @@ Un cabinet mai bun.
 Nu o agendă mai complicată.
 
     
-Gândit pentru terapeut cu cabinet propriu sau în asociere. Nu pentru o clinică cu recepție și 50 de angajați.
+Gândit pentru terapeut cu cabinet propriu sau în asociere.
+
+    Nu pentru o clinică cu recepție și 50 de angajați.
 
   
 
   
 
     
-
-📅
 
 Nu mai există momentul în care chemi pacientul greșit.
 
-Ora ocupată dispare imediat pentru oricine altcineva. Fiecare pacient știe exact când vine. Tu știi exact pe cine aștepți.
+Ora ocupată dispare imediat pentru oricine altcineva.
 
-Zero momente de jenă. Zero scuze.
+    Fiecare pacient știe exact când vine.
 
-    
+    Tu știi exact pe cine aștepți.
 
-🔔
+Zero momente de jenă.
 
-Notificări automate. Tu nu trimiți nimic.
-
-Cu 24h și cu 1h înainte de fiecare sesiune. Automat. Pacienții apar. Orele nu se pierd.
-
-Rata absențelor scade. Seara ta e liberă.
+    Zero scuze.
 
     
 
-📝
+Notificări automate.
+
+    Tu nu trimiți nimic.
+
+Cu 24h și cu 1h înainte de fiecare sesiune.
+
+    Automat.
+
+    Pacienții apar.
+
+    Orele nu se pierd.
+
+Rata absențelor scade.
+
+    Seara ta e liberă.
+
+    
 
 Notițele din sesiuni, securizate și găsibile.
 
-Per pacient, criptate, accesibile doar ție. Înainte de orice sesiune, ai tot contextul la un click. Nu mai cauți prin caiete.
+Per pacient, criptate, accesibile doar ție.
 
-Intri pregătit. Întotdeauna.
+    Înainte de orice sesiune, ai tot contextul la un click.
 
-    
+    Nu mai cauți prin caiete.
 
-💬
+Intri pregătit.
 
-WhatsApp personal rămâne al tău. Nu al cabinetului.
-
-Pacienții îți scriu în aplicație. Tu răspunzi când alegi, în orele de cabinet. Sâmbătă dimineața e a ta.
-
-Granița refăcută. Seara e a ta.
+    Întotdeauna.
 
     
 
-🔒
+WhatsApp personal rămâne al tău.
 
-Date protejate GDPR. Fără să te gândești la asta.
+    Nu al cabinetului.
 
-Server în Frankfurt, Germania. Datele pacienților criptate în tranzit. Lucrezi legal fără să devii expert în GDPR.
+Pacienții îți scriu în aplicație.
 
-Conformitate completă. Zero efort.
+    Tu răspunzi când alegi, în orele de cabinet.
+
+    Sâmbătă dimineața e a ta.
+
+Granița refăcută.
+
+    Seara e a ta.
 
     
 
-📊
+Date protejate GDPR.
+
+    Fără să te gândești la asta.
+
+Server în Frankfurt, Germania.
+
+    Datele pacienților criptate în tranzit.
+
+    Lucrezi legal fără să devii expert în GDPR.
+
+Conformitate completă.
+
+    Zero efort.
+
+    
 
 Istoricul complet al fiecărui pacient.
 
-Toate sesiunile, notițele, comunicările organizate per pacient. Dacă cineva revine după 6 luni, ai tot contextul în 30 de secunde.
+Toate sesiunile, notițele, comunicările organizate per pacient.
+
+    Dacă cineva revine după 6 luni, ai tot contextul în 30 de secunde.
 
 Continuitate terapeutică reală.
 
@@ -753,30 +955,45 @@ cu APONIA.ro.
 Fără APONIA.ro
 
           
-Un psihoterapeut independent gestionează în medie 6-8 ore pe săptămână pe programări, confirmări și reminder-uri trimise manual prin WhatsApp. Fără un sistem automatizat, 1 din 5 clienți întârzie sau absentează fără preaviz, o ședință ratată înseamnă 300 RON pierduți direct. Notițele de sesiune ajung în 4 locuri diferite: carnete, note pe telefon, email, memorie. Weekendul devine timp de recuperat administrativul acumulat.
+Un psihoterapeut independent gestionează în medie 6-8 ore pe săptămână pe programări, confirmări și reminder-uri trimise manual prin WhatsApp.
+
+          Fără un sistem automatizat, 1 din 5 clienți întârzie sau absentează fără preaviz, o ședință ratată înseamnă 300 RON pierduți direct.
+
+          Notițele de sesiune ajung în 4 locuri diferite: carnete, note pe telefon, email, memorie.
+
+          Weekendul devine timp de recuperat administrativul acumulat.
 
           
 
             
-✕  WhatsApp deschis la 23:00 pentru programări
+
+  WhatsApp deschis la 23:00 pentru programări
 
             
-✕  Notificare trimisă manual din pat, vineri seara
+
+  Notificare trimisă manual din pat, vineri seara
 
             
-✕  Pacient absent luni. 300 de lei pierduți.
+
+  Pacient absent luni.
+
+            300 de lei pierduți.
 
             
-✕  Pacientul greșit chemat în cabinet
+
+  Pacientul greșit chemat în cabinet
 
             
-✕  Notițe în 4 locuri, de negăsit rapid
+
+  Notițe în 4 locuri, de negăsit rapid
 
             
-✕  Weekendul ocupat cu confirmat și programat
+
+  Weekendul ocupat cu confirmat și programat
 
             
-✕  Seara aparține cabinetului, nu ție
+
+  Seara aparține cabinetului, nu ție
 
           
 
@@ -788,30 +1005,57 @@ Un psihoterapeut independent gestionează în medie 6-8 ore pe săptămână pe 
 Cu APONIA.ro
 
           
-Cu APONIA.ro, clientul rezervă singur printr-un link în sub 90 de secunde, fără cont, fără aplicație instalată. Platforma trimite automat notificări la 24 de ore și la 1 oră înainte de fiecare ședință. Terapeuții din beta raportează sub 2 ore de administrativ pe săptămână, față de 6-8 anterior. Notițele de sesiune sunt criptate AES-256 și accesibile la un click, legate direct de profilul clientului.
+Cu APONIA.ro, clientul rezervă singur printr-un link în sub 90 de secunde, fără cont, fără aplicație instalată.
+
+          Platforma trimite automat notificări la 24 de ore și la 1 oră înainte de fiecare ședință.
+
+          Terapeuții din beta raportează sub 2 ore de administrativ pe săptămână, față de 6-8 anterior.
+
+          Notițele de sesiune sunt criptate AES-256 și accesibile la un click, legate direct de profilul clientului.
 
           
 
             
-✓  Pacienții rezervă singuri în sub 90 de secunde, fără cont, fără aplicație
+
+  Pacienții rezervă singuri în sub 90 de secunde, fără cont, fără aplicație
 
             
-✓  Notificări automate cu 24h și 1h înainte. 0 mesaje de reminder trimise de tine.
+
+  Notificări automate cu 24h și 1h înainte.
+
+            0 mesaje de reminder trimise de tine.
 
             
-✓  Pacientul apare. Ora e plătită.
+
+  Pacientul apare.
+
+            Ora e plătită.
 
             
-✓  Zero duplicări. Zero confuzii. Zero jenă.
+
+  Zero duplicări.
+
+            Zero confuzii.
+
+            Zero jenă.
 
             
-✓  Notițele, securizate, la un click
+
+  Notițele, securizate, la un click
 
             
-✓  Weekendul e al tău. Fără negociere.
+
+  Weekendul e al tău.
+
+            Fără negociere.
 
             
-✓  Seara e a ta. Sau a familiei. Sau a ta.
+
+  Seara e a ta.
+
+            Sau a familiei.
+
+            Sau a ta.
 
           
 
@@ -840,7 +1084,9 @@ Tot ce face APONIA.ro,
 în detaliu.
 
     
-Alege ce vrei să înțelegi mai bine. 5 module integrate, zero install pentru pacienți.
+Alege ce vrei să înțelegi mai bine.
+
+    5 module integrate, zero install pentru pacienți.
 
     
 
@@ -856,7 +1102,11 @@ Alege ce vrei să înțelegi mai bine. 5 module integrate, zero install pentru p
 Software cabinet psiholog
 
         
-Programări nelimitate, notițe de sesiune criptate AES-256 și profiluri complete per client, într-un singur loc. Terapeuții din beta raportează sub 2 ore de administrativ pe săptămână, față de 6-8 ore anterior. Fără WhatsApp, fără foi volante.
+Programări nelimitate, notițe de sesiune criptate AES-256 și profiluri complete per client, într-un singur loc.
+
+        Terapeuții din beta raportează sub 2 ore de administrativ pe săptămână, față de 6-8 ore anterior.
+
+        Fără WhatsApp, fără foi volante.
 
         
 Detalii →
@@ -875,7 +1125,11 @@ Detalii →
 Programare online pentru terapeut
 
         
-Pacienții rezervă singuri printr-un link în sub 90 de secunde, fără cont și fără aplicație instalată. Confirmări automate. Tu nu atingi telefonul.
+Pacienții rezervă singuri printr-un link în sub 90 de secunde, fără cont și fără aplicație instalată.
+
+        Confirmări automate.
+
+        Tu nu atingi telefonul.
 
         
 Detalii →
@@ -894,7 +1148,9 @@ Detalii →
 Gestiune cabinet psihoterapie
 
         
-Întregul flux al cabinetului tău, organizat. De la primul contact până la nota de sesiune.
+Întregul flux al cabinetului tău, organizat.
+
+        De la primul contact până la nota de sesiune.
 
         
 Detalii →
@@ -913,7 +1169,9 @@ Detalii →
 Flux de intake digital
 
         
-Chestionar inițial empatic, acord informat și anamneză fără cont pentru pacient. Triaj clinic organizat direct în fișa pacientului.
+Chestionar inițial empatic, acord informat și anamneză fără cont pentru pacient.
+
+        Triaj clinic organizat direct în fișa pacientului.
 
         
 Detalii →
@@ -932,7 +1190,11 @@ Detalii →
 Confidențialitate & GDPR
 
         
-Protecție consolidată pentru date de sănătate mintală (GDPR Art. 9). Servere exclusiv în Frankfurt (UE), criptare AES-256 și secret profesional.
+Protecție consolidată pentru date de sănătate mintală (GDPR Art.
+
+        9).
+
+        Servere exclusiv în Frankfurt (UE), criptare AES-256 și secret profesional.
 
         
 Detalii →
@@ -957,10 +1219,16 @@ psihoterapeuți din România.
       
 
         
-"Am petrecut mai bine de o oră pe săptămână să confirm programări, să răspund la întrebări despre disponibilitate, să gestionez reprogramările. O oră care nu e terapie și care nu e nici măcar plătită."
+"Am petrecut mai bine de o oră pe săptămână să confirm programări, să răspund la întrebări despre disponibilitate, să gestionez reprogramările.
+
+        O oră care nu e terapie și care nu e nici măcar plătită."
 
         
-Dr. A.M. 
+Dr.
+
+        A.M.
+
+        
 · București
 
       
@@ -968,10 +1236,20 @@ Dr. A.M.
       
 
         
-"Singura mea teamă era că pacienții nu vor folosi o aplicație nouă. M-am înșelat. Primesc un link, rezervă, gata. E mai simplu decât să trimită un mesaj pe WhatsApp. Și ei asta mi-au spus."
+"Singura mea teamă era că pacienții nu vor folosi o aplicație nouă.
+
+        M-am înșelat.
+
+        Primesc un link, rezervă, gata.
+
+        E mai simplu decât să trimită un mesaj pe WhatsApp.
+
+        Și ei asta mi-au spus."
 
         
-C.P. 
+C.P.
+
+        
 · Cluj
 
       
@@ -979,10 +1257,14 @@ C.P.
       
 
         
-"WhatsApp-ul meu personal a încetat să mai fie o recepție permanentă. Granița pe care o predau în cabinet am putut să mi-o aplic în sfârșit și mie."
+"WhatsApp-ul meu personal a încetat să mai fie o recepție permanentă.
+
+        Granița pe care o predau în cabinet am putut să mi-o aplic în sfârșit și mie."
 
         
-M.I. 
+M.I.
+
+        
 · Timișoara
 
       
@@ -1011,14 +1293,26 @@ Nu sunt terapeut.
 Dar am crescut printre ei.
 
       
-Sunt înconjurat de psihoterapeuți. I-am văzut de aproape, ani la rând, pierzând weekenduri întregi pentru lucruri care ar fi putut dura 15 minute cu un sistem decent. I-am văzut fără seri libere, fără vacanțe libere, fără granița pe care o predau altora.
+Sunt înconjurat de psihoterapeuți.
+
+      I-am văzut de aproape, ani la rând, cum pierd weekenduri întregi pentru lucruri care ar fi putut dura 15 minute cu un sistem decent.
+
+      I-am văzut fără seri libere, fără vacanțe libere, fără granița pe care o predau altora.
 
       
-Nu am văzut terapeuți dezorganizați. Am văzut profesioniști serioși compensând zilnic, cu timp și energie proprie, lipsa unui instrument potrivit. Oameni care știau perfect cum să susțină granița altcuiva, 
+Nu am văzut terapeuți dezorganizați.
+
+      Am văzut profesioniști serioși compensând zilnic, cu timp și energie proprie, lipsa unui instrument potrivit.
+
+      Oameni care știau perfect cum să susțină granița altcuiva, 
 și care nu aveau un sistem care să le-o susțină pe a lor.
 
       
-APONIA.ro e ceea ce mi-aș fi dorit să le pot da mai devreme. Nu o soluție magică. Un sistem simplu care face ce ar trebui să facă un cabinet bine organizat, ca ei să poată face ce știu să facă.
+APONIA.ro e ceea ce mi-aș fi dorit să le pot da mai devreme.
+
+      Nu o soluție magică.
+
+      Un sistem simplu care face ce ar trebui să facă un cabinet bine organizat, ca ei să poată face ce știu să facă.
 
       
 Platforma a fost construită în 2024 cu input direct de la 14 psihoterapeuți independenți, cu focus pe conformitate GDPR nativă și stocare exclusivă în UE (Frankfurt, Germania).
@@ -1096,25 +1390,43 @@ dacă te regăsești în asta:
 
 Ești terapeut cu cabinet propriu
 
-Solo sau cu câțiva colegi. Gestionezi singur agenda, fără secretariat. Fiecare oră de administrativ e o oră care nu e terapie. Terapeuții cu cabinet propriu pierd în medie 6-8 ore pe săptămână pe programări și confirmări. Cu APONIA.ro, sub 2 ore.
+Solo sau cu câțiva colegi.
+
+        Gestionezi singur agenda, fără secretariat.
+
+        Fiecare oră de administrativ e o oră care nu e terapie.
+
+        Terapeuții cu cabinet propriu pierd în medie 6-8 ore pe săptămână pe programări și confirmări.
+
+        Cu APONIA.ro, sub 2 ore.
 
         
 
-Ai mai mult de 8 pacienți activi
+Ai peste 8 pacienți activi
 
-Până la 8, mai merge și cu agenda pe hârtie. De la 10 în sus, sistemul vechi creează crize mici constant și tu le gestionezi una câte una.
+Până la 8, mai merge și cu agenda pe hârtie.
+
+        De la 10 în sus, sistemul vechi creează crize mici constant și tu le gestionezi una câte una.
 
         
 
 Vrei să crești fără să crești și haosul
 
-Fiecare pacient nou ar trebui să aducă venit, nu 20-30 de minute extra de administrativ. La 10 pacienți activi, asta înseamnă 3-5 ore pe săptămână pe mesaje, confirmări și reprogramări.
+Fiecare pacient nou ar trebui să aducă venit, nu 20-30 de minute extra de administrativ.
+
+        La 10 pacienți activi, asta înseamnă 3-5 ore pe săptămână pe mesaje, confirmări și reprogramări.
 
         
 
 Vrei o graniță reală, nu doar în teorie
 
-Știi teoria granițelor terapeutice. Dar fără un sistem, totul ajunge direct la tine: mesaje sâmbăta dimineața, confirmări la 23:00, WhatsApp personal devenit recepție. APONIA.ro mută programările, confirmările și notificările automate (cu 24h și 1h înainte) într-un singur loc, ca granița să existe în practică, nu doar în teorie. Terapeuții din beta au coborât de la 6-8 ore de administrativ pe săptămână la sub 2.
+Știi teoria granițelor terapeutice.
+
+        Dar fără un sistem, totul ajunge direct la tine: mesaje sâmbăta dimineața, confirmări la 23:00, WhatsApp personal devenit recepție.
+
+        APONIA.ro mută programările, confirmările și notificările automate (cu 24h și 1h înainte) într-un singur loc, ca granița să existe în practică, nu doar în teorie.
+
+        Terapeuții din beta au coborât de la 6-8 ore de administrativ pe săptămână la sub 2.
 
       
 
@@ -1123,7 +1435,9 @@ Vrei o graniță reală, nu doar în teorie
         
 
 APONIA.ro nu e pentru tine dacă
- ai nevoie de facturare integrată, teleconferință sau un sistem pentru o clinică cu recepție. APONIA.ro face un lucru: organizează cabinetul tău ca să poți face terapie fără să te consumi pe tine însuți.
+ ai nevoie de facturare integrată, teleconferință sau un sistem pentru o clinică cu recepție.
+
+        APONIA.ro face un lucru: organizează cabinetul tău ca să poți face terapie fără să te consumi pe tine însuți.
 
       
 
@@ -1142,7 +1456,11 @@ E o limită pe care
 ți-o pui față de propriul cabinet.
 
     
-O ședință anulată fără avertisment înseamnă 300 de lei pierduți. APONIA.ro costă 73 de lei pe lună. Dacă previne o singură absență în primele trei luni, 
+O ședință anulată fără avertisment înseamnă 300 de lei pierduți.
+
+    APONIA.ro costă 73 de lei pe lună.
+
+    Dacă previne o singură absență în primele trei luni, 
 s-a plătit singură pentru tot restul anului.
 
     
@@ -1165,74 +1483,15 @@ per lună · facturat lunar · anulezi oricând
 
         
 
-✓
  Programări nelimitate, fără duplicări
 
         
 
-✓
  Notificări automate (24h + 1h)
 
         
 
-✓
- Istoricul complet per pacient, criptat
-
-        
-
-✓
- Mesagerie separată de WhatsApp personal
-
-        
-
-✓
- Istoric complet per pacient
-
-        
-
-✓
- Date stocate în UE · conformitate GDPR
-
-        
-
-✓
- Suport direct · răspundem în 24h
-
-      
-
-      
-
-Activează Cabinetul 
-→
-
-      
-Terapeuții beta intră gratuit 14 zile. Fără card. Fără angajament. După 14 zile, 73 RON/lună.
-
-    
-
-  
-
-  
-
-    
-APONIA.ro în cifre
-
-    
-Câteva numere concrete.
-
-    
-Conform datelor din faza de beta și cercetare proprie cu 14 psihoterapeuți intervievați (2026): un terapeut cu cabinet propriu pierde în medie 6 ore pe săptămână pe administrativ. Cu APONIA.ro, această cifră scade sub 2 ore. Pacienții rezervă în sub 90 de secunde, fără cont și fără aplicație instalată. Notițele de sesiune sunt criptate AES-256, stocate pe servere în Frankfurt, Germania. Prețul: 73 RON pe lună, mai puțin decât o singură ședință de terapie.
-
-    
-
-      
-Date și statistici despre platforma APONIA.ro pentru psihoterapeuți
-
-      
-
-        
-
-         
+ Istor
 
 ## https://aponia.ro/abonament.html
 
@@ -6412,15 +6671,35 @@ APONIA.ro · scheduling and practice management for psychotherapists
 So you can be a therapist, not an office administrator.
 
   
-21:14. Your last session ends.
+21:14.
+
+  Your last session ends.
 
 Your evening is no longer yours.
 
   
-WhatsApp messages. Manually confirmed appointments. Midnight notifications. APONIA.ro takes everything that is not therapy. You stay with your patient.
+WhatsApp messages.
+
+  Manually confirmed appointments.
+
+  Midnight notifications.
+
+  APONIA.ro takes everything that is not therapy.
+
+  You stay with your patient.
 
   
-No manual confirmations. No WhatsApp. No missed sessions. Your patient installs nothing. You send a link. They book.
+No manual confirmations.
+
+  No WhatsApp.
+
+  No missed sessions.
+
+  Your patient installs nothing.
+
+  You send a link.
+
+  They book.
 
   
 
@@ -6452,7 +6731,9 @@ Activate your practice (14 days free trial) →
 Practice Subscription
 
     
-One simple price. Zero headaches.
+One simple price.
+
+    Zero headaches.
 
     
 Less than one third of a single saved session per month.
@@ -6480,21 +6761,25 @@ or 590 RON/year (~€118), equivalent to 49 RON/month billed annually
       
 
         
-✓ 
+
+ 
 Dedicated booking link
  for your clients
 
         
-✓ 
+
+ 
 Automated email reminders & notifications
 
         
-✓ 
+
+ 
 Encrypted session notes
  (GDPR-compliant)
 
         
-✓ 
+
+ 
 Cancel anytime
  directly from your dashboard
 
@@ -6516,10 +6801,14 @@ Start 14-day free trial →
 Your practice starts with the booking link.
 
     
-The first impression is not in the room. It is in how easily the patient booked their first session.
+The first impression is not in the room.
+
+    It is in how easily the patient booked their first session.
 
     
-Patients cannot evaluate therapy. They know how to evaluate how easy it was to book.
+Patients cannot evaluate therapy.
+
+    They know how to evaluate how easy it was to book.
 
   
 
@@ -6529,10 +6818,24 @@ Patients cannot evaluate therapy. They know how to evaluate how easy it was to b
 What is APONIA.ro?
 
     
-APONIA.ro is a scheduling and practice management platform for independent psychotherapists. It replaces manual diary management and scattered WhatsApp messages with a clear system for appointments, confirmations, automatic notifications and session notes. The therapist pays for APONIA.ro; patients book for free without installing anything.
+APONIA.ro is a scheduling and practice management platform for independent psychotherapists.
+
+    It replaces manual diary management and scattered WhatsApp messages with a clear system for appointments, confirmations, automatic notifications and session notes.
+
+    The therapist pays for APONIA.ro; patients book for free without installing anything.
 
     
-We spoke directly with 14 independent psychotherapists in Romania. The problem is not a lack of patients. It is time wasted on logistics. According to the European Federation of Psychologists' Associations (2023), psychologists in private practice spend 6-8 hours per week on admin. APONIA.ro reduces this to under 2 hours. Contact: hello@aponia.ro · 
+We spoke directly with 14 independent psychotherapists in Romania.
+
+    The problem is not a lack of patients.
+
+    It is time wasted on logistics.
+
+    According to the European Federation of Psychologists' Associations (2023), psychologists in private practice spend 6-8 hours per week on admin.
+
+    APONIA.ro reduces this to under 2 hours.
+
+    Contact: hello@aponia.ro · 
 Updated June 2026.
 
   
@@ -6545,24 +6848,62 @@ Updated June 2026.
 Thursday, 23:12
 
       
-"Hello, do you have any free slots this week? Or maybe Friday after 6pm?"
+"Hello, do you have any free slots this week?
+
+      Or maybe Friday after 6pm?"
 
       
-The fourth message tonight. You open your diary and count the free hours. You reply. You confirm. You add to the calendar. You send a manual notification.
+The fourth message tonight.
 
-It is 23:31 when you finish. Tomorrow your first session is at 8:30.
+      You open your diary and count the free hours.
+
+      You reply.
+
+      You confirm.
+
+      You add to the calendar.
+
+      You send a manual notification.
+
+It is 23:31 when you finish.
+
+      Tomorrow your first session is at 8:30.
 
       
-Between the confirmation message and tomorrow morning, there is another one: a patient who ran over his slot and cut into the next person's time. Whom you rescheduled. Again. Whom you called. Again. Who left unhappy. Again.
+Between the confirmation message and tomorrow morning, there is another one: a patient who ran over his slot and cut into the next person's time.
+
+      Whom you rescheduled.
+
+      Again.
+
+      Whom you called.
+
+      Again.
+
+      Who left unhappy.
+
+      Again.
 
       
-Not the first time. Not the last. And somewhere behind the exhaustion is a question you do not say out loud:
+Not the first time.
+
+      Not the last.
+
+      And somewhere behind the exhaustion is a question you do not say out loud:
 
       
 
         
 Why am I doing this at my own expense?
-Not the practice's expense. Mine. My time. My rest. My family's.
+Not the practice's expense.
+
+        Mine.
+
+        My time.
+
+        My rest.
+
+        My family's.
 
       
 
@@ -6571,9 +6912,13 @@ Not the practice's expense. Mine. My time. My rest. My family's.
         
 The worst was Wednesday, when you called a patient into your room and realized in the first 30 seconds that 
 it was not the one you were expecting.
- The other one was in the waiting room. Both were looking at you.
+ The other one was in the waiting room.
 
-You spent years building trust with your patients. A broken system can undermine it in a second.
+        Both were looking at you.
+
+You spent years building trust with your patients.
+
+        A broken system can undermine it in a second.
 
       
 
@@ -6587,21 +6932,41 @@ You spent years building trust with your patients. A broken system can undermine
 What nobody tells you
 
     
-You have studied therapeutic boundaries for years. You know the theory by heart. And yet in your own practice, the boundary between work and personal life 
+You have studied therapeutic boundaries for years.
+
+    You know the theory by heart.
+
+    And yet in your own practice, the boundary between work and personal life 
 has dissolved completely.
 
     
-You are not disorganized. You are not negligent. 
+You are not disorganized.
+
+    You are not negligent.
+
+    
 You simply do not have a system to hold that boundary in place.
  Without a system, everything reaches you directly, at any hour, through any channel, with any perceived urgency.
 
     
-And you carry on. Because you are dedicated. Because you care. Because this is what you do. 
+And you carry on.
+
+    Because you are dedicated.
+
+    Because you care.
+
+    Because this is what you do.
+
+    
 You eat into your own time to serve your patients, against your own interest.
  And you have normalized this as part of the job.
 
     
-It does not have to be this way. APONIA.ro does not fix your difficult patients. But it gives you back something fundamental: 
+It does not have to be this way.
+
+    APONIA.ro does not fix your difficult patients.
+
+    But it gives you back something fundamental: 
 control over your time.
 
     
@@ -6627,10 +6992,18 @@ Do any of
 these sound familiar?
 
     
-Nobody taught you how to run a practice. You learned how to be a therapist.
+Nobody taught you how to run a practice.
+
+    You learned how to be a therapist.
 
     
-These are not character flaws. They are the natural consequences of a practice without a system. It happens to everyone. It does not have to keep happening.
+These are not character flaws.
+
+    They are the natural consequences of a practice without a system.
+
+    It happens to everyone.
+
+    It does not have to keep happening.
 
   
 
@@ -6642,7 +7015,11 @@ Situation 01
 
 You check your diary twice before every session.
 
-Not because you are distracted. Because you added the appointment manually and cannot be completely sure. 
+Not because you are distracted.
+
+    Because you added the appointment manually and cannot be completely sure.
+
+    
 That uncertainty costs energy before the patient has even walked through the door.
 
     
@@ -6651,7 +7028,11 @@ Situation 02
 
 You ran over with one patient and cut into the next one's time.
 
-No one to knock on the door. No visible clock. 
+No one to knock on the door.
+
+    No visible clock.
+
+    
 Your second patient waited in the hallway
  while you were in the middle of something important with the first.
 
@@ -6659,11 +7040,19 @@ Your second patient waited in the hallway
 
 Situation 03
 
-The patient does not show. No call. No message.
+The patient does not show.
 
-The 5pm slot is gone. 
+    No call.
+
+    No message.
+
+The 5pm slot is gone.
+
+    
 Money evaporated
- plus the worry that something might be wrong. Without automatic confirmation, it will happen again.
+ plus the worry that something might be wrong.
+
+    Without automatic confirmation, it will happen again.
 
     
 
@@ -6671,7 +7060,9 @@ Situation 04
 
 Personal WhatsApp has become a direct practice line.
 
-Messages Saturday morning, Sunday evening, during holidays. 
+Messages Saturday morning, Sunday evening, during holidays.
+
+    
 The boundary between your life and your practice
  no longer exists in reality, even if it does in theory.
 
@@ -6679,9 +7070,17 @@ The boundary between your life and your practice
 
 Situation 05
 
-You send reminders manually. Or you forget. Both are bad.
+You send reminders manually.
 
-If you send them, that is time taken from your evening. If you forget, the patient does not show. 
+    Or you forget.
+
+    Both are bad.
+
+If you send them, that is time taken from your evening.
+
+    If you forget, the patient does not show.
+
+    
 You have become the secretary of your own practice.
  That was not in any career plan.
 
@@ -6691,7 +7090,9 @@ Situation 06
 
 You have not had a free weekend in the last two months.
 
-Not because you have too many patients. 
+Not because you have too many patients.
+
+    
 But because admin has taken up all the space
  that was supposed to be yours.
 
@@ -6720,17 +7121,23 @@ Ancient Greek  ·  absence of suffering
 the declared goal of psychotherapy
 
       
-You already know what it means. It is what you seek for your patients in every session.
+You already know what it means.
+
+      It is what you seek for your patients in every session.
 
 We chose this name because 
 you deserve what you give them.
 
-An organized practice is not a competitive advantage. It is the minimum condition in which you can do good therapy without consuming yourself in the process.
+An organized practice is not a competitive advantage; it is the baseline that lets you do good therapy without burning out.
+
+      It is the minimum condition in which you can do good therapy without consuming yourself in the process.
 
       
 
       
-APONIA.ro is not just a scheduling tool. It is the mental space in which you can actually be present.
+APONIA.ro is not just a scheduling tool.
+
+      It is the mental space in which you can actually be present.
 
     
 
@@ -6752,7 +7159,7 @@ actually losing without a system?
 2 unannounced lost therapy hours
 
       
-~1h / week on admin (confirming, scheduling, sending reminders)  =  
+~1h / week on admin (appointment confirmations, session scheduling plus reminder emails)  =  
 4 hours / month being a secretary, not a therapist
 
       
@@ -6764,7 +7171,9 @@ Weekends and evenings occupied by things that are not therapy  = 
 time that cannot be recovered
 
       
-Total / month  =  several solid hours in which you are not a therapist. You are an organizer.
+Total / month  =  several solid hours in which you are not a therapist.
+
+      You are an organizer.
 
       
 APONIA.ro  =  
@@ -6774,7 +7183,9 @@ APONIA.ro  = 
     
 
     
-The cost is not financial. 
+The cost is not financial.
+
+    
 It is the hours you give to admin instead of giving them to therapy, or to yourself.
 
   
@@ -6796,7 +7207,13 @@ From first message
 to organized practice: 15 minutes.
 
     
-No technical preparation needed. No hour-long tutorial. Set up your practice once. APONIA.ro handles everything from there.
+No technical preparation needed.
+
+    No hour-long tutorial.
+
+    Set up your practice once.
+
+    APONIA.ro handles everything from there.
 
   
 
@@ -6808,7 +7225,11 @@ No technical preparation needed. No hour-long tutorial. Set up your practice onc
 
 Set up your practice profile
 
-Your weekly availability, session duration, therapy type. Once. If something changes, you update it in 2 minutes.
+Your weekly availability, session duration, therapy type.
+
+    Once.
+
+    If something changes, you update it in 2 minutes.
 
 Your practice, digitized.
 
@@ -6818,7 +7239,13 @@ Your practice, digitized.
 
 Patients book themselves from your link
 
-You send a link. They see available slots, pick one, confirm. You receive a notification. No messages, no phone calls, no negotiating at 11pm.
+You send a link.
+
+    They see available slots, pick one, confirm.
+
+    You receive a notification.
+
+    No messages, no phone calls, no negotiating at 11pm.
 
 Appointments happen without you.
 
@@ -6826,11 +7253,19 @@ Appointments happen without you.
 
 3
 
-APONIA.ro keeps track. You do therapy.
+APONIA.ro keeps track.
 
-Automatic notifications 24h and 1h before each session. Session history stored securely. Everything about each patient, one click away.
+    You do therapy.
 
-Zero admin effort. Maximum presence.
+Automatic notifications 24h and 1h before each session.
+
+    Session history stored securely.
+
+    Everything about each patient, one click away.
+
+Zero admin effort.
+
+    Maximum presence.
 
   
 
@@ -6845,7 +7280,11 @@ How it looks in practice.
 90 seconds.
 
     
-No descriptions. No promises. From the patient's first message to the session note.
+No descriptions.
+
+    No promises.
+
+    From the patient's first message to the session note.
 
     
 
@@ -6883,69 +7322,99 @@ A better practice.
 Not a more complicated diary.
 
     
-Designed for the therapist with their own or shared practice. Not for a clinic with a reception desk and 50 staff.
+Designed for the therapist with their own or shared practice.
+
+    Not for a clinic with a reception desk and 50 staff.
 
   
 
   
 
     
-
-📅
 
 No more calling in the wrong patient.
 
-A booked slot disappears immediately for everyone else. Each patient knows exactly when they come. You know exactly who you are expecting.
+A booked slot disappears immediately for everyone else.
 
-Zero awkward moments. Zero apologies.
+    Each patient knows exactly when they come.
 
-    
+    You know exactly who you are expecting.
 
-🔔
+Zero awkward moments.
 
-Automatic notifications. You send nothing.
-
-24h and 1h before every session. Automatically. Patients show up. Slots are not lost.
-
-No-show rate drops. Your evening is free.
+    Zero apologies.
 
     
 
-📝
+Automatic notifications.
+
+    You send nothing.
+
+24h and 1h before every session.
+
+    Automatically.
+
+    Patients show up.
+
+    Slots are not lost.
+
+No-show rate drops.
+
+    Your evening is free.
+
+    
 
 Session notes, secured and findable.
 
-Per patient, encrypted, accessible only to you. Before any session you have full context one click away. No searching through notebooks.
+Per patient, encrypted, accessible only to you.
 
-You walk in prepared. Every time.
+    Before any session you have full context one click away.
 
-    
+    No searching through notebooks.
 
-💬
+You walk in prepared.
 
-Personal WhatsApp stays yours. Not the practice's.
-
-Patients write in the app. You reply when you choose, within practice hours. Saturday morning is yours.
-
-Boundary restored. Evening is yours.
+    Every time.
 
     
 
-🔒
+Personal WhatsApp stays yours.
 
-GDPR-protected data. Without thinking about it.
+    Not the practice's.
 
-Server in Frankfurt, Germany. Patient data encrypted in transit. Work legally without becoming a GDPR expert.
+Patients write in the app.
 
-Full compliance. Zero effort.
+    You reply when you choose, within practice hours.
+
+    Saturday morning is yours.
+
+Boundary restored.
+
+    Evening is yours.
 
     
 
-📊
+GDPR-protected data.
+
+    Without thinking about it.
+
+Server in Frankfurt, Germany.
+
+    Patient data encrypted in transit.
+
+    Work legally without becoming a GDPR expert.
+
+Full compliance.
+
+    Zero effort.
+
+    
 
 Complete history for each patient.
 
-All sessions, notes and communications organized per patient. If someone returns after 6 months, you have full context in 30 seconds.
+All sessions, notes and communications organized per patient.
+
+    If someone returns after 6 months, you have full context in 30 seconds.
 
 Real therapeutic continuity.
 
@@ -6977,30 +7446,45 @@ with APONIA.ro.
 Without APONIA.ro
 
           
-An independent psychotherapist manages an average of 6-8 hours per week on scheduling, confirmations and reminders sent manually through WhatsApp. Without an automated system, 1 in 5 patients is late or absent without notice. Session notes end up in 4 different places: notebooks, phone notes, email, memory. The weekend becomes time to catch up on accumulated admin.
+An independent psychotherapist manages an average of 6-8 hours per week on scheduling, confirmations and reminders sent manually through WhatsApp.
+
+          Without an automated system, 1 in 5 patients is late or absent without notice.
+
+          Session notes end up in 4 different places: notebooks, phone notes, email, memory.
+
+          The weekend becomes time to catch up on accumulated admin.
 
           
 
             
-✕  WhatsApp open at 11pm for scheduling
+
+  WhatsApp open at 11pm for scheduling
 
             
-✕  Reminder sent manually from bed on Friday evening
+
+  Reminder sent manually from bed on Friday evening
 
             
-✕  Patient absent Monday. Money lost.
+
+  Patient absent Monday.
+
+            Money lost.
 
             
-✕  Wrong patient called into the room
+
+  Wrong patient called into the room
 
             
-✕  Notes in 4 places, impossible to find quickly
+
+  Notes in 4 places, impossible to find quickly
 
             
-✕  Weekend spent confirming and rescheduling
+
+  Weekend spent confirming and rescheduling
 
             
-✕  The evening belongs to the practice, not to you
+
+  The evening belongs to the practice, not to you
 
           
 
@@ -7012,30 +7496,57 @@ An independent psychotherapist manages an average of 6-8 hours per week on sched
 With APONIA.ro
 
           
-With APONIA.ro, the patient books themselves through a link in under 90 seconds, no account, no app to install. The platform automatically sends notifications 24 hours and 1 hour before each session. Beta therapists report under 2 hours of admin per week, down from 6-8. Session notes are AES-256 encrypted and one click away, linked directly to the patient's profile.
+With APONIA.ro, the patient books themselves through a link in under 90 seconds, no account, no app to install.
+
+          The platform automatically sends notifications 24 hours and 1 hour before each session.
+
+          Beta therapists report under 2 hours of admin per week, down from 6-8.
+
+          Session notes are AES-256 encrypted and one click away, linked directly to the patient's profile.
 
           
 
             
-✓  Patients book themselves in under 90 seconds, no account, no app
+
+  Patients book themselves in under 90 seconds, no account, no app
 
             
-✓  Automatic notifications 24h and 1h before. 0 reminders sent by you.
+
+  Automatic notifications 24h and 1h before.
+
+            0 reminders sent by you.
 
             
-✓  Patient shows up. Session is paid.
+
+  Patient shows up.
+
+            Session is paid.
 
             
-✓  Zero duplicates. Zero confusion. Zero awkwardness.
+
+  Zero duplicates.
+
+            Zero confusion.
+
+            Zero awkwardness.
 
             
-✓  Notes secured, one click away
+
+  Notes secured, one click away
 
             
-✓  Weekend is yours. No negotiation.
+
+  Weekend is yours.
+
+            No negotiation.
 
             
-✓  The evening is yours. Or your family's. Or yours.
+
+  The evening is yours.
+
+            Or your family's.
+
+            Or yours.
 
           
 
@@ -7080,7 +7591,11 @@ in detail.
 Therapist practice software
 
         
-Unlimited appointments, AES-256 encrypted session notes and complete patient profiles in one place. Beta therapists report under 2 hours of admin per week, down from 6-8. No WhatsApp, no paper.
+Unlimited appointments, AES-256 encrypted session notes and complete patient profiles in one place.
+
+        Beta therapists report under 2 hours of admin per week, down from 6-8.
+
+        No WhatsApp, no paper.
 
         
 Learn more →
@@ -7099,7 +7614,11 @@ Learn more →
 Online booking for therapists
 
         
-Patients book themselves through a link in under 90 seconds, no account, no app to install. Automatic confirmations. You do not touch the phone.
+Patients book themselves through a link in under 90 seconds, no account, no app to install.
+
+        Automatic confirmations.
+
+        You do not touch the phone.
 
         
 Learn more →
@@ -7118,7 +7637,9 @@ Learn more →
 Therapy practice management
 
         
-Your entire practice flow, organized. From first contact to session note.
+Your entire practice flow, organized.
+
+        From first contact to session note.
 
         
 Learn more →
@@ -7143,10 +7664,16 @@ psychotherapists.
       
 
         
-"I spent over an hour per week confirming appointments, answering questions about availability, managing reschedules. An hour that is not therapy, and not even paid."
+"I spent over an hour per week confirming appointments and answering questions about availability, plus managing reschedules.
+
+        An hour that is not therapy, and not even paid."
 
         
-Dr. A.M. 
+Dr.
+
+        A.M.
+
+        
 · Bucharest
 
       
@@ -7154,10 +7681,20 @@ Dr. A.M.
       
 
         
-"My only worry was that patients would not use a new system. I was wrong. They receive a link, they book, done. It is simpler than sending a WhatsApp message. That is what they told me too."
+"My only worry was that patients would not use a new system.
+
+        I was wrong.
+
+        They receive a link, they book, done.
+
+        It is simpler than sending a WhatsApp message.
+
+        That is what they told me too."
 
         
-C.P. 
+C.P.
+
+        
 · Cluj
 
       
@@ -7165,10 +7702,14 @@ C.P.
       
 
         
-"My personal WhatsApp stopped being a permanent reception desk. The boundary I teach in sessions I was finally able to apply to myself."
+"My personal WhatsApp stopped being a permanent reception desk.
+
+        The boundary I teach in sessions I was finally able to apply to myself."
 
         
-M.I. 
+M.I.
+
+        
 · Timișoara
 
       
@@ -7197,14 +7738,26 @@ I am not a therapist.
 But I grew up around them.
 
       
-I am surrounded by psychotherapists. I watched them closely, year after year, losing entire weekends to things that should have taken 15 minutes with a decent system. I watched them without free evenings, without free holidays, without the boundary they teach to others.
+I am surrounded by psychotherapists.
+
+      I watched them closely, year after year, as they lost entire weekends to things that should have taken 15 minutes with a decent system.
+
+      I watched them without free evenings, without free holidays, without the boundary they teach to others.
 
       
-I did not see disorganized therapists. I saw serious professionals compensating daily, with their own time and energy, for the lack of a proper tool. People who knew exactly how to support someone else's boundary, 
+I did not see disorganized therapists.
+
+      I saw serious professionals compensating daily, with their own time and energy, for the lack of a proper tool.
+
+      People who knew exactly how to support someone else's boundary, 
 and who had no system to support their own.
 
       
-APONIA.ro is what I wished I could have given them sooner. Not a magic solution. A simple system that does what a well-organized practice should do, so they can do what they know how to do.
+APONIA.ro is what I wished I could have given them sooner.
+
+      Not a magic solution.
+
+      A simple system that does what a well-organized practice should do, so they can do what they know how to do.
 
       
 The platform was built in 2024 with direct input from 14 independent psychotherapists, focused on native GDPR compliance and exclusive EU data storage (Frankfurt, Germany).
@@ -7282,25 +7835,41 @@ if you recognize yourself in this:
 
 You are a therapist with your own practice
 
-Solo or with a few colleagues. You manage your own diary, no receptionist. Every hour of admin is an hour that is not therapy. Therapists with their own practice lose an average of 6-8 hours per week on scheduling and confirmations. With APONIA.ro, under 2 hours.
+Solo or with a few colleagues.
+
+        You manage your own diary, no receptionist.
+
+        Every hour of admin is an hour that is not therapy.
+
+        Therapists with their own practice lose an average of 6-8 hours per week on scheduling and confirmations.
+
+        With APONIA.ro, under 2 hours.
 
         
 
 You have more than 8 active patients
 
-Up to 8, a paper diary works. From 10 upward, the old system creates constant small crises and you manage them one by one.
+Up to 8, a paper diary works.
+
+        From 10 upward, the old system creates constant small crises and you manage them one by one.
 
         
 
 You want to grow without growing the chaos
 
-Each new patient should bring revenue, not 20-30 extra minutes of admin. At 10 active patients, that is 3-5 hours per week on messages, confirmations and rescheduling.
+Each new patient should bring revenue, not 20-30 extra minutes of admin.
+
+        At 10 active patients, that is 3-5 hours per week on messages, confirmations and rescheduling.
 
         
 
 You want a real boundary, not just in theory
 
-You know therapeutic boundary theory. But without a system, everything arrives directly to you: Saturday morning messages, 11pm confirmations, personal WhatsApp as a reception desk. APONIA.ro moves scheduling, confirmations and automatic notifications (24h and 1h before) to one place, so the boundary exists in practice, not just in theory.
+You know therapeutic boundary theory.
+
+        But without a system, everything arrives directly to you: Saturday morning messages, 11pm confirmations, personal WhatsApp as a reception desk.
+
+        APONIA.ro moves scheduling, confirmations and automatic notifications (24h and 1h before) to one place, so the boundary exists in practice, not just in theory.
 
       
 
@@ -7309,7 +7878,9 @@ You know therapeutic boundary theory. But without a system, everything arrives d
         
 
 APONIA.ro is not for you if
- you need integrated invoicing, video conferencing or a system for a clinic with a reception desk. APONIA.ro does one thing: organizes your practice so you can do therapy without consuming yourself.
+ you need integrated invoicing, video conferencing or a system for a clinic with a reception desk.
+
+        APONIA.ro does one thing: organizes your practice so you can do therapy without consuming yourself.
 
       
 
@@ -7328,7 +7899,11 @@ It is a boundary you set
 with your own practice.
 
     
-One cancelled session without notice means a lost payment. APONIA.ro costs 73 RON per month. If it prevents a single no-show in the first three months, 
+One cancelled session without notice means a lost payment.
+
+    APONIA.ro costs 73 RON per month.
+
+    If it prevents a single no-show in the first three months, 
 it has paid for itself for the rest of the year.
 
     
@@ -7351,37 +7926,30 @@ per month · billed monthly · cancel anytime
 
         
 
-✓
  Unlimited appointments, no duplicates
 
         
 
-✓
  Automatic notifications (24h + 1h)
 
         
 
-✓
  Full patient history, encrypted
 
         
 
-✓
  Messaging separate from personal WhatsApp
 
         
 
-✓
  Complete history per patient
 
         
 
-✓
  Data stored in EU · GDPR compliant
 
         
 
-✓
  Direct support · we reply in 24h
 
       
@@ -7392,7 +7960,13 @@ Get my evenings back
 →
 
       
-Beta therapists enter free, for an indefinite period. No card. No commitment. No surprises.
+Beta therapists enter free, for an indefinite period.
+
+      No card.
+
+      No commitment.
+
+      No surprises.
 
     
 
@@ -7405,95 +7979,6 @@ APONIA.ro in numbers
 
     
 Some concrete numbers.
-
-    
-Based on beta data and our own research with 14 psychotherapists interviewed (2026): a therapist with their own practice loses an average of 6 hours per week to admin. With APONIA.ro, this drops below 2 hours. Patients book in under 90 seconds, no account, no app to install. Session notes are AES-256 encrypted, stored on servers in Frankfurt, Germany. Price: 73 RON per month, less than a single therapy session.
-
-    
-
-      
-Data and statistics about the APONIA.ro platform for psychotherapists
-
-      
-
-        
-
-          
-Metric
-
-          
-Value
-
-        
-
-      
-
-      
-
-        
-
-          
-Psychotherapists consulted in building the platform
-
-          
-14
-
-        
-
-        
-
-          
-Therapists invited to beta
-
-          
-517+
-
-        
-
-        
-
-          
-Admin time saved per week
-
-          
-~3 hours
-
-        
-
-        
-
-          
-Time to set up availability
-
-          
-under 90 seconds
-
-        
-
-        
-
-          
-Session note encryption
-
-          
-AES-256
-
-        
-
-        
-
-          
-Free beta period
-
-          
-14 days, no card
-
-        
-
-        
-
-          
-Price after free 
 
 ## https://aponia.ro/en/about/
 
@@ -13749,14 +14234,15 @@ Get my evenings back →
     
 
       
-✓
 
       
 Subscription activated
 
       
 
-        Payment processed successfully. 
+        Payment processed successfully.
+
+        
 APONIA.ro Pro
  is now active on your account.
         Open the app and you will see the green badge in the Payments section.
@@ -13806,14 +14292,17 @@ Back to APONIA.ro
     
 
       
-✕
 
       
 Payment canceled
 
       
 
-        No payment was made. You can return at any time to activate your subscription. 
+        No payment was made.
+
+        You can return at any time to activate your subscription.
+
+        
 The first 14 days are free
 , no card required.
       
@@ -13845,7 +14334,7 @@ APONIA.ro Pro
 
       
 
-        Manage appointments, notifications, and session notes.
+        Manage appointments, notifications and session notes.
         
 73 RON / month
  - less than a single missed therapy session.
@@ -13960,27 +14449,39 @@ Comparisons
 
           
 
-vs. WhatsApp
+vs.
+
+          WhatsApp
 
           
 
-vs. Calendly
+vs.
+
+          Calendly
 
           
 
-vs. SimplePractice
+vs.
+
+          SimplePractice
 
           
 
-vs. Hedepy
+vs.
+
+          Hedepy
 
           
 
-vs. Google Calendar
+vs.
+
+          Google Calendar
 
           
 
-vs. Pasul.ro
+vs.
+
+          Pasul.ro
 
         
 
@@ -14021,7 +14522,9 @@ Terms of Service
 
     
 
-      © 2026 APONIA.ro. All rights reserved.
+      © 2026 APONIA.ro.
+
+      All rights reserved.
 
 ## https://aponia.ro/en/psychologist-cabinet/
 
