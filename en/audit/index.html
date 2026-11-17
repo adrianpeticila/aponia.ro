@@ -49,7 +49,7 @@
         "inLanguage": "en",
         "isPartOf": { "@id": "https://aponia.ro/#website" },
         "publisher": { "@id": "https://aponia.ro/#organization" },
-        "dateModified": "2026-09-29"
+        "dateModified": "2026-11-17"
       }
     ]
   }
@@ -97,20 +97,42 @@
     .btn-next { font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: 0.95rem; background: var(--green); color: #fff; border: none; padding: 0.85rem 1.8rem; border-radius: 4px; cursor: pointer; }
     .btn-prev { font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 0.9rem; color: #777; background: transparent; border: none; cursor: pointer; }
 
-    /* PAYWALL & DIAGNOSTIC RESULT */
+    /* RESULT & OFFER */
     .result-box { display: none; background: #ffffff; border: 2px solid var(--green); border-radius: 8px; padding: 2.5rem 2rem; text-align: center; box-shadow: 0 6px 24px rgba(0,0,0,0.06); }
     .result-box.active { display: block; }
+    .result-title { font-family: 'Inter Tight', sans-serif; font-size: 1.75rem; font-weight: 800; color: var(--dark); line-height: 1.25; }
     .loss-highlight { font-family: 'Inter Tight', sans-serif; font-size: 2.5rem; font-weight: 900; color: var(--red); margin: 1rem 0 0.5rem; line-height: 1; }
-    .loss-label { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; color: #666; margin-bottom: 2rem; }
-    
-    .teaser-details { text-align: left; background: var(--cream); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem; margin-bottom: 2rem; }
-    .teaser-item { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.75rem; font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; }
-    .teaser-item:last-child { margin-bottom: 0; }
-    .teaser-blur { filter: blur(4px); user-select: none; }
-    
-    .btn-paywall { display: block; width: 100%; font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 1.15rem; background: var(--green); color: #fff; padding: 1.1rem; border-radius: 6px; text-decoration: none; margin-bottom: 1rem; transition: background 0.2s; }
-    .btn-paywall:hover { background: var(--green-dark); }
-    .guarantee-note { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; color: #777; }
+    .loss-label { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; color: #666; margin-bottom: 1.75rem; }
+    .result-lead { text-align: left; font-size: 1.05rem; color: #333333; margin: 0 auto 2rem; max-width: 54ch; }
+
+    .fix-block { text-align: left; background: var(--cream); border: 1px solid var(--border); border-radius: 6px; padding: 1.5rem; margin-bottom: 2rem; }
+    .fix-kicker { font-family: 'Inter Tight', sans-serif; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em; color: var(--green-dark); margin-bottom: 1rem; }
+    .fix-list { list-style: none; display: flex; flex-direction: column; gap: 0.9rem; }
+    .fix-item { display: flex; gap: 0.7rem; align-items: flex-start; font-family: 'Inter Tight', sans-serif; font-size: 0.92rem; line-height: 1.5; color: #3d4a42; }
+    .fix-check { flex: 0 0 18px; height: 18px; margin-top: 2px; color: var(--green); }
+    .fix-item strong { color: var(--dark); }
+
+    .plans-anchor { font-family: 'Inter Tight', sans-serif; font-size: 1rem; font-weight: 700; color: var(--dark); margin-bottom: 1.25rem; }
+    .plans { display: grid; grid-template-columns: 1fr; max-width: 440px; margin: 0 auto 1rem; gap: 1rem; text-align: left; }
+    .plan { display: flex; flex-direction: column; background: #ffffff; border: 1px solid var(--border); border-radius: 8px; padding: 1.4rem 1.25rem; }
+    .plan-primary { border: 2px solid var(--green); box-shadow: 0 8px 20px rgba(91,140,106,0.16); }
+    .plan-badge { align-self: flex-start; font-family: 'Inter Tight', sans-serif; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; background: var(--green); color: #ffffff; padding: 0.25rem 0.55rem; border-radius: 3px; margin-bottom: 0.7rem; }
+    .plan-name { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; font-weight: 700; color: var(--green-dark); margin-bottom: 0.5rem; }
+    .plan-price { font-family: 'Inter Tight', sans-serif; font-size: 1.9rem; font-weight: 900; color: var(--dark); line-height: 1.05; }
+    .plan-price span { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
+    .plan-sub { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; color: var(--muted); margin: 0.5rem 0 1.1rem; }
+    .plan-cta { display: block; margin-top: auto; text-align: center; font-family: 'Inter Tight', sans-serif; font-weight: 800; font-size: 0.95rem; padding: 0.85rem 1rem; border-radius: 5px; }
+    .plan-cta-primary { background: var(--green); color: #ffffff; }
+    .plan-cta-primary:hover { background: var(--green-dark); }
+    .plan-note { font-family: 'Inter Tight', sans-serif; font-size: 0.72rem; color: #777777; margin-top: 0.6rem; }
+    .session-anchor { font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; color: var(--green-dark); margin-bottom: 1.75rem; }
+
+    .timeline { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; text-align: left; margin-bottom: 1.75rem; }
+    .timeline-step { border-top: 2px solid var(--green); padding-top: 0.7rem; }
+    .timeline-num { font-family: 'Inter Tight', sans-serif; font-size: 0.7rem; font-weight: 700; color: var(--green); letter-spacing: 0.1em; text-transform: uppercase; }
+    .timeline-title { font-family: 'Inter Tight', sans-serif; font-size: 0.9rem; font-weight: 700; color: var(--dark); margin: 0.25rem 0 0.2rem; }
+    .timeline-text { font-family: 'Inter Tight', sans-serif; font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
+
     .postpay-note { margin-top: 1.75rem; padding: 1.5rem; background: #f9f8f5; border: 1px solid var(--border); border-radius: 8px; text-align: left; }
     .postpay-title { font-family: 'Inter Tight', sans-serif; font-size: 0.95rem; font-weight: 700; color: var(--dark); margin-bottom: 0.9rem; }
     .postpay-step { display: flex; gap: 0.7rem; align-items: flex-start; font-size: 0.88rem; line-height: 1.55; color: #4a5568; margin-bottom: 0.6rem; }
@@ -202,37 +224,82 @@
       </div>
     </div>
 
-    <!-- RESULT & HARD PAYWALL / STRIPE -->
+    <!-- RESULT & OFFER -->
     <div class="result-box" id="result-box">
-      <p class="step-kicker" style="color:var(--red);">Diagnostic Completed</p>
-      <h2 style="font-family:'Inter Tight',sans-serif; font-size:1.8rem; font-weight:800; color:var(--dark);">Estimated leakage in your practice:</h2>
-      <div class="loss-highlight" id="total-loss-display">€4,200 / year</div>
-      <p class="loss-label">in lost income and over <strong id="hours-lost-display">120 hours</strong> consumed by manual admin tasks.</p>
+      <p class="step-kicker" style="color:var(--red);">Diagnostic completed</p>
 
-      <div class="teaser-details">
-        <div class="teaser-item">
-          <strong style="color:var(--green);">✓</strong>
-          <div><strong>Primary Leak:</strong> Manual confirmation ping-pong without automated booking limits.</div>
-        </div>
-        <div class="teaser-item">
-          <strong style="color:var(--green);">✓</strong>
-          <div><strong>Personalized Respite Report & Anti-No-Show Playbook:</strong> <span class="teaser-blur">Step-by-step roadmap to reclaim 4 evenings per week with proven WhatsApp boundary templates.</span></div>
-        </div>
-        <div class="teaser-item">
-          <strong style="color:var(--green);">✓</strong>
-          <div><strong>Clinical Respite Toolkit:</strong> Immediate access to somatic grounding modules (Jupiter, Mars, Popas).</div>
+      <h2 class="result-title">Estimated leakage in your practice:</h2>
+
+      <div class="loss-highlight" id="total-loss-display">€4,200 / year</div>
+
+      <p class="loss-label">in lost revenue and over <strong id="hours-lost-display">120 hours</strong> consumed by WhatsApp and manual tasks.</p>
+
+      <p class="result-lead">The leak is not a lack of patients. It comes from manual confirmations and blocked slots that nobody cancels in time.</p>
+
+      <div class="fix-block">
+        <p class="fix-kicker">What stops the leak</p>
+
+        <ul class="fix-list">
+          <li class="fix-item"><svg class="fix-check" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10.5l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Automated scheduling.</strong> Your patient gets one link, picks a free slot, and books without texting.</div></li>
+
+          <li class="fix-item"><svg class="fix-check" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10.5l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>System confirmations.</strong> Automatic reminders go out before each session, not typed by you at 10 PM.</div></li>
+
+          <li class="fix-item"><svg class="fix-check" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10.5l4 4 8-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><strong>Clear cancellation rule.</strong> Set it once, and every patient sees it before confirming.</div></li>
+        </ul>
+      </div>
+
+      <p class="plans-anchor" id="plans-anchor">The annual plan costs 590 RON (~€118). Your estimated leak: €4,200 per year.</p>
+
+      <div class="plans">
+        <div class="plan plan-primary">
+          <span class="plan-badge">Full practice</span>
+
+          <p class="plan-name">Annual plan</p>
+
+          <p class="plan-price">590 RON <span>/ year</span></p>
+
+          <p class="plan-sub">11.3 RON per week (~€2.25/wk). Equivalent to 49 RON/month, billed annually.</p>
+
+          <a href="https://buy.stripe.com/8x23co3P2gL4ekh22ebV601" class="plan-cta plan-cta-primary">Activate annual plan</a>
+
+          <p class="plan-note">One invoice per year. Cancel anytime from your account.</p>
         </div>
       </div>
 
-      <a href="https://buy.stripe.com/28E4gsfxKbqK3FD8qCbV600" class="btn-paywall">Unlock Respite Tools & Full Diagnostic (29 RON / ~€6 / mo) →</a>
-      <p class="guarantee-note">Monthly recurring subscription · Secure Stripe Checkout · Instant access to tools and full report · Cancel anytime</p>
+      <p class="session-anchor" id="session-anchor">One saved session covers 7 months of the annual plan.</p>
+
+      <div class="timeline">
+        <div class="timeline-step">
+          <p class="timeline-num">Step 1</p>
+
+          <p class="timeline-title">Today</p>
+
+          <p class="timeline-text">Instant access right after payment.</p>
+        </div>
+
+        <div class="timeline-step">
+          <p class="timeline-num">Step 2</p>
+
+          <p class="timeline-title">Anytime</p>
+
+          <p class="timeline-text">Cancel from your account in one click.</p>
+        </div>
+
+        <div class="timeline-step">
+          <p class="timeline-num">Step 3</p>
+
+          <p class="timeline-title">Zero risk</p>
+
+          <p class="timeline-text">No minimum lock-in. No cancellation fee.</p>
+        </div>
+      </div>
 
       <div class="postpay-note">
-        <p class="postpay-title">After paying, activate your access in 30 seconds:</p>
-        <p class="postpay-step"><span class="postpay-num">1</span> Open <a href="https://app.aponia.ro/register" class="postpay-link">app.aponia.ro/register</a> and create your therapist account.</p>
-        <p class="postpay-step"><span class="postpay-num">2</span> Use <strong>the exact same email address</strong> you used for the Stripe payment.</p>
-        <p class="postpay-step"><span class="postpay-num">3</span> The subscription attaches to your account on first sign in. If you paid before creating an account, the purchase is kept and activates at register.</p>
-        <p class="postpay-step"><span class="postpay-num">4</span> Want to see the practice dashboard first? <a href="https://app.aponia.ro/register" class="postpay-link">Create an account and sign in</a>, then come back here to pay.</p>
+        <p class="postpay-title">After payment, two steps:</p>
+
+        <p class="postpay-step"><span class="postpay-num">1</span> Open <a href="https://app.aponia.ro/register" class="postpay-link">app.aponia.ro/register</a> and create your account using the exact same email address used at checkout.</p>
+
+        <p class="postpay-step"><span class="postpay-num">2</span> Done. Your subscription attaches automatically on first sign-in.</p>
       </div>
     </div>
   </main>
@@ -243,7 +310,7 @@
         <div style="flex:1 1 240px;min-width:220px;text-align:left!important;">
           <div style="font-family:Georgia,serif;font-size:20px;font-weight:700;color:#1a2e22;margin-bottom:12px;text-align:left!important;">APONIA<span style="color:#2e5c46;">.ro</span></div>
           <p style="font-size:13.5px;color:#4a5568;line-height:1.6;margin-bottom:14px;text-align:left!important;">Online scheduling and somatic respite tools for independent psychotherapists.</p>
-          <div style="font-size:13px;font-weight:600;color:#2e5c46;margin-bottom:8px;text-align:left!important;">73 RON/mo (Practice) · 29 RON/mo (Tools)</div>
+          <div style="font-size:13px;font-weight:600;color:#2e5c46;margin-bottom:8px;text-align:left!important;">590 RON/yr (11.3 RON/week)</div>
           <a href="/en/daemon/" style="font-size:12.5px;color:#718096;text-decoration:none;text-align:left!important;display:inline-block;">Daemon Telemetry →</a>
         </div>
         <div style="flex:1 1 180px;min-width:160px;text-align:left!important;">
@@ -326,8 +393,14 @@
       var hoursLoss = Math.round(answers.sessions * 0.4 * 46);
 
       var symbol = answers.price < 150 ? '€' : 'RON ';
-      document.getElementById('total-loss-display').textContent = symbol + new Intl.NumberFormat('en-US').format(annualLoss) + ' / year';
+      var formattedLoss = symbol + new Intl.NumberFormat('en-US').format(annualLoss);
+      document.getElementById('total-loss-display').textContent = formattedLoss + ' / year';
       document.getElementById('hours-lost-display').textContent = hoursLoss + ' hours/year';
+      document.getElementById('plans-anchor').textContent = 'The annual plan costs 590 RON (~€118). Your estimated leak: ' + formattedLoss + ' per year.';
+
+      var ronPrice = answers.price < 150 ? answers.price * 5 : answers.price;
+      var monthsCovered = Math.max(1, Math.round((ronPrice / 590) * 12));
+      document.getElementById('session-anchor').textContent = 'One saved session covers ' + (monthsCovered === 1 ? '1 month' : monthsCovered + ' months') + ' of the annual plan.';
 
       var resBox = document.getElementById('result-box');
       resBox.classList.add('active');
